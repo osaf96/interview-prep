@@ -37,7 +37,7 @@ module.exports = function (_context, _options) {
             {
               tagName: "script",
               attributes: {
-                "data-goatcounter": "https://learning-notes.goatcounter.com/count",
+                "data-goatcounter": "https://interview-prep.goatcounter.com/count",
                 async: true,
                 src: "//gc.zgo.at/count.js"
               },

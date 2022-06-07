@@ -27,7 +27,7 @@ async function generateSitemap() {
     fsExtra.outputFileSync(sitemapPath, sitemap, { encoding: "utf-8" });
 
     const robotsTxtPath = path.join(process.cwd(), "_website", "build", "robots.txt");
-    const robotsTxtContents = "Sitemap: https://learning-notes.mistermicheels.com/sitemap.xml";
+    const robotsTxtContents = "Sitemap: https://interview-prep.mistermicheels.com/sitemap.xml";
     fsExtra.outputFileSync(robotsTxtPath, robotsTxtContents, { encoding: "utf-8" });
 }
 
@@ -55,7 +55,7 @@ function getDocIds(sidebarItems) {
 }
 
 async function getSitemap(allPageSuffixes) {
-    const smStream = new SitemapStream({ hostname: 'https://learning-notes.mistermicheels.com/' });
+    const smStream = new SitemapStream({ hostname: 'https://interview-prep.mistermicheels.com/' });
 
     smStream.write({ url: `/`});
 

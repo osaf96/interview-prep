@@ -365,7 +365,7 @@ function replaceTitleByYamlFrontMatterAndDescription(input, { description, lastM
 }
 
 function addGitHubFooter(input, lastModified, relativePath) {
-    const gitHubUrlPrefix = "https://github.com/mistermicheels/learning-notes/blob/master/";
+    const gitHubUrlPrefix = "https://github.com/mistermicheels/interview-prep/blob/master/";
     const gitHubUrl = normalizeUrl(`${gitHubUrlPrefix}${relativePath}`, { keepCase: true });
     const gitHubLink = getExternalLinkHtml(gitHubUrl, "View this note on GitHub");
     const gitHubPart = `<p><svg class="embedded-fa-icon"><use href="#github"></use></svg> <strong>${gitHubLink}</strong></p>`;

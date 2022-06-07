@@ -1,23 +1,23 @@
 const path = require('path');
 
 module.exports = {
-  title: 'learning-notes',
+  title: 'interview-prep',
   tagline: 'Notes regarding things I have learned',
-  url: 'https://learning-notes.mistermicheels.com',
+  url: 'https://interview-prep.mistermicheels.com',
   baseUrl: '/',
   favicon: 'favicon.ico',
   organizationName: 'mistermicheels',
-  projectName: 'learning-notes',
+  projectName: 'interview-prep',
   themeConfig: {
     navbar: {
-      title: 'learning-notes',
+      title: 'interview-prep',
       logo: {
         alt: 'mistermicheels logo',
         src: 'img/mistermicheels.svg',
       },
       links: [
         {
-          href: 'https://github.com/mistermicheels/learning-notes',
+          href: 'https://github.com/mistermicheels/interview-prep',
           label: 'GitHub',
           position: 'left',
         },
@@ -27,7 +27,7 @@ module.exports = {
           position: 'left',
         },
         {
-          href: 'https://github.com/mistermicheels/learning-notes',
+          href: 'https://github.com/mistermicheels/interview-prep',
           position: 'right',
           className: 'header-github-link navbar__item navbar__link',
           'aria-label': 'GitHub repository',
@@ -47,7 +47,7 @@ License</a>.`,
     algolia: {
       appId: '38H0OSE8H7',
       apiKey: '1119242d2ba32e7ccfd08f8ae82b3efe',
-      indexName: 'mistermicheels_learning-notes',
+      indexName: 'mistermicheels_interview-prep',
     },
   },
   presets: [
