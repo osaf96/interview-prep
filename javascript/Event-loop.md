@@ -87,23 +87,25 @@ The exact implementation and behavior of the Event Loop is different for differe
 
 You could imagine the code for the event loop to look a bit like this (adapted from [Event loop explainer](https://github.com/atotic/event-loop)):
 
-    while(true) {
-        // get first normal task from some queue
-        task = eventLoop.nextTask(); 
+```javascript
+while(true) {
+    // get first normal task from some queue
+    task = eventLoop.nextTask(); 
 
-        if (task) {
-            // execute that single task
-            task.execute(); 
-        }
-        
-        // execute all microtasks until none are left
-        eventLoop.executeMicrotasks(); 
-        
-        // browser-specific: render if needed
-        if (eventLoop.needsRendering()) {
-            eventLoop.render();
-        }        
+    if (task) {
+        // execute that single task
+        task.execute(); 
     }
+    
+    // execute all microtasks until none are left
+    eventLoop.executeMicrotasks(); 
+    
+    // browser-specific: render if needed
+    if (eventLoop.needsRendering()) {
+        eventLoop.render();
+    }        
+}
+```
 
 Note: The JavaScript specification doesn't specify exactly how the engine should select the next task to execute. It does specify that the engine needs to take the first task from some queue, but the engine can still choose _which_ queue to pick a task from.
 
