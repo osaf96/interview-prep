@@ -8,6 +8,7 @@
 
 -   [Algorithms](algorithms.md)
 -   [Bit Manipulation](bit-manipulation.md)
+-   [Common Problems](common-problems.md)
 -   [Comparators](comparators.md)
 -   [Graph](graph.md)
 -   [Linked List](linked-list.md)
@@ -15,5 +16,6 @@
 -   [Math](math.md)
 -   [Priority Queue](priority-queue.md)
 -   [Search Algorithms](search-algorithms.md)
+-   [Snippets](snippets.md)
 -   [Sorting Algorithms](sorting-algorithms.md)
 -   [Tree](tree.md)
