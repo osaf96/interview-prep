@@ -3,31 +3,28 @@ const path = require('path');
 module.exports = {
   title: 'interview-prep',
   tagline: 'Notes regarding things I have learned',
-  url: 'https://interview-prep.mistermicheels.com',
+  url: 'https://interview-prep.shyamzzp.com',
   baseUrl: '/',
   favicon: 'favicon.ico',
-  organizationName: 'mistermicheels',
+  organizationName: 'shyamzzp',
   projectName: 'interview-prep',
   themeConfig: {
     navbar: {
-      title: 'interview-prep',
-      logo: {
-        alt: 'mistermicheels logo',
-        src: 'img/mistermicheels.svg',
-      },
+      title: 'Interview Preparation Notes',
+      
       links: [
+        // {
+        //   href: 'https://github.com/shyamzzp/interview-prep',
+        //   label: 'GitHub',
+        //   position: 'left',
+        // },
+        // {
+        //   href: 'https://twitter.com/shyamzzp',
+        //   label: 'Twitter',
+        //   position: 'left',
+        // },
         {
-          href: 'https://github.com/mistermicheels/interview-prep',
-          label: 'GitHub',
-          position: 'left',
-        },
-        {
-          href: 'https://twitter.com/mistermicheels',
-          label: 'Twitter',
-          position: 'left',
-        },
-        {
-          href: 'https://github.com/mistermicheels/interview-prep',
+          href: 'https://github.com/shyamzzp/interview-prep',
           position: 'right',
           className: 'header-github-link navbar__item navbar__link',
           'aria-label': 'GitHub repository',
@@ -36,19 +33,18 @@ module.exports = {
     },
     footer: {
       style: 'dark',
-      copyright: `This work is licensed under a <a href="http://creativecommons.org/licenses/by/4.0/" rel="nofollow">Creative Commons Attribution 4.0 International
-License</a>.`,
+      copyright: `copyright © ${new Date().getFullYear()} shyamzzp.`,
     },
     prism: {
       theme: require('prism-react-renderer/themes/github'),
       darkTheme: require('prism-react-renderer/themes/oceanicNext'),
     },
     disableDarkMode: false,
-    algolia: {
-      appId: '38H0OSE8H7',
-      apiKey: '1119242d2ba32e7ccfd08f8ae82b3efe',
-      indexName: 'mistermicheels_interview-prep',
-    },
+    // algolia: {
+    //   appId: '38H0OSE8H7',
+    //   apiKey: '1119242d2ba32e7ccfd08f8ae82b3efe',
+    //   indexName: 'mistermicheels_interview-prep',
+    // },
   },
   presets: [
     [
