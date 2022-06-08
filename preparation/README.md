@@ -6,10 +6,14 @@
 
 <!-- optional markdown-notes-tree directory description ends here -->
 
+-   [Algorithms](algorithms.md)
 -   [Bit Manipulation](bit-manipulation.md)
+-   [Comparators](comparators.md)
 -   [Graph](graph.md)
 -   [Linked List](linked-list.md)
 -   [Map](map.md)
 -   [Math](math.md)
 -   [Priority Queue](priority-queue.md)
+-   [Search Algorithms](search-algorithms.md)
+-   [Sorting Algorithms](sorting-algorithms.md)
 -   [Tree](tree.md)
