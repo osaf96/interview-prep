@@ -8,8 +8,10 @@ last_modified: 2022-06-08T16:35:30.3530
 
 ## Contents
 
+-   [Counting Number of digits in a Number](#counting-number-of-digits-in-a-number)
+
 ## Counting Number of digits in a Number
-    
+
 ```java
 class Solution {
     public static void main(String[] args){

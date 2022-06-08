@@ -10,5 +10,6 @@
 -   [Graph](graph.md)
 -   [Linked List](linked-list.md)
 -   [Map](map.md)
+-   [Math](math.md)
 -   [Priority Queue](priority-queue.md)
 -   [Tree](tree.md)
