@@ -56,6 +56,8 @@ Project status:
     -   [Keep it simple](mindset/Keep-it-simple.md)
     -   [Pragmatism and imperfectionism](mindset/Pragmatism-imperfectionism.md)
     -   [Work-life balance](mindset/Work-life-balance.md)
+-   [**Preparation(Java)**](preparation/README.md)
+    -   [Priority Queue](preparation/priority-queue.md)
 -   [**Processes and techniques**](processes-techniques/README.md)
     -   [Branch By Abstraction and application strangulation](processes-techniques/Branch-by-abstraction-application-strangulation.md)
     -   [Client-first design](processes-techniques/Client-first-design.md)
