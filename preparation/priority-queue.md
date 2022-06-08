@@ -4,7 +4,7 @@ description: This will cover the most of the topics that will be part of the pri
 last_modified: 2022-06-08T15:36:32.3632
 ---
 
-# Priority Queue (Java)
+# Priority Queue
 
 ## Contents
 

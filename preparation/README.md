@@ -6,4 +6,9 @@
 
 <!-- optional markdown-notes-tree directory description ends here -->
 
+-   [Bit Manipulation](bit-manipulation.md)
+-   [Graph](graph.md)
+-   [Linked List](linked-list.md)
+-   [Map](map.md)
 -   [Priority Queue](priority-queue.md)
+-   [Tree](tree.md)

@@ -360,7 +360,7 @@ function replaceTitleByYamlFrontMatterAndDescription(input, { description, lastM
     }
 
     const frontMatter = "---" + "\n" + frontMatterContents + "\n" + "---";
-    return frontMatter + "\n\n" + `_${description}_` + contentsAfterTitleLine;
+    return frontMatter + "\n\n" + `${description}` + contentsAfterTitleLine;
 }
 
 function addGitHubFooter(input, lastModified, relativePath) {
