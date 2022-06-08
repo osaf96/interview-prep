@@ -191,9 +191,6 @@ Testable code = code that makes it easy to write actual high-value tests at lowe
 
 Some basic tips for testable design:
 
--   Apply the usual good practices: [Separation of concerns](../architecture-design/Separation-of-concerns.md), [Single responsibility principle (SRP)](../architecture-design/oo-design/SOLID-principles.md#single-responsibility-principle-srp), ...
--   [Inversion of control](../architecture-design/Inversion-of-control.md) can help (dependency injection is an example of this)
--   Prefer [Composition over inheritance](../architecture-design/oo-design/Composition-over-inheritance.md)
 -   Pull complex logic into things that are easy to test
     -   See [Testing patterns - Humble Object pattern](./testing-details/Testing-patterns.md#humble-object-pattern)
     -   Ideally, most complex logic sits in pure functions: input -> output, no other state involved
@@ -325,8 +322,6 @@ Basic idea:
 -   Could use actual external dependencies (some would just call them integration tests in that case, see below)
     -   Could also use something close to the real thing, like in-memory datastore instead of real DB
 
-See also [Package by feature or component](../architecture-design/reference-architectures/Package-by-feature-or-component.md)
-
 More detailed application of this in microservices context: [Testing Strategies in a Microservice Architecture - Component testing](https://martinfowler.com/articles/microservice-testing/#testing-component-introduction)
 
 ## Integration tests
@@ -371,7 +366,6 @@ What to test against:
 -   Typically run against the actual running UI using something like Selenium or Cypress
 -   Can also run **subcutaneous tests** that operate just below the actual UI (for example, calling API instead)
     -   Often helps to make tests less flaky
-    -   Risk of missing certain logic that's defined above what you're testing ([Humble Object pattern](../architecture-design/Humble-Object-pattern.md) can help)
     -   Useful tool for firing real HTTP requests at your API: REST-assured
 
 Testing environment

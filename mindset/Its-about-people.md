@@ -13,7 +13,6 @@ last_modified: 2021-01-03T11:43:26.326Z
     -   [Some general tips](#some-general-tips)
 -   [Dealing with customers](#dealing-with-customers)
 -   [Code](#code)
--   [Architecture](#architecture)
 -   [Resources](#resources)
 
 ## Basic idea
@@ -99,10 +98,6 @@ Some tips:
 People are also the reason why consistency, coding standards, automation, ... are so important
 
 -   It's about making it easier to collaborate on the codebase and maintain it, not wasting people's time and energy on things that computers are better at, preventing human errors, ...
-
-## Architecture
-
-See also [Architecture and people](../architecture-design/Architecture-people.md)
 
 ## Resources
 

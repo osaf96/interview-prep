@@ -50,7 +50,6 @@ All of this also means that, when trying to solve a problem, it can be a lot mor
 -   When considering a new piece of technology, try to build a proof of concept with it that shows you if it performs well under the kind of load you foresee
     -   This can also force you to consult the technology's documentation while creating the proof of concept, giving you an idea of how good that documentation is
 -   When building fault-tolerant systems, it can make sense to deliberately trigger faults at random, even up in production, so any problem with fault tolerance surfaces sooner rather than later
-    -   See also [Architectural fitness functions](../architecture-design/Architectural-fitness-functions.md)
 
 ## Development process
 

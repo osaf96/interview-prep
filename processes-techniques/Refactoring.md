@@ -77,7 +77,6 @@ What not to refactor:
     -   See below, [Refactor versus rewrite](#refactor-versus-rewrite)
 -   If you are deliberately keeping some duplication for the sake of flexibility, refactoring only one of the duplicates makes it a lot harder to spot the duplication and to merge the duplicates later on if desired
     -   If possible, refactor either all of the duplicates or none of them
-    -   See also [Duplication](../architecture-design/Duplication.md)
 
 ## How to refactor
 

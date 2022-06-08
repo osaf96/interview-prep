@@ -20,8 +20,6 @@ last_modified: 2022-01-27T17:10:03.008Z
     -   Extract as much of the behavior as possible into an easy-to-test part
     -   What's left is a Humble Object containing the hard-to-test stuff stripped down to the bare essence
 
-See also separate note for [Humble Object pattern](../../architecture-design/Humble-Object-pattern.md)
-
 ## Clock Wrapper pattern
 
 -   Problem: Behavior depending on current time can be hard to test

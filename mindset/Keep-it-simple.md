@@ -19,9 +19,6 @@ last_modified: 2020-12-24T14:15:34.859Z
 
 ## Architecture
 
--   Architectural complexity comes with significant development and maintenance overhead, that overhead might not be worth it
-    -   See also [Architectural boundaries - The costs of boundaries](../architecture-design/Architectural-boundaries.md#the-costs-of-boundaries)
-    -   Over-engineering is often worse than under-engineering
 -   Start simple, evolve as needed based on actual problems that manifest themselves
     -   "Big design up front" doesn't work, because at the point you are making that design you don't know the system and domain well enough yet
     -   Changes in requirements can come at any time and may affect the desired architecture
@@ -31,7 +28,6 @@ last_modified: 2020-12-24T14:15:34.859Z
 -   When changing architecture, go for small incremental steps rather than big changes
     -   Less risk, shorter feedback loop, ...
     -   Might make sense to temporarily keep some suboptimal parts, just to ease transition
-    -   Changes could be guided by [Architectural fitness functions](../architecture-design/Architectural-fitness-functions.md)
 -   What worked for someone else will not necessarily work for you
 -   Premature complexity is also a form of technical debt
 

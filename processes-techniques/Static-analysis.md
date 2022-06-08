@@ -52,7 +52,6 @@ Great addition to automated testing and code reviews
 Note: stay practical about this!
 
 -   The technical debt reported by tools like this is just an indication. Set your own priorities and see where the cost of paying off the debt is worth the benefits.
--   Not all duplication is bad duplication. See also [Duplication](../architecture-design/Duplication.md).
 
 ## Third-party dependencies
 
@@ -76,8 +75,6 @@ Note: stay practical about this!
 -   Enforce custom boundaries
     -   Example (JavaScript): [dependency-cruiser](https://www.npmjs.com/package/dependency-cruiser) (see example code below)
     -   Example (Java): [JDepend](https://github.com/clarkware/jdepend) (see example code below)
--   Visualize dependencies
-    -   See [Visual dependency analysis tools](../architecture-design/visualizing-architecture/Dependency-analysis-tools.md)
 
 Example dependency-cruiser rule for enforcing custom boundary:
 

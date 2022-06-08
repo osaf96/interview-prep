@@ -26,7 +26,6 @@ Client-first design for functions, classes, methods, utilities, libraries, ...
 
 -   When in doubt, first write the code that will be using these functions, classes, methods, utilities or libraries
     -   Helps with ensuring that concepts and structure make sense from the client side
-    -   Helps with picking names that make make sense in the context of the client code (see also [Names - Implementer versus user names](../architecture-design/Names.md#implementer-versus-user-names))
     -   Helps to ensure that you're not missing anything that's needed on the client side
     -   Prevents building logic that is actually not needed at all
     -   Prevents building an awkward API that client code will later have to work around or that will need to be changed once client code gets written
@@ -44,9 +43,7 @@ Client-first design for functions, classes, methods, utilities, libraries, ...
 
 -   When defining custom exception classes or error types, consider including some extra information that can be useful to the caller for figuring out what happened or for proper logging
     -   Can be especially important when building a reusable library
-    -   See also [Exception handling - Providing context with exceptions](../architecture-design/Exception-handling.md#providing-context-with-exceptions)
 -   Throwing different kinds of errors might not make sense if the caller has only one way to handle them
-    -   See also [Exception handling - Client-first design for exception classes](../architecture-design/Exception-handling.md#client-first-design-for-exception-classes)
 
 ## Horizontal layers, frontend and backend
 
