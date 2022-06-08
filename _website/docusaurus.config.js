@@ -40,11 +40,6 @@ module.exports = {
       darkTheme: require('prism-react-renderer/themes/oceanicNext'),
     },
     disableDarkMode: false,
-    // algolia: {
-    //   appId: '38H0OSE8H7',
-    //   apiKey: '1119242d2ba32e7ccfd08f8ae82b3efe',
-    //   indexName: 'mistermicheels_interview-prep',
-    // },
   },
   presets: [
     [
