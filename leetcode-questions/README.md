@@ -6,4 +6,5 @@
 
 <!-- optional markdown-notes-tree directory description ends here -->
 
-
+-   [**Medium**](medium/README.md)
+    -   [Priority Queue](medium/priority-queue.md)
