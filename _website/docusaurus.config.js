@@ -8,6 +8,7 @@ module.exports = {
   favicon: "favicon.ico",
   organizationName: "shyamzzp",
   projectName: "interview-prep",
+  onBrokenLinks:"ignore",
   themeConfig: {
     navbar: {
       title: "Interview Preparation Notes",
@@ -52,7 +53,7 @@ module.exports = {
       {
         docs: {
           sidebarPath: require.resolve("./sidebars.js"),
-          routeBasePath: "about",
+          routeBasePath: "/about",
         },
         theme: {
           customCss: require.resolve("./src/css/custom.css"),
