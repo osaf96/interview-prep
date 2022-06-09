@@ -40,8 +40,8 @@ module.exports = {
       darkTheme: require("prism-react-renderer/themes/oceanicNext"),
     },
     colorMode: {
-      defaultMode: "light",
-      disableSwitch: true,
+      defaultMode: "dark",
+      disableSwitch: false,
       respectPrefersColorScheme: false,
     },
   },

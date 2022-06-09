@@ -1,10 +1,10 @@
 ---
-tree_title: Priority Queue
-description: This will cover the most of the topics that will be part of the priority queue.
-last_modified: 2022-06-08T15:36:32.3632
+tree_title: Medium
+description: This will cover up all the medium questions that are available on Leetcode.
+last_modified: 2022-06-10T00:17:44.1744
 ---
 
-# Priority Queue
+# Medium
 
 ## Contents
 
