@@ -57,7 +57,7 @@
         "express": "^4.17.1",
         "front-matter": "^3.1.0",
         "fs-extra": "^9.0.0",
-        "husky": "^8.0.1",
+        "husky": "^8.0.0",
         "markdown-notes-tree": "^1.10.0",
         "remark-cli": "^8.0.0",
         "remark-frontmatter": "^2.0.0",
@@ -72,5 +72,4 @@
         "docusaurus": "^1.14.7",
         "gh-pages": "^4.0.0"
     }
-    
 }
