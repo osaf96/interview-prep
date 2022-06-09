@@ -6,6 +6,7 @@
     "scripts": {
         "predeploy": "npm run build-website",
         "deploy": "gh-pages -d ./_website/build",
+        "gh-deploy": "npm run predeploy && gh-pages -d ./_website/build",
         "pre-commit": "npm run check-and-write-data",
         "check-and-write-data": "npm run _replace-tabs && npm run _write-notes-trees && npm run _write-tocs-and-format && npm run _validate-internal-links && npm run _custom-checks-adjustments && npm run _write-website-data",
         "build-website": "npm run check-and-write-data && cd _website && npm run build && cd .. && npm run _generate-sitemap",
