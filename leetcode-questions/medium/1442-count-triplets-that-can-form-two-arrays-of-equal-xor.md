@@ -5,3 +5,5 @@ last_modified: 2022-06-09T21:23:28.2328
 ---
 
 # Count Triplets That Can Form Two Arrays of Equal XOR
+
+## Contents
