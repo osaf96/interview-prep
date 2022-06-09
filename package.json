@@ -19,7 +19,8 @@
         "_validate-internal-links": "remark --rc-path _scripts/remark-validate-internal-links.config.json --ignore-path .remarkignore --frail .",
         "_custom-checks-adjustments": "node ./_scripts/custom-checks-adjustments.js",
         "_write-website-data": "node ./_scripts/write-website-data.js",
-        "_generate-sitemap": "node ./_scripts/generate-sitemap.js"
+        "_generate-sitemap": "node ./_scripts/generate-sitemap.js",
+        "prepare": "husky install"
     },
     "devDependencies": {
         "express": "^4.17.1",
