@@ -1,6 +1,6 @@
 ---
 tree_title: recover-binary-search-tree
-description: Recover Binary Search Tree
+description: description
 last_modified: 2022-06-09T21:23:28.2328
 ---
 

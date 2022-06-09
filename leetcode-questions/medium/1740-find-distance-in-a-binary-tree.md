@@ -1,6 +1,6 @@
 ---
 tree_title: find-distance-in-a-binary-tree
-description: Find Distance in a Binary Tree
+description: description
 last_modified: 2022-06-09T21:23:28.2328
 ---
 

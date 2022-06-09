@@ -1,6 +1,6 @@
 ---
 tree_title: previous-permutation-with-one-swap
-description: Previous Permutation With One Swap
+description: description
 last_modified: 2022-06-09T21:23:28.2328
 ---
 

@@ -1,6 +1,6 @@
 ---
 tree_title: guess-number-higher-or-lower-ii
-description: Guess Number Higher or Lower II
+description: description
 last_modified: 2022-06-09T21:23:28.2328
 ---
 

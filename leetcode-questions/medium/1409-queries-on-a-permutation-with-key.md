@@ -1,6 +1,6 @@
 ---
 tree_title: queries-on-a-permutation-with-key
-description: Queries on a Permutation With Key
+description: description
 last_modified: 2022-06-09T21:23:28.2328
 ---
 

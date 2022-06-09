@@ -1,6 +1,6 @@
 ---
 tree_title: course-schedule-iv
-description: Course Schedule IV
+description: description
 last_modified: 2022-06-09T21:23:28.2328
 ---
 

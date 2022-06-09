@@ -1,6 +1,6 @@
 ---
 tree_title: number-of-laser-beams-in-a-bank
-description: Number of Laser Beams in a Bank
+description: description
 last_modified: 2022-06-09T21:23:28.2328
 ---
 

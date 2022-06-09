@@ -1,6 +1,6 @@
 ---
 tree_title: k-divisible-elements-subarrays
-description: K Divisible Elements Subarrays
+description: description
 last_modified: 2022-06-09T21:23:28.2328
 ---
 

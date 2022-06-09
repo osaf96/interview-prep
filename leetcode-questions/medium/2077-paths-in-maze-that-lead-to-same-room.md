@@ -1,6 +1,6 @@
 ---
 tree_title: paths-in-maze-that-lead-to-same-room
-description: Paths in Maze That Lead to Same Room
+description: description
 last_modified: 2022-06-09T21:23:28.2328
 ---
 

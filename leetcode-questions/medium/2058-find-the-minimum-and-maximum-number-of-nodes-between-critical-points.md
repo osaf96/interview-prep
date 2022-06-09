@@ -1,6 +1,6 @@
 ---
 tree_title: find-the-minimum-and-maximum-number-of-nodes-between-critical-points
-description: Find the Minimum and Maximum Number of Nodes Between Critical Points
+description: description
 last_modified: 2022-06-09T21:23:28.2328
 ---
 

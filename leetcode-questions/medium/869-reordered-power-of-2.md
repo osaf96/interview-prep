@@ -1,6 +1,6 @@
 ---
 tree_title: reordered-power-of-2
-description: Reordered Power of 2
+description: description
 last_modified: 2022-06-09T21:23:28.2328
 ---
 

@@ -1,6 +1,6 @@
 ---
 tree_title: ip-to-cidr
-description: IP to CIDR
+description: description
 last_modified: 2022-06-09T21:23:28.2328
 ---
 

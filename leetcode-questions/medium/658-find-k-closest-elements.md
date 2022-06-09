@@ -1,6 +1,6 @@
 ---
 tree_title: find-k-closest-elements
-description: Find K Closest Elements
+description: description
 last_modified: 2022-06-09T21:23:28.2328
 ---
 

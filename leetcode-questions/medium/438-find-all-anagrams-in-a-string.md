@@ -1,6 +1,6 @@
 ---
 tree_title: find-all-anagrams-in-a-string
-description: Find All Anagrams in a String
+description: description
 last_modified: 2022-06-09T21:23:28.2328
 ---
 

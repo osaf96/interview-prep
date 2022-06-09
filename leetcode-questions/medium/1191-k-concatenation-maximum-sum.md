@@ -1,6 +1,6 @@
 ---
 tree_title: k-concatenation-maximum-sum
-description: K-Concatenation Maximum Sum
+description: description
 last_modified: 2022-06-09T21:23:28.2328
 ---
 

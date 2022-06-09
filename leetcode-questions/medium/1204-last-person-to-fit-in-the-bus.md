@@ -1,6 +1,6 @@
 ---
 tree_title: last-person-to-fit-in-the-bus
-description: Last Person to Fit in the Bus
+description: description
 last_modified: 2022-06-09T21:23:28.2328
 ---
 

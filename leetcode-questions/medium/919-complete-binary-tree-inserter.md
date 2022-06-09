@@ -1,6 +1,6 @@
 ---
 tree_title: complete-binary-tree-inserter
-description: Complete Binary Tree Inserter
+description: description
 last_modified: 2022-06-09T21:23:28.2328
 ---
 

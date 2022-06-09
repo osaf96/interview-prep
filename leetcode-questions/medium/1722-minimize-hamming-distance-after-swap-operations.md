@@ -1,6 +1,6 @@
 ---
 tree_title: minimize-hamming-distance-after-swap-operations
-description: Minimize Hamming Distance After Swap Operations
+description: description
 last_modified: 2022-06-09T21:23:28.2328
 ---
 

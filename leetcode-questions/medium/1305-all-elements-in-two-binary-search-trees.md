@@ -1,6 +1,6 @@
 ---
 tree_title: all-elements-in-two-binary-search-trees
-description: All Elements in Two Binary Search Trees
+description: description
 last_modified: 2022-06-09T21:23:28.2328
 ---
 

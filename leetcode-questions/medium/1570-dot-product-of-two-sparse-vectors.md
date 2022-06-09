@@ -1,6 +1,6 @@
 ---
 tree_title: dot-product-of-two-sparse-vectors
-description: Dot Product of Two Sparse Vectors
+description: description
 last_modified: 2022-06-09T21:23:28.2328
 ---
 

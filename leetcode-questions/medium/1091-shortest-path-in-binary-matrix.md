@@ -1,6 +1,6 @@
 ---
 tree_title: shortest-path-in-binary-matrix
-description: Shortest Path in Binary Matrix
+description: description
 last_modified: 2022-06-09T21:23:28.2328
 ---
 

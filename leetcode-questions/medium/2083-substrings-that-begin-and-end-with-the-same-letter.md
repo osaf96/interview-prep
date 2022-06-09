@@ -1,6 +1,6 @@
 ---
 tree_title: substrings-that-begin-and-end-with-the-same-letter
-description: Substrings That Begin and End With the Same Letter
+description: description
 last_modified: 2022-06-09T21:23:28.2328
 ---
 

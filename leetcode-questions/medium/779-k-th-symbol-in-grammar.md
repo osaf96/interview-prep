@@ -1,6 +1,6 @@
 ---
 tree_title: k-th-symbol-in-grammar
-description: K-th Symbol in Grammar
+description: description
 last_modified: 2022-06-09T21:23:28.2328
 ---
 

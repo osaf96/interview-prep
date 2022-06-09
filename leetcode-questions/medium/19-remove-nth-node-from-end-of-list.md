@@ -1,6 +1,6 @@
 ---
 tree_title: remove-nth-node-from-end-of-list
-description: Remove Nth Node From End of List
+description: description
 last_modified: 2022-06-09T21:23:28.2328
 ---
 

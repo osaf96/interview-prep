@@ -1,6 +1,6 @@
 ---
 tree_title: network-delay-time
-description: Network Delay Time
+description: description
 last_modified: 2022-06-09T21:23:28.2328
 ---
 

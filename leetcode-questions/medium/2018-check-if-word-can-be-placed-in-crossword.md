@@ -1,6 +1,6 @@
 ---
 tree_title: check-if-word-can-be-placed-in-crossword
-description: Check if Word Can Be Placed In Crossword
+description: description
 last_modified: 2022-06-09T21:23:28.2328
 ---
 

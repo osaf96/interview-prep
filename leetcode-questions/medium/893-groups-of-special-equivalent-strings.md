@@ -1,6 +1,6 @@
 ---
 tree_title: groups-of-special-equivalent-strings
-description: Groups of Special-Equivalent Strings
+description: description
 last_modified: 2022-06-09T21:23:28.2328
 ---
 

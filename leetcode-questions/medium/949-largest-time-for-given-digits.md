@@ -1,6 +1,6 @@
 ---
 tree_title: largest-time-for-given-digits
-description: Largest Time for Given Digits
+description: description
 last_modified: 2022-06-09T21:23:28.2328
 ---
 

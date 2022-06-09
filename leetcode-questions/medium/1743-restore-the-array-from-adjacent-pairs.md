@@ -1,6 +1,6 @@
 ---
 tree_title: restore-the-array-from-adjacent-pairs
-description: Restore the Array From Adjacent Pairs
+description: description
 last_modified: 2022-06-09T21:23:28.2328
 ---
 

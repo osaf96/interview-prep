@@ -1,6 +1,6 @@
 ---
 tree_title: minimum-number-of-flips-to-make-the-binary-string-alternating
-description: Minimum Number of Flips to Make the Binary String Alternating
+description: description
 last_modified: 2022-06-09T21:23:28.2328
 ---
 

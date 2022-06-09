@@ -1,6 +1,6 @@
 ---
 tree_title: maximum-number-of-eaten-apples
-description: Maximum Number of Eaten Apples
+description: description
 last_modified: 2022-06-09T21:23:28.2328
 ---
 

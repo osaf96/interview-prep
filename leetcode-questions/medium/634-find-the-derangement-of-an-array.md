@@ -1,6 +1,6 @@
 ---
 tree_title: find-the-derangement-of-an-array
-description: Find the Derangement of An Array
+description: description
 last_modified: 2022-06-09T21:23:28.2328
 ---
 

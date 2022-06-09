@@ -1,6 +1,6 @@
 ---
 tree_title: find-the-smallest-divisor-given-a-threshold
-description: Find the Smallest Divisor Given a Threshold
+description: description
 last_modified: 2022-06-09T21:23:28.2328
 ---
 

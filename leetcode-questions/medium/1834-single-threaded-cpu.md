@@ -1,6 +1,6 @@
 ---
 tree_title: single-threaded-cpu
-description: Single-Threaded CPU
+description: description
 last_modified: 2022-06-09T21:23:28.2328
 ---
 

@@ -1,6 +1,6 @@
 ---
 tree_title: linked-list-components
-description: Linked List Components
+description: description
 last_modified: 2022-06-09T21:23:28.2328
 ---
 

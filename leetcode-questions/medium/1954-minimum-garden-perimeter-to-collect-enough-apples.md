@@ -1,6 +1,6 @@
 ---
 tree_title: minimum-garden-perimeter-to-collect-enough-apples
-description: Minimum Garden Perimeter to Collect Enough Apples
+description: description
 last_modified: 2022-06-09T21:23:28.2328
 ---
 

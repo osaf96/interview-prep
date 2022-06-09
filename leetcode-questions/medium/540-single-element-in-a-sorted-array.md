@@ -1,6 +1,6 @@
 ---
 tree_title: single-element-in-a-sorted-array
-description: Single Element in a Sorted Array
+description: description
 last_modified: 2022-06-09T21:23:28.2328
 ---
 

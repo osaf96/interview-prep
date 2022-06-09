@@ -1,6 +1,6 @@
 ---
 tree_title: find-positive-integer-solution-for-a-given-equation
-description: Find Positive Integer Solution for a Given Equation
+description: description
 last_modified: 2022-06-09T21:23:28.2328
 ---
 

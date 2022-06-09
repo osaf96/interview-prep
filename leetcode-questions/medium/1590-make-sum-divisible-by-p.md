@@ -1,6 +1,6 @@
 ---
 tree_title: make-sum-divisible-by-p
-description: Make Sum Divisible by P
+description: description
 last_modified: 2022-06-09T21:23:28.2328
 ---
 

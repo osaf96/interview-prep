@@ -1,6 +1,6 @@
 ---
 tree_title: valid-parenthesis-string
-description: Valid Parenthesis String
+description: description
 last_modified: 2022-06-09T21:23:28.2328
 ---
 

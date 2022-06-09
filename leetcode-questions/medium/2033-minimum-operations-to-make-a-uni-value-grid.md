@@ -1,6 +1,6 @@
 ---
 tree_title: minimum-operations-to-make-a-uni-value-grid
-description: Minimum Operations to Make a Uni-Value Grid
+description: description
 last_modified: 2022-06-09T21:23:28.2328
 ---
 

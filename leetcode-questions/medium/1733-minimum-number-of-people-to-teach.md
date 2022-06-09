@@ -1,6 +1,6 @@
 ---
 tree_title: minimum-number-of-people-to-teach
-description: Minimum Number of People to Teach
+description: description
 last_modified: 2022-06-09T21:23:28.2328
 ---
 

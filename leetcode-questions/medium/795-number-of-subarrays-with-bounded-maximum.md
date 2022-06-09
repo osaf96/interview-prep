@@ -1,6 +1,6 @@
 ---
 tree_title: number-of-subarrays-with-bounded-maximum
-description: Number of Subarrays with Bounded Maximum
+description: description
 last_modified: 2022-06-09T21:23:28.2328
 ---
 

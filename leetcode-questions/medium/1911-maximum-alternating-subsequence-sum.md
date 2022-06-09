@@ -1,6 +1,6 @@
 ---
 tree_title: maximum-alternating-subsequence-sum
-description: Maximum Alternating Subsequence Sum
+description: description
 last_modified: 2022-06-09T21:23:28.2328
 ---
 

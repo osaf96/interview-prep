@@ -1,6 +1,6 @@
 ---
 tree_title: smallest-subsequence-of-distinct-characters
-description: Smallest Subsequence of Distinct Characters
+description: description
 last_modified: 2022-06-09T21:23:28.2328
 ---
 

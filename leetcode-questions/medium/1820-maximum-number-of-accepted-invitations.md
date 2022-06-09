@@ -1,6 +1,6 @@
 ---
 tree_title: maximum-number-of-accepted-invitations
-description: Maximum Number of Accepted Invitations
+description: description
 last_modified: 2022-06-09T21:23:28.2328
 ---
 

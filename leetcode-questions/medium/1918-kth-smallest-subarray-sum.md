@@ -1,6 +1,6 @@
 ---
 tree_title: kth-smallest-subarray-sum
-description: Kth Smallest Subarray Sum
+description: description
 last_modified: 2022-06-09T21:23:28.2328
 ---
 
