@@ -53,7 +53,7 @@ module.exports = {
       {
         docs: {
           sidebarPath: require.resolve("./sidebars.js"),
-          routeBasePath: "/about",
+          routeBasePath: "/",
         },
         theme: {
           customCss: require.resolve("./src/css/custom.css"),
