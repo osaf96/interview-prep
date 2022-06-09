@@ -1,6 +1,6 @@
 ---
 tree_title: subsequence-of-size-k-with-the-largest-even-sum
-description: 
+description: Subsequence of Size K With the Largest Even Sum
 last_modified: 2022-06-09T21:23:28.2328
 ---
 

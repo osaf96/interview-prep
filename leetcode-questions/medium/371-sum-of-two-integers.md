@@ -1,6 +1,6 @@
 ---
 tree_title: sum-of-two-integers
-description: 
+description: Sum of Two Integers
 last_modified: 2022-06-09T21:23:28.2328
 ---
 

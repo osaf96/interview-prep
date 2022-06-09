@@ -1,6 +1,6 @@
 ---
 tree_title: count-square-submatrices-with-all-ones
-description: 
+description: Count Square Submatrices with All Ones
 last_modified: 2022-06-09T21:23:28.2328
 ---
 

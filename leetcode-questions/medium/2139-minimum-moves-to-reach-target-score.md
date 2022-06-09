@@ -1,6 +1,6 @@
 ---
 tree_title: minimum-moves-to-reach-target-score
-description: 
+description: Minimum Moves to Reach Target Score
 last_modified: 2022-06-09T21:23:28.2328
 ---
 

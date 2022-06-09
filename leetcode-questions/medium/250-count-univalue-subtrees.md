@@ -1,6 +1,6 @@
 ---
 tree_title: count-univalue-subtrees
-description: 
+description: Count Univalue Subtrees
 last_modified: 2022-06-09T21:23:28.2328
 ---
 

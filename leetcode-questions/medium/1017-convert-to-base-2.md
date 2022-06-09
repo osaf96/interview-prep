@@ -1,6 +1,6 @@
 ---
 tree_title: convert-to-base-2
-description: 
+description: Convert to Base -2
 last_modified: 2022-06-09T21:23:28.2328
 ---
 

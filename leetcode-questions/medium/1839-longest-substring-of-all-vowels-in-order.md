@@ -1,6 +1,6 @@
 ---
 tree_title: longest-substring-of-all-vowels-in-order
-description: 
+description: Longest Substring Of All Vowels in Order
 last_modified: 2022-06-09T21:23:28.2328
 ---
 

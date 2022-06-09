@@ -1,6 +1,6 @@
 ---
 tree_title: find-largest-value-in-each-tree-row
-description: 
+description: Find Largest Value in Each Tree Row
 last_modified: 2022-06-09T21:23:28.2328
 ---
 

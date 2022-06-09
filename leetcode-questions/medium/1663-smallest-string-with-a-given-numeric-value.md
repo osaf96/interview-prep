@@ -1,6 +1,6 @@
 ---
 tree_title: smallest-string-with-a-given-numeric-value
-description: 
+description: Smallest String With A Given Numeric Value
 last_modified: 2022-06-09T21:23:28.2328
 ---
 

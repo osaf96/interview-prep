@@ -1,6 +1,6 @@
 ---
 tree_title: boundary-of-binary-tree
-description: 
+description: Boundary of Binary Tree
 last_modified: 2022-06-09T21:23:28.2328
 ---
 

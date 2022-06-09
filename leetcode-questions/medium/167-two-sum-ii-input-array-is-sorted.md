@@ -1,6 +1,6 @@
 ---
 tree_title: two-sum-ii-input-array-is-sorted
-description: 
+description: Two Sum II - Input Array Is Sorted
 last_modified: 2022-06-09T21:23:28.2328
 ---
 

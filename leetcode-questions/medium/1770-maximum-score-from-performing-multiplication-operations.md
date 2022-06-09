@@ -1,6 +1,6 @@
 ---
 tree_title: maximum-score-from-performing-multiplication-operations
-description: 
+description: Maximum Score from Performing Multiplication Operations
 last_modified: 2022-06-09T21:23:28.2328
 ---
 

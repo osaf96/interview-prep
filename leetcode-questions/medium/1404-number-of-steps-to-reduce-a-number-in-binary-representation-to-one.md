@@ -1,6 +1,6 @@
 ---
 tree_title: number-of-steps-to-reduce-a-number-in-binary-representation-to-one
-description: 
+description: Number of Steps to Reduce a Number in Binary Representation to One
 last_modified: 2022-06-09T21:23:28.2328
 ---
 

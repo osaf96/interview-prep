@@ -1,6 +1,6 @@
 ---
 tree_title: maximum-ice-cream-bars
-description: 
+description: Maximum Ice Cream Bars
 last_modified: 2022-06-09T21:23:28.2328
 ---
 

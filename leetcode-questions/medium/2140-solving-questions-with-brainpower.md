@@ -1,6 +1,6 @@
 ---
 tree_title: solving-questions-with-brainpower
-description: 
+description: Solving Questions With Brainpower
 last_modified: 2022-06-09T21:23:28.2328
 ---
 

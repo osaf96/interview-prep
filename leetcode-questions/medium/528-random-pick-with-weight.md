@@ -1,6 +1,6 @@
 ---
 tree_title: random-pick-with-weight
-description: 
+description: Random Pick with Weight
 last_modified: 2022-06-09T21:23:28.2328
 ---
 

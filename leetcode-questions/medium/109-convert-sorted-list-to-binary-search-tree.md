@@ -1,6 +1,6 @@
 ---
 tree_title: convert-sorted-list-to-binary-search-tree
-description: 
+description: Convert Sorted List to Binary Search Tree
 last_modified: 2022-06-09T21:23:28.2328
 ---
 

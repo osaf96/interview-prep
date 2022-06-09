@@ -1,6 +1,6 @@
 ---
 tree_title: number-of-ways-to-buy-pens-and-pencils
-description: 
+description: Number of Ways to Buy Pens and Pencils
 last_modified: 2022-06-09T21:23:28.2328
 ---
 

@@ -1,6 +1,6 @@
 ---
 tree_title: maximize-distance-to-closest-person
-description: 
+description: Maximize Distance to Closest Person
 last_modified: 2022-06-09T21:23:28.2328
 ---
 

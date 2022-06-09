@@ -1,6 +1,6 @@
 ---
 tree_title: merge-triplets-to-form-target-triplet
-description: 
+description: Merge Triplets to Form Target Triplet
 last_modified: 2022-06-09T21:23:28.2328
 ---
 

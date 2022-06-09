@@ -1,6 +1,6 @@
 ---
 tree_title: shortest-way-to-form-string
-description: 
+description: Shortest Way to Form String
 last_modified: 2022-06-09T21:23:28.2328
 ---
 

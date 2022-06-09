@@ -1,6 +1,6 @@
 ---
 tree_title: delete-columns-to-make-sorted-ii
-description: 
+description: Delete Columns to Make Sorted II
 last_modified: 2022-06-09T21:23:28.2328
 ---
 

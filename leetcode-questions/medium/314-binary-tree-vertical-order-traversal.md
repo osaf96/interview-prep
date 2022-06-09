@@ -1,6 +1,6 @@
 ---
 tree_title: binary-tree-vertical-order-traversal
-description: 
+description: Binary Tree Vertical Order Traversal
 last_modified: 2022-06-09T21:23:28.2328
 ---
 

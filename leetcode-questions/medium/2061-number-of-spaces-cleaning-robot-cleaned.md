@@ -1,6 +1,6 @@
 ---
 tree_title: number-of-spaces-cleaning-robot-cleaned
-description: 
+description: Number of Spaces Cleaning Robot Cleaned
 last_modified: 2022-06-09T21:23:28.2328
 ---
 

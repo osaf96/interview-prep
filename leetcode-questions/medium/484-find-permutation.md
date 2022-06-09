@@ -1,6 +1,6 @@
 ---
 tree_title: find-permutation
-description: 
+description: Find Permutation
 last_modified: 2022-06-09T21:23:28.2328
 ---
 

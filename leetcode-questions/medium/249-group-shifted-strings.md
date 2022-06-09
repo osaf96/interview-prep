@@ -1,6 +1,6 @@
 ---
 tree_title: group-shifted-strings
-description: 
+description: Group Shifted Strings
 last_modified: 2022-06-09T21:23:28.2328
 ---
 

@@ -1,6 +1,6 @@
 ---
 tree_title: maximum-xor-for-each-query
-description: 
+description: Maximum XOR for Each Query
 last_modified: 2022-06-09T21:23:28.2328
 ---
 

@@ -1,6 +1,6 @@
 ---
 tree_title: all-people-report-to-the-given-manager
-description: 
+description: All People Report to the Given Manager
 last_modified: 2022-06-09T21:23:28.2328
 ---
 

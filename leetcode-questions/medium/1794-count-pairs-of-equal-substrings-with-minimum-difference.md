@@ -1,6 +1,6 @@
 ---
 tree_title: count-pairs-of-equal-substrings-with-minimum-difference
-description: 
+description: Count Pairs of Equal Substrings With Minimum Difference
 last_modified: 2022-06-09T21:23:28.2328
 ---
 

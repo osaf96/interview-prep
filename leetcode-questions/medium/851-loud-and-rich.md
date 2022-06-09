@@ -1,6 +1,6 @@
 ---
 tree_title: loud-and-rich
-description: 
+description: Loud and Rich
 last_modified: 2022-06-09T21:23:28.2328
 ---
 

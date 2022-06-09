@@ -1,6 +1,6 @@
 ---
 tree_title: smallest-common-region
-description: 
+description: Smallest Common Region
 last_modified: 2022-06-09T21:23:28.2328
 ---
 

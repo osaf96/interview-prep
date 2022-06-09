@@ -1,6 +1,6 @@
 ---
 tree_title: number-of-good-ways-to-split-a-string
-description: 
+description: Number of Good Ways to Split a String
 last_modified: 2022-06-09T21:23:28.2328
 ---
 

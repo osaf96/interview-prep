@@ -1,6 +1,6 @@
 ---
 tree_title: minimum-number-of-days-to-make-m-bouquets
-description: 
+description: Minimum Number of Days to Make m Bouquets
 last_modified: 2022-06-09T21:23:28.2328
 ---
 

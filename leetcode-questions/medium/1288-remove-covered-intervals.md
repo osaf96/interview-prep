@@ -1,6 +1,6 @@
 ---
 tree_title: remove-covered-intervals
-description: 
+description: Remove Covered Intervals
 last_modified: 2022-06-09T21:23:28.2328
 ---
 

@@ -1,6 +1,6 @@
 ---
 tree_title: walls-and-gates
-description: 
+description: Walls and Gates
 last_modified: 2022-06-09T21:23:28.2328
 ---
 

@@ -1,6 +1,6 @@
 ---
 tree_title: apply-discount-every-n-orders
-description: 
+description: Apply Discount Every n Orders
 last_modified: 2022-06-09T21:23:28.2328
 ---
 

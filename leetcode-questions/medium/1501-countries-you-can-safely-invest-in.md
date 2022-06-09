@@ -1,6 +1,6 @@
 ---
 tree_title: countries-you-can-safely-invest-in
-description: 
+description: Countries You Can Safely Invest In
 last_modified: 2022-06-09T21:23:28.2328
 ---
 

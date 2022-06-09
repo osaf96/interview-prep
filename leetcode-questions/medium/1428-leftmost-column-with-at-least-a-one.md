@@ -1,6 +1,6 @@
 ---
 tree_title: leftmost-column-with-at-least-a-one
-description: 
+description: Leftmost Column with at Least a One
 last_modified: 2022-06-09T21:23:28.2328
 ---
 

@@ -1,6 +1,6 @@
 ---
 tree_title: decode-xored-permutation
-description: 
+description: Decode XORed Permutation
 last_modified: 2022-06-09T21:23:28.2328
 ---
 

@@ -1,6 +1,6 @@
 ---
 tree_title: evaluate-the-bracket-pairs-of-a-string
-description: 
+description: Evaluate the Bracket Pairs of a String
 last_modified: 2022-06-09T21:23:28.2328
 ---
 

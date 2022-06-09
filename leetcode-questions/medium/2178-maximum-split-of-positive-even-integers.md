@@ -1,6 +1,6 @@
 ---
 tree_title: maximum-split-of-positive-even-integers
-description: 
+description: Maximum Split of Positive Even Integers
 last_modified: 2022-06-09T21:23:28.2328
 ---
 

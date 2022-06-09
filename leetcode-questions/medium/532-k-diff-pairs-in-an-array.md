@@ -1,6 +1,6 @@
 ---
 tree_title: k-diff-pairs-in-an-array
-description: 
+description: K-diff Pairs in an Array
 last_modified: 2022-06-09T21:23:28.2328
 ---
 

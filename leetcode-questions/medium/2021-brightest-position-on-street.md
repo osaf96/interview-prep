@@ -1,6 +1,6 @@
 ---
 tree_title: brightest-position-on-street
-description: 
+description: Brightest Position on Street
 last_modified: 2022-06-09T21:23:28.2328
 ---
 

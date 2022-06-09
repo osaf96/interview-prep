@@ -1,6 +1,6 @@
 ---
 tree_title: find-the-student-that-will-replace-the-chalk
-description: 
+description: Find the Student that Will Replace the Chalk
 last_modified: 2022-06-09T21:23:28.2328
 ---
 

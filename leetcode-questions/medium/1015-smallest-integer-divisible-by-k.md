@@ -1,6 +1,6 @@
 ---
 tree_title: smallest-integer-divisible-by-k
-description: 
+description: Smallest Integer Divisible by K
 last_modified: 2022-06-09T21:23:28.2328
 ---
 

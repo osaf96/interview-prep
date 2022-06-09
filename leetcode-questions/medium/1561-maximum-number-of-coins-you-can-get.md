@@ -1,6 +1,6 @@
 ---
 tree_title: maximum-number-of-coins-you-can-get
-description: 
+description: Maximum Number of Coins You Can Get
 last_modified: 2022-06-09T21:23:28.2328
 ---
 

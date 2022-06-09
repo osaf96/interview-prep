@@ -1,6 +1,6 @@
 ---
 tree_title: partition-array-such-that-maximum-difference-is-k
-description: 
+description: Partition Array Such That Maximum Difference Is K
 last_modified: 2022-06-09T21:23:28.2328
 ---
 

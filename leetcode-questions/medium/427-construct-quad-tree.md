@@ -1,6 +1,6 @@
 ---
 tree_title: construct-quad-tree
-description: 
+description: Construct Quad Tree
 last_modified: 2022-06-09T21:23:28.2328
 ---
 

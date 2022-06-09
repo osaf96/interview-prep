@@ -1,6 +1,6 @@
 ---
 tree_title: short-encoding-of-words
-description: 
+description: Short Encoding of Words
 last_modified: 2022-06-09T21:23:28.2328
 ---
 

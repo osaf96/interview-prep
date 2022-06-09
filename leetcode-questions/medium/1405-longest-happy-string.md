@@ -1,6 +1,6 @@
 ---
 tree_title: longest-happy-string
-description: 
+description: Longest Happy String
 last_modified: 2022-06-09T21:23:28.2328
 ---
 

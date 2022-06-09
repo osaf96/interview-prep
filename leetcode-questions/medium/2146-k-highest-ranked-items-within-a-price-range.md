@@ -1,6 +1,6 @@
 ---
 tree_title: k-highest-ranked-items-within-a-price-range
-description: 
+description: K Highest Ranked Items Within a Price Range
 last_modified: 2022-06-09T21:23:28.2328
 ---
 

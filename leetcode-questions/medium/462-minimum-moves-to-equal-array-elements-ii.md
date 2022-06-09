@@ -1,6 +1,6 @@
 ---
 tree_title: minimum-moves-to-equal-array-elements-ii
-description: 
+description: Minimum Moves to Equal Array Elements II
 last_modified: 2022-06-09T21:23:28.2328
 ---
 

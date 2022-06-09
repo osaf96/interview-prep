@@ -1,6 +1,6 @@
 ---
 tree_title: minimum-number-of-arrows-to-burst-balloons
-description: 
+description: Minimum Number of Arrows to Burst Balloons
 last_modified: 2022-06-09T21:23:28.2328
 ---
 

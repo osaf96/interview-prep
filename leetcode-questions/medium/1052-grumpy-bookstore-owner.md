@@ -1,6 +1,6 @@
 ---
 tree_title: grumpy-bookstore-owner
-description: 
+description: Grumpy Bookstore Owner
 last_modified: 2022-06-09T21:23:28.2328
 ---
 

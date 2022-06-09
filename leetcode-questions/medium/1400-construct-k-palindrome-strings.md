@@ -1,6 +1,6 @@
 ---
 tree_title: construct-k-palindrome-strings
-description: 
+description: Construct K Palindrome Strings
 last_modified: 2022-06-09T21:23:28.2328
 ---
 

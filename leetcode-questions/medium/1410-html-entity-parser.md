@@ -1,6 +1,6 @@
 ---
 tree_title: html-entity-parser
-description: 
+description: HTML Entity Parser
 last_modified: 2022-06-09T21:23:28.2328
 ---
 

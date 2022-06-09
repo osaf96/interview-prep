@@ -1,6 +1,6 @@
 ---
 tree_title: rotate-function
-description: 
+description: Rotate Function
 last_modified: 2022-06-09T21:23:28.2328
 ---
 

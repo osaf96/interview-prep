@@ -1,6 +1,6 @@
 ---
 tree_title: koko-eating-bananas
-description: 
+description: Koko Eating Bananas
 last_modified: 2022-06-09T21:23:28.2328
 ---
 

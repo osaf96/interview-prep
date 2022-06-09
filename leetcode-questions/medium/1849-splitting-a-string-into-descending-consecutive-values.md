@@ -1,6 +1,6 @@
 ---
 tree_title: splitting-a-string-into-descending-consecutive-values
-description: 
+description: Splitting a String Into Descending Consecutive Values
 last_modified: 2022-06-09T21:23:28.2328
 ---
 

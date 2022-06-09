@@ -1,6 +1,6 @@
 ---
 tree_title: product-of-the-last-k-numbers
-description: 
+description: Product of the Last K Numbers
 last_modified: 2022-06-09T21:23:28.2328
 ---
 

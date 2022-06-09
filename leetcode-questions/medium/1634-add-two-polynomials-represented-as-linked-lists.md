@@ -1,6 +1,6 @@
 ---
 tree_title: add-two-polynomials-represented-as-linked-lists
-description: 
+description: Add Two Polynomials Represented as Linked Lists
 last_modified: 2022-06-09T21:23:28.2328
 ---
 

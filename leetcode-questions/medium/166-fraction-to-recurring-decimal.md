@@ -1,6 +1,6 @@
 ---
 tree_title: fraction-to-recurring-decimal
-description: 
+description: Fraction to Recurring Decimal
 last_modified: 2022-06-09T21:23:28.2328
 ---
 

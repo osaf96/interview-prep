@@ -1,6 +1,6 @@
 ---
 tree_title: delete-nodes-and-return-forest
-description: 
+description: Delete Nodes And Return Forest
 last_modified: 2022-06-09T21:23:28.2328
 ---
 

@@ -1,6 +1,6 @@
 ---
 tree_title: the-change-in-global-rankings
-description: 
+description: The Change in Global Rankings
 last_modified: 2022-06-09T21:23:28.2328
 ---
 

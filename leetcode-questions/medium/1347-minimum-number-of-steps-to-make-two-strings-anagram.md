@@ -1,6 +1,6 @@
 ---
 tree_title: minimum-number-of-steps-to-make-two-strings-anagram
-description: 
+description: Minimum Number of Steps to Make Two Strings Anagram
 last_modified: 2022-06-09T21:23:28.2328
 ---
 

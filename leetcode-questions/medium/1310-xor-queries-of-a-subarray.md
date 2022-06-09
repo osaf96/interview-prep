@@ -1,6 +1,6 @@
 ---
 tree_title: xor-queries-of-a-subarray
-description: 
+description: XOR Queries of a Subarray
 last_modified: 2022-06-09T21:23:28.2328
 ---
 
