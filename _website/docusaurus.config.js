@@ -12,7 +12,7 @@ module.exports = {
     navbar: {
       title: "Interview Preparation Notes",
 
-      links: [
+      items: [
         // {
         //   href: 'https://github.com/shyamzzp/interview-prep',
         //   label: 'GitHub',
@@ -39,15 +39,20 @@ module.exports = {
       theme: require("prism-react-renderer/themes/github"),
       darkTheme: require("prism-react-renderer/themes/oceanicNext"),
     },
-    disableDarkMode: false,
+    colorMode: {
+      defaultMode: "light",
+      disableSwitch: true,
+      respectPrefersColorScheme: false,
+    },
   },
+
   presets: [
     [
       "@docusaurus/preset-classic",
       {
         docs: {
           sidebarPath: require.resolve("./sidebars.js"),
-          routeBasePath: "",
+          routeBasePath: "/",
         },
         theme: {
           customCss: require.resolve("./src/css/custom.css"),
