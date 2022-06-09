@@ -8,7 +8,7 @@ module.exports = {
   favicon: "favicon.ico",
   organizationName: "shyamzzp",
   projectName: "interview-prep",
-  onBrokenLinks:"ignore",
+  onBrokenLinks: "ignore",
   themeConfig: {
     navbar: {
       title: "Interview Preparation Notes",

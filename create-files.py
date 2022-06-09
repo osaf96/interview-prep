@@ -7,20 +7,16 @@ data = data['questions']
 f.close()
 # iterate over the data object
 for i in data:
+    # create a file 
+    f = open('test.txt', 'a')
     if(i['difficulty'] == 'Medium'):
-        fileName = i['questionId']+'-'+i['titleSlug']+'.md'
-        f = open('leetcode.txt', 'w')
-        # save the file
-        contentFile = '''---
-        tree_title: '''+i['titleSlug']+'''
-        description: 
-        last_modified: 2022-06-09T21:23:28.2328
-        ---
-
-        # '''+i['titleSlug']+'''
-        '''
-
-        f.write(str(contentFile))
-        f.close()
+        f.write('''##'''+i['title']+'''''')
+        Tags = ""
+        for i in i['topicTags']:
+            Tags += i['name']+", "
+        Tags = Tags[:-2]
+        f.write('''\nTags:'''+Tags)
+        f.write('\n\n')
+        
 
 
