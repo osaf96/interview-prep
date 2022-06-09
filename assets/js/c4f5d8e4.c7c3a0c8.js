@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkinterview_prep=self.webpackChunkinterview_prep||[]).push([[4195],{2841:function(e,t,n){n.r(t);var r=n(7294),u=n(6775),i=n(4996);t.default=function(){return r.createElement(u.l_,{to:(0,i.Z)("/about")})}}}]);
