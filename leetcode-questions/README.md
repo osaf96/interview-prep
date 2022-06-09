@@ -6,16 +6,4 @@
 
 <!-- optional markdown-notes-tree directory description ends here -->
 
--   [**Medium**](medium/README.md)
-    -   [container-with-most-water](medium/11.md)
-    -   [integer-to-roman](medium/12.md)
-    -   [3sum](medium/15.md)
-    -   [3sum-closest](medium/16.md)
-    -   [letter-combinations-of-a-phone-number](medium/17.md)
-    -   [add-two-numbers](medium/2.md)
-    -   [longest-substring-without-repeating-characters](medium/3.md)
-    -   [longest-palindromic-substring](medium/5.md)
-    -   [zigzag-conversion](medium/6.md)
-    -   [reverse-integer](medium/7.md)
-    -   [string-to-integer-atoi](medium/8.md)
-    -   [Priority Queue](medium/priority-queue.md)
+-   [Medium](medium.md)
