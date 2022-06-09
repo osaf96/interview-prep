@@ -40,15 +40,18 @@ function writeData() {
 function writeSidebarsFile() {
     const sidebarItemsForNotes = getSidebarItemsForDirectory("");
 
-    const sidebars = { 
-        docs: [
-            {
-                type: "category",
-                label: "About",
-                items: ["about/about", "about/contributing"]
-            },
-            ...sidebarItemsForNotes
-        ]
+    const sidebars = {
+      docs: [
+        {
+          type: "category",
+          label: "About",
+          items: [
+            "about/about",
+            "about/solving-leetcode-problems",
+          ],
+        },
+        ...sidebarItemsForNotes,
+      ],
     };
 
     const sidebarsFileContents = "module.exports = " + JSON.stringify(sidebars, undefined, 4);
