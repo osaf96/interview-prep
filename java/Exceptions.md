@@ -30,7 +30,7 @@ Exception handling:
 
 Hierarchy of exception classes in Java:
 
-![Exception hierarchy](_img/Exceptions/shyamzzp.jpeg)
+![Exception hierarchy](_img/Exceptions/exception-hierarchy.png)
 
 Classes:
 
