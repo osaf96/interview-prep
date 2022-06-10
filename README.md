@@ -42,6 +42,7 @@
         -   [Type guards](javascript/typescript/Type-guards.md)
 -   [**Leetcode Questions (Java)**](leetcode-questions/README.md)
     -   [Medium](leetcode-questions/medium.md)
+    -   [Solving Leetcode Questions](leetcode-questions/solving-leetcode-problems.md)
 -   [**Mindset**](mindset/README.md)
     -   [Ask the dumb questions](mindset/Ask-dumb-questions.md)
     -   [Concepts, not code](mindset/Concepts-not-code.md)

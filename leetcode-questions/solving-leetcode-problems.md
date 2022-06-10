@@ -5,7 +5,7 @@ last_modified: 2022-06-10T14:24:37.2437
 ---
 
 # Solving Leetcode Questions
-
+## Contents
 ### These are some of the techniques that I usually follows while attending any Leetcode contest/Problem.
 
 -   ✅ Go through the problem carefully and think about the problem in the following ways:
@@ -15,6 +15,7 @@ last_modified: 2022-06-10T14:24:37.2437
     -   ✅ Which Data-Structure will fit in for each of the sub-problems?
 
 ### Once you have all the above written down or thought of, you can start coding.
+
 -   ✅ List down all the sub-problems in the main problem.
 -   ✅ Try to solve the sub-problem in the best possible way.
 -   ✅ Generate complexity for the sub-problem which will be used in the main problem.
