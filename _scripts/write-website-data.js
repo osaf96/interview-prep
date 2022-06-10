@@ -47,7 +47,6 @@ function writeSidebarsFile() {
           label: "About",
           items: [
             "about/about",
-            "about/solving-leetcode-problems",
           ],
         },
         ...sidebarItemsForNotes,
