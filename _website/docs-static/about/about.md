@@ -2,12 +2,12 @@
 title: About
 ---
 ### About the Notes
-✅Each note will provide a summary of the most important points related to the topic. 
-✅This is useful for getting a higher-level understanding or refreshing your memory. 
+✅Each note will provide a summary of the most important points related to the topic. <br />
+✅This is useful for getting a higher-level understanding or refreshing your memory. <br />
 ✅If you want more details, you can use the resources at the end of the note as a curated list of resources.
 
 ### About the Author
-✅Experience with Programming and System Designs : 6+ Years
+✅Experience with Programming and System Designs : 6+ Years<br />
 ✅Love talking new Open Source Technologies & UI Designs.
 
 #### Experience with technologies and tools below

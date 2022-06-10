@@ -16,1237 +16,16 @@ last_modified: 2022-06-10T00:17:44.1744
     -   [Inputs](#inputs-1)
     -   [Process](#process-1)
     -   [Edge Cases](#edge-cases-1)
--   [Longest Palindromic Substring](#longest-palindromic-substring)
--   [Zigzag Conversion](#zigzag-conversion)
--   [Reverse Integer](#reverse-integer)
--   [String to Integer (atoi)](#string-to-integer-atoi)
--   [Container With Most Water](#container-with-most-water)
--   [Integer to Roman](#integer-to-roman)
--   [3Sum](#3sum)
--   [3Sum Closest](#3sum-closest)
--   [Letter Combinations of a Phone Number](#letter-combinations-of-a-phone-number)
--   [4Sum](#4sum)
--   [Remove Nth Node From End of List](#remove-nth-node-from-end-of-list)
--   [Generate Parentheses](#generate-parentheses)
--   [Swap Nodes in Pairs](#swap-nodes-in-pairs)
--   [Divide Two Integers](#divide-two-integers)
--   [Next Permutation](#next-permutation)
--   [Search in Rotated Sorted Array](#search-in-rotated-sorted-array)
--   [Find First and Last Position of Element in Sorted Array](#find-first-and-last-position-of-element-in-sorted-array)
--   [Valid Sudoku](#valid-sudoku)
--   [Count and Say](#count-and-say)
--   [Combination Sum](#combination-sum)
--   [Combination Sum II](#combination-sum-ii)
--   [Multiply Strings](#multiply-strings)
--   [Jump Game II](#jump-game-ii)
--   [Permutations](#permutations)
--   [Permutations II](#permutations-ii)
--   [Rotate Image](#rotate-image)
--   [Group Anagrams](#group-anagrams)
--   [Pow(x, n)](#powx-n)
--   [Spiral Matrix](#spiral-matrix)
--   [Jump Game](#jump-game)
--   [Merge Intervals](#merge-intervals)
--   [Insert Interval](#insert-interval)
--   [Spiral Matrix II](#spiral-matrix-ii)
--   [Rotate List](#rotate-list)
--   [Unique Paths](#unique-paths)
--   [Unique Paths II](#unique-paths-ii)
--   [Minimum Path Sum](#minimum-path-sum)
--   [Simplify Path](#simplify-path)
--   [Set Matrix Zeroes](#set-matrix-zeroes)
--   [Search a 2D Matrix](#search-a-2d-matrix)
--   [Sort Colors](#sort-colors)
--   [Combinations](#combinations)
--   [Subsets](#subsets)
--   [Word Search](#word-search)
--   [Remove Duplicates from Sorted Array II](#remove-duplicates-from-sorted-array-ii)
--   [Search in Rotated Sorted Array II](#search-in-rotated-sorted-array-ii)
--   [Remove Duplicates from Sorted List II](#remove-duplicates-from-sorted-list-ii)
--   [Partition List](#partition-list)
--   [Gray Code](#gray-code)
--   [Subsets II](#subsets-ii)
--   [Decode Ways](#decode-ways)
--   [Reverse Linked List II](#reverse-linked-list-ii)
--   [Restore IP Addresses](#restore-ip-addresses)
--   [Unique Binary Search Trees II](#unique-binary-search-trees-ii)
 -   [Unique Binary Search Trees](#unique-binary-search-trees)
     -   -   [Inputs](#inputs-2)
     -   [Sub problems](#sub-problems)
     -   [Edge Cases](#edge-cases-2)
     -   [Further Readings](#further-readings)
     -   [Problems based on Catalan Number](#problems-based-on-catalan-number)
--   [Interleaving String](#interleaving-string)
--   [Validate Binary Search Tree](#validate-binary-search-tree)
--   [Recover Binary Search Tree](#recover-binary-search-tree)
--   [Binary Tree Level Order Traversal](#binary-tree-level-order-traversal)
--   [Binary Tree Zigzag Level Order Traversal](#binary-tree-zigzag-level-order-traversal)
--   [Construct Binary Tree from Preorder and Inorder Traversal](#construct-binary-tree-from-preorder-and-inorder-traversal)
--   [Construct Binary Tree from Inorder and Postorder Traversal](#construct-binary-tree-from-inorder-and-postorder-traversal)
--   [Binary Tree Level Order Traversal II](#binary-tree-level-order-traversal-ii)
--   [Convert Sorted List to Binary Search Tree](#convert-sorted-list-to-binary-search-tree)
--   [Path Sum II](#path-sum-ii)
--   [Flatten Binary Tree to Linked List](#flatten-binary-tree-to-linked-list)
--   [Populating Next Right Pointers in Each Node](#populating-next-right-pointers-in-each-node)
--   [Populating Next Right Pointers in Each Node II](#populating-next-right-pointers-in-each-node-ii)
--   [Triangle](#triangle)
--   [Best Time to Buy and Sell Stock II](#best-time-to-buy-and-sell-stock-ii)
--   [Longest Consecutive Sequence](#longest-consecutive-sequence)
--   [Sum Root to Leaf Numbers](#sum-root-to-leaf-numbers)
--   [Surrounded Regions](#surrounded-regions)
--   [Palindrome Partitioning](#palindrome-partitioning)
--   [Clone Graph](#clone-graph)
--   [Gas Station](#gas-station)
--   [Single Number II](#single-number-ii)
--   [Copy List with Random Pointer](#copy-list-with-random-pointer)
--   [Word Break](#word-break)
--   [Linked List Cycle II](#linked-list-cycle-ii)
--   [Reorder List](#reorder-list)
--   [LRU Cache](#lru-cache)
--   [Insertion Sort List](#insertion-sort-list)
--   [Sort List](#sort-list)
--   [Evaluate Reverse Polish Notation](#evaluate-reverse-polish-notation)
--   [Reverse Words in a String](#reverse-words-in-a-string)
--   [Maximum Product Subarray](#maximum-product-subarray)
--   [Find Minimum in Rotated Sorted Array](#find-minimum-in-rotated-sorted-array)
--   [Binary Tree Upside Down](#binary-tree-upside-down)
--   [Longest Substring with At Most Two Distinct Characters](#longest-substring-with-at-most-two-distinct-characters)
--   [One Edit Distance](#one-edit-distance)
--   [Find Peak Element](#find-peak-element)
--   [Compare Version Numbers](#compare-version-numbers)
--   [Fraction to Recurring Decimal](#fraction-to-recurring-decimal)
--   [Two Sum II - Input Array Is Sorted](#two-sum-ii---input-array-is-sorted)
--   [Factorial Trailing Zeroes](#factorial-trailing-zeroes)
--   [Binary Search Tree Iterator](#binary-search-tree-iterator)
--   [Second Highest Salary](#second-highest-salary)
--   [Nth Highest Salary](#nth-highest-salary)
--   [Rank Scores](#rank-scores)
--   [Largest Number](#largest-number)
--   [Consecutive Numbers](#consecutive-numbers)
--   [Department Highest Salary](#department-highest-salary)
--   [Reverse Words in a String II](#reverse-words-in-a-string-ii)
--   [Repeated DNA Sequences](#repeated-dna-sequences)
--   [Rotate Array](#rotate-array)
--   [Word Frequency](#word-frequency)
--   [Transpose File](#transpose-file)
--   [House Robber](#house-robber)
--   [Binary Tree Right Side View](#binary-tree-right-side-view)
--   [Number of Islands](#number-of-islands)
--   [Bitwise AND of Numbers Range](#bitwise-and-of-numbers-range)
--   [Count Primes](#count-primes)
--   [Course Schedule](#course-schedule)
--   [Implement Trie (Prefix Tree)](#implement-trie-prefix-tree)
--   [Minimum Size Subarray Sum](#minimum-size-subarray-sum)
--   [Course Schedule II](#course-schedule-ii)
--   [Design Add and Search Words Data Structure](#design-add-and-search-words-data-structure)
--   [House Robber II](#house-robber-ii)
--   [Kth Largest Element in an Array](#kth-largest-element-in-an-array)
--   [Combination Sum III](#combination-sum-iii)
--   [Contains Duplicate III](#contains-duplicate-iii)
--   [Maximal Square](#maximal-square)
--   [Count Complete Tree Nodes](#count-complete-tree-nodes)
--   [Rectangle Area](#rectangle-area)
--   [Basic Calculator II](#basic-calculator-ii)
--   [Majority Element II](#majority-element-ii)
--   [Kth Smallest Element in a BST](#kth-smallest-element-in-a-bst)
--   [Lowest Common Ancestor of a Binary Tree](#lowest-common-ancestor-of-a-binary-tree)
--   [Product of Array Except Self](#product-of-array-except-self)
--   [Search a 2D Matrix II](#search-a-2d-matrix-ii)
--   [Different Ways to Add Parentheses](#different-ways-to-add-parentheses)
--   [Shortest Word Distance II](#shortest-word-distance-ii)
--   [Shortest Word Distance III](#shortest-word-distance-iii)
--   [Strobogrammatic Number II](#strobogrammatic-number-ii)
--   [Group Shifted Strings](#group-shifted-strings)
--   [Count Univalue Subtrees](#count-univalue-subtrees)
--   [Flatten 2D Vector](#flatten-2d-vector)
--   [Meeting Rooms II](#meeting-rooms-ii)
--   [Factor Combinations](#factor-combinations)
--   [Verify Preorder Sequence in Binary Search Tree](#verify-preorder-sequence-in-binary-search-tree)
--   [Paint House](#paint-house)
--   [3Sum Smaller](#3sum-smaller)
--   [Single Number III](#single-number-iii)
--   [Graph Valid Tree](#graph-valid-tree)
--   [Ugly Number II](#ugly-number-ii)
--   [Palindrome Permutation II](#palindrome-permutation-ii)
--   [Encode and Decode Strings](#encode-and-decode-strings)
--   [H-Index](#h-index)
--   [H-Index II](#h-index-ii)
--   [Paint Fence](#paint-fence)
--   [Find the Celebrity](#find-the-celebrity)
--   [Perfect Squares](#perfect-squares)
--   [Wiggle Sort](#wiggle-sort)
--   [Zigzag Iterator](#zigzag-iterator)
--   [Peeking Iterator](#peeking-iterator)
--   [Inorder Successor in BST](#inorder-successor-in-bst)
--   [Walls and Gates](#walls-and-gates)
--   [Find the Duplicate Number](#find-the-duplicate-number)
--   [Unique Word Abbreviation](#unique-word-abbreviation)
--   [Game of Life](#game-of-life)
--   [Word Pattern II](#word-pattern-ii)
--   [Flip Game II](#flip-game-ii)
--   [Binary Tree Longest Consecutive Sequence](#binary-tree-longest-consecutive-sequence)
--   [Bulls and Cows](#bulls-and-cows)
--   [Longest Increasing Subsequence](#longest-increasing-subsequence)
--   [Range Sum Query 2D - Immutable](#range-sum-query-2d---immutable)
--   [Additive Number](#additive-number)
--   [Range Sum Query - Mutable](#range-sum-query---mutable)
--   [Best Time to Buy and Sell Stock with Cooldown](#best-time-to-buy-and-sell-stock-with-cooldown)
--   [Minimum Height Trees](#minimum-height-trees)
--   [Sparse Matrix Multiplication](#sparse-matrix-multiplication)
--   [Super Ugly Number](#super-ugly-number)
--   [Binary Tree Vertical Order Traversal](#binary-tree-vertical-order-traversal)
--   [Remove Duplicate Letters](#remove-duplicate-letters)
--   [Maximum Product of Word Lengths](#maximum-product-of-word-lengths)
--   [Bulb Switcher](#bulb-switcher)
--   [Generalized Abbreviation](#generalized-abbreviation)
--   [Coin Change](#coin-change)
--   [Number of Connected Components in an Undirected Graph](#number-of-connected-components-in-an-undirected-graph)
--   [Wiggle Sort II](#wiggle-sort-ii)
--   [Maximum Size Subarray Sum Equals k](#maximum-size-subarray-sum-equals-k)
--   [Odd Even Linked List](#odd-even-linked-list)
--   [Verify Preorder Serialization of a Binary Tree](#verify-preorder-serialization-of-a-binary-tree)
--   [Largest BST Subtree](#largest-bst-subtree)
--   [Increasing Triplet Subsequence](#increasing-triplet-subsequence)
--   [House Robber III](#house-robber-iii)
--   [Nested List Weight Sum](#nested-list-weight-sum)
--   [Longest Substring with At Most K Distinct Characters](#longest-substring-with-at-most-k-distinct-characters)
--   [Flatten Nested List Iterator](#flatten-nested-list-iterator)
--   [Integer Break](#integer-break)
--   [Top K Frequent Elements](#top-k-frequent-elements)
--   [Design Tic-Tac-Toe](#design-tic-tac-toe)
--   [Android Unlock Patterns](#android-unlock-patterns)
--   [Design Snake Game](#design-snake-game)
--   [Design Twitter](#design-twitter)
--   [Line Reflection](#line-reflection)
--   [Count Numbers with Unique Digits](#count-numbers-with-unique-digits)
--   [Sort Transformed Array](#sort-transformed-array)
--   [Bomb Enemy](#bomb-enemy)
--   [Design Hit Counter](#design-hit-counter)
--   [Nested List Weight Sum II](#nested-list-weight-sum-ii)
--   [Water and Jug Problem](#water-and-jug-problem)
--   [Find Leaves of Binary Tree](#find-leaves-of-binary-tree)
--   [Largest Divisible Subset](#largest-divisible-subset)
--   [Plus One Linked List](#plus-one-linked-list)
--   [Range Addition](#range-addition)
--   [Sum of Two Integers](#sum-of-two-integers)
--   [Super Pow](#super-pow)
--   [Find K Pairs with Smallest Sums](#find-k-pairs-with-smallest-sums)
--   [Guess Number Higher or Lower II](#guess-number-higher-or-lower-ii)
--   [Wiggle Subsequence](#wiggle-subsequence)
--   [Combination Sum IV](#combination-sum-iv)
--   [Kth Smallest Element in a Sorted Matrix](#kth-smallest-element-in-a-sorted-matrix)
--   [Design Phone Directory](#design-phone-directory)
--   [Insert Delete GetRandom O(1)](#insert-delete-getrandom-o1)
--   [Linked List Random Node](#linked-list-random-node)
--   [Shuffle an Array](#shuffle-an-array)
--   [Mini Parser](#mini-parser)
--   [Lexicographical Numbers](#lexicographical-numbers)
--   [Longest Absolute File Path](#longest-absolute-file-path)
--   [Elimination Game](#elimination-game)
--   [UTF-8 Validation](#utf-8-validation)
--   [Decode String](#decode-string)
--   [Longest Substring with At Least K Repeating Characters](#longest-substring-with-at-least-k-repeating-characters)
--   [Rotate Function](#rotate-function)
--   [Integer Replacement](#integer-replacement)
--   [Random Pick Index](#random-pick-index)
--   [Evaluate Division](#evaluate-division)
--   [Nth Digit](#nth-digit)
--   [Remove K Digits](#remove-k-digits)
--   [Queue Reconstruction by Height](#queue-reconstruction-by-height)
--   [Arithmetic Slices](#arithmetic-slices)
--   [Partition Equal Subset Sum](#partition-equal-subset-sum)
--   [Pacific Atlantic Water Flow](#pacific-atlantic-water-flow)
--   [Sentence Screen Fitting](#sentence-screen-fitting)
--   [Battleships in a Board](#battleships-in-a-board)
--   [Maximum XOR of Two Numbers in an Array](#maximum-xor-of-two-numbers-in-an-array)
--   [Reconstruct Original Digits from English](#reconstruct-original-digits-from-english)
--   [Longest Repeating Character Replacement](#longest-repeating-character-replacement)
--   [Convert Binary Search Tree to Sorted Doubly Linked List](#convert-binary-search-tree-to-sorted-doubly-linked-list)
--   [Construct Quad Tree](#construct-quad-tree)
--   [N-ary Tree Level Order Traversal](#n-ary-tree-level-order-traversal)
--   [Flatten a Multilevel Doubly Linked List](#flatten-a-multilevel-doubly-linked-list)
--   [Minimum Genetic Mutation](#minimum-genetic-mutation)
--   [Non-overlapping Intervals](#non-overlapping-intervals)
--   [Find Right Interval](#find-right-interval)
--   [Path Sum III](#path-sum-iii)
--   [Find All Anagrams in a String](#find-all-anagrams-in-a-string)
--   [Ternary Expression Parser](#ternary-expression-parser)
--   [Find All Duplicates in an Array](#find-all-duplicates-in-an-array)
--   [String Compression](#string-compression)
--   [Sequence Reconstruction](#sequence-reconstruction)
--   [Add Two Numbers II](#add-two-numbers-ii)
--   [Number of Boomerangs](#number-of-boomerangs)
--   [Serialize and Deserialize BST](#serialize-and-deserialize-bst)
--   [Delete Node in a BST](#delete-node-in-a-bst)
--   [Sort Characters By Frequency](#sort-characters-by-frequency)
--   [Minimum Number of Arrows to Burst Balloons](#minimum-number-of-arrows-to-burst-balloons)
--   [Minimum Moves to Equal Array Elements](#minimum-moves-to-equal-array-elements)
--   [4Sum II](#4sum-ii)
--   [132 Pattern](#132-pattern)
--   [Circular Array Loop](#circular-array-loop)
--   [Minimum Moves to Equal Array Elements II](#minimum-moves-to-equal-array-elements-ii)
--   [Can I Win](#can-i-win)
--   [Unique Substrings in Wraparound String](#unique-substrings-in-wraparound-string)
--   [Validate IP Address](#validate-ip-address)
--   [Convex Polygon](#convex-polygon)
--   [Implement Rand10() Using Rand7()](#implement-rand10-using-rand7)
--   [Matchsticks to Square](#matchsticks-to-square)
--   [Ones and Zeroes](#ones-and-zeroes)
--   [Heaters](#heaters)
--   [Total Hamming Distance](#total-hamming-distance)
--   [Generate Random Point in a Circle](#generate-random-point-in-a-circle)
--   [Magical String](#magical-string)
--   [Find Permutation](#find-permutation)
--   [Predict the Winner](#predict-the-winner)
--   [Max Consecutive Ones II](#max-consecutive-ones-ii)
--   [The Maze](#the-maze)
--   [Increasing Subsequences](#increasing-subsequences)
--   [Target Sum](#target-sum)
--   [Random Point in Non-overlapping Rectangles](#random-point-in-non-overlapping-rectangles)
--   [Diagonal Traverse](#diagonal-traverse)
--   [Next Greater Element II](#next-greater-element-ii)
--   [The Maze II](#the-maze-ii)
--   [Most Frequent Subtree Sum](#most-frequent-subtree-sum)
--   [Inorder Successor in BST II](#inorder-successor-in-bst-ii)
--   [Find Bottom Left Tree Value](#find-bottom-left-tree-value)
--   [Find Largest Value in Each Tree Row](#find-largest-value-in-each-tree-row)
--   [Longest Palindromic Subsequence](#longest-palindromic-subsequence)
--   [Coin Change 2](#coin-change-2)
--   [Random Flip Matrix](#random-flip-matrix)
--   [Longest Uncommon Subsequence II](#longest-uncommon-subsequence-ii)
--   [Continuous Subarray Sum](#continuous-subarray-sum)
--   [Longest Word in Dictionary through Deleting](#longest-word-in-dictionary-through-deleting)
--   [Contiguous Array](#contiguous-array)
--   [Beautiful Arrangement](#beautiful-arrangement)
--   [Random Pick with Weight](#random-pick-with-weight)
--   [Minesweeper](#minesweeper)
--   [Lonely Pixel I](#lonely-pixel-i)
--   [K-diff Pairs in an Array](#k-diff-pairs-in-an-array)
--   [Lonely Pixel II](#lonely-pixel-ii)
--   [Game Play Analysis III](#game-play-analysis-iii)
--   [Encode and Decode TinyURL](#encode-and-decode-tinyurl)
--   [Construct Binary Tree from String](#construct-binary-tree-from-string)
--   [Complex Number Multiplication](#complex-number-multiplication)
--   [Convert BST to Greater Tree](#convert-bst-to-greater-tree)
--   [Minimum Time Difference](#minimum-time-difference)
--   [Single Element in a Sorted Array](#single-element-in-a-sorted-array)
--   [01 Matrix](#01-matrix)
--   [Output Contest Matches](#output-contest-matches)
--   [Boundary of Binary Tree](#boundary-of-binary-tree)
--   [Number of Provinces](#number-of-provinces)
--   [Binary Tree Longest Consecutive Sequence II](#binary-tree-longest-consecutive-sequence-ii)
--   [Game Play Analysis IV](#game-play-analysis-iv)
--   [Optimal Division](#optimal-division)
--   [Brick Wall](#brick-wall)
--   [Split Concatenated Strings](#split-concatenated-strings)
--   [Next Greater Element III](#next-greater-element-iii)
--   [Logical OR of Two Binary Grids Represented as Quad-Trees](#logical-or-of-two-binary-grids-represented-as-quad-trees)
--   [Subarray Sum Equals K](#subarray-sum-equals-k)
--   [Longest Line of Consecutive One in Matrix](#longest-line-of-consecutive-one-in-matrix)
--   [Array Nesting](#array-nesting)
--   [Permutation in String](#permutation-in-string)
--   [Managers with at Least 5 Direct Reports](#managers-with-at-least-5-direct-reports)
--   [Squirrel Simulation](#squirrel-simulation)
--   [Winning Candidate](#winning-candidate)
--   [Out of Boundary Paths](#out-of-boundary-paths)
--   [Get Highest Answer Rate Question](#get-highest-answer-rate-question)
--   [Count Student Number in Departments](#count-student-number-in-departments)
--   [Shortest Unsorted Continuous Subarray](#shortest-unsorted-continuous-subarray)
--   [Kill Process](#kill-process)
--   [Delete Operation for Two Strings](#delete-operation-for-two-strings)
--   [Investments in 2016](#investments-in-2016)
--   [Fraction Addition and Subtraction](#fraction-addition-and-subtraction)
--   [Valid Square](#valid-square)
--   [Friend Requests II: Who Has the Most Friends](#friend-requests-ii-who-has-the-most-friends)
--   [Tree Node](#tree-node)
--   [Find Duplicate File in System](#find-duplicate-file-in-system)
--   [Valid Triangle Number](#valid-triangle-number)
--   [Shortest Distance in a Plane](#shortest-distance-in-a-plane)
--   [Second Degree Follower](#second-degree-follower)
--   [Add Bold Tag in String](#add-bold-tag-in-string)
--   [Task Scheduler](#task-scheduler)
--   [Design Circular Queue](#design-circular-queue)
--   [Add One Row to Tree](#add-one-row-to-tree)
--   [Maximum Distance in Arrays](#maximum-distance-in-arrays)
--   [Minimum Factorization](#minimum-factorization)
--   [Exchange Seats](#exchange-seats)
--   [Sum of Square Numbers](#sum-of-square-numbers)
--   [Find the Derangement of An Array](#find-the-derangement-of-an-array)
--   [Design Log Storage System](#design-log-storage-system)
--   [Exclusive Time of Functions](#exclusive-time-of-functions)
--   [Shopping Offers](#shopping-offers)
--   [Solve the Equation](#solve-the-equation)
--   [Design Circular Deque](#design-circular-deque)
--   [Maximum Length of Pair Chain](#maximum-length-of-pair-chain)
--   [Palindromic Substrings](#palindromic-substrings)
--   [Replace Words](#replace-words)
--   [Dota2 Senate](#dota2-senate)
--   [2 Keys Keyboard](#2-keys-keyboard)
--   [4 Keys Keyboard](#4-keys-keyboard)
--   [Find Duplicate Subtrees](#find-duplicate-subtrees)
--   [Maximum Binary Tree](#maximum-binary-tree)
--   [Print Binary Tree](#print-binary-tree)
--   [Find K Closest Elements](#find-k-closest-elements)
--   [Split Array into Consecutive Subsequences](#split-array-into-consecutive-subsequences)
--   [Maximum Width of Binary Tree](#maximum-width-of-binary-tree)
--   [Equal Tree Partition](#equal-tree-partition)
--   [Non-decreasing Array](#non-decreasing-array)
--   [Path Sum IV](#path-sum-iv)
--   [Beautiful Arrangement II](#beautiful-arrangement-ii)
--   [Trim a Binary Search Tree](#trim-a-binary-search-tree)
--   [Maximum Swap](#maximum-swap)
--   [Bulb Switcher II](#bulb-switcher-ii)
--   [Number of Longest Increasing Subsequence](#number-of-longest-increasing-subsequence)
--   [Implement Magic Dictionary](#implement-magic-dictionary)
--   [Map Sum Pairs](#map-sum-pairs)
--   [Valid Parenthesis String](#valid-parenthesis-string)
--   [Next Closest Time](#next-closest-time)
--   [Redundant Connection](#redundant-connection)
--   [Repeated String Match](#repeated-string-match)
--   [Longest Univalue Path](#longest-univalue-path)
--   [Knight Probability in Chessboard](#knight-probability-in-chessboard)
--   [Employee Importance](#employee-importance)
--   [Top K Frequent Words](#top-k-frequent-words)
--   [Number of Distinct Islands](#number-of-distinct-islands)
--   [Max Area of Island](#max-area-of-island)
--   [Partition to K Equal Sum Subsets](#partition-to-k-equal-sum-subsets)
--   [Insert into a Binary Search Tree](#insert-into-a-binary-search-tree)
--   [Search in a Sorted Array of Unknown Size](#search-in-a-sorted-array-of-unknown-size)
--   [Design Linked List](#design-linked-list)
--   [Insert into a Sorted Circular Linked List](#insert-into-a-sorted-circular-linked-list)
--   [Minimum ASCII Delete Sum for Two Strings](#minimum-ascii-delete-sum-for-two-strings)
--   [Subarray Product Less Than K](#subarray-product-less-than-k)
--   [Best Time to Buy and Sell Stock with Transaction Fee](#best-time-to-buy-and-sell-stock-with-transaction-fee)
--   [Maximum Length of Repeated Subarray](#maximum-length-of-repeated-subarray)
--   [Longest Word in Dictionary](#longest-word-in-dictionary)
--   [Accounts Merge](#accounts-merge)
--   [Remove Comments](#remove-comments)
--   [Candy Crush](#candy-crush)
--   [Split Linked List in Parts](#split-linked-list-in-parts)
--   [My Calendar I](#my-calendar-i)
--   [My Calendar II](#my-calendar-ii)
--   [Asteroid Collision](#asteroid-collision)
--   [Sentence Similarity II](#sentence-similarity-ii)
--   [Monotone Increasing Digits](#monotone-increasing-digits)
--   [Daily Temperatures](#daily-temperatures)
--   [Delete and Earn](#delete-and-earn)
--   [Closest Leaf in a Binary Tree](#closest-leaf-in-a-binary-tree)
--   [Network Delay Time](#network-delay-time)
--   [Number Of Corner Rectangles](#number-of-corner-rectangles)
--   [IP to CIDR](#ip-to-cidr)
--   [Open the Lock](#open-the-lock)
--   [Reach a Number](#reach-a-number)
--   [Pour Water](#pour-water)
--   [Pyramid Transition Matrix](#pyramid-transition-matrix)
--   [Bold Words in String](#bold-words-in-string)
--   [Partition Labels](#partition-labels)
--   [Largest Plus Sign](#largest-plus-sign)
--   [Reorganize String](#reorganize-string)
--   [Max Chunks To Make Sorted](#max-chunks-to-make-sorted)
--   [Global and Local Inversions](#global-and-local-inversions)
--   [Split BST](#split-bst)
--   [Swap Adjacent in LR String](#swap-adjacent-in-lr-string)
--   [K-th Symbol in Grammar](#k-th-symbol-in-grammar)
--   [Rabbits in Forest](#rabbits-in-forest)
--   [Letter Case Permutation](#letter-case-permutation)
--   [Is Graph Bipartite?](#is-graph-bipartite)
--   [Cheapest Flights Within K Stops](#cheapest-flights-within-k-stops)
--   [Rotated Digits](#rotated-digits)
--   [Escape The Ghosts](#escape-the-ghosts)
--   [Domino and Tromino Tiling](#domino-and-tromino-tiling)
--   [Custom Sort String](#custom-sort-string)
--   [Number of Matching Subsequences](#number-of-matching-subsequences)
--   [Valid Tic-Tac-Toe State](#valid-tic-tac-toe-state)
--   [Number of Subarrays with Bounded Maximum](#number-of-subarrays-with-bounded-maximum)
--   [All Paths From Source to Target](#all-paths-from-source-to-target)
--   [Champagne Tower](#champagne-tower)
--   [Find Eventual Safe States](#find-eventual-safe-states)
--   [Max Increase to Keep City Skyline](#max-increase-to-keep-city-skyline)
--   [Soup Servings](#soup-servings)
--   [Expressive Words](#expressive-words)
--   [Subdomain Visit Count](#subdomain-visit-count)
--   [Largest Sum of Averages](#largest-sum-of-averages)
--   [Binary Tree Pruning](#binary-tree-pruning)
--   [Ambiguous Coordinates](#ambiguous-coordinates)
--   [Linked List Components](#linked-list-components)
--   [Short Encoding of Words](#short-encoding-of-words)
--   [Card Flipping Game](#card-flipping-game)
--   [Binary Trees With Factors](#binary-trees-with-factors)
--   [Friends Of Appropriate Ages](#friends-of-appropriate-ages)
--   [Most Profit Assigning Work](#most-profit-assigning-work)
--   [Masking Personal Information](#masking-personal-information)
--   [Find And Replace in String](#find-and-replace-in-string)
--   [Image Overlap](#image-overlap)
--   [New 21 Game](#new-21-game)
--   [Push Dominoes](#push-dominoes)
--   [Magic Squares In Grid](#magic-squares-in-grid)
--   [Keys and Rooms](#keys-and-rooms)
--   [Split Array into Fibonacci Sequence](#split-array-into-fibonacci-sequence)
--   [Longest Mountain in Array](#longest-mountain-in-array)
--   [Hand of Straights](#hand-of-straights)
--   [Shifting Letters](#shifting-letters)
--   [Maximize Distance to Closest Person](#maximize-distance-to-closest-person)
--   [Loud and Rich](#loud-and-rich)
--   [Car Fleet](#car-fleet)
--   [Exam Room](#exam-room)
--   [Score of Parentheses](#score-of-parentheses)
--   [Mirror Reflection](#mirror-reflection)
--   [Score After Flipping Matrix](#score-after-flipping-matrix)
--   [All Nodes Distance K in Binary Tree](#all-nodes-distance-k-in-binary-tree)
--   [Smallest Subtree with all the Deepest Nodes](#smallest-subtree-with-all-the-deepest-nodes)
--   [Prime Palindrome](#prime-palindrome)
--   [Reordered Power of 2](#reordered-power-of-2)
--   [Advantage Shuffle](#advantage-shuffle)
--   [Length of Longest Fibonacci Subsequence](#length-of-longest-fibonacci-subsequence)
--   [Walking Robot Simulation](#walking-robot-simulation)
--   [Koko Eating Bananas](#koko-eating-bananas)
--   [Stone Game](#stone-game)
--   [Decoded String at Index](#decoded-string-at-index)
--   [Boats to Save People](#boats-to-save-people)
--   [Spiral Matrix III](#spiral-matrix-iii)
--   [Possible Bipartition](#possible-bipartition)
--   [Construct Binary Tree from Preorder and Postorder Traversal](#construct-binary-tree-from-preorder-and-postorder-traversal)
--   [Find and Replace Pattern](#find-and-replace-pattern)
--   [Groups of Special-Equivalent Strings](#groups-of-special-equivalent-strings)
--   [All Possible Full Binary Trees](#all-possible-full-binary-trees)
--   [Bitwise ORs of Subarrays](#bitwise-ors-of-subarrays)
--   [RLE Iterator](#rle-iterator)
--   [Online Stock Span](#online-stock-span)
--   [Fruit Into Baskets](#fruit-into-baskets)
--   [Sum of Subarray Minimums](#sum-of-subarray-minimums)
--   [Snakes and Ladders](#snakes-and-ladders)
--   [Smallest Range II](#smallest-range-ii)
--   [Online Election](#online-election)
--   [Sort an Array](#sort-an-array)
--   [Partition Array into Disjoint Intervals](#partition-array-into-disjoint-intervals)
--   [Word Subsets](#word-subsets)
--   [Maximum Sum Circular Subarray](#maximum-sum-circular-subarray)
--   [Complete Binary Tree Inserter](#complete-binary-tree-inserter)
--   [Minimum Add to Make Parentheses Valid](#minimum-add-to-make-parentheses-valid)
--   [3Sum With Multiplicity](#3sum-with-multiplicity)
--   [Flip String to Monotone Increasing](#flip-string-to-monotone-increasing)
--   [Binary Subarrays With Sum](#binary-subarrays-with-sum)
--   [Minimum Falling Path Sum](#minimum-falling-path-sum)
--   [Beautiful Array](#beautiful-array)
--   [Shortest Bridge](#shortest-bridge)
--   [Knight Dialer](#knight-dialer)
--   [Minimum Area Rectangle](#minimum-area-rectangle)
--   [Minimum Increment to Make Array Unique](#minimum-increment-to-make-array-unique)
--   [Validate Stack Sequences](#validate-stack-sequences)
--   [Most Stones Removed with Same Row or Column](#most-stones-removed-with-same-row-or-column)
--   [Bag of Tokens](#bag-of-tokens)
--   [Largest Time for Given Digits](#largest-time-for-given-digits)
--   [Reveal Cards In Increasing Order](#reveal-cards-in-increasing-order)
--   [Flip Equivalent Binary Trees](#flip-equivalent-binary-trees)
--   [Array of Doubled Pairs](#array-of-doubled-pairs)
--   [Delete Columns to Make Sorted II](#delete-columns-to-make-sorted-ii)
--   [Prison Cells After N Days](#prison-cells-after-n-days)
--   [Check Completeness of a Binary Tree](#check-completeness-of-a-binary-tree)
--   [Regions Cut By Slashes](#regions-cut-by-slashes)
--   [Maximum Width Ramp](#maximum-width-ramp)
--   [Minimum Area Rectangle II](#minimum-area-rectangle-ii)
--   [Vowel Spellchecker](#vowel-spellchecker)
--   [Numbers With Same Consecutive Differences](#numbers-with-same-consecutive-differences)
--   [Pancake Sorting](#pancake-sorting)
--   [Powerful Integers](#powerful-integers)
--   [Flip Binary Tree To Match Preorder Traversal](#flip-binary-tree-to-match-preorder-traversal)
--   [K Closest Points to Origin](#k-closest-points-to-origin)
--   [Subarray Sums Divisible by K](#subarray-sums-divisible-by-k)
--   [Longest Turbulent Subarray](#longest-turbulent-subarray)
--   [Distribute Coins in Binary Tree](#distribute-coins-in-binary-tree)
--   [Time Based Key-Value Store](#time-based-key-value-store)
--   [Minimum Cost For Tickets](#minimum-cost-for-tickets)
--   [String Without AAA or BBB](#string-without-aaa-or-bbb)
--   [Sum of Even Numbers After Queries](#sum-of-even-numbers-after-queries)
--   [Interval List Intersections](#interval-list-intersections)
--   [Smallest String Starting From Leaf](#smallest-string-starting-from-leaf)
--   [Satisfiability of Equality Equations](#satisfiability-of-equality-equations)
--   [Broken Calculator](#broken-calculator)
--   [Rotting Oranges](#rotting-oranges)
--   [Maximum Binary Tree II](#maximum-binary-tree-ii)
--   [Check If Word Is Valid After Substitutions](#check-if-word-is-valid-after-substitutions)
--   [Max Consecutive Ones III](#max-consecutive-ones-iii)
--   [Clumsy Factorial](#clumsy-factorial)
--   [Minimum Domino Rotations For Equal Row](#minimum-domino-rotations-for-equal-row)
--   [Construct Binary Search Tree from Preorder Traversal](#construct-binary-search-tree-from-preorder-traversal)
--   [Pairs of Songs With Total Durations Divisible by 60](#pairs-of-songs-with-total-durations-divisible-by-60)
--   [Capacity To Ship Packages Within D Days](#capacity-to-ship-packages-within-d-days)
--   [Best Sightseeing Pair](#best-sightseeing-pair)
--   [Smallest Integer Divisible by K](#smallest-integer-divisible-by-k)
--   [Binary String With Substrings Representing 1 To N](#binary-string-with-substrings-representing-1-to-n)
--   [Convert to Base -2](#convert-to-base--2)
--   [Next Greater Node In Linked List](#next-greater-node-in-linked-list)
--   [Number of Enclaves](#number-of-enclaves)
--   [Camelcase Matching](#camelcase-matching)
--   [Video Stitching](#video-stitching)
--   [Maximum Difference Between Node and Ancestor](#maximum-difference-between-node-and-ancestor)
--   [Longest Arithmetic Subsequence](#longest-arithmetic-subsequence)
--   [Two City Scheduling](#two-city-scheduling)
--   [Maximum Sum of Two Non-Overlapping Subarrays](#maximum-sum-of-two-non-overlapping-subarrays)
--   [Moving Stones Until Consecutive](#moving-stones-until-consecutive)
--   [Coloring A Border](#coloring-a-border)
--   [Uncrossed Lines](#uncrossed-lines)
--   [Binary Search Tree to Greater Sum Tree](#binary-search-tree-to-greater-sum-tree)
--   [Minimum Score Triangulation of Polygon](#minimum-score-triangulation-of-polygon)
--   [Moving Stones Until Consecutive II](#moving-stones-until-consecutive-ii)
--   [Robot Bounded In Circle](#robot-bounded-in-circle)
--   [Flower Planting With No Adjacent](#flower-planting-with-no-adjacent)
--   [Partition Array for Maximum Sum](#partition-array-for-maximum-sum)
--   [Customers Who Bought All Products](#customers-who-bought-all-products)
--   [Longest String Chain](#longest-string-chain)
--   [Last Stone Weight II](#last-stone-weight-ii)
--   [Grumpy Bookstore Owner](#grumpy-bookstore-owner)
--   [Previous Permutation With One Swap](#previous-permutation-with-one-swap)
--   [Distant Barcodes](#distant-barcodes)
--   [Shortest Way to Form String](#shortest-way-to-form-string)
--   [Campus Bikes](#campus-bikes)
--   [Minimize Rounding Error to Meet Target](#minimize-rounding-error-to-meet-target)
--   [All Paths from Source Lead to Destination](#all-paths-from-source-lead-to-destination)
--   [Missing Element in Sorted Array](#missing-element-in-sorted-array)
--   [Lexicographically Smallest Equivalent String](#lexicographically-smallest-equivalent-string)
--   [Longest Repeating Substring](#longest-repeating-substring)
--   [Campus Bikes II](#campus-bikes-ii)
--   [Product Sales Analysis III](#product-sales-analysis-iii)
--   [Flip Columns For Maximum Number of Equal Rows](#flip-columns-for-maximum-number-of-equal-rows)
--   [Adding Two Negabinary Numbers](#adding-two-negabinary-numbers)
--   [Project Employees III](#project-employees-iii)
--   [Letter Tile Possibilities](#letter-tile-possibilities)
--   [Insufficient Nodes in Root to Leaf Paths](#insufficient-nodes-in-root-to-leaf-paths)
--   [Smallest Subsequence of Distinct Characters](#smallest-subsequence-of-distinct-characters)
--   [Brace Expansion](#brace-expansion)
--   [Largest Values From Labels](#largest-values-from-labels)
--   [Shortest Path in Binary Matrix](#shortest-path-in-binary-matrix)
--   [Statistics from a Large Sample](#statistics-from-a-large-sample)
--   [Car Pooling](#car-pooling)
--   [Unpopular Books](#unpopular-books)
--   [Find K-Length Substrings With No Repeated Characters](#find-k-length-substrings-with-no-repeated-characters)
--   [The Earliest Moment When Everyone Become Friends](#the-earliest-moment-when-everyone-become-friends)
--   [Path With Maximum Minimum Value](#path-with-maximum-minimum-value)
--   [Path In Zigzag Labelled Binary Tree](#path-in-zigzag-labelled-binary-tree)
--   [Filling Bookcase Shelves](#filling-bookcase-shelves)
--   [New Users Daily Count](#new-users-daily-count)
--   [Corporate Flight Bookings](#corporate-flight-bookings)
--   [Delete Nodes And Return Forest](#delete-nodes-and-return-forest)
--   [Maximum Nesting Depth of Two Valid Parentheses Strings](#maximum-nesting-depth-of-two-valid-parentheses-strings)
--   [Highest Grade For Each Student](#highest-grade-for-each-student)
--   [Print FooBar Alternately](#print-foobar-alternately)
--   [Print Zero Even Odd](#print-zero-even-odd)
--   [Building H2O](#building-h2o)
--   [Maximum Average Subtree](#maximum-average-subtree)
--   [Lowest Common Ancestor of Deepest Leaves](#lowest-common-ancestor-of-deepest-leaves)
--   [Longest Well-Performing Interval](#longest-well-performing-interval)
--   [Active Businesses](#active-businesses)
--   [Shortest Path with Alternating Colors](#shortest-path-with-alternating-colors)
--   [Minimum Cost Tree From Leaf Values](#minimum-cost-tree-from-leaf-values)
--   [Maximum of Absolute Value Expression](#maximum-of-absolute-value-expression)
--   [Reported Posts II](#reported-posts-ii)
--   [Connecting Cities With Minimum Cost](#connecting-cities-with-minimum-cost)
--   [Parallel Courses](#parallel-courses)
--   [Alphabet Board Path](#alphabet-board-path)
--   [Largest 1-Bordered Square](#largest-1-bordered-square)
--   [Stone Game II](#stone-game-ii)
--   [Longest Common Subsequence](#longest-common-subsequence)
--   [Decrease Elements To Make Array Zigzag](#decrease-elements-to-make-array-zigzag)
--   [Binary Tree Coloring Game](#binary-tree-coloring-game)
--   [Snapshot Array](#snapshot-array)
--   [Article Views II](#article-views-ii)
--   [Minimum Swaps to Group All 1's Together](#minimum-swaps-to-group-all-1s-together)
--   [Analyze User Website Visit Pattern](#analyze-user-website-visit-pattern)
--   [Number of Dice Rolls With Target Sum](#number-of-dice-rolls-with-target-sum)
--   [Swap For Longest Repeated Character Substring](#swap-for-longest-repeated-character-substring)
--   [Market Analysis I](#market-analysis-i)
--   [Maximum Level Sum of a Binary Tree](#maximum-level-sum-of-a-binary-tree)
--   [As Far from Land as Possible](#as-far-from-land-as-possible)
--   [Product Price at a Given Date](#product-price-at-a-given-date)
--   [Design File System](#design-file-system)
--   [Minimum Cost to Connect Sticks](#minimum-cost-to-connect-sticks)
--   [Invalid Transactions](#invalid-transactions)
--   [Compare Strings by Frequency of the Smallest Character](#compare-strings-by-frequency-of-the-smallest-character)
--   [Remove Zero Sum Consecutive Nodes from Linked List](#remove-zero-sum-consecutive-nodes-from-linked-list)
--   [Immediate Food Delivery II](#immediate-food-delivery-ii)
--   [Can Make Palindrome from Substring](#can-make-palindrome-from-substring)
--   [Before and After Puzzle](#before-and-after-puzzle)
--   [Shortest Distance to Target Color](#shortest-distance-to-target-color)
--   [Maximum Subarray Sum with One Deletion](#maximum-subarray-sum-with-one-deletion)
--   [Design Bounded Blocking Queue](#design-bounded-blocking-queue)
--   [Reverse Substrings Between Each Pair of Parentheses](#reverse-substrings-between-each-pair-of-parentheses)
--   [K-Concatenation Maximum Sum](#k-concatenation-maximum-sum)
--   [Monthly Transactions I](#monthly-transactions-i)
--   [Fizz Buzz Multithreaded](#fizz-buzz-multithreaded)
--   [Minimum Knight Moves](#minimum-knight-moves)
--   [Find Smallest Common Element in All Rows](#find-smallest-common-element-in-all-rows)
--   [Ugly Number III](#ugly-number-iii)
--   [Smallest String With Swaps](#smallest-string-with-swaps)
--   [Last Person to Fit in the Bus](#last-person-to-fit-in-the-bus)
--   [Monthly Transactions II](#monthly-transactions-ii)
--   [Get Equal Substrings Within Budget](#get-equal-substrings-within-budget)
--   [Remove All Adjacent Duplicates in String II](#remove-all-adjacent-duplicates-in-string-ii)
--   [Team Scores in Football Tournament](#team-scores-in-football-tournament)
--   [Two Sum BSTs](#two-sum-bsts)
--   [Stepping Numbers](#stepping-numbers)
--   [Longest Arithmetic Subsequence of Given Difference](#longest-arithmetic-subsequence-of-given-difference)
--   [Path with Maximum Gold](#path-with-maximum-gold)
--   [Queens That Can Attack the King](#queens-that-can-attack-the-king)
--   [The Dining Philosophers](#the-dining-philosophers)
--   [Airplane Seat Assignment Probability](#airplane-seat-assignment-probability)
--   [Meeting Scheduler](#meeting-scheduler)
--   [Toss Strange Coins](#toss-strange-coins)
--   [Remove Sub-Folders from the Filesystem](#remove-sub-folders-from-the-filesystem)
--   [Replace the Substring for Balanced String](#replace-the-substring-for-balanced-string)
--   [Web Crawler](#web-crawler)
--   [Find Positive Integer Solution for a Given Equation](#find-positive-integer-solution-for-a-given-equation)
--   [Circular Permutation in Binary Representation](#circular-permutation-in-binary-representation)
--   [Maximum Length of a Concatenated String with Unique Characters](#maximum-length-of-a-concatenated-string-with-unique-characters)
--   [Web Crawler Multithreaded](#web-crawler-multithreaded)
--   [Design A Leaderboard](#design-a-leaderboard)
--   [Tree Diameter](#tree-diameter)
--   [Minimum Swaps to Make Strings Equal](#minimum-swaps-to-make-strings-equal)
--   [Count Number of Nice Subarrays](#count-number-of-nice-subarrays)
--   [Minimum Remove to Make Valid Parentheses](#minimum-remove-to-make-valid-parentheses)
--   [Reconstruct a 2-Row Binary Matrix](#reconstruct-a-2-row-binary-matrix)
--   [Number of Closed Islands](#number-of-closed-islands)
--   [Encode Number](#encode-number)
--   [Smallest Common Region](#smallest-common-region)
--   [Synonymous Sentences](#synonymous-sentences)
--   [Find Elements in a Contaminated Binary Tree](#find-elements-in-a-contaminated-binary-tree)
--   [Greatest Sum Divisible by Three](#greatest-sum-divisible-by-three)
--   [Page Recommendations](#page-recommendations)
--   [Print Immutable Linked List in Reverse](#print-immutable-linked-list-in-reverse)
--   [Count Servers that Communicate](#count-servers-that-communicate)
--   [Search Suggestions System](#search-suggestions-system)
--   [All People Report to the Given Manager](#all-people-report-to-the-given-manager)
--   [Remove Interval](#remove-interval)
--   [Delete Tree Nodes](#delete-tree-nodes)
--   [Number of Burgers with No Waste of Ingredients](#number-of-burgers-with-no-waste-of-ingredients)
--   [Count Square Submatrices with All Ones](#count-square-submatrices-with-all-ones)
--   [Group the People Given the Group Size They Belong To](#group-the-people-given-the-group-size-they-belong-to)
--   [Find the Smallest Divisor Given a Threshold](#find-the-smallest-divisor-given-a-threshold)
--   [Find the Start and End Number of Continuous Ranges](#find-the-start-and-end-number-of-continuous-ranges)
--   [Iterator for Combination](#iterator-for-combination)
--   [Remove Covered Intervals](#remove-covered-intervals)
--   [Sequential Digits](#sequential-digits)
--   [Maximum Side Length of a Square with Sum Less than or Equal to Threshold](#maximum-side-length-of-a-square-with-sum-less-than-or-equal-to-threshold)
--   [Divide Array in Sets of K Consecutive Numbers](#divide-array-in-sets-of-k-consecutive-numbers)
--   [Maximum Number of Occurrences of a Substring](#maximum-number-of-occurrences-of-a-substring)
--   [Sum of Mutated Array Closest to Target](#sum-of-mutated-array-closest-to-target)
--   [Deepest Leaves Sum](#deepest-leaves-sum)
--   [All Elements in Two Binary Search Trees](#all-elements-in-two-binary-search-trees)
--   [Jump Game III](#jump-game-iii)
--   [Running Total for Different Genders](#running-total-for-different-genders)
--   [XOR Queries of a Subarray](#xor-queries-of-a-subarray)
--   [Get Watched Videos by Your Friends](#get-watched-videos-by-your-friends)
--   [Matrix Block Sum](#matrix-block-sum)
--   [Sum of Nodes with Even-Valued Grandparent](#sum-of-nodes-with-even-valued-grandparent)
--   [Minimum Flips to Make a OR b Equal to c](#minimum-flips-to-make-a-or-b-equal-to-c)
--   [Number of Operations to Make Network Connected](#number-of-operations-to-make-network-connected)
--   [Restaurant Growth](#restaurant-growth)
--   [Print Words Vertically](#print-words-vertically)
--   [Delete Leaves With a Given Value](#delete-leaves-with-a-given-value)
--   [Break a Palindrome](#break-a-palindrome)
--   [Sort the Matrix Diagonally](#sort-the-matrix-diagonally)
--   [Filter Restaurants by Vegan-Friendly, Price and Distance](#filter-restaurants-by-vegan-friendly-price-and-distance)
--   [Find the City With the Smallest Number of Neighbors at a Threshold Distance](#find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance)
--   [Reduce Array Size to The Half](#reduce-array-size-to-the-half)
--   [Maximum Product of Splitted Binary Tree](#maximum-product-of-splitted-binary-tree)
--   [Movie Rating](#movie-rating)
--   [Number of Sub-arrays of Size K and Average Greater than or Equal to Threshold](#number-of-sub-arrays-of-size-k-and-average-greater-than-or-equal-to-threshold)
--   [Angle Between Hands of a Clock](#angle-between-hands-of-a-clock)
--   [Minimum Number of Steps to Make Two Strings Anagram](#minimum-number-of-steps-to-make-two-strings-anagram)
--   [Tweet Counts Per Frequency](#tweet-counts-per-frequency)
--   [Product of the Last K Numbers](#product-of-the-last-k-numbers)
--   [Maximum Number of Events That Can Be Attended](#maximum-number-of-events-that-can-be-attended)
--   [Activity Participants](#activity-participants)
--   [Apply Discount Every n Orders](#apply-discount-every-n-orders)
--   [Number of Substrings Containing All Three Characters](#number-of-substrings-containing-all-three-characters)
--   [Validate Binary Tree Nodes](#validate-binary-tree-nodes)
--   [Closest Divisors](#closest-divisors)
--   [Number of Trusted Contacts of a Customer](#number-of-trusted-contacts-of-a-customer)
--   [Rank Teams by Votes](#rank-teams-by-votes)
--   [Linked List in Binary Tree](#linked-list-in-binary-tree)
--   [Find the Longest Substring Containing Vowels in Even Counts](#find-the-longest-substring-containing-vowels-in-even-counts)
--   [Longest ZigZag Path in a Binary Tree](#longest-zigzag-path-in-a-binary-tree)
--   [Number of Times Binary String Is Prefix-Aligned](#number-of-times-binary-string-is-prefix-aligned)
--   [Time Needed to Inform All Employees](#time-needed-to-inform-all-employees)
--   [Design a Stack With Increment Operation](#design-a-stack-with-increment-operation)
--   [Balance a Binary Search Tree](#balance-a-binary-search-tree)
--   [Cinema Seat Allocation](#cinema-seat-allocation)
--   [Sort Integers by The Power Value](#sort-integers-by-the-power-value)
--   [Four Divisors](#four-divisors)
--   [Check if There is a Valid Path in a Grid](#check-if-there-is-a-valid-path-in-a-grid)
--   [Capital Gain/Loss](#capital-gainloss)
--   [Count Number of Teams](#count-number-of-teams)
--   [Design Underground System](#design-underground-system)
--   [Customers Who Bought Products A and B but Not C](#customers-who-bought-products-a-and-b-but-not-c)
--   [Construct K Palindrome Strings](#construct-k-palindrome-strings)
--   [Circle and Rectangle Overlapping](#circle-and-rectangle-overlapping)
--   [Number of Steps to Reduce a Number in Binary Representation to One](#number-of-steps-to-reduce-a-number-in-binary-representation-to-one)
--   [Longest Happy String](#longest-happy-string)
--   [Queries on a Permutation With Key](#queries-on-a-permutation-with-key)
--   [HTML Entity Parser](#html-entity-parser)
--   [Find the Minimum Number of Fibonacci Numbers Whose Sum Is K](#find-the-minimum-number-of-fibonacci-numbers-whose-sum-is-k)
--   [The k-th Lexicographical String of All Happy Strings of Length n](#the-k-th-lexicographical-string-of-all-happy-strings-of-length-n)
--   [Display Table of Food Orders in a Restaurant](#display-table-of-food-orders-in-a-restaurant)
--   [Minimum Number of Frogs Croaking](#minimum-number-of-frogs-croaking)
--   [Maximum Points You Can Obtain from Cards](#maximum-points-you-can-obtain-from-cards)
--   [Diagonal Traverse II](#diagonal-traverse-ii)
--   [Leftmost Column with at Least a One](#leftmost-column-with-at-least-a-one)
--   [First Unique Number](#first-unique-number)
--   [Check If a String Is a Valid Sequence from Root to Leaves Path in a Binary Tree](#check-if-a-string-is-a-valid-sequence-from-root-to-leaves-path-in-a-binary-tree)
--   [Max Difference You Can Get From Changing an Integer](#max-difference-you-can-get-from-changing-an-integer)
--   [Check If a String Can Break Another String](#check-if-a-string-can-break-another-string)
--   [Longest Continuous Subarray With Absolute Diff Less Than or Equal to Limit](#longest-continuous-subarray-with-absolute-diff-less-than-or-equal-to-limit)
--   [Evaluate Boolean Expression](#evaluate-boolean-expression)
--   [Count Triplets That Can Form Two Arrays of Equal XOR](#count-triplets-that-can-form-two-arrays-of-equal-xor)
--   [Minimum Time to Collect All Apples in a Tree](#minimum-time-to-collect-all-apples-in-a-tree)
--   [Apples & Oranges](#apples--oranges)
--   [Simplified Fractions](#simplified-fractions)
--   [Count Good Nodes in Binary Tree](#count-good-nodes-in-binary-tree)
--   [Rearrange Words in a Sentence](#rearrange-words-in-a-sentence)
--   [People Whose List of Favorite Companies Is Not a Subset of Another List](#people-whose-list-of-favorite-companies-is-not-a-subset-of-another-list)
--   [Active Users](#active-users)
--   [Maximum Number of Vowels in a Substring of Given Length](#maximum-number-of-vowels-in-a-substring-of-given-length)
--   [Pseudo-Palindromic Paths in a Binary Tree](#pseudo-palindromic-paths-in-a-binary-tree)
--   [Rectangles Area](#rectangles-area)
--   [Check If a String Contains All Binary Codes of Size K](#check-if-a-string-contains-all-binary-codes-of-size-k)
--   [Course Schedule IV](#course-schedule-iv)
--   [Maximum Area of a Piece of Cake After Horizontal and Vertical Cuts](#maximum-area-of-a-piece-of-cake-after-horizontal-and-vertical-cuts)
--   [Reorder Routes to Make All Paths Lead to the City Zero](#reorder-routes-to-make-all-paths-lead-to-the-city-zero)
--   [Calculate Salaries](#calculate-salaries)
--   [The k Strongest Values in an Array](#the-k-strongest-values-in-an-array)
--   [Design Browser History](#design-browser-history)
--   [Subrectangle Queries](#subrectangle-queries)
--   [Find Two Non-overlapping Sub-arrays Each With Target Sum](#find-two-non-overlapping-sub-arrays-each-with-target-sum)
--   [Least Number of Unique Integers after K Removals](#least-number-of-unique-integers-after-k-removals)
--   [Minimum Number of Days to Make m Bouquets](#minimum-number-of-days-to-make-m-bouquets)
--   [Clone Binary Tree With Random Pointer](#clone-binary-tree-with-random-pointer)
--   [Making File Names Unique](#making-file-names-unique)
--   [Avoid Flood in The City](#avoid-flood-in-the-city)
--   [Clone N-ary Tree](#clone-n-ary-tree)
--   [The kth Factor of n](#the-kth-factor-of-n)
--   [Longest Subarray of 1's After Deleting One Element](#longest-subarray-of-1s-after-deleting-one-element)
--   [Check If Array Pairs Are Divisible by k](#check-if-array-pairs-are-divisible-by-k)
--   [Number of Subsequences That Satisfy the Given Sum Condition](#number-of-subsequences-that-satisfy-the-given-sum-condition)
--   [Design a File Sharing System](#design-a-file-sharing-system)
--   [Countries You Can Safely Invest In](#countries-you-can-safely-invest-in)
--   [Last Moment Before All Ants Fall Out of a Plank](#last-moment-before-all-ants-fall-out-of-a-plank)
--   [Count Submatrices With All Ones](#count-submatrices-with-all-ones)
--   [Find Root of N-Ary Tree](#find-root-of-n-ary-tree)
--   [Range Sum of Sorted Subarray Sums](#range-sum-of-sorted-subarray-sums)
--   [Minimum Difference Between Largest and Smallest Value in Three Moves](#minimum-difference-between-largest-and-smallest-value-in-three-moves)
--   [Number of Substrings With Only 1s](#number-of-substrings-with-only-1s)
--   [Path with Maximum Probability](#path-with-maximum-probability)
--   [Number of Nodes in the Sub-Tree With the Same Label](#number-of-nodes-in-the-sub-tree-with-the-same-label)
--   [Diameter of N-Ary Tree](#diameter-of-n-ary-tree)
--   [Number of Sub-arrays With Odd Sum](#number-of-sub-arrays-with-odd-sum)
--   [Number of Good Ways to Split a String](#number-of-good-ways-to-split-a-string)
--   [Minimum Suffix Flips](#minimum-suffix-flips)
--   [Number of Good Leaf Nodes Pairs](#number-of-good-leaf-nodes-pairs)
--   [The Most Recent Three Orders](#the-most-recent-three-orders)
--   [Find the Index of the Large Integer](#find-the-index-of-the-large-integer)
--   [Find the Winner of an Array Game](#find-the-winner-of-an-array-game)
--   [Minimum Swaps to Arrange a Binary Grid](#minimum-swaps-to-arrange-a-binary-grid)
--   [Guess the Majority in a Hidden Array](#guess-the-majority-in-a-hidden-array)
--   [Can Convert String in K Moves](#can-convert-string-in-k-moves)
--   [Minimum Insertions to Balance a Parentheses String](#minimum-insertions-to-balance-a-parentheses-string)
--   [Find Kth Bit in Nth Binary String](#find-kth-bit-in-nth-binary-string)
--   [Maximum Number of Non-Overlapping Subarrays With Sum Equals Target](#maximum-number-of-non-overlapping-subarrays-with-sum-equals-target)
--   [The Most Recent Orders for Each Product](#the-most-recent-orders-for-each-product)
--   [Minimum Operations to Make Array Equal](#minimum-operations-to-make-array-equal)
--   [Magnetic Force Between Two Balls](#magnetic-force-between-two-balls)
--   [Strings Differ by One Character](#strings-differ-by-one-character)
--   [Bank Account Summary](#bank-account-summary)
--   [Minimum Number of Vertices to Reach All Nodes](#minimum-number-of-vertices-to-reach-all-nodes)
--   [Minimum Numbers of Function Calls to Make Target Array](#minimum-numbers-of-function-calls-to-make-target-array)
--   [Detect Cycles in 2D Grid](#detect-cycles-in-2d-grid)
--   [Maximum Number of Coins You Can Get](#maximum-number-of-coins-you-can-get)
--   [Find Latest Group of Size M](#find-latest-group-of-size-m)
--   [Put Boxes Into the Warehouse I](#put-boxes-into-the-warehouse-i)
--   [Maximum Length of Subarray With Positive Product](#maximum-length-of-subarray-with-positive-product)
--   [Dot Product of Two Sparse Vectors](#dot-product-of-two-sparse-vectors)
--   [Number of Ways to Split a String](#number-of-ways-to-split-a-string)
--   [Shortest Subarray to be Removed to Make Array Sorted](#shortest-subarray-to-be-removed-to-make-array-sorted)
--   [Number of Ways Where Square of Number Is Equal to Product of Two Numbers](#number-of-ways-where-square-of-number-is-equal-to-product-of-two-numbers)
--   [Minimum Time to Make Rope Colorful](#minimum-time-to-make-rope-colorful)
--   [Put Boxes Into the Warehouse II](#put-boxes-into-the-warehouse-ii)
--   [Count Unhappy Friends](#count-unhappy-friends)
--   [Min Cost to Connect All Points](#min-cost-to-connect-all-points)
--   [Binary Search Tree Iterator II](#binary-search-tree-iterator-ii)
--   [Maximum Sum Obtained of Any Permutation](#maximum-sum-obtained-of-any-permutation)
--   [Make Sum Divisible by P](#make-sum-divisible-by-p)
--   [Split a String Into the Max Number of Unique Substrings](#split-a-string-into-the-max-number-of-unique-substrings)
--   [Maximum Non Negative Product in a Matrix](#maximum-non-negative-product-in-a-matrix)
--   [The Most Frequently Ordered Products for Each Customer](#the-most-frequently-ordered-products-for-each-customer)
--   [Maximum Profit of Operating a Centennial Wheel](#maximum-profit-of-operating-a-centennial-wheel)
--   [Throne Inheritance](#throne-inheritance)
--   [Find Nearest Right Node in Binary Tree](#find-nearest-right-node-in-binary-tree)
--   [Alert Using Same Key-Card Three or More Times in a One Hour Period](#alert-using-same-key-card-three-or-more-times-in-a-one-hour-period)
--   [Find Valid Matrix Given Row and Column Sums](#find-valid-matrix-given-row-and-column-sums)
--   [Even Odd Tree](#even-odd-tree)
--   [Check If Two Expression Trees are Equivalent](#check-if-two-expression-trees-are-equivalent)
--   [Find the Missing IDs](#find-the-missing-ids)
--   [Maximal Network Rank](#maximal-network-rank)
--   [Split Two Strings to Make Palindrome](#split-two-strings-to-make-palindrome)
--   [Maximum Font to Fit a Sentence in a Screen](#maximum-font-to-fit-a-sentence-in-a-screen)
--   [Coordinate With Maximum Network Quality](#coordinate-with-maximum-network-quality)
--   [Number of Sets of K Non-Overlapping Line Segments](#number-of-sets-of-k-non-overlapping-line-segments)
--   [Lexicographically Smallest String After Applying Operations](#lexicographically-smallest-string-after-applying-operations)
--   [Best Team With No Conflicts](#best-team-with-no-conflicts)
--   [Design an Expression Tree With Evaluate Function](#design-an-expression-tree-with-evaluate-function)
--   [Arithmetic Subarrays](#arithmetic-subarrays)
--   [Path With Minimum Effort](#path-with-minimum-effort)
--   [Add Two Polynomials Represented as Linked Lists](#add-two-polynomials-represented-as-linked-lists)
--   [Widest Vertical Area Between Two Points Containing No Points](#widest-vertical-area-between-two-points-containing-no-points)
--   [Count Substrings That Differ by One Character](#count-substrings-that-differ-by-one-character)
--   [Count Sorted Vowel Strings](#count-sorted-vowel-strings)
--   [Furthest Building You Can Reach](#furthest-building-you-can-reach)
--   [Lowest Common Ancestor of a Binary Tree II](#lowest-common-ancestor-of-a-binary-tree-ii)
--   [Minimum Deletions to Make Character Frequencies Unique](#minimum-deletions-to-make-character-frequencies-unique)
--   [Sell Diminishing-Valued Colored Balls](#sell-diminishing-valued-colored-balls)
--   [Lowest Common Ancestor of a Binary Tree III](#lowest-common-ancestor-of-a-binary-tree-iii)
--   [Minimum Deletions to Make String Balanced](#minimum-deletions-to-make-string-balanced)
--   [Minimum Jumps to Reach Home](#minimum-jumps-to-reach-home)
--   [Determine if Two Strings Are Close](#determine-if-two-strings-are-close)
--   [Minimum Operations to Reduce X to Zero](#minimum-operations-to-reduce-x-to-zero)
--   [Correct a Binary Tree](#correct-a-binary-tree)
--   [Smallest String With A Given Numeric Value](#smallest-string-with-a-given-numeric-value)
--   [Ways to Make a Fair Array](#ways-to-make-a-fair-array)
--   [Change the Root of a Binary Tree](#change-the-root-of-a-binary-tree)
--   [Merge In Between Linked Lists](#merge-in-between-linked-lists)
--   [Design Front Middle Back Queue](#design-front-middle-back-queue)
--   [Find the Most Competitive Subsequence](#find-the-most-competitive-subsequence)
--   [Minimum Moves to Make Array Complementary](#minimum-moves-to-make-array-complementary)
--   [Lowest Common Ancestor of a Binary Tree IV](#lowest-common-ancestor-of-a-binary-tree-iv)
--   [Max Number of K-Sum Pairs](#max-number-of-k-sum-pairs)
--   [Concatenation of Consecutive Binary Numbers](#concatenation-of-consecutive-binary-numbers)
--   [Longest Palindromic Subsequence II](#longest-palindromic-subsequence-ii)
--   [Sum of Absolute Differences in a Sorted Array](#sum-of-absolute-differences-in-a-sorted-array)
--   [Stone Game VI](#stone-game-vi)
--   [Partitioning Into Minimum Number Of Deci-Binary Numbers](#partitioning-into-minimum-number-of-deci-binary-numbers)
--   [Stone Game VII](#stone-game-vii)
--   [Maximum Erasure Value](#maximum-erasure-value)
--   [Jump Game VI](#jump-game-vi)
--   [Number of Distinct Substrings in a String](#number-of-distinct-substrings-in-a-string)
--   [Number of Calls Between Two Persons](#number-of-calls-between-two-persons)
--   [Average Waiting Time](#average-waiting-time)
--   [Maximum Binary String After Change](#maximum-binary-string-after-change)
--   [Maximum Number of Eaten Apples](#maximum-number-of-eaten-apples)
--   [Where Will the Ball Fall](#where-will-the-ball-fall)
--   [Biggest Window Between Visits](#biggest-window-between-visits)
--   [Count Good Meals](#count-good-meals)
--   [Ways to Split Array Into Three Subarrays](#ways-to-split-array-into-three-subarrays)
--   [Count Apples and Oranges](#count-apples-and-oranges)
--   [Maximum Score From Removing Substrings](#maximum-score-from-removing-substrings)
--   [Construct the Lexicographically Largest Valid Sequence](#construct-the-lexicographically-largest-valid-sequence)
--   [Swapping Nodes in a Linked List](#swapping-nodes-in-a-linked-list)
--   [Minimize Hamming Distance After Swap Operations](#minimize-hamming-distance-after-swap-operations)
--   [Tuple with Same Product](#tuple-with-same-product)
--   [Largest Submatrix With Rearrangements](#largest-submatrix-with-rearrangements)
--   [Shortest Path to Get Food](#shortest-path-to-get-food)
--   [Minimum Number of People to Teach](#minimum-number-of-people-to-teach)
--   [Decode XORed Permutation](#decode-xored-permutation)
--   [Change Minimum Characters to Satisfy One of Three Conditions](#change-minimum-characters-to-satisfy-one-of-three-conditions)
--   [Find Kth Largest XOR Coordinate Value](#find-kth-largest-xor-coordinate-value)
--   [Find Distance in a Binary Tree](#find-distance-in-a-binary-tree)
--   [Restore the Array From Adjacent Pairs](#restore-the-array-from-adjacent-pairs)
--   [Can You Eat Your Favorite Candy on Your Favorite Day?](#can-you-eat-your-favorite-candy-on-your-favorite-day)
--   [Maximum Subarray Sum After One Operation](#maximum-subarray-sum-after-one-operation)
--   [Leetflex Banned Accounts](#leetflex-banned-accounts)
--   [Maximum Absolute Sum of Any Subarray](#maximum-absolute-sum-of-any-subarray)
--   [Minimum Length of String After Deleting Similar Ends](#minimum-length-of-string-after-deleting-similar-ends)
--   [Maximum Score From Removing Stones](#maximum-score-from-removing-stones)
--   [Largest Merge Of Two Strings](#largest-merge-of-two-strings)
--   [Design Most Recently Used Queue](#design-most-recently-used-queue)
--   [Count Number of Homogenous Substrings](#count-number-of-homogenous-substrings)
--   [Minimum Limit of Balls in a Bag](#minimum-limit-of-balls-in-a-bag)
--   [Buildings With an Ocean View](#buildings-with-an-ocean-view)
--   [Form Array by Concatenating Subarrays of Another Array](#form-array-by-concatenating-subarrays-of-another-array)
--   [Map of Highest Peak](#map-of-highest-peak)
--   [Minimum Number of Operations to Move All Balls to Each Box](#minimum-number-of-operations-to-move-all-balls-to-each-box)
--   [Maximum Score from Performing Multiplication Operations](#maximum-score-from-performing-multiplication-operations)
--   [Sort Features by Popularity](#sort-features-by-popularity)
--   [Closest Dessert Cost](#closest-dessert-cost)
--   [Equal Sum Arrays With Minimum Number of Operations](#equal-sum-arrays-with-minimum-number-of-operations)
--   [Shortest Path in a Hidden Grid](#shortest-path-in-a-hidden-grid)
--   [Check if Number is a Sum of Powers of Three](#check-if-number-is-a-sum-of-powers-of-three)
--   [Sum of Beauty of All Substrings](#sum-of-beauty-of-all-substrings)
--   [Grand Slam Titles](#grand-slam-titles)
--   [Minimum Elements to Add to Form a Given Sum](#minimum-elements-to-add-to-form-a-given-sum)
--   [Number of Restricted Paths From First to Last Node](#number-of-restricted-paths-from-first-to-last-node)
--   [Maximum Average Pass Ratio](#maximum-average-pass-ratio)
--   [Count Pairs of Equal Substrings With Minimum Difference](#count-pairs-of-equal-substrings-with-minimum-difference)
--   [Design Authentication Manager](#design-authentication-manager)
--   [Maximum Number of Consecutive Values You Can Make](#maximum-number-of-consecutive-values-you-can-make)
--   [Number of Orders in the Backlog](#number-of-orders-in-the-backlog)
--   [Maximum Value at a Given Index in a Bounded Array](#maximum-value-at-a-given-index-in-a-bounded-array)
--   [Implement Trie II (Prefix Tree)](#implement-trie-ii-prefix-tree)
--   [Minimum Number of Operations to Reinitialize a Permutation](#minimum-number-of-operations-to-reinitialize-a-permutation)
--   [Evaluate the Bracket Pairs of a String](#evaluate-the-bracket-pairs-of-a-string)
--   [Minimum Path Cost in a Hidden Grid](#minimum-path-cost-in-a-hidden-grid)
--   [Find Interview Candidates](#find-interview-candidates)
--   [Sentence Similarity III](#sentence-similarity-iii)
--   [Count Nice Pairs in an Array](#count-nice-pairs-in-an-array)
--   [Finding the Users Active Minutes](#finding-the-users-active-minutes)
--   [Minimum Absolute Sum Difference](#minimum-absolute-sum-difference)
--   [Maximum Number of Accepted Invitations](#maximum-number-of-accepted-invitations)
--   [Find the Winner of the Circular Game](#find-the-winner-of-the-circular-game)
--   [Minimum Sideway Jumps](#minimum-sideway-jumps)
--   [Queries on Number of Points Inside a Circle](#queries-on-number-of-points-inside-a-circle)
--   [Maximum XOR for Each Query](#maximum-xor-for-each-query)
--   [Maximum Transaction Each Day](#maximum-transaction-each-day)
--   [Maximum Ice Cream Bars](#maximum-ice-cream-bars)
--   [Single-Threaded CPU](#single-threaded-cpu)
--   [Remove Duplicates From an Unsorted Linked List](#remove-duplicates-from-an-unsorted-linked-list)
--   [Frequency of the Most Frequent Element](#frequency-of-the-most-frequent-element)
--   [Longest Substring Of All Vowels in Order](#longest-substring-of-all-vowels-in-order)
--   [League Statistics](#league-statistics)
--   [Suspicious Bank Accounts](#suspicious-bank-accounts)
--   [Seat Reservation Manager](#seat-reservation-manager)
--   [Maximum Element After Decreasing and Rearranging](#maximum-element-after-decreasing-and-rearranging)
--   [Splitting a String Into Descending Consecutive Values](#splitting-a-string-into-descending-consecutive-values)
--   [Minimum Adjacent Swaps to Reach the Kth Smallest Number](#minimum-adjacent-swaps-to-reach-the-kth-smallest-number)
--   [Distinct Numbers in Each Subarray](#distinct-numbers-in-each-subarray)
--   [Maximum Distance Between a Pair of Values](#maximum-distance-between-a-pair-of-values)
--   [Maximum Subarray Min-Product](#maximum-subarray-min-product)
--   [Longest Word With All Prefixes](#longest-word-with-all-prefixes)
--   [Incremental Memory Leak](#incremental-memory-leak)
--   [Rotating the Box](#rotating-the-box)
--   [Minimum Number of Swaps to Make the Binary String Alternating](#minimum-number-of-swaps-to-make-the-binary-string-alternating)
--   [Finding Pairs With a Certain Sum](#finding-pairs-with-a-certain-sum)
--   [Orders With Maximum Quantity Above Average](#orders-with-maximum-quantity-above-average)
--   [Product of Two Run-Length Encoded Arrays](#product-of-two-run-length-encoded-arrays)
--   [Minimum Speed to Arrive on Time](#minimum-speed-to-arrive-on-time)
--   [Jump Game VII](#jump-game-vii)
--   [Minimize Product Sum of Two Arrays](#minimize-product-sum-of-two-arrays)
--   [Group Employees of the Same Salary](#group-employees-of-the-same-salary)
--   [Minimize Maximum Pair Sum in Array](#minimize-maximum-pair-sum-in-array)
--   [Get Biggest Three Rhombus Sums in a Grid](#get-biggest-three-rhombus-sums-in-a-grid)
--   [Maximum Value after Insertion](#maximum-value-after-insertion)
--   [Process Tasks Using Servers](#process-tasks-using-servers)
--   [Egg Drop With 2 Eggs and N Floors](#egg-drop-with-2-eggs-and-n-floors)
--   [Count Pairs in Two Arrays](#count-pairs-in-two-arrays)
--   [Reduction Operations to Make the Array Elements Equal](#reduction-operations-to-make-the-array-elements-equal)
--   [Minimum Number of Flips to Make the Binary String Alternating](#minimum-number-of-flips-to-make-the-binary-string-alternating)
--   [Cutting Ribbons](#cutting-ribbons)
--   [Find the Student that Will Replace the Chalk](#find-the-student-that-will-replace-the-chalk)
--   [Largest Magic Square](#largest-magic-square)
--   [Maximum Number of Removable Characters](#maximum-number-of-removable-characters)
--   [Merge Triplets to Form Target Triplet](#merge-triplets-to-form-target-triplet)
--   [Find a Peak Element II](#find-a-peak-element-ii)
--   [Depth of BST Given Insertion Order](#depth-of-bst-given-insertion-order)
--   [The Number of Full Rounds You Have Played](#the-number-of-full-rounds-you-have-played)
--   [Count Sub Islands](#count-sub-islands)
--   [Minimum Absolute Difference Queries](#minimum-absolute-difference-queries)
--   [Count Salary Categories](#count-salary-categories)
--   [Game of Nim](#game-of-nim)
--   [Remove All Occurrences of a Substring](#remove-all-occurrences-of-a-substring)
--   [Maximum Alternating Subsequence Sum](#maximum-alternating-subsequence-sum)
--   [Cyclically Rotating a Grid](#cyclically-rotating-a-grid)
--   [Number of Wonderful Substrings](#number-of-wonderful-substrings)
--   [Kth Smallest Subarray Sum](#kth-smallest-subarray-sum)
--   [Eliminate Maximum Number of Monsters](#eliminate-maximum-number-of-monsters)
--   [Count Good Numbers](#count-good-numbers)
--   [Nearest Exit from Entrance in Maze](#nearest-exit-from-entrance-in-maze)
--   [Sum Game](#sum-game)
--   [Unique Length-3 Palindromic Subsequences](#unique-length-3-palindromic-subsequences)
--   [Confirmation Rate](#confirmation-rate)
--   [Add Minimum Number of Rungs](#add-minimum-number-of-rungs)
--   [Maximum Number of Points with Cost](#maximum-number-of-points-with-cost)
--   [Longest Common Subsequence Between Sorted Arrays](#longest-common-subsequence-between-sorted-arrays)
--   [The Number of the Smallest Unoccupied Chair](#the-number-of-the-smallest-unoccupied-chair)
--   [Describe the Painting](#describe-the-painting)
--   [Largest Number After Mutating Substring](#largest-number-after-mutating-substring)
--   [Maximum Compatibility Score Sum](#maximum-compatibility-score-sum)
--   [Strong Friendship](#strong-friendship)
--   [Maximum of Minimum Values in All Subarrays](#maximum-of-minimum-values-in-all-subarrays)
--   [All the Pairs With the Maximum Number of Common Followers](#all-the-pairs-with-the-maximum-number-of-common-followers)
--   [Maximum Number of Weeks for Which You Can Work](#maximum-number-of-weeks-for-which-you-can-work)
--   [Minimum Garden Perimeter to Collect Enough Apples](#minimum-garden-perimeter-to-collect-enough-apples)
--   [Check if Move is Legal](#check-if-move-is-legal)
--   [Minimum Total Space Wasted With K Resizing Operations](#minimum-total-space-wasted-with-k-resizing-operations)
--   [Remove Stones to Minimize the Total](#remove-stones-to-minimize-the-total)
--   [Minimum Number of Swaps to Make the String Balanced](#minimum-number-of-swaps-to-make-the-string-balanced)
--   [Binary Searchable Numbers in an Unsorted Array](#binary-searchable-numbers-in-an-unsorted-array)
--   [Array With Elements Not Equal to Average of Neighbors](#array-with-elements-not-equal-to-average-of-neighbors)
--   [Minimum Non-Zero Product of the Array Elements](#minimum-non-zero-product-of-the-array-elements)
--   [Count Nodes Equal to Sum of Descendants](#count-nodes-equal-to-sum-of-descendants)
--   [Maximum Matrix Sum](#maximum-matrix-sum)
--   [Number of Ways to Arrive at Destination](#number-of-ways-to-arrive-at-destination)
--   [Find Unique Binary String](#find-unique-binary-string)
--   [Minimize the Difference Between Target and Chosen Elements](#minimize-the-difference-between-target-and-chosen-elements)
--   [Widest Pair of Indices With Equal Range Sum](#widest-pair-of-indices-with-equal-range-sum)
--   [Find the Kth Largest Integer in the Array](#find-the-kth-largest-integer-in-the-array)
--   [Minimum Number of Work Sessions to Finish the Tasks](#minimum-number-of-work-sessions-to-finish-the-tasks)
--   [Find Cutoff Score for Each School](#find-cutoff-score-for-each-school)
--   [Maximum Number of People That Can Be Caught in Tag](#maximum-number-of-people-that-can-be-caught-in-tag)
--   [Count the Number of Experiments](#count-the-number-of-experiments)
--   [Find All Groups of Farmland](#find-all-groups-of-farmland)
--   [Operations on Tree](#operations-on-tree)
--   [The Number of Weak Characters in the Game](#the-number-of-weak-characters-in-the-game)
--   [First Day Where You Have Been in All the Rooms](#first-day-where-you-have-been-in-all-the-rooms)
--   [Smallest Greater Multiple Made of Two Digits](#smallest-greater-multiple-made-of-two-digits)
--   [Number of Pairs of Interchangeable Rectangles](#number-of-pairs-of-interchangeable-rectangles)
--   [Maximum Product of the Length of Two Palindromic Subsequences](#maximum-product-of-the-length-of-two-palindromic-subsequences)
--   [Find Original Array From Doubled Array](#find-original-array-from-doubled-array)
--   [Maximum Earnings From Taxi](#maximum-earnings-from-taxi)
--   [Sum of Beauty in the Array](#sum-of-beauty-in-the-array)
--   [Detect Squares](#detect-squares)
--   [Average Height of Buildings in Each Segment](#average-height-of-buildings-in-each-segment)
--   [Grid Game](#grid-game)
--   [Check if Word Can Be Placed In Crossword](#check-if-word-can-be-placed-in-crossword)
--   [Number of Accounts That Did Not Stream](#number-of-accounts-that-did-not-stream)
--   [Brightest Position on Street](#brightest-position-on-street)
--   [Number of Pairs of Strings With Concatenation Equal to Target](#number-of-pairs-of-strings-with-concatenation-equal-to-target)
--   [Maximize the Confusion of an Exam](#maximize-the-confusion-of-an-exam)
--   [Find Missing Observations](#find-missing-observations)
--   [Stone Game IX](#stone-game-ix)
--   [Count Subarrays With More Ones Than Zeros](#count-subarrays-with-more-ones-than-zeros)
--   [Minimum Operations to Make a Uni-Value Grid](#minimum-operations-to-make-a-uni-value-grid)
--   [Stock Price Fluctuation](#stock-price-fluctuation)
--   [Maximum Alternating Subarray Sum](#maximum-alternating-subarray-sum)
--   [Remove Colored Pieces if Both Neighbors are the Same Color](#remove-colored-pieces-if-both-neighbors-are-the-same-color)
--   [The Time When the Network Becomes Idle](#the-time-when-the-network-becomes-idle)
--   [Accepted Candidates From the Interviews](#accepted-candidates-from-the-interviews)
--   [Simple Bank System](#simple-bank-system)
--   [Count Number of Maximum Bitwise-OR Subsets](#count-number-of-maximum-bitwise-or-subsets)
--   [Sort Linked List Already Sorted Using Absolute Values](#sort-linked-list-already-sorted-using-absolute-values)
--   [Next Greater Numerically Balanced Number](#next-greater-numerically-balanced-number)
--   [Count Nodes With the Highest Score](#count-nodes-with-the-highest-score)
--   [The Category of Each Member in the Store](#the-category-of-each-member-in-the-store)
--   [Minimum Cost to Separate Sentence Into Rows](#minimum-cost-to-separate-sentence-into-rows)
--   [Two Best Non-Overlapping Events](#two-best-non-overlapping-events)
--   [Plates Between Candles](#plates-between-candles)
--   [Find the Minimum and Maximum Number of Nodes Between Critical Points](#find-the-minimum-and-maximum-number-of-nodes-between-critical-points)
--   [Minimum Operations to Convert Number](#minimum-operations-to-convert-number)
--   [Number of Spaces Cleaning Robot Cleaned](#number-of-spaces-cleaning-robot-cleaned)
--   [Vowels of All Substrings](#vowels-of-all-substrings)
--   [Minimized Maximum of Products Distributed to Any Store](#minimized-maximum-of-products-distributed-to-any-store)
--   [Account Balance](#account-balance)
--   [Number of Equal Count Substrings](#number-of-equal-count-substrings)
--   [Walking Robot Simulation II](#walking-robot-simulation-ii)
--   [Most Beautiful Item for Each Query](#most-beautiful-item-for-each-query)
--   [Reverse Nodes in Even Length Groups](#reverse-nodes-in-even-length-groups)
--   [Decode the Slanted Ciphertext](#decode-the-slanted-ciphertext)
--   [Paths in Maze That Lead to Same Room](#paths-in-maze-that-lead-to-same-room)
--   [Watering Plants](#watering-plants)
--   [Range Frequency Queries](#range-frequency-queries)
--   [Substrings That Begin and End With the Same Letter](#substrings-that-begin-and-end-with-the-same-letter)
--   [Drop Type 1 Orders for Customers With Type 0 Orders](#drop-type-1-orders-for-customers-with-type-0-orders)
--   [Minimum Number of Buckets Required to Collect Rainwater from Houses](#minimum-number-of-buckets-required-to-collect-rainwater-from-houses)
--   [Minimum Cost Homecoming of a Robot in a Grid](#minimum-cost-homecoming-of-a-robot-in-a-grid)
--   [K Radius Subarray Averages](#k-radius-subarray-averages)
--   [Removing Minimum and Maximum From Array](#removing-minimum-and-maximum-from-array)
--   [Minimum Cost to Reach City With Discounts](#minimum-cost-to-reach-city-with-discounts)
--   [Delete the Middle Node of a Linked List](#delete-the-middle-node-of-a-linked-list)
--   [Step-By-Step Directions From a Binary Tree Node to Another](#step-by-step-directions-from-a-binary-tree-node-to-another)
--   [Subsequence of Size K With the Largest Even Sum](#subsequence-of-size-k-with-the-largest-even-sum)
--   [Find Good Days to Rob the Bank](#find-good-days-to-rob-the-bank)
--   [Detonate the Maximum Bombs](#detonate-the-maximum-bombs)
--   [Sum of Subarray Ranges](#sum-of-subarray-ranges)
--   [Watering Plants II](#watering-plants-ii)
--   [Number of Unique Flavors After Sharing K Candies](#number-of-unique-flavors-after-sharing-k-candies)
--   [Adding Spaces to a String](#adding-spaces-to-a-string)
--   [Number of Smooth Descent Periods of a Stock](#number-of-smooth-descent-periods-of-a-stock)
--   [The Airport With the Most Traffic](#the-airport-with-the-most-traffic)
--   [Elements in Array After Removing and Replacing Elements](#elements-in-array-after-removing-and-replacing-elements)
--   [Find All Possible Recipes from Given Supplies](#find-all-possible-recipes-from-given-supplies)
--   [Check if a Parentheses String Can Be Valid](#check-if-a-parentheses-string-can-be-valid)
--   [Execution of All Suffix Instructions Staying in a Grid](#execution-of-all-suffix-instructions-staying-in-a-grid)
--   [Intervals Between Identical Elements](#intervals-between-identical-elements)
--   [Number of Laser Beams in a Bank](#number-of-laser-beams-in-a-bank)
--   [Destroying Asteroids](#destroying-asteroids)
--   [Remove All Ones With Row and Column Flips](#remove-all-ones-with-row-and-column-flips)
--   [Maximum Twin Sum of a Linked List](#maximum-twin-sum-of-a-linked-list)
--   [Longest Palindrome by Concatenating Two Letter Words](#longest-palindrome-by-concatenating-two-letter-words)
--   [Minimum Swaps to Group All 1's Together II](#minimum-swaps-to-group-all-1s-together-ii)
--   [Count Words Obtained After Adding a Letter](#count-words-obtained-after-adding-a-letter)
--   [Pour Water Between Buckets to Make Water Levels Equal](#pour-water-between-buckets-to-make-water-levels-equal)
--   [Minimum Moves to Reach Target Score](#minimum-moves-to-reach-target-score)
--   [Solving Questions With Brainpower](#solving-questions-with-brainpower)
--   [The Number of Passengers in Each Bus I](#the-number-of-passengers-in-each-bus-i)
--   [Count the Hidden Sequences](#count-the-hidden-sequences)
--   [K Highest Ranked Items Within a Price Range](#k-highest-ranked-items-within-a-price-range)
--   [Rearrange Array Elements by Sign](#rearrange-array-elements-by-sign)
--   [Find All Lonely Numbers in the Array](#find-all-lonely-numbers-in-the-array)
--   [Minimum Number of Lines to Cover Points](#minimum-number-of-lines-to-cover-points)
--   [All Divisions With the Highest Score of a Binary Array](#all-divisions-with-the-highest-score-of-a-binary-array)
--   [Order Two Columns Independently](#order-two-columns-independently)
--   [Partition Array According to Given Pivot](#partition-array-according-to-given-pivot)
--   [Minimum Cost to Set Cooking Time](#minimum-cost-to-set-cooking-time)
--   [Smallest Value of the Rearranged Number](#smallest-value-of-the-rearranged-number)
--   [Design Bitset](#design-bitset)
--   [Unique Substrings With Equal Digit Frequency](#unique-substrings-with-equal-digit-frequency)
--   [Minimum Operations to Make the Array Alternating](#minimum-operations-to-make-the-array-alternating)
--   [Removing Minimum Number of Magic Beans](#removing-minimum-number-of-magic-beans)
--   [Remove All Ones With Row and Column Flips II](#remove-all-ones-with-row-and-column-flips-ii)
--   [The Change in Global Rankings](#the-change-in-global-rankings)
--   [Find Three Consecutive Integers That Sum to a Given Number](#find-three-consecutive-integers-that-sum-to-a-given-number)
--   [Maximum Split of Positive Even Integers](#maximum-split-of-positive-even-integers)
--   [Merge Nodes in Between Zeros](#merge-nodes-in-between-zeros)
--   [Construct String With Repeat Limit](#construct-string-with-repeat-limit)
--   [Number of Ways to Build Sturdy Brick Wall](#number-of-ways-to-build-sturdy-brick-wall)
--   [Minimum Number of Steps to Make Two Strings Anagram II](#minimum-number-of-steps-to-make-two-strings-anagram-ii)
--   [Minimum Time to Complete Trips](#minimum-time-to-complete-trips)
--   [Number of Ways to Build House of Cards](#number-of-ways-to-build-house-of-cards)
--   [Sort the Jumbled Numbers](#sort-the-jumbled-numbers)
--   [All Ancestors of a Node in a Directed Acyclic Graph](#all-ancestors-of-a-node-in-a-directed-acyclic-graph)
--   [Append K Integers With Minimal Sum](#append-k-integers-with-minimal-sum)
--   [Create Binary Tree From Descriptions](#create-binary-tree-from-descriptions)
--   [Number of Single Divisor Triplets](#number-of-single-divisor-triplets)
--   [Count Artifacts That Can Be Extracted](#count-artifacts-that-can-be-extracted)
--   [Maximize the Topmost Element After K Moves](#maximize-the-topmost-element-after-k-moves)
--   [Maximize Number of Subsequences in a String](#maximize-number-of-subsequences-in-a-string)
--   [Minimum Operations to Halve Array Sum](#minimum-operations-to-halve-array-sum)
--   [Count Collisions on a Road](#count-collisions-on-a-road)
--   [Maximum Points in an Archery Competition](#maximum-points-in-an-archery-competition)
--   [Minimum Health to Beat Game](#minimum-health-to-beat-game)
--   [Minimum Deletions to Make Array Beautiful](#minimum-deletions-to-make-array-beautiful)
--   [Find Palindrome With Fixed Length](#find-palindrome-with-fixed-length)
--   [Maximum Sum Score of Array](#maximum-sum-score-of-array)
--   [Find Triangular Sum of an Array](#find-triangular-sum-of-an-array)
--   [Number of Ways to Select Buildings](#number-of-ways-to-select-buildings)
--   [Find Players With Zero or One Losses](#find-players-with-zero-or-one-losses)
--   [Maximum Candies Allocated to K Children](#maximum-candies-allocated-to-k-children)
--   [Users With Two Purchases Within Seven Days](#users-with-two-purchases-within-seven-days)
--   [Minimize Result by Adding Parentheses to Expression](#minimize-result-by-adding-parentheses-to-expression)
--   [Maximum Product After K Increments](#maximum-product-after-k-increments)
--   [Count Positions on Street With Required Brightness](#count-positions-on-street-with-required-brightness)
--   [Number of Times a Driver Was a Passenger](#number-of-times-a-driver-was-a-passenger)
--   [Number of Ways to Buy Pens and Pencils](#number-of-ways-to-buy-pens-and-pencils)
--   [Design an ATM Machine](#design-an-atm-machine)
--   [Minimum Rounds to Complete All Tasks](#minimum-rounds-to-complete-all-tasks)
--   [Maximum Trailing Zeros in a Cornered Path](#maximum-trailing-zeros-in-a-cornered-path)
--   [Count Lattice Points Inside a Circle](#count-lattice-points-inside-a-circle)
--   [Count Number of Rectangles Containing Each Point](#count-number-of-rectangles-containing-each-point)
--   [Minimum Average Difference](#minimum-average-difference)
--   [Count Unguarded Cells in the Grid](#count-unguarded-cells-in-the-grid)
--   [Minimum Consecutive Cards to Pick Up](#minimum-consecutive-cards-to-pick-up)
--   [K Divisible Elements Subarrays](#k-divisible-elements-subarrays)
--   [Count Nodes Equal to Average of Subtree](#count-nodes-equal-to-average-of-subtree)
--   [Count Number of Texts](#count-number-of-texts)
--   [Minimum Number of Keypresses](#minimum-number-of-keypresses)
--   [Number of Ways to Split Array](#number-of-ways-to-split-array)
--   [Maximum White Tiles Covered by a Carpet](#maximum-white-tiles-covered-by-a-carpet)
--   [Maximum Consecutive Floors Without Special Floors](#maximum-consecutive-floors-without-special-floors)
--   [Largest Combination With Bitwise AND Greater Than Zero](#largest-combination-with-bitwise-and-greater-than-zero)
--   [Maximum Bags With Full Capacity of Rocks](#maximum-bags-with-full-capacity-of-rocks)
--   [Minimum Lines to Represent a Line Chart](#minimum-lines-to-represent-a-line-chart)
--   [Number of People That Can Be Seen in a Grid](#number-of-people-that-can-be-seen-in-a-grid)
--   [Sender With Largest Word Count](#sender-with-largest-word-count)
--   [Maximum Total Importance of Roads](#maximum-total-importance-of-roads)
--   [Apply Discount to Prices](#apply-discount-to-prices)
--   [Steps to Make Array Non-decreasing](#steps-to-make-array-non-decreasing)
--   [Maximum Profit From Trading Stocks](#maximum-profit-from-trading-stocks)
--   [Products With Three or More Orders in Two Consecutive Years](#products-with-three-or-more-orders-in-two-consecutive-years)
--   [Partition Array Such That Maximum Difference Is K](#partition-array-such-that-maximum-difference-is-k)
--   [Replace Elements in an Array](#replace-elements-in-an-array)
--   [Jump Game IX](#jump-game-ix)
--   [Resources](#resources)
 
 ## Add Two Numbers
 
-<span class="tag-is-success">Linked List</span>
-<span class="tag-is-success">Math</span>
-<span class="tag-is-success">Recursion</span>
+<span class="tag-is-success">Linked List</span><span class="tag-is-success">Math</span><span class="tag-is-success">Recursion</span>
 
 ### Inputs
 
@@ -1273,9 +52,8 @@ class Solution {
 ### Edge Cases
 
 ## Longest Substring Without Repeating Characters
-<span class="tag-is-success">Hash Table</span>
-<span class="tag-is-success">String</span>
-<span class="tag-is-success">Sliding Window</span>
+
+<span class="tag-is-success">Hash Table</span><span class="tag-is-success">String</span><span class="tag-is-success">Sliding Window</span>
 
 ### Inputs
 
@@ -1304,225 +82,657 @@ class Solution {
 
 ### Edge Cases
 
-## Longest Palindromic Substring
+<!-- ## Longest Palindromic Substring
 
-Tags: String, Dynamic Programming
+<span class="tag-is-success">String</span><span class="tag-is-success">Dynamic Programming</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Zigzag Conversion
 
-Tags: String
+<span class="tag-is-success">String</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Reverse Integer
 
-Tags: Math
+<span class="tag-is-success">Math</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## String to Integer (atoi)
 
-Tags: String
+<span class="tag-is-success">String</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Container With Most Water
 
-Tags: Array, Two Pointers, Greedy
+<span class="tag-is-success">Array</span><span class="tag-is-success">Two Pointers</span><span class="tag-is-success">Greedy</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Integer to Roman
 
-Tags: Hash Table, Math, String
+<span class="tag-is-success">Hash Table</span><span class="tag-is-success">Math</span><span class="tag-is-success">String</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## 3Sum
 
-Tags: Array, Two Pointers, Sorting
+<span class="tag-is-success">Array</span><span class="tag-is-success">Two Pointers</span><span class="tag-is-success">Sorting</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## 3Sum Closest
 
-Tags: Array, Two Pointers, Sorting
+<span class="tag-is-success">Array</span><span class="tag-is-success">Two Pointers</span><span class="tag-is-success">Sorting</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Letter Combinations of a Phone Number
 
-Tags: Hash Table, String, Backtracking
+<span class="tag-is-success">Hash Table</span><span class="tag-is-success">String</span><span class="tag-is-success">Backtracking</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## 4Sum
 
-Tags: Array, Two Pointers, Sorting
+<span class="tag-is-success">Array</span><span class="tag-is-success">Two Pointers</span><span class="tag-is-success">Sorting</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Remove Nth Node From End of List
 
-Tags: Linked List, Two Pointers
+<span class="tag-is-success">Linked List</span><span class="tag-is-success">Two Pointers</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Generate Parentheses
 
-Tags: String, Dynamic Programming, Backtracking
+<span class="tag-is-success">String</span><span class="tag-is-success">Dynamic Programming</span><span class="tag-is-success">Backtracking</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Swap Nodes in Pairs
 
-Tags: Linked List, Recursion
+<span class="tag-is-success">Linked List</span><span class="tag-is-success">Recursion</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Divide Two Integers
 
-Tags: Math, Bit Manipulation
+<span class="tag-is-success">Math</span><span class="tag-is-success">Bit Manipulation</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Next Permutation
 
-Tags: Array, Two Pointers
+<span class="tag-is-success">Array</span><span class="tag-is-success">Two Pointers</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Search in Rotated Sorted Array
 
-Tags: Array, Binary Search
+<span class="tag-is-success">Array</span><span class="tag-is-success">Binary Search</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Find First and Last Position of Element in Sorted Array
 
-Tags: Array, Binary Search
+<span class="tag-is-success">Array</span><span class="tag-is-success">Binary Search</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Valid Sudoku
 
-Tags: Array, Hash Table, Matrix
+<span class="tag-is-success">Array</span><span class="tag-is-success">Hash Table</span><span class="tag-is-success">Matrix</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Count and Say
 
-Tags: String
+<span class="tag-is-success">String</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Combination Sum
 
-Tags: Array, Backtracking
+<span class="tag-is-success">Array</span><span class="tag-is-success">Backtracking</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Combination Sum II
 
-Tags: Array, Backtracking
+<span class="tag-is-success">Array</span><span class="tag-is-success">Backtracking</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Multiply Strings
 
-Tags: Math, String, Simulation
+<span class="tag-is-success">Math</span><span class="tag-is-success">String</span><span class="tag-is-success">Simulation</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Jump Game II
 
-Tags: Array, Dynamic Programming, Greedy
+<span class="tag-is-success">Array</span><span class="tag-is-success">Dynamic Programming</span><span class="tag-is-success">Greedy</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Permutations
 
-Tags: Array, Backtracking
+<span class="tag-is-success">Array</span><span class="tag-is-success">Backtracking</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Permutations II
 
-Tags: Array, Backtracking
+<span class="tag-is-success">Array</span><span class="tag-is-success">Backtracking</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Rotate Image
 
-Tags: Array, Math, Matrix
+<span class="tag-is-success">Array</span><span class="tag-is-success">Math</span><span class="tag-is-success">Matrix</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Group Anagrams
 
-Tags: Array, Hash Table, String, Sorting
+<span class="tag-is-success">Array</span><span class="tag-is-success">Hash Table</span><span class="tag-is-success">String</span><span class="tag-is-success">Sorting</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Pow(x, n)
 
-Tags: Math, Recursion
+<span class="tag-is-success">Math</span><span class="tag-is-success">Recursion</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Spiral Matrix
 
-Tags: Array, Matrix, Simulation
+<span class="tag-is-success">Array</span><span class="tag-is-success">Matrix</span><span class="tag-is-success">Simulation</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Jump Game
 
-Tags: Array, Dynamic Programming, Greedy
+<span class="tag-is-success">Array</span><span class="tag-is-success">Dynamic Programming</span><span class="tag-is-success">Greedy</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Merge Intervals
 
-Tags: Array, Sorting
+<span class="tag-is-success">Array</span><span class="tag-is-success">Sorting</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Insert Interval
 
-Tags: Array
+<span class="tag-is-success">Array</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Spiral Matrix II
 
-Tags: Array, Matrix, Simulation
+<span class="tag-is-success">Array</span><span class="tag-is-success">Matrix</span><span class="tag-is-success">Simulation</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Rotate List
 
-Tags: Linked List, Two Pointers
+<span class="tag-is-success">Linked List</span><span class="tag-is-success">Two Pointers</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Unique Paths
 
-Tags: Math, Dynamic Programming, Combinatorics
+<span class="tag-is-success">Math</span><span class="tag-is-success">Dynamic Programming</span><span class="tag-is-success">Combinatorics</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Unique Paths II
 
-Tags: Array, Dynamic Programming, Matrix
+<span class="tag-is-success">Array</span><span class="tag-is-success">Dynamic Programming</span><span class="tag-is-success">Matrix</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Minimum Path Sum
 
-Tags: Array, Dynamic Programming, Matrix
+<span class="tag-is-success">Array</span><span class="tag-is-success">Dynamic Programming</span><span class="tag-is-success">Matrix</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Simplify Path
 
-Tags: String, Stack
+<span class="tag-is-success">String</span><span class="tag-is-success">Stack</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Set Matrix Zeroes
 
-Tags: Array, Hash Table, Matrix
+<span class="tag-is-success">Array</span><span class="tag-is-success">Hash Table</span><span class="tag-is-success">Matrix</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Search a 2D Matrix
 
-Tags: Array, Binary Search, Matrix
+<span class="tag-is-success">Array</span><span class="tag-is-success">Binary Search</span><span class="tag-is-success">Matrix</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Sort Colors
 
-Tags: Array, Two Pointers, Sorting
+<span class="tag-is-success">Array</span><span class="tag-is-success">Two Pointers</span><span class="tag-is-success">Sorting</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Combinations
 
-Tags: Backtracking
+<span class="tag-is-success">Backtracking</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Subsets
 
-Tags: Array, Backtracking, Bit Manipulation
+<span class="tag-is-success">Array</span><span class="tag-is-success">Backtracking</span><span class="tag-is-success">Bit Manipulation</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Word Search
 
-Tags: Array, Backtracking, Matrix
+<span class="tag-is-success">Array</span><span class="tag-is-success">Backtracking</span><span class="tag-is-success">Matrix</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Remove Duplicates from Sorted Array II
 
-Tags: Array, Two Pointers
+<span class="tag-is-success">Array</span><span class="tag-is-success">Two Pointers</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Search in Rotated Sorted Array II
 
-Tags: Array, Binary Search
+<span class="tag-is-success">Array</span><span class="tag-is-success">Binary Search</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Remove Duplicates from Sorted List II
 
-Tags: Linked List, Two Pointers
+<span class="tag-is-success">Linked List</span><span class="tag-is-success">Two Pointers</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Partition List
 
-Tags: Linked List, Two Pointers
+<span class="tag-is-success">Linked List</span><span class="tag-is-success">Two Pointers</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Gray Code
 
-Tags: Math, Backtracking, Bit Manipulation
+<span class="tag-is-success">Math</span><span class="tag-is-success">Backtracking</span><span class="tag-is-success">Bit Manipulation</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Subsets II
 
-Tags: Array, Backtracking, Bit Manipulation
+<span class="tag-is-success">Array</span><span class="tag-is-success">Backtracking</span><span class="tag-is-success">Bit Manipulation</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Decode Ways
 
-Tags: String, Dynamic Programming
+<span class="tag-is-success">String</span><span class="tag-is-success">Dynamic Programming</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Reverse Linked List II
 
-Tags: Linked List
+<span class="tag-is-success">Linked List</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Restore IP Addresses
 
-Tags: String, Backtracking
+<span class="tag-is-success">String</span><span class="tag-is-success">Backtracking</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Unique Binary Search Trees II
 
-Tags: Dynamic Programming, Backtracking, Tree, Binary Search Tree, Binary Tree
+<span class="tag-is-success">Dynamic Programming</span><span class="tag-is-success">Backtracking</span><span class="tag-is-success">Tree</span><span class="tag-is-success">Binary Search Tree</span><span class="tag-is-success">Binary Tree</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings -->
 
 ## Unique Binary Search Trees
 
-Tags: Math, Dynamic Programming, Tree, Binary Search Tree, Binary Tree
+<span class="tag-is-success">Math</span><span class="tag-is-success">Dynamic Programming</span><span class="tag-is-success">Tree</span><span class="tag-is-success">Binary Search Tree</span><span class="tag-is-success">Binary Tree</span>
 
 #### Inputs
 
@@ -1569,4660 +779,13968 @@ class Solution {
 ✅Count the number of full binary trees (A rooted binary tree is full if every vertex has either two children or no children) with n+1 leaves.<br />
 ✅Given a number n, return the number of ways you can draw n chords in a circle with 2 x n points such that no 2 chords intersect.<br />
 
-## Interleaving String
+<!-- ## Interleaving String
 
-Tags: String, Dynamic Programming
+<span class="tag-is-success">String</span><span class="tag-is-success">Dynamic Programming</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Validate Binary Search Tree
 
-Tags: Tree, Depth-First Search, Binary Search Tree, Binary Tree
+<span class="tag-is-success">Tree</span><span class="tag-is-success">Depth-First Search</span><span class="tag-is-success">Binary Search Tree</span><span class="tag-is-success">Binary Tree</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Recover Binary Search Tree
 
-Tags: Tree, Depth-First Search, Binary Search Tree, Binary Tree
+<span class="tag-is-success">Tree</span><span class="tag-is-success">Depth-First Search</span><span class="tag-is-success">Binary Search Tree</span><span class="tag-is-success">Binary Tree</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Binary Tree Level Order Traversal
 
-Tags: Tree, Breadth-First Search, Binary Tree
+<span class="tag-is-success">Tree</span><span class="tag-is-success">Breadth-First Search</span><span class="tag-is-success">Binary Tree</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Binary Tree Zigzag Level Order Traversal
 
-Tags: Tree, Breadth-First Search, Binary Tree
+<span class="tag-is-success">Tree</span><span class="tag-is-success">Breadth-First Search</span><span class="tag-is-success">Binary Tree</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Construct Binary Tree from Preorder and Inorder Traversal
 
-Tags: Array, Hash Table, Divide and Conquer, Tree, Binary Tree
+<span class="tag-is-success">Array</span><span class="tag-is-success">Hash Table</span><span class="tag-is-success">Divide and Conquer</span><span class="tag-is-success">Tree</span><span class="tag-is-success">Binary Tree</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Construct Binary Tree from Inorder and Postorder Traversal
 
-Tags: Array, Hash Table, Divide and Conquer, Tree, Binary Tree
+<span class="tag-is-success">Array</span><span class="tag-is-success">Hash Table</span><span class="tag-is-success">Divide and Conquer</span><span class="tag-is-success">Tree</span><span class="tag-is-success">Binary Tree</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Binary Tree Level Order Traversal II
 
-Tags: Tree, Breadth-First Search, Binary Tree
+<span class="tag-is-success">Tree</span><span class="tag-is-success">Breadth-First Search</span><span class="tag-is-success">Binary Tree</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Convert Sorted List to Binary Search Tree
 
-Tags: Linked List, Divide and Conquer, Tree, Binary Search Tree, Binary Tree
+<span class="tag-is-success">Linked List</span><span class="tag-is-success">Divide and Conquer</span><span class="tag-is-success">Tree</span><span class="tag-is-success">Binary Search Tree</span><span class="tag-is-success">Binary Tree</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Path Sum II
 
-Tags: Backtracking, Tree, Depth-First Search, Binary Tree
+<span class="tag-is-success">Backtracking</span><span class="tag-is-success">Tree</span><span class="tag-is-success">Depth-First Search</span><span class="tag-is-success">Binary Tree</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Flatten Binary Tree to Linked List
 
-Tags: Linked List, Stack, Tree, Depth-First Search, Binary Tree
+<span class="tag-is-success">Linked List</span><span class="tag-is-success">Stack</span><span class="tag-is-success">Tree</span><span class="tag-is-success">Depth-First Search</span><span class="tag-is-success">Binary Tree</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Populating Next Right Pointers in Each Node
 
-Tags: Linked List, Tree, Depth-First Search, Breadth-First Search, Binary Tree
+<span class="tag-is-success">Linked List</span><span class="tag-is-success">Tree</span><span class="tag-is-success">Depth-First Search</span><span class="tag-is-success">Breadth-First Search</span><span class="tag-is-success">Binary Tree</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Populating Next Right Pointers in Each Node II
 
-Tags: Linked List, Tree, Depth-First Search, Breadth-First Search, Binary Tree
+<span class="tag-is-success">Linked List</span><span class="tag-is-success">Tree</span><span class="tag-is-success">Depth-First Search</span><span class="tag-is-success">Breadth-First Search</span><span class="tag-is-success">Binary Tree</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Triangle
 
-Tags: Array, Dynamic Programming
+<span class="tag-is-success">Array</span><span class="tag-is-success">Dynamic Programming</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Best Time to Buy and Sell Stock II
 
-Tags: Array, Dynamic Programming, Greedy
+<span class="tag-is-success">Array</span><span class="tag-is-success">Dynamic Programming</span><span class="tag-is-success">Greedy</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Longest Consecutive Sequence
 
-Tags: Array, Hash Table, Union Find
+<span class="tag-is-success">Array</span><span class="tag-is-success">Hash Table</span><span class="tag-is-success">Union Find</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Sum Root to Leaf Numbers
 
-Tags: Tree, Depth-First Search, Binary Tree
+<span class="tag-is-success">Tree</span><span class="tag-is-success">Depth-First Search</span><span class="tag-is-success">Binary Tree</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Surrounded Regions
 
-Tags: Array, Depth-First Search, Breadth-First Search, Union Find, Matrix
+<span class="tag-is-success">Array</span><span class="tag-is-success">Depth-First Search</span><span class="tag-is-success">Breadth-First Search</span><span class="tag-is-success">Union Find</span><span class="tag-is-success">Matrix</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Palindrome Partitioning
 
-Tags: String, Dynamic Programming, Backtracking
+<span class="tag-is-success">String</span><span class="tag-is-success">Dynamic Programming</span><span class="tag-is-success">Backtracking</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Clone Graph
 
-Tags: Hash Table, Depth-First Search, Breadth-First Search, Graph
+<span class="tag-is-success">Hash Table</span><span class="tag-is-success">Depth-First Search</span><span class="tag-is-success">Breadth-First Search</span><span class="tag-is-success">Graph</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Gas Station
 
-Tags: Array, Greedy
+<span class="tag-is-success">Array</span><span class="tag-is-success">Greedy</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Single Number II
 
-Tags: Array, Bit Manipulation
+<span class="tag-is-success">Array</span><span class="tag-is-success">Bit Manipulation</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Copy List with Random Pointer
 
-Tags: Hash Table, Linked List
+<span class="tag-is-success">Hash Table</span><span class="tag-is-success">Linked List</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Word Break
 
-Tags: Hash Table, String, Dynamic Programming, Trie, Memoization
+<span class="tag-is-success">Hash Table</span><span class="tag-is-success">String</span><span class="tag-is-success">Dynamic Programming</span><span class="tag-is-success">Trie</span><span class="tag-is-success">Memoization</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Linked List Cycle II
 
-Tags: Hash Table, Linked List, Two Pointers
+<span class="tag-is-success">Hash Table</span><span class="tag-is-success">Linked List</span><span class="tag-is-success">Two Pointers</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Reorder List
 
-Tags: Linked List, Two Pointers, Stack, Recursion
+<span class="tag-is-success">Linked List</span><span class="tag-is-success">Two Pointers</span><span class="tag-is-success">Stack</span><span class="tag-is-success">Recursion</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## LRU Cache
 
-Tags: Hash Table, Linked List, Design, Doubly-Linked List
+<span class="tag-is-success">Hash Table</span><span class="tag-is-success">Linked List</span><span class="tag-is-success">Design</span><span class="tag-is-success">Doubly-Linked List</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Insertion Sort List
 
-Tags: Linked List, Sorting
+<span class="tag-is-success">Linked List</span><span class="tag-is-success">Sorting</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Sort List
 
-Tags: Linked List, Two Pointers, Divide and Conquer, Sorting, Merge Sort
+<span class="tag-is-success">Linked List</span><span class="tag-is-success">Two Pointers</span><span class="tag-is-success">Divide and Conquer</span><span class="tag-is-success">Sorting</span><span class="tag-is-success">Merge Sort</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Evaluate Reverse Polish Notation
 
-Tags: Array, Math, Stack
+<span class="tag-is-success">Array</span><span class="tag-is-success">Math</span><span class="tag-is-success">Stack</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Reverse Words in a String
 
-Tags: Two Pointers, String
+<span class="tag-is-success">Two Pointers</span><span class="tag-is-success">String</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Maximum Product Subarray
 
-Tags: Array, Dynamic Programming
+<span class="tag-is-success">Array</span><span class="tag-is-success">Dynamic Programming</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Find Minimum in Rotated Sorted Array
 
-Tags: Array, Binary Search
+<span class="tag-is-success">Array</span><span class="tag-is-success">Binary Search</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Binary Tree Upside Down
 
-Tags: Tree, Depth-First Search, Binary Tree
+<span class="tag-is-success">Tree</span><span class="tag-is-success">Depth-First Search</span><span class="tag-is-success">Binary Tree</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Longest Substring with At Most Two Distinct Characters
 
-Tags: Hash Table, String, Sliding Window
+<span class="tag-is-success">Hash Table</span><span class="tag-is-success">String</span><span class="tag-is-success">Sliding Window</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## One Edit Distance
 
-Tags: Two Pointers, String
+<span class="tag-is-success">Two Pointers</span><span class="tag-is-success">String</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Find Peak Element
 
-Tags: Array, Binary Search
+<span class="tag-is-success">Array</span><span class="tag-is-success">Binary Search</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Compare Version Numbers
 
-Tags: Two Pointers, String
+<span class="tag-is-success">Two Pointers</span><span class="tag-is-success">String</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Fraction to Recurring Decimal
 
-Tags: Hash Table, Math, String
+<span class="tag-is-success">Hash Table</span><span class="tag-is-success">Math</span><span class="tag-is-success">String</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Two Sum II - Input Array Is Sorted
 
-Tags: Array, Two Pointers, Binary Search
+<span class="tag-is-success">Array</span><span class="tag-is-success">Two Pointers</span><span class="tag-is-success">Binary Search</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Factorial Trailing Zeroes
 
-Tags: Math
+<span class="tag-is-success">Math</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Binary Search Tree Iterator
 
-Tags: Stack, Tree, Design, Binary Search Tree, Binary Tree, Iterator
+<span class="tag-is-success">Stack</span><span class="tag-is-success">Tree</span><span class="tag-is-success">Design</span><span class="tag-is-success">Binary Search Tree</span><span class="tag-is-success">Binary Tree</span><span class="tag-is-success">Iterator</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Second Highest Salary
 
-Tags: Database
+<span class="tag-is-success">Database</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Nth Highest Salary
 
-Tags: Database
+<span class="tag-is-success">Database</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Rank Scores
 
-Tags: Database
+<span class="tag-is-success">Database</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Largest Number
 
-Tags: String, Greedy, Sorting
+<span class="tag-is-success">String</span><span class="tag-is-success">Greedy</span><span class="tag-is-success">Sorting</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Consecutive Numbers
 
-Tags: Database
+<span class="tag-is-success">Database</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Department Highest Salary
 
-Tags: Database
+<span class="tag-is-success">Database</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Reverse Words in a String II
 
-Tags: Two Pointers, String
+<span class="tag-is-success">Two Pointers</span><span class="tag-is-success">String</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Repeated DNA Sequences
 
-Tags: Hash Table, String, Bit Manipulation, Sliding Window, Rolling Hash, Hash Function
+<span class="tag-is-success">Hash Table</span><span class="tag-is-success">String</span><span class="tag-is-success">Bit Manipulation</span><span class="tag-is-success">Sliding Window</span><span class="tag-is-success">Rolling Hash</span><span class="tag-is-success">Hash Function</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Rotate Array
 
-Tags: Array, Math, Two Pointers
+<span class="tag-is-success">Array</span><span class="tag-is-success">Math</span><span class="tag-is-success">Two Pointers</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Word Frequency
 
-Tags: Shell
+<span class="tag-is-success">Shell</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Transpose File
 
-Tags: Shell
+<span class="tag-is-success">Shell</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## House Robber
 
-Tags: Array, Dynamic Programming
+<span class="tag-is-success">Array</span><span class="tag-is-success">Dynamic Programming</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Binary Tree Right Side View
 
-Tags: Tree, Depth-First Search, Breadth-First Search, Binary Tree
+<span class="tag-is-success">Tree</span><span class="tag-is-success">Depth-First Search</span><span class="tag-is-success">Breadth-First Search</span><span class="tag-is-success">Binary Tree</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Number of Islands
 
-Tags: Array, Depth-First Search, Breadth-First Search, Union Find, Matrix
+<span class="tag-is-success">Array</span><span class="tag-is-success">Depth-First Search</span><span class="tag-is-success">Breadth-First Search</span><span class="tag-is-success">Union Find</span><span class="tag-is-success">Matrix</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Bitwise AND of Numbers Range
 
-Tags: Bit Manipulation
+<span class="tag-is-success">Bit Manipulation</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Count Primes
 
-Tags: Array, Math, Enumeration, Number Theory
+<span class="tag-is-success">Array</span><span class="tag-is-success">Math</span><span class="tag-is-success">Enumeration</span><span class="tag-is-success">Number Theory</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Course Schedule
 
-Tags: Depth-First Search, Breadth-First Search, Graph, Topological Sort
+<span class="tag-is-success">Depth-First Search</span><span class="tag-is-success">Breadth-First Search</span><span class="tag-is-success">Graph</span><span class="tag-is-success">Topological Sort</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Implement Trie (Prefix Tree)
 
-Tags: Hash Table, String, Design, Trie
+<span class="tag-is-success">Hash Table</span><span class="tag-is-success">String</span><span class="tag-is-success">Design</span><span class="tag-is-success">Trie</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Minimum Size Subarray Sum
 
-Tags: Array, Binary Search, Sliding Window, Prefix Sum
+<span class="tag-is-success">Array</span><span class="tag-is-success">Binary Search</span><span class="tag-is-success">Sliding Window</span><span class="tag-is-success">Prefix Sum</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Course Schedule II
 
-Tags: Depth-First Search, Breadth-First Search, Graph, Topological Sort
+<span class="tag-is-success">Depth-First Search</span><span class="tag-is-success">Breadth-First Search</span><span class="tag-is-success">Graph</span><span class="tag-is-success">Topological Sort</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Design Add and Search Words Data Structure
 
-Tags: String, Depth-First Search, Design, Trie
+<span class="tag-is-success">String</span><span class="tag-is-success">Depth-First Search</span><span class="tag-is-success">Design</span><span class="tag-is-success">Trie</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## House Robber II
 
-Tags: Array, Dynamic Programming
+<span class="tag-is-success">Array</span><span class="tag-is-success">Dynamic Programming</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Kth Largest Element in an Array
 
-Tags: Array, Divide and Conquer, Sorting, Heap (Priority Queue), Quickselect
+<span class="tag-is-success">Array</span><span class="tag-is-success">Divide and Conquer</span><span class="tag-is-success">Sorting</span><span class="tag-is-success">Heap (Priority Queue)</span><span class="tag-is-success">Quickselect</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Combination Sum III
 
-Tags: Array, Backtracking
+<span class="tag-is-success">Array</span><span class="tag-is-success">Backtracking</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Contains Duplicate III
 
-Tags: Array, Sliding Window, Sorting, Bucket Sort, Ordered Set
+<span class="tag-is-success">Array</span><span class="tag-is-success">Sliding Window</span><span class="tag-is-success">Sorting</span><span class="tag-is-success">Bucket Sort</span><span class="tag-is-success">Ordered Set</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Maximal Square
 
-Tags: Array, Dynamic Programming, Matrix
+<span class="tag-is-success">Array</span><span class="tag-is-success">Dynamic Programming</span><span class="tag-is-success">Matrix</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Count Complete Tree Nodes
 
-Tags: Binary Search, Tree, Depth-First Search, Binary Tree
+<span class="tag-is-success">Binary Search</span><span class="tag-is-success">Tree</span><span class="tag-is-success">Depth-First Search</span><span class="tag-is-success">Binary Tree</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Rectangle Area
 
-Tags: Math, Geometry
+<span class="tag-is-success">Math</span><span class="tag-is-success">Geometry</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Basic Calculator II
 
-Tags: Math, String, Stack
+<span class="tag-is-success">Math</span><span class="tag-is-success">String</span><span class="tag-is-success">Stack</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Majority Element II
 
-Tags: Array, Hash Table, Sorting, Counting
+<span class="tag-is-success">Array</span><span class="tag-is-success">Hash Table</span><span class="tag-is-success">Sorting</span><span class="tag-is-success">Counting</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Kth Smallest Element in a BST
 
-Tags: Tree, Depth-First Search, Binary Search Tree, Binary Tree
+<span class="tag-is-success">Tree</span><span class="tag-is-success">Depth-First Search</span><span class="tag-is-success">Binary Search Tree</span><span class="tag-is-success">Binary Tree</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Lowest Common Ancestor of a Binary Tree
 
-Tags: Tree, Depth-First Search, Binary Tree
+<span class="tag-is-success">Tree</span><span class="tag-is-success">Depth-First Search</span><span class="tag-is-success">Binary Tree</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Product of Array Except Self
 
-Tags: Array, Prefix Sum
+<span class="tag-is-success">Array</span><span class="tag-is-success">Prefix Sum</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Search a 2D Matrix II
 
-Tags: Array, Binary Search, Divide and Conquer, Matrix
+<span class="tag-is-success">Array</span><span class="tag-is-success">Binary Search</span><span class="tag-is-success">Divide and Conquer</span><span class="tag-is-success">Matrix</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Different Ways to Add Parentheses
 
-Tags: Math, String, Dynamic Programming, Recursion, Memoization
+<span class="tag-is-success">Math</span><span class="tag-is-success">String</span><span class="tag-is-success">Dynamic Programming</span><span class="tag-is-success">Recursion</span><span class="tag-is-success">Memoization</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Shortest Word Distance II
 
-Tags: Array, Hash Table, Two Pointers, String, Design
+<span class="tag-is-success">Array</span><span class="tag-is-success">Hash Table</span><span class="tag-is-success">Two Pointers</span><span class="tag-is-success">String</span><span class="tag-is-success">Design</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Shortest Word Distance III
 
-Tags: Array, String
+<span class="tag-is-success">Array</span><span class="tag-is-success">String</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Strobogrammatic Number II
 
-Tags: Array, String, Recursion
+<span class="tag-is-success">Array</span><span class="tag-is-success">String</span><span class="tag-is-success">Recursion</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Group Shifted Strings
 
-Tags: Array, Hash Table, String
+<span class="tag-is-success">Array</span><span class="tag-is-success">Hash Table</span><span class="tag-is-success">String</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Count Univalue Subtrees
 
-Tags: Tree, Depth-First Search, Binary Tree
+<span class="tag-is-success">Tree</span><span class="tag-is-success">Depth-First Search</span><span class="tag-is-success">Binary Tree</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Flatten 2D Vector
 
-Tags: Array, Two Pointers, Design, Iterator
+<span class="tag-is-success">Array</span><span class="tag-is-success">Two Pointers</span><span class="tag-is-success">Design</span><span class="tag-is-success">Iterator</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Meeting Rooms II
 
-Tags: Array, Two Pointers, Greedy, Sorting, Heap (Priority Queue)
+<span class="tag-is-success">Array</span><span class="tag-is-success">Two Pointers</span><span class="tag-is-success">Greedy</span><span class="tag-is-success">Sorting</span><span class="tag-is-success">Heap (Priority Queue)</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Factor Combinations
 
-Tags: Array, Backtracking
+<span class="tag-is-success">Array</span><span class="tag-is-success">Backtracking</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Verify Preorder Sequence in Binary Search Tree
 
-Tags: Stack, Tree, Binary Search Tree, Recursion, Monotonic Stack, Binary Tree
+<span class="tag-is-success">Stack</span><span class="tag-is-success">Tree</span><span class="tag-is-success">Binary Search Tree</span><span class="tag-is-success">Recursion</span><span class="tag-is-success">Monotonic Stack</span><span class="tag-is-success">Binary Tree</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Paint House
 
-Tags: Array, Dynamic Programming
+<span class="tag-is-success">Array</span><span class="tag-is-success">Dynamic Programming</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## 3Sum Smaller
 
-Tags: Array, Two Pointers, Binary Search, Sorting
+<span class="tag-is-success">Array</span><span class="tag-is-success">Two Pointers</span><span class="tag-is-success">Binary Search</span><span class="tag-is-success">Sorting</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Single Number III
 
-Tags: Array, Bit Manipulation
+<span class="tag-is-success">Array</span><span class="tag-is-success">Bit Manipulation</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Graph Valid Tree
 
-Tags: Depth-First Search, Breadth-First Search, Union Find, Graph
+<span class="tag-is-success">Depth-First Search</span><span class="tag-is-success">Breadth-First Search</span><span class="tag-is-success">Union Find</span><span class="tag-is-success">Graph</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Ugly Number II
 
-Tags: Hash Table, Math, Dynamic Programming, Heap (Priority Queue)
+<span class="tag-is-success">Hash Table</span><span class="tag-is-success">Math</span><span class="tag-is-success">Dynamic Programming</span><span class="tag-is-success">Heap (Priority Queue)</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Palindrome Permutation II
 
-Tags: Hash Table, String, Backtracking
+<span class="tag-is-success">Hash Table</span><span class="tag-is-success">String</span><span class="tag-is-success">Backtracking</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Encode and Decode Strings
 
-Tags: Array, String, Design
+<span class="tag-is-success">Array</span><span class="tag-is-success">String</span><span class="tag-is-success">Design</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## H-Index
 
-Tags: Array, Sorting, Counting Sort
+<span class="tag-is-success">Array</span><span class="tag-is-success">Sorting</span><span class="tag-is-success">Counting Sort</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## H-Index II
 
-Tags: Array, Binary Search
+<span class="tag-is-success">Array</span><span class="tag-is-success">Binary Search</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Paint Fence
 
-Tags: Dynamic Programming
+<span class="tag-is-success">Dynamic Programming</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Find the Celebrity
 
-Tags: Two Pointers, Greedy, Graph, Interactive
+<span class="tag-is-success">Two Pointers</span><span class="tag-is-success">Greedy</span><span class="tag-is-success">Graph</span><span class="tag-is-success">Interactive</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Perfect Squares
 
-Tags: Math, Dynamic Programming, Breadth-First Search
+<span class="tag-is-success">Math</span><span class="tag-is-success">Dynamic Programming</span><span class="tag-is-success">Breadth-First Search</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Wiggle Sort
 
-Tags: Array, Greedy, Sorting
+<span class="tag-is-success">Array</span><span class="tag-is-success">Greedy</span><span class="tag-is-success">Sorting</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Zigzag Iterator
 
-Tags: Array, Design, Queue, Iterator
+<span class="tag-is-success">Array</span><span class="tag-is-success">Design</span><span class="tag-is-success">Queue</span><span class="tag-is-success">Iterator</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Peeking Iterator
 
-Tags: Array, Design, Iterator
+<span class="tag-is-success">Array</span><span class="tag-is-success">Design</span><span class="tag-is-success">Iterator</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Inorder Successor in BST
 
-Tags: Tree, Depth-First Search, Binary Search Tree, Binary Tree
+<span class="tag-is-success">Tree</span><span class="tag-is-success">Depth-First Search</span><span class="tag-is-success">Binary Search Tree</span><span class="tag-is-success">Binary Tree</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Walls and Gates
 
-Tags: Array, Breadth-First Search, Matrix
+<span class="tag-is-success">Array</span><span class="tag-is-success">Breadth-First Search</span><span class="tag-is-success">Matrix</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Find the Duplicate Number
 
-Tags: Array, Two Pointers, Binary Search, Bit Manipulation
+<span class="tag-is-success">Array</span><span class="tag-is-success">Two Pointers</span><span class="tag-is-success">Binary Search</span><span class="tag-is-success">Bit Manipulation</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Unique Word Abbreviation
 
-Tags: Array, Hash Table, String, Design
+<span class="tag-is-success">Array</span><span class="tag-is-success">Hash Table</span><span class="tag-is-success">String</span><span class="tag-is-success">Design</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Game of Life
 
-Tags: Array, Matrix, Simulation
+<span class="tag-is-success">Array</span><span class="tag-is-success">Matrix</span><span class="tag-is-success">Simulation</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Word Pattern II
 
-Tags: Hash Table, String, Backtracking
+<span class="tag-is-success">Hash Table</span><span class="tag-is-success">String</span><span class="tag-is-success">Backtracking</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Flip Game II
 
-Tags: Math, Dynamic Programming, Backtracking, Memoization, Game Theory
+<span class="tag-is-success">Math</span><span class="tag-is-success">Dynamic Programming</span><span class="tag-is-success">Backtracking</span><span class="tag-is-success">Memoization</span><span class="tag-is-success">Game Theory</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Binary Tree Longest Consecutive Sequence
 
-Tags: Tree, Depth-First Search, Binary Tree
+<span class="tag-is-success">Tree</span><span class="tag-is-success">Depth-First Search</span><span class="tag-is-success">Binary Tree</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Bulls and Cows
 
-Tags: Hash Table, String, Counting
+<span class="tag-is-success">Hash Table</span><span class="tag-is-success">String</span><span class="tag-is-success">Counting</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Longest Increasing Subsequence
 
-Tags: Array, Binary Search, Dynamic Programming
+<span class="tag-is-success">Array</span><span class="tag-is-success">Binary Search</span><span class="tag-is-success">Dynamic Programming</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Range Sum Query 2D - Immutable
 
-Tags: Array, Design, Matrix, Prefix Sum
+<span class="tag-is-success">Array</span><span class="tag-is-success">Design</span><span class="tag-is-success">Matrix</span><span class="tag-is-success">Prefix Sum</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Additive Number
 
-Tags: String, Backtracking
+<span class="tag-is-success">String</span><span class="tag-is-success">Backtracking</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Range Sum Query - Mutable
 
-Tags: Array, Design, Binary Indexed Tree, Segment Tree
+<span class="tag-is-success">Array</span><span class="tag-is-success">Design</span><span class="tag-is-success">Binary Indexed Tree</span><span class="tag-is-success">Segment Tree</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Best Time to Buy and Sell Stock with Cooldown
 
-Tags: Array, Dynamic Programming
+<span class="tag-is-success">Array</span><span class="tag-is-success">Dynamic Programming</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Minimum Height Trees
 
-Tags: Depth-First Search, Breadth-First Search, Graph, Topological Sort
+<span class="tag-is-success">Depth-First Search</span><span class="tag-is-success">Breadth-First Search</span><span class="tag-is-success">Graph</span><span class="tag-is-success">Topological Sort</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Sparse Matrix Multiplication
 
-Tags: Array, Hash Table, Matrix
+<span class="tag-is-success">Array</span><span class="tag-is-success">Hash Table</span><span class="tag-is-success">Matrix</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Super Ugly Number
 
-Tags: Array, Math, Dynamic Programming
+<span class="tag-is-success">Array</span><span class="tag-is-success">Math</span><span class="tag-is-success">Dynamic Programming</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Binary Tree Vertical Order Traversal
 
-Tags: Hash Table, Tree, Depth-First Search, Breadth-First Search, Binary Tree
+<span class="tag-is-success">Hash Table</span><span class="tag-is-success">Tree</span><span class="tag-is-success">Depth-First Search</span><span class="tag-is-success">Breadth-First Search</span><span class="tag-is-success">Binary Tree</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Remove Duplicate Letters
 
-Tags: String, Stack, Greedy, Monotonic Stack
+<span class="tag-is-success">String</span><span class="tag-is-success">Stack</span><span class="tag-is-success">Greedy</span><span class="tag-is-success">Monotonic Stack</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Maximum Product of Word Lengths
 
-Tags: Array, String, Bit Manipulation
+<span class="tag-is-success">Array</span><span class="tag-is-success">String</span><span class="tag-is-success">Bit Manipulation</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Bulb Switcher
 
-Tags: Math, Brainteaser
+<span class="tag-is-success">Math</span><span class="tag-is-success">Brainteaser</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Generalized Abbreviation
 
-Tags: String, Backtracking, Bit Manipulation
+<span class="tag-is-success">String</span><span class="tag-is-success">Backtracking</span><span class="tag-is-success">Bit Manipulation</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Coin Change
 
-Tags: Array, Dynamic Programming, Breadth-First Search
+<span class="tag-is-success">Array</span><span class="tag-is-success">Dynamic Programming</span><span class="tag-is-success">Breadth-First Search</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Number of Connected Components in an Undirected Graph
 
-Tags: Depth-First Search, Breadth-First Search, Union Find, Graph
+<span class="tag-is-success">Depth-First Search</span><span class="tag-is-success">Breadth-First Search</span><span class="tag-is-success">Union Find</span><span class="tag-is-success">Graph</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Wiggle Sort II
 
-Tags: Array, Divide and Conquer, Sorting, Quickselect
+<span class="tag-is-success">Array</span><span class="tag-is-success">Divide and Conquer</span><span class="tag-is-success">Sorting</span><span class="tag-is-success">Quickselect</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Maximum Size Subarray Sum Equals k
 
-Tags: Array, Hash Table
+<span class="tag-is-success">Array</span><span class="tag-is-success">Hash Table</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Odd Even Linked List
 
-Tags: Linked List
+<span class="tag-is-success">Linked List</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Verify Preorder Serialization of a Binary Tree
 
-Tags: String, Stack, Tree, Binary Tree
+<span class="tag-is-success">String</span><span class="tag-is-success">Stack</span><span class="tag-is-success">Tree</span><span class="tag-is-success">Binary Tree</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Largest BST Subtree
 
-Tags: Dynamic Programming, Tree, Depth-First Search, Binary Search Tree, Binary Tree
+<span class="tag-is-success">Dynamic Programming</span><span class="tag-is-success">Tree</span><span class="tag-is-success">Depth-First Search</span><span class="tag-is-success">Binary Search Tree</span><span class="tag-is-success">Binary Tree</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Increasing Triplet Subsequence
 
-Tags: Array, Greedy
+<span class="tag-is-success">Array</span><span class="tag-is-success">Greedy</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## House Robber III
 
-Tags: Dynamic Programming, Tree, Depth-First Search, Binary Tree
+<span class="tag-is-success">Dynamic Programming</span><span class="tag-is-success">Tree</span><span class="tag-is-success">Depth-First Search</span><span class="tag-is-success">Binary Tree</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Nested List Weight Sum
 
-Tags: Depth-First Search, Breadth-First Search
+<span class="tag-is-success">Depth-First Search</span><span class="tag-is-success">Breadth-First Search</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Longest Substring with At Most K Distinct Characters
 
-Tags: Hash Table, String, Sliding Window
+<span class="tag-is-success">Hash Table</span><span class="tag-is-success">String</span><span class="tag-is-success">Sliding Window</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Flatten Nested List Iterator
 
-Tags: Stack, Tree, Depth-First Search, Design, Queue, Iterator
+<span class="tag-is-success">Stack</span><span class="tag-is-success">Tree</span><span class="tag-is-success">Depth-First Search</span><span class="tag-is-success">Design</span><span class="tag-is-success">Queue</span><span class="tag-is-success">Iterator</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Integer Break
 
-Tags: Math, Dynamic Programming
+<span class="tag-is-success">Math</span><span class="tag-is-success">Dynamic Programming</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Top K Frequent Elements
 
-Tags: Array, Hash Table, Divide and Conquer, Sorting, Heap (Priority Queue), Bucket Sort, Counting, Quickselect
+<span class="tag-is-success">Array</span><span class="tag-is-success">Hash Table</span><span class="tag-is-success">Divide and Conquer</span><span class="tag-is-success">Sorting</span><span class="tag-is-success">Heap (Priority Queue)</span><span class="tag-is-success">Bucket Sort</span><span class="tag-is-success">Counting</span><span class="tag-is-success">Quickselect</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Design Tic-Tac-Toe
 
-Tags: Array, Hash Table, Design, Matrix
+<span class="tag-is-success">Array</span><span class="tag-is-success">Hash Table</span><span class="tag-is-success">Design</span><span class="tag-is-success">Matrix</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Android Unlock Patterns
 
-Tags: Dynamic Programming, Backtracking
+<span class="tag-is-success">Dynamic Programming</span><span class="tag-is-success">Backtracking</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Design Snake Game
 
-Tags: Array, Design, Queue, Matrix
+<span class="tag-is-success">Array</span><span class="tag-is-success">Design</span><span class="tag-is-success">Queue</span><span class="tag-is-success">Matrix</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Design Twitter
 
-Tags: Hash Table, Linked List, Design, Heap (Priority Queue)
+<span class="tag-is-success">Hash Table</span><span class="tag-is-success">Linked List</span><span class="tag-is-success">Design</span><span class="tag-is-success">Heap (Priority Queue)</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Line Reflection
 
-Tags: Array, Hash Table, Math
+<span class="tag-is-success">Array</span><span class="tag-is-success">Hash Table</span><span class="tag-is-success">Math</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Count Numbers with Unique Digits
 
-Tags: Math, Dynamic Programming, Backtracking
+<span class="tag-is-success">Math</span><span class="tag-is-success">Dynamic Programming</span><span class="tag-is-success">Backtracking</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Sort Transformed Array
 
-Tags: Array, Math, Two Pointers, Sorting
+<span class="tag-is-success">Array</span><span class="tag-is-success">Math</span><span class="tag-is-success">Two Pointers</span><span class="tag-is-success">Sorting</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Bomb Enemy
 
-Tags: Array, Dynamic Programming, Matrix
+<span class="tag-is-success">Array</span><span class="tag-is-success">Dynamic Programming</span><span class="tag-is-success">Matrix</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Design Hit Counter
 
-Tags: Array, Hash Table, Binary Search, Design, Queue
+<span class="tag-is-success">Array</span><span class="tag-is-success">Hash Table</span><span class="tag-is-success">Binary Search</span><span class="tag-is-success">Design</span><span class="tag-is-success">Queue</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Nested List Weight Sum II
 
-Tags: Stack, Depth-First Search, Breadth-First Search
+<span class="tag-is-success">Stack</span><span class="tag-is-success">Depth-First Search</span><span class="tag-is-success">Breadth-First Search</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Water and Jug Problem
 
-Tags: Math, Depth-First Search, Breadth-First Search
+<span class="tag-is-success">Math</span><span class="tag-is-success">Depth-First Search</span><span class="tag-is-success">Breadth-First Search</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Find Leaves of Binary Tree
 
-Tags: Tree, Depth-First Search, Binary Tree
+<span class="tag-is-success">Tree</span><span class="tag-is-success">Depth-First Search</span><span class="tag-is-success">Binary Tree</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Largest Divisible Subset
 
-Tags: Array, Math, Dynamic Programming, Sorting
+<span class="tag-is-success">Array</span><span class="tag-is-success">Math</span><span class="tag-is-success">Dynamic Programming</span><span class="tag-is-success">Sorting</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Plus One Linked List
 
-Tags: Linked List, Math
+<span class="tag-is-success">Linked List</span><span class="tag-is-success">Math</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Range Addition
 
-Tags: Array, Prefix Sum
+<span class="tag-is-success">Array</span><span class="tag-is-success">Prefix Sum</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Sum of Two Integers
 
-Tags: Math, Bit Manipulation
+<span class="tag-is-success">Math</span><span class="tag-is-success">Bit Manipulation</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Super Pow
 
-Tags: Math, Divide and Conquer
+<span class="tag-is-success">Math</span><span class="tag-is-success">Divide and Conquer</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Find K Pairs with Smallest Sums
 
-Tags: Array, Heap (Priority Queue)
+<span class="tag-is-success">Array</span><span class="tag-is-success">Heap (Priority Queue)</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Guess Number Higher or Lower II
 
-Tags: Math, Dynamic Programming, Game Theory
+<span class="tag-is-success">Math</span><span class="tag-is-success">Dynamic Programming</span><span class="tag-is-success">Game Theory</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Wiggle Subsequence
 
-Tags: Array, Dynamic Programming, Greedy
+<span class="tag-is-success">Array</span><span class="tag-is-success">Dynamic Programming</span><span class="tag-is-success">Greedy</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Combination Sum IV
 
-Tags: Array, Dynamic Programming
+<span class="tag-is-success">Array</span><span class="tag-is-success">Dynamic Programming</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Kth Smallest Element in a Sorted Matrix
 
-Tags: Array, Binary Search, Sorting, Heap (Priority Queue), Matrix
+<span class="tag-is-success">Array</span><span class="tag-is-success">Binary Search</span><span class="tag-is-success">Sorting</span><span class="tag-is-success">Heap (Priority Queue)</span><span class="tag-is-success">Matrix</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Design Phone Directory
 
-Tags: Array, Hash Table, Linked List, Design, Queue
+<span class="tag-is-success">Array</span><span class="tag-is-success">Hash Table</span><span class="tag-is-success">Linked List</span><span class="tag-is-success">Design</span><span class="tag-is-success">Queue</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Insert Delete GetRandom O(1)
 
-Tags: Array, Hash Table, Math, Design, Randomized
+<span class="tag-is-success">Array</span><span class="tag-is-success">Hash Table</span><span class="tag-is-success">Math</span><span class="tag-is-success">Design</span><span class="tag-is-success">Randomized</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Linked List Random Node
 
-Tags: Linked List, Math, Reservoir Sampling, Randomized
+<span class="tag-is-success">Linked List</span><span class="tag-is-success">Math</span><span class="tag-is-success">Reservoir Sampling</span><span class="tag-is-success">Randomized</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Shuffle an Array
 
-Tags: Array, Math, Randomized
+<span class="tag-is-success">Array</span><span class="tag-is-success">Math</span><span class="tag-is-success">Randomized</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Mini Parser
 
-Tags: String, Stack, Depth-First Search
+<span class="tag-is-success">String</span><span class="tag-is-success">Stack</span><span class="tag-is-success">Depth-First Search</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Lexicographical Numbers
 
-Tags: Depth-First Search, Trie
+<span class="tag-is-success">Depth-First Search</span><span class="tag-is-success">Trie</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Longest Absolute File Path
 
-Tags: String, Stack, Depth-First Search
+<span class="tag-is-success">String</span><span class="tag-is-success">Stack</span><span class="tag-is-success">Depth-First Search</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Elimination Game
 
-Tags: Math, Recursion
+<span class="tag-is-success">Math</span><span class="tag-is-success">Recursion</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## UTF-8 Validation
 
-Tags: Array, Bit Manipulation
+<span class="tag-is-success">Array</span><span class="tag-is-success">Bit Manipulation</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Decode String
 
-Tags: String, Stack, Recursion
+<span class="tag-is-success">String</span><span class="tag-is-success">Stack</span><span class="tag-is-success">Recursion</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Longest Substring with At Least K Repeating Characters
 
-Tags: Hash Table, String, Divide and Conquer, Sliding Window
+<span class="tag-is-success">Hash Table</span><span class="tag-is-success">String</span><span class="tag-is-success">Divide and Conquer</span><span class="tag-is-success">Sliding Window</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Rotate Function
 
-Tags: Array, Math, Dynamic Programming
+<span class="tag-is-success">Array</span><span class="tag-is-success">Math</span><span class="tag-is-success">Dynamic Programming</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Integer Replacement
 
-Tags: Dynamic Programming, Greedy, Bit Manipulation, Memoization
+<span class="tag-is-success">Dynamic Programming</span><span class="tag-is-success">Greedy</span><span class="tag-is-success">Bit Manipulation</span><span class="tag-is-success">Memoization</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Random Pick Index
 
-Tags: Hash Table, Math, Reservoir Sampling, Randomized
+<span class="tag-is-success">Hash Table</span><span class="tag-is-success">Math</span><span class="tag-is-success">Reservoir Sampling</span><span class="tag-is-success">Randomized</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Evaluate Division
 
-Tags: Array, Depth-First Search, Breadth-First Search, Union Find, Graph, Shortest Path
+<span class="tag-is-success">Array</span><span class="tag-is-success">Depth-First Search</span><span class="tag-is-success">Breadth-First Search</span><span class="tag-is-success">Union Find</span><span class="tag-is-success">Graph</span><span class="tag-is-success">Shortest Path</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Nth Digit
 
-Tags: Math, Binary Search
+<span class="tag-is-success">Math</span><span class="tag-is-success">Binary Search</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Remove K Digits
 
-Tags: String, Stack, Greedy, Monotonic Stack
+<span class="tag-is-success">String</span><span class="tag-is-success">Stack</span><span class="tag-is-success">Greedy</span><span class="tag-is-success">Monotonic Stack</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Queue Reconstruction by Height
 
-Tags: Array, Greedy, Binary Indexed Tree, Segment Tree, Sorting
+<span class="tag-is-success">Array</span><span class="tag-is-success">Greedy</span><span class="tag-is-success">Binary Indexed Tree</span><span class="tag-is-success">Segment Tree</span><span class="tag-is-success">Sorting</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Arithmetic Slices
 
-Tags: Array, Dynamic Programming
+<span class="tag-is-success">Array</span><span class="tag-is-success">Dynamic Programming</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Partition Equal Subset Sum
 
-Tags: Array, Dynamic Programming
+<span class="tag-is-success">Array</span><span class="tag-is-success">Dynamic Programming</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Pacific Atlantic Water Flow
 
-Tags: Array, Depth-First Search, Breadth-First Search, Matrix
+<span class="tag-is-success">Array</span><span class="tag-is-success">Depth-First Search</span><span class="tag-is-success">Breadth-First Search</span><span class="tag-is-success">Matrix</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Sentence Screen Fitting
 
-Tags: String, Dynamic Programming, Simulation
+<span class="tag-is-success">String</span><span class="tag-is-success">Dynamic Programming</span><span class="tag-is-success">Simulation</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Battleships in a Board
 
-Tags: Array, Depth-First Search, Matrix
+<span class="tag-is-success">Array</span><span class="tag-is-success">Depth-First Search</span><span class="tag-is-success">Matrix</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Maximum XOR of Two Numbers in an Array
 
-Tags: Array, Hash Table, Bit Manipulation, Trie
+<span class="tag-is-success">Array</span><span class="tag-is-success">Hash Table</span><span class="tag-is-success">Bit Manipulation</span><span class="tag-is-success">Trie</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Reconstruct Original Digits from English
 
-Tags: Hash Table, Math, String
+<span class="tag-is-success">Hash Table</span><span class="tag-is-success">Math</span><span class="tag-is-success">String</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Longest Repeating Character Replacement
 
-Tags: Hash Table, String, Sliding Window
+<span class="tag-is-success">Hash Table</span><span class="tag-is-success">String</span><span class="tag-is-success">Sliding Window</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Convert Binary Search Tree to Sorted Doubly Linked List
 
-Tags: Linked List, Stack, Tree, Depth-First Search, Binary Search Tree, Binary Tree, Doubly-Linked List
+<span class="tag-is-success">Linked List</span><span class="tag-is-success">Stack</span><span class="tag-is-success">Tree</span><span class="tag-is-success">Depth-First Search</span><span class="tag-is-success">Binary Search Tree</span><span class="tag-is-success">Binary Tree</span><span class="tag-is-success">Doubly-Linked List</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Construct Quad Tree
 
-Tags: Array, Divide and Conquer, Tree, Matrix
+<span class="tag-is-success">Array</span><span class="tag-is-success">Divide and Conquer</span><span class="tag-is-success">Tree</span><span class="tag-is-success">Matrix</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## N-ary Tree Level Order Traversal
 
-Tags: Tree, Breadth-First Search
+<span class="tag-is-success">Tree</span><span class="tag-is-success">Breadth-First Search</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Flatten a Multilevel Doubly Linked List
 
-Tags: Linked List, Depth-First Search, Doubly-Linked List
+<span class="tag-is-success">Linked List</span><span class="tag-is-success">Depth-First Search</span><span class="tag-is-success">Doubly-Linked List</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Minimum Genetic Mutation
 
-Tags: Hash Table, String, Breadth-First Search
+<span class="tag-is-success">Hash Table</span><span class="tag-is-success">String</span><span class="tag-is-success">Breadth-First Search</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Non-overlapping Intervals
 
-Tags: Array, Dynamic Programming, Greedy, Sorting
+<span class="tag-is-success">Array</span><span class="tag-is-success">Dynamic Programming</span><span class="tag-is-success">Greedy</span><span class="tag-is-success">Sorting</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Find Right Interval
 
-Tags: Array, Binary Search, Sorting
+<span class="tag-is-success">Array</span><span class="tag-is-success">Binary Search</span><span class="tag-is-success">Sorting</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Path Sum III
 
-Tags: Tree, Depth-First Search, Binary Tree
+<span class="tag-is-success">Tree</span><span class="tag-is-success">Depth-First Search</span><span class="tag-is-success">Binary Tree</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Find All Anagrams in a String
 
-Tags: Hash Table, String, Sliding Window
+<span class="tag-is-success">Hash Table</span><span class="tag-is-success">String</span><span class="tag-is-success">Sliding Window</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Ternary Expression Parser
 
-Tags: String, Stack, Recursion
+<span class="tag-is-success">String</span><span class="tag-is-success">Stack</span><span class="tag-is-success">Recursion</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Find All Duplicates in an Array
 
-Tags: Array, Hash Table
+<span class="tag-is-success">Array</span><span class="tag-is-success">Hash Table</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## String Compression
 
-Tags: Two Pointers, String
+<span class="tag-is-success">Two Pointers</span><span class="tag-is-success">String</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Sequence Reconstruction
 
-Tags: Array, Graph, Topological Sort
+<span class="tag-is-success">Array</span><span class="tag-is-success">Graph</span><span class="tag-is-success">Topological Sort</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Add Two Numbers II
 
-Tags: Linked List, Math, Stack
+<span class="tag-is-success">Linked List</span><span class="tag-is-success">Math</span><span class="tag-is-success">Stack</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Number of Boomerangs
 
-Tags: Array, Hash Table, Math
+<span class="tag-is-success">Array</span><span class="tag-is-success">Hash Table</span><span class="tag-is-success">Math</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Serialize and Deserialize BST
 
-Tags: String, Tree, Depth-First Search, Breadth-First Search, Design, Binary Search Tree, Binary Tree
+<span class="tag-is-success">String</span><span class="tag-is-success">Tree</span><span class="tag-is-success">Depth-First Search</span><span class="tag-is-success">Breadth-First Search</span><span class="tag-is-success">Design</span><span class="tag-is-success">Binary Search Tree</span><span class="tag-is-success">Binary Tree</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Delete Node in a BST
 
-Tags: Tree, Binary Search Tree, Binary Tree
+<span class="tag-is-success">Tree</span><span class="tag-is-success">Binary Search Tree</span><span class="tag-is-success">Binary Tree</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Sort Characters By Frequency
 
-Tags: Hash Table, String, Sorting, Heap (Priority Queue), Bucket Sort, Counting
+<span class="tag-is-success">Hash Table</span><span class="tag-is-success">String</span><span class="tag-is-success">Sorting</span><span class="tag-is-success">Heap (Priority Queue)</span><span class="tag-is-success">Bucket Sort</span><span class="tag-is-success">Counting</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Minimum Number of Arrows to Burst Balloons
 
-Tags: Array, Greedy, Sorting
+<span class="tag-is-success">Array</span><span class="tag-is-success">Greedy</span><span class="tag-is-success">Sorting</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Minimum Moves to Equal Array Elements
 
-Tags: Array, Math
+<span class="tag-is-success">Array</span><span class="tag-is-success">Math</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## 4Sum II
 
-Tags: Array, Hash Table
+<span class="tag-is-success">Array</span><span class="tag-is-success">Hash Table</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## 132 Pattern
 
-Tags: Array, Binary Search, Stack, Monotonic Stack, Ordered Set
+<span class="tag-is-success">Array</span><span class="tag-is-success">Binary Search</span><span class="tag-is-success">Stack</span><span class="tag-is-success">Monotonic Stack</span><span class="tag-is-success">Ordered Set</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Circular Array Loop
 
-Tags: Array, Hash Table, Two Pointers
+<span class="tag-is-success">Array</span><span class="tag-is-success">Hash Table</span><span class="tag-is-success">Two Pointers</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Minimum Moves to Equal Array Elements II
 
-Tags: Array, Math, Sorting
+<span class="tag-is-success">Array</span><span class="tag-is-success">Math</span><span class="tag-is-success">Sorting</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Can I Win
 
-Tags: Math, Dynamic Programming, Bit Manipulation, Memoization, Game Theory, Bitmask
+<span class="tag-is-success">Math</span><span class="tag-is-success">Dynamic Programming</span><span class="tag-is-success">Bit Manipulation</span><span class="tag-is-success">Memoization</span><span class="tag-is-success">Game Theory</span><span class="tag-is-success">Bitmask</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Unique Substrings in Wraparound String
 
-Tags: String, Dynamic Programming
+<span class="tag-is-success">String</span><span class="tag-is-success">Dynamic Programming</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Validate IP Address
 
-Tags: String
+<span class="tag-is-success">String</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Convex Polygon
 
-Tags: Math, Geometry
+<span class="tag-is-success">Math</span><span class="tag-is-success">Geometry</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Implement Rand10() Using Rand7()
 
-Tags: Math, Rejection Sampling, Randomized, Probability and Statistics
+<span class="tag-is-success">Math</span><span class="tag-is-success">Rejection Sampling</span><span class="tag-is-success">Randomized</span><span class="tag-is-success">Probability and Statistics</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Matchsticks to Square
 
-Tags: Array, Dynamic Programming, Backtracking, Bit Manipulation, Bitmask
+<span class="tag-is-success">Array</span><span class="tag-is-success">Dynamic Programming</span><span class="tag-is-success">Backtracking</span><span class="tag-is-success">Bit Manipulation</span><span class="tag-is-success">Bitmask</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Ones and Zeroes
 
-Tags: Array, String, Dynamic Programming
+<span class="tag-is-success">Array</span><span class="tag-is-success">String</span><span class="tag-is-success">Dynamic Programming</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Heaters
 
-Tags: Array, Two Pointers, Binary Search, Sorting
+<span class="tag-is-success">Array</span><span class="tag-is-success">Two Pointers</span><span class="tag-is-success">Binary Search</span><span class="tag-is-success">Sorting</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Total Hamming Distance
 
-Tags: Array, Math, Bit Manipulation
+<span class="tag-is-success">Array</span><span class="tag-is-success">Math</span><span class="tag-is-success">Bit Manipulation</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Generate Random Point in a Circle
 
-Tags: Math, Geometry, Rejection Sampling, Randomized
+<span class="tag-is-success">Math</span><span class="tag-is-success">Geometry</span><span class="tag-is-success">Rejection Sampling</span><span class="tag-is-success">Randomized</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Magical String
 
-Tags: Two Pointers, String
+<span class="tag-is-success">Two Pointers</span><span class="tag-is-success">String</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Find Permutation
 
-Tags: Array, Stack, Greedy
+<span class="tag-is-success">Array</span><span class="tag-is-success">Stack</span><span class="tag-is-success">Greedy</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Predict the Winner
 
-Tags: Array, Math, Dynamic Programming, Recursion, Game Theory
+<span class="tag-is-success">Array</span><span class="tag-is-success">Math</span><span class="tag-is-success">Dynamic Programming</span><span class="tag-is-success">Recursion</span><span class="tag-is-success">Game Theory</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Max Consecutive Ones II
 
-Tags: Array, Dynamic Programming, Sliding Window
+<span class="tag-is-success">Array</span><span class="tag-is-success">Dynamic Programming</span><span class="tag-is-success">Sliding Window</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## The Maze
 
-Tags: Depth-First Search, Breadth-First Search, Graph
+<span class="tag-is-success">Depth-First Search</span><span class="tag-is-success">Breadth-First Search</span><span class="tag-is-success">Graph</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Increasing Subsequences
 
-Tags: Array, Hash Table, Backtracking, Bit Manipulation
+<span class="tag-is-success">Array</span><span class="tag-is-success">Hash Table</span><span class="tag-is-success">Backtracking</span><span class="tag-is-success">Bit Manipulation</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Target Sum
 
-Tags: Array, Dynamic Programming, Backtracking
+<span class="tag-is-success">Array</span><span class="tag-is-success">Dynamic Programming</span><span class="tag-is-success">Backtracking</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Random Point in Non-overlapping Rectangles
 
-Tags: Math, Binary Search, Reservoir Sampling, Prefix Sum, Ordered Set, Randomized
+<span class="tag-is-success">Math</span><span class="tag-is-success">Binary Search</span><span class="tag-is-success">Reservoir Sampling</span><span class="tag-is-success">Prefix Sum</span><span class="tag-is-success">Ordered Set</span><span class="tag-is-success">Randomized</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Diagonal Traverse
 
-Tags: Array, Matrix, Simulation
+<span class="tag-is-success">Array</span><span class="tag-is-success">Matrix</span><span class="tag-is-success">Simulation</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Next Greater Element II
 
-Tags: Array, Stack, Monotonic Stack
+<span class="tag-is-success">Array</span><span class="tag-is-success">Stack</span><span class="tag-is-success">Monotonic Stack</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## The Maze II
 
-Tags: Depth-First Search, Breadth-First Search, Graph, Heap (Priority Queue), Shortest Path
+<span class="tag-is-success">Depth-First Search</span><span class="tag-is-success">Breadth-First Search</span><span class="tag-is-success">Graph</span><span class="tag-is-success">Heap (Priority Queue)</span><span class="tag-is-success">Shortest Path</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Most Frequent Subtree Sum
 
-Tags: Hash Table, Tree, Depth-First Search, Binary Tree
+<span class="tag-is-success">Hash Table</span><span class="tag-is-success">Tree</span><span class="tag-is-success">Depth-First Search</span><span class="tag-is-success">Binary Tree</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Inorder Successor in BST II
 
-Tags: Tree, Binary Search Tree, Binary Tree
+<span class="tag-is-success">Tree</span><span class="tag-is-success">Binary Search Tree</span><span class="tag-is-success">Binary Tree</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Find Bottom Left Tree Value
 
-Tags: Tree, Depth-First Search, Breadth-First Search, Binary Tree
+<span class="tag-is-success">Tree</span><span class="tag-is-success">Depth-First Search</span><span class="tag-is-success">Breadth-First Search</span><span class="tag-is-success">Binary Tree</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Find Largest Value in Each Tree Row
 
-Tags: Tree, Depth-First Search, Breadth-First Search, Binary Tree
+<span class="tag-is-success">Tree</span><span class="tag-is-success">Depth-First Search</span><span class="tag-is-success">Breadth-First Search</span><span class="tag-is-success">Binary Tree</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Longest Palindromic Subsequence
 
-Tags: String, Dynamic Programming
+<span class="tag-is-success">String</span><span class="tag-is-success">Dynamic Programming</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Coin Change 2
 
-Tags: Array, Dynamic Programming
+<span class="tag-is-success">Array</span><span class="tag-is-success">Dynamic Programming</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Random Flip Matrix
 
-Tags: Hash Table, Math, Reservoir Sampling, Randomized
+<span class="tag-is-success">Hash Table</span><span class="tag-is-success">Math</span><span class="tag-is-success">Reservoir Sampling</span><span class="tag-is-success">Randomized</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Longest Uncommon Subsequence II
 
-Tags: Array, Hash Table, Two Pointers, String, Sorting
+<span class="tag-is-success">Array</span><span class="tag-is-success">Hash Table</span><span class="tag-is-success">Two Pointers</span><span class="tag-is-success">String</span><span class="tag-is-success">Sorting</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Continuous Subarray Sum
 
-Tags: Array, Hash Table, Math, Prefix Sum
+<span class="tag-is-success">Array</span><span class="tag-is-success">Hash Table</span><span class="tag-is-success">Math</span><span class="tag-is-success">Prefix Sum</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Longest Word in Dictionary through Deleting
 
-Tags: Array, Two Pointers, String, Sorting
+<span class="tag-is-success">Array</span><span class="tag-is-success">Two Pointers</span><span class="tag-is-success">String</span><span class="tag-is-success">Sorting</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Contiguous Array
 
-Tags: Array, Hash Table, Prefix Sum
+<span class="tag-is-success">Array</span><span class="tag-is-success">Hash Table</span><span class="tag-is-success">Prefix Sum</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Beautiful Arrangement
 
-Tags: Array, Dynamic Programming, Backtracking, Bit Manipulation, Bitmask
+<span class="tag-is-success">Array</span><span class="tag-is-success">Dynamic Programming</span><span class="tag-is-success">Backtracking</span><span class="tag-is-success">Bit Manipulation</span><span class="tag-is-success">Bitmask</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Random Pick with Weight
 
-Tags: Math, Binary Search, Prefix Sum, Randomized
+<span class="tag-is-success">Math</span><span class="tag-is-success">Binary Search</span><span class="tag-is-success">Prefix Sum</span><span class="tag-is-success">Randomized</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Minesweeper
 
-Tags: Array, Depth-First Search, Breadth-First Search, Matrix
+<span class="tag-is-success">Array</span><span class="tag-is-success">Depth-First Search</span><span class="tag-is-success">Breadth-First Search</span><span class="tag-is-success">Matrix</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Lonely Pixel I
 
-Tags: Array, Hash Table, Matrix
+<span class="tag-is-success">Array</span><span class="tag-is-success">Hash Table</span><span class="tag-is-success">Matrix</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## K-diff Pairs in an Array
 
-Tags: Array, Hash Table, Two Pointers, Binary Search, Sorting
+<span class="tag-is-success">Array</span><span class="tag-is-success">Hash Table</span><span class="tag-is-success">Two Pointers</span><span class="tag-is-success">Binary Search</span><span class="tag-is-success">Sorting</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Lonely Pixel II
 
-Tags: Array, Hash Table, Matrix
+<span class="tag-is-success">Array</span><span class="tag-is-success">Hash Table</span><span class="tag-is-success">Matrix</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Game Play Analysis III
 
-Tags: Database
+<span class="tag-is-success">Database</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Encode and Decode TinyURL
 
-Tags: Hash Table, String, Design, Hash Function
+<span class="tag-is-success">Hash Table</span><span class="tag-is-success">String</span><span class="tag-is-success">Design</span><span class="tag-is-success">Hash Function</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Construct Binary Tree from String
 
-Tags: String, Tree, Depth-First Search, Binary Tree
+<span class="tag-is-success">String</span><span class="tag-is-success">Tree</span><span class="tag-is-success">Depth-First Search</span><span class="tag-is-success">Binary Tree</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Complex Number Multiplication
 
-Tags: Math, String, Simulation
+<span class="tag-is-success">Math</span><span class="tag-is-success">String</span><span class="tag-is-success">Simulation</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Convert BST to Greater Tree
 
-Tags: Tree, Depth-First Search, Binary Search Tree, Binary Tree
+<span class="tag-is-success">Tree</span><span class="tag-is-success">Depth-First Search</span><span class="tag-is-success">Binary Search Tree</span><span class="tag-is-success">Binary Tree</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Minimum Time Difference
 
-Tags: Array, Math, String, Sorting
+<span class="tag-is-success">Array</span><span class="tag-is-success">Math</span><span class="tag-is-success">String</span><span class="tag-is-success">Sorting</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Single Element in a Sorted Array
 
-Tags: Array, Binary Search
+<span class="tag-is-success">Array</span><span class="tag-is-success">Binary Search</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## 01 Matrix
 
-Tags: Array, Dynamic Programming, Breadth-First Search, Matrix
+<span class="tag-is-success">Array</span><span class="tag-is-success">Dynamic Programming</span><span class="tag-is-success">Breadth-First Search</span><span class="tag-is-success">Matrix</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Output Contest Matches
 
-Tags: String, Recursion, Simulation
+<span class="tag-is-success">String</span><span class="tag-is-success">Recursion</span><span class="tag-is-success">Simulation</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Boundary of Binary Tree
 
-Tags: Tree, Depth-First Search, Binary Tree
+<span class="tag-is-success">Tree</span><span class="tag-is-success">Depth-First Search</span><span class="tag-is-success">Binary Tree</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Number of Provinces
 
-Tags: Depth-First Search, Breadth-First Search, Union Find, Graph
+<span class="tag-is-success">Depth-First Search</span><span class="tag-is-success">Breadth-First Search</span><span class="tag-is-success">Union Find</span><span class="tag-is-success">Graph</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Binary Tree Longest Consecutive Sequence II
 
-Tags: Tree, Depth-First Search, Binary Tree
+<span class="tag-is-success">Tree</span><span class="tag-is-success">Depth-First Search</span><span class="tag-is-success">Binary Tree</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Game Play Analysis IV
 
-Tags: Database
+<span class="tag-is-success">Database</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Optimal Division
 
-Tags: Array, Math, Dynamic Programming
+<span class="tag-is-success">Array</span><span class="tag-is-success">Math</span><span class="tag-is-success">Dynamic Programming</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Brick Wall
 
-Tags: Array, Hash Table
+<span class="tag-is-success">Array</span><span class="tag-is-success">Hash Table</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Split Concatenated Strings
 
-Tags: Array, String, Greedy
+<span class="tag-is-success">Array</span><span class="tag-is-success">String</span><span class="tag-is-success">Greedy</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Next Greater Element III
 
-Tags: Math, Two Pointers, String
+<span class="tag-is-success">Math</span><span class="tag-is-success">Two Pointers</span><span class="tag-is-success">String</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Logical OR of Two Binary Grids Represented as Quad-Trees
 
-Tags: Divide and Conquer, Tree
+<span class="tag-is-success">Divide and Conquer</span><span class="tag-is-success">Tree</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Subarray Sum Equals K
 
-Tags: Array, Hash Table, Prefix Sum
+<span class="tag-is-success">Array</span><span class="tag-is-success">Hash Table</span><span class="tag-is-success">Prefix Sum</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Longest Line of Consecutive One in Matrix
 
-Tags: Array, Dynamic Programming, Matrix
+<span class="tag-is-success">Array</span><span class="tag-is-success">Dynamic Programming</span><span class="tag-is-success">Matrix</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Array Nesting
 
-Tags: Array, Depth-First Search
+<span class="tag-is-success">Array</span><span class="tag-is-success">Depth-First Search</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Permutation in String
 
-Tags: Hash Table, Two Pointers, String, Sliding Window
+<span class="tag-is-success">Hash Table</span><span class="tag-is-success">Two Pointers</span><span class="tag-is-success">String</span><span class="tag-is-success">Sliding Window</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Managers with at Least 5 Direct Reports
 
-Tags: Database
+<span class="tag-is-success">Database</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Squirrel Simulation
 
-Tags: Array, Math
+<span class="tag-is-success">Array</span><span class="tag-is-success">Math</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Winning Candidate
 
-Tags: Database
+<span class="tag-is-success">Database</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Out of Boundary Paths
 
-Tags: Dynamic Programming
+<span class="tag-is-success">Dynamic Programming</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Get Highest Answer Rate Question
 
-Tags: Database
+<span class="tag-is-success">Database</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Count Student Number in Departments
 
-Tags: Database
+<span class="tag-is-success">Database</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Shortest Unsorted Continuous Subarray
 
-Tags: Array, Two Pointers, Stack, Greedy, Sorting, Monotonic Stack
+<span class="tag-is-success">Array</span><span class="tag-is-success">Two Pointers</span><span class="tag-is-success">Stack</span><span class="tag-is-success">Greedy</span><span class="tag-is-success">Sorting</span><span class="tag-is-success">Monotonic Stack</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Kill Process
 
-Tags: Array, Hash Table, Tree, Depth-First Search, Breadth-First Search
+<span class="tag-is-success">Array</span><span class="tag-is-success">Hash Table</span><span class="tag-is-success">Tree</span><span class="tag-is-success">Depth-First Search</span><span class="tag-is-success">Breadth-First Search</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Delete Operation for Two Strings
 
-Tags: String, Dynamic Programming
+<span class="tag-is-success">String</span><span class="tag-is-success">Dynamic Programming</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Investments in 2016
 
-Tags: Database
+<span class="tag-is-success">Database</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Fraction Addition and Subtraction
 
-Tags: Math, String, Simulation
+<span class="tag-is-success">Math</span><span class="tag-is-success">String</span><span class="tag-is-success">Simulation</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Valid Square
 
-Tags: Math, Geometry
+<span class="tag-is-success">Math</span><span class="tag-is-success">Geometry</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Friend Requests II: Who Has the Most Friends
 
-Tags: Database
+<span class="tag-is-success">Database</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Tree Node
 
-Tags: Database
+<span class="tag-is-success">Database</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Find Duplicate File in System
 
-Tags: Array, Hash Table, String
+<span class="tag-is-success">Array</span><span class="tag-is-success">Hash Table</span><span class="tag-is-success">String</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Valid Triangle Number
 
-Tags: Array, Two Pointers, Binary Search, Greedy, Sorting
+<span class="tag-is-success">Array</span><span class="tag-is-success">Two Pointers</span><span class="tag-is-success">Binary Search</span><span class="tag-is-success">Greedy</span><span class="tag-is-success">Sorting</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Shortest Distance in a Plane
 
-Tags: Database
+<span class="tag-is-success">Database</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Second Degree Follower
 
-Tags: Database
+<span class="tag-is-success">Database</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Add Bold Tag in String
 
-Tags: Array, Hash Table, String, Trie, String Matching
+<span class="tag-is-success">Array</span><span class="tag-is-success">Hash Table</span><span class="tag-is-success">String</span><span class="tag-is-success">Trie</span><span class="tag-is-success">String Matching</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Task Scheduler
 
-Tags: Array, Hash Table, Greedy, Sorting, Heap (Priority Queue), Counting
+<span class="tag-is-success">Array</span><span class="tag-is-success">Hash Table</span><span class="tag-is-success">Greedy</span><span class="tag-is-success">Sorting</span><span class="tag-is-success">Heap (Priority Queue)</span><span class="tag-is-success">Counting</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Design Circular Queue
 
-Tags: Array, Linked List, Design, Queue
+<span class="tag-is-success">Array</span><span class="tag-is-success">Linked List</span><span class="tag-is-success">Design</span><span class="tag-is-success">Queue</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Add One Row to Tree
 
-Tags: Tree, Depth-First Search, Breadth-First Search, Binary Tree
+<span class="tag-is-success">Tree</span><span class="tag-is-success">Depth-First Search</span><span class="tag-is-success">Breadth-First Search</span><span class="tag-is-success">Binary Tree</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Maximum Distance in Arrays
 
-Tags: Array, Greedy
+<span class="tag-is-success">Array</span><span class="tag-is-success">Greedy</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Minimum Factorization
 
-Tags: Math, Greedy
+<span class="tag-is-success">Math</span><span class="tag-is-success">Greedy</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Exchange Seats
 
-Tags: Database
+<span class="tag-is-success">Database</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Sum of Square Numbers
 
-Tags: Math, Two Pointers, Binary Search
+<span class="tag-is-success">Math</span><span class="tag-is-success">Two Pointers</span><span class="tag-is-success">Binary Search</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Find the Derangement of An Array
 
-Tags: Math, Dynamic Programming
+<span class="tag-is-success">Math</span><span class="tag-is-success">Dynamic Programming</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Design Log Storage System
 
-Tags: Hash Table, String, Design, Ordered Set
+<span class="tag-is-success">Hash Table</span><span class="tag-is-success">String</span><span class="tag-is-success">Design</span><span class="tag-is-success">Ordered Set</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Exclusive Time of Functions
 
-Tags: Array, Stack
+<span class="tag-is-success">Array</span><span class="tag-is-success">Stack</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Shopping Offers
 
-Tags: Array, Dynamic Programming, Backtracking, Bit Manipulation, Memoization, Bitmask
+<span class="tag-is-success">Array</span><span class="tag-is-success">Dynamic Programming</span><span class="tag-is-success">Backtracking</span><span class="tag-is-success">Bit Manipulation</span><span class="tag-is-success">Memoization</span><span class="tag-is-success">Bitmask</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Solve the Equation
 
-Tags: Math, String, Simulation
+<span class="tag-is-success">Math</span><span class="tag-is-success">String</span><span class="tag-is-success">Simulation</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Design Circular Deque
 
-Tags: Array, Linked List, Design, Queue
+<span class="tag-is-success">Array</span><span class="tag-is-success">Linked List</span><span class="tag-is-success">Design</span><span class="tag-is-success">Queue</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Maximum Length of Pair Chain
 
-Tags: Array, Dynamic Programming, Greedy, Sorting
+<span class="tag-is-success">Array</span><span class="tag-is-success">Dynamic Programming</span><span class="tag-is-success">Greedy</span><span class="tag-is-success">Sorting</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Palindromic Substrings
 
-Tags: String, Dynamic Programming
+<span class="tag-is-success">String</span><span class="tag-is-success">Dynamic Programming</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Replace Words
 
-Tags: Array, Hash Table, String, Trie
+<span class="tag-is-success">Array</span><span class="tag-is-success">Hash Table</span><span class="tag-is-success">String</span><span class="tag-is-success">Trie</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Dota2 Senate
 
-Tags: String, Greedy, Queue
+<span class="tag-is-success">String</span><span class="tag-is-success">Greedy</span><span class="tag-is-success">Queue</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## 2 Keys Keyboard
 
-Tags: Math, Dynamic Programming
+<span class="tag-is-success">Math</span><span class="tag-is-success">Dynamic Programming</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## 4 Keys Keyboard
 
-Tags: Math, Dynamic Programming
+<span class="tag-is-success">Math</span><span class="tag-is-success">Dynamic Programming</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Find Duplicate Subtrees
 
-Tags: Hash Table, Tree, Depth-First Search, Binary Tree
+<span class="tag-is-success">Hash Table</span><span class="tag-is-success">Tree</span><span class="tag-is-success">Depth-First Search</span><span class="tag-is-success">Binary Tree</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Maximum Binary Tree
 
-Tags: Array, Divide and Conquer, Stack, Tree, Monotonic Stack, Binary Tree
+<span class="tag-is-success">Array</span><span class="tag-is-success">Divide and Conquer</span><span class="tag-is-success">Stack</span><span class="tag-is-success">Tree</span><span class="tag-is-success">Monotonic Stack</span><span class="tag-is-success">Binary Tree</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Print Binary Tree
 
-Tags: Tree, Depth-First Search, Breadth-First Search, Binary Tree
+<span class="tag-is-success">Tree</span><span class="tag-is-success">Depth-First Search</span><span class="tag-is-success">Breadth-First Search</span><span class="tag-is-success">Binary Tree</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Find K Closest Elements
 
-Tags: Array, Two Pointers, Binary Search, Sorting, Heap (Priority Queue)
+<span class="tag-is-success">Array</span><span class="tag-is-success">Two Pointers</span><span class="tag-is-success">Binary Search</span><span class="tag-is-success">Sorting</span><span class="tag-is-success">Heap (Priority Queue)</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Split Array into Consecutive Subsequences
 
-Tags: Array, Hash Table, Greedy, Heap (Priority Queue)
+<span class="tag-is-success">Array</span><span class="tag-is-success">Hash Table</span><span class="tag-is-success">Greedy</span><span class="tag-is-success">Heap (Priority Queue)</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Maximum Width of Binary Tree
 
-Tags: Tree, Depth-First Search, Breadth-First Search, Binary Tree
+<span class="tag-is-success">Tree</span><span class="tag-is-success">Depth-First Search</span><span class="tag-is-success">Breadth-First Search</span><span class="tag-is-success">Binary Tree</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Equal Tree Partition
 
-Tags: Tree, Depth-First Search, Binary Tree
+<span class="tag-is-success">Tree</span><span class="tag-is-success">Depth-First Search</span><span class="tag-is-success">Binary Tree</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Non-decreasing Array
 
-Tags: Array
+<span class="tag-is-success">Array</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Path Sum IV
 
-Tags: Array, Tree, Depth-First Search, Binary Tree
+<span class="tag-is-success">Array</span><span class="tag-is-success">Tree</span><span class="tag-is-success">Depth-First Search</span><span class="tag-is-success">Binary Tree</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Beautiful Arrangement II
 
-Tags: Array, Math
+<span class="tag-is-success">Array</span><span class="tag-is-success">Math</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Trim a Binary Search Tree
 
-Tags: Tree, Depth-First Search, Binary Search Tree, Binary Tree
+<span class="tag-is-success">Tree</span><span class="tag-is-success">Depth-First Search</span><span class="tag-is-success">Binary Search Tree</span><span class="tag-is-success">Binary Tree</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Maximum Swap
 
-Tags: Math, Greedy
+<span class="tag-is-success">Math</span><span class="tag-is-success">Greedy</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Bulb Switcher II
 
-Tags: Math, Bit Manipulation, Depth-First Search, Breadth-First Search
+<span class="tag-is-success">Math</span><span class="tag-is-success">Bit Manipulation</span><span class="tag-is-success">Depth-First Search</span><span class="tag-is-success">Breadth-First Search</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Number of Longest Increasing Subsequence
 
-Tags: Array, Dynamic Programming, Binary Indexed Tree, Segment Tree
+<span class="tag-is-success">Array</span><span class="tag-is-success">Dynamic Programming</span><span class="tag-is-success">Binary Indexed Tree</span><span class="tag-is-success">Segment Tree</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Implement Magic Dictionary
 
-Tags: Hash Table, String, Design, Trie
+<span class="tag-is-success">Hash Table</span><span class="tag-is-success">String</span><span class="tag-is-success">Design</span><span class="tag-is-success">Trie</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Map Sum Pairs
 
-Tags: Hash Table, String, Design, Trie
+<span class="tag-is-success">Hash Table</span><span class="tag-is-success">String</span><span class="tag-is-success">Design</span><span class="tag-is-success">Trie</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Valid Parenthesis String
 
-Tags: String, Dynamic Programming, Stack, Greedy
+<span class="tag-is-success">String</span><span class="tag-is-success">Dynamic Programming</span><span class="tag-is-success">Stack</span><span class="tag-is-success">Greedy</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Next Closest Time
 
-Tags: String, Enumeration
+<span class="tag-is-success">String</span><span class="tag-is-success">Enumeration</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Redundant Connection
 
-Tags: Depth-First Search, Breadth-First Search, Union Find, Graph
+<span class="tag-is-success">Depth-First Search</span><span class="tag-is-success">Breadth-First Search</span><span class="tag-is-success">Union Find</span><span class="tag-is-success">Graph</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Repeated String Match
 
-Tags: String, String Matching
+<span class="tag-is-success">String</span><span class="tag-is-success">String Matching</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Longest Univalue Path
 
-Tags: Tree, Depth-First Search, Binary Tree
+<span class="tag-is-success">Tree</span><span class="tag-is-success">Depth-First Search</span><span class="tag-is-success">Binary Tree</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Knight Probability in Chessboard
 
-Tags: Dynamic Programming
+<span class="tag-is-success">Dynamic Programming</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Employee Importance
 
-Tags: Hash Table, Depth-First Search, Breadth-First Search
+<span class="tag-is-success">Hash Table</span><span class="tag-is-success">Depth-First Search</span><span class="tag-is-success">Breadth-First Search</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Top K Frequent Words
 
-Tags: Hash Table, String, Trie, Sorting, Heap (Priority Queue), Bucket Sort, Counting
+<span class="tag-is-success">Hash Table</span><span class="tag-is-success">String</span><span class="tag-is-success">Trie</span><span class="tag-is-success">Sorting</span><span class="tag-is-success">Heap (Priority Queue)</span><span class="tag-is-success">Bucket Sort</span><span class="tag-is-success">Counting</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Number of Distinct Islands
 
-Tags: Hash Table, Depth-First Search, Breadth-First Search, Union Find, Hash Function
+<span class="tag-is-success">Hash Table</span><span class="tag-is-success">Depth-First Search</span><span class="tag-is-success">Breadth-First Search</span><span class="tag-is-success">Union Find</span><span class="tag-is-success">Hash Function</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Max Area of Island
 
-Tags: Array, Depth-First Search, Breadth-First Search, Union Find, Matrix
+<span class="tag-is-success">Array</span><span class="tag-is-success">Depth-First Search</span><span class="tag-is-success">Breadth-First Search</span><span class="tag-is-success">Union Find</span><span class="tag-is-success">Matrix</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Partition to K Equal Sum Subsets
 
-Tags: Array, Dynamic Programming, Backtracking, Bit Manipulation, Memoization, Bitmask
+<span class="tag-is-success">Array</span><span class="tag-is-success">Dynamic Programming</span><span class="tag-is-success">Backtracking</span><span class="tag-is-success">Bit Manipulation</span><span class="tag-is-success">Memoization</span><span class="tag-is-success">Bitmask</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Insert into a Binary Search Tree
 
-Tags: Tree, Binary Search Tree, Binary Tree
+<span class="tag-is-success">Tree</span><span class="tag-is-success">Binary Search Tree</span><span class="tag-is-success">Binary Tree</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Search in a Sorted Array of Unknown Size
 
-Tags: Array, Binary Search, Interactive
+<span class="tag-is-success">Array</span><span class="tag-is-success">Binary Search</span><span class="tag-is-success">Interactive</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Design Linked List
 
-Tags: Linked List, Design
+<span class="tag-is-success">Linked List</span><span class="tag-is-success">Design</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Insert into a Sorted Circular Linked List
 
-Tags: Linked List
+<span class="tag-is-success">Linked List</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Minimum ASCII Delete Sum for Two Strings
 
-Tags: String, Dynamic Programming
+<span class="tag-is-success">String</span><span class="tag-is-success">Dynamic Programming</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Subarray Product Less Than K
 
-Tags: Array, Sliding Window
+<span class="tag-is-success">Array</span><span class="tag-is-success">Sliding Window</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Best Time to Buy and Sell Stock with Transaction Fee
 
-Tags: Array, Dynamic Programming, Greedy
+<span class="tag-is-success">Array</span><span class="tag-is-success">Dynamic Programming</span><span class="tag-is-success">Greedy</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Maximum Length of Repeated Subarray
 
-Tags: Array, Binary Search, Dynamic Programming, Sliding Window, Rolling Hash, Hash Function
+<span class="tag-is-success">Array</span><span class="tag-is-success">Binary Search</span><span class="tag-is-success">Dynamic Programming</span><span class="tag-is-success">Sliding Window</span><span class="tag-is-success">Rolling Hash</span><span class="tag-is-success">Hash Function</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Longest Word in Dictionary
 
-Tags: Array, Hash Table, String, Trie, Sorting
+<span class="tag-is-success">Array</span><span class="tag-is-success">Hash Table</span><span class="tag-is-success">String</span><span class="tag-is-success">Trie</span><span class="tag-is-success">Sorting</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Accounts Merge
 
-Tags: Array, String, Depth-First Search, Breadth-First Search, Union Find
+<span class="tag-is-success">Array</span><span class="tag-is-success">String</span><span class="tag-is-success">Depth-First Search</span><span class="tag-is-success">Breadth-First Search</span><span class="tag-is-success">Union Find</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Remove Comments
 
-Tags: Array, String
+<span class="tag-is-success">Array</span><span class="tag-is-success">String</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Candy Crush
 
-Tags: Array, Two Pointers, Matrix, Simulation
+<span class="tag-is-success">Array</span><span class="tag-is-success">Two Pointers</span><span class="tag-is-success">Matrix</span><span class="tag-is-success">Simulation</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Split Linked List in Parts
 
-Tags: Linked List
+<span class="tag-is-success">Linked List</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## My Calendar I
 
-Tags: Design, Segment Tree, Ordered Set
+<span class="tag-is-success">Design</span><span class="tag-is-success">Segment Tree</span><span class="tag-is-success">Ordered Set</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## My Calendar II
 
-Tags: Design, Segment Tree, Ordered Set
+<span class="tag-is-success">Design</span><span class="tag-is-success">Segment Tree</span><span class="tag-is-success">Ordered Set</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Asteroid Collision
 
-Tags: Array, Stack
+<span class="tag-is-success">Array</span><span class="tag-is-success">Stack</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Sentence Similarity II
 
-Tags: Array, Hash Table, String, Depth-First Search, Breadth-First Search, Union Find
+<span class="tag-is-success">Array</span><span class="tag-is-success">Hash Table</span><span class="tag-is-success">String</span><span class="tag-is-success">Depth-First Search</span><span class="tag-is-success">Breadth-First Search</span><span class="tag-is-success">Union Find</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Monotone Increasing Digits
 
-Tags: Math, Greedy
+<span class="tag-is-success">Math</span><span class="tag-is-success">Greedy</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Daily Temperatures
 
-Tags: Array, Stack, Monotonic Stack
+<span class="tag-is-success">Array</span><span class="tag-is-success">Stack</span><span class="tag-is-success">Monotonic Stack</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Delete and Earn
 
-Tags: Array, Hash Table, Dynamic Programming
+<span class="tag-is-success">Array</span><span class="tag-is-success">Hash Table</span><span class="tag-is-success">Dynamic Programming</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Closest Leaf in a Binary Tree
 
-Tags: Tree, Depth-First Search, Breadth-First Search, Binary Tree
+<span class="tag-is-success">Tree</span><span class="tag-is-success">Depth-First Search</span><span class="tag-is-success">Breadth-First Search</span><span class="tag-is-success">Binary Tree</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Network Delay Time
 
-Tags: Depth-First Search, Breadth-First Search, Graph, Heap (Priority Queue), Shortest Path
+<span class="tag-is-success">Depth-First Search</span><span class="tag-is-success">Breadth-First Search</span><span class="tag-is-success">Graph</span><span class="tag-is-success">Heap (Priority Queue)</span><span class="tag-is-success">Shortest Path</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Number Of Corner Rectangles
 
-Tags: Array, Math, Dynamic Programming, Matrix
+<span class="tag-is-success">Array</span><span class="tag-is-success">Math</span><span class="tag-is-success">Dynamic Programming</span><span class="tag-is-success">Matrix</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## IP to CIDR
 
-Tags: String, Bit Manipulation
+<span class="tag-is-success">String</span><span class="tag-is-success">Bit Manipulation</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Open the Lock
 
-Tags: Array, Hash Table, String, Breadth-First Search
+<span class="tag-is-success">Array</span><span class="tag-is-success">Hash Table</span><span class="tag-is-success">String</span><span class="tag-is-success">Breadth-First Search</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Reach a Number
 
-Tags: Math, Binary Search
+<span class="tag-is-success">Math</span><span class="tag-is-success">Binary Search</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Pour Water
 
-Tags: Array, Simulation
+<span class="tag-is-success">Array</span><span class="tag-is-success">Simulation</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Pyramid Transition Matrix
 
-Tags: Bit Manipulation, Depth-First Search, Breadth-First Search
+<span class="tag-is-success">Bit Manipulation</span><span class="tag-is-success">Depth-First Search</span><span class="tag-is-success">Breadth-First Search</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Bold Words in String
 
-Tags: Array, Hash Table, String, Trie, String Matching
+<span class="tag-is-success">Array</span><span class="tag-is-success">Hash Table</span><span class="tag-is-success">String</span><span class="tag-is-success">Trie</span><span class="tag-is-success">String Matching</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Partition Labels
 
-Tags: Hash Table, Two Pointers, String, Greedy
+<span class="tag-is-success">Hash Table</span><span class="tag-is-success">Two Pointers</span><span class="tag-is-success">String</span><span class="tag-is-success">Greedy</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Largest Plus Sign
 
-Tags: Array, Dynamic Programming
+<span class="tag-is-success">Array</span><span class="tag-is-success">Dynamic Programming</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Reorganize String
 
-Tags: Hash Table, String, Greedy, Sorting, Heap (Priority Queue), Counting
+<span class="tag-is-success">Hash Table</span><span class="tag-is-success">String</span><span class="tag-is-success">Greedy</span><span class="tag-is-success">Sorting</span><span class="tag-is-success">Heap (Priority Queue)</span><span class="tag-is-success">Counting</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Max Chunks To Make Sorted
 
-Tags: Array, Stack, Greedy, Sorting, Monotonic Stack
+<span class="tag-is-success">Array</span><span class="tag-is-success">Stack</span><span class="tag-is-success">Greedy</span><span class="tag-is-success">Sorting</span><span class="tag-is-success">Monotonic Stack</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Global and Local Inversions
 
-Tags: Array, Math
+<span class="tag-is-success">Array</span><span class="tag-is-success">Math</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Split BST
 
-Tags: Tree, Binary Search Tree, Recursion, Binary Tree
+<span class="tag-is-success">Tree</span><span class="tag-is-success">Binary Search Tree</span><span class="tag-is-success">Recursion</span><span class="tag-is-success">Binary Tree</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Swap Adjacent in LR String
 
-Tags: Two Pointers, String
+<span class="tag-is-success">Two Pointers</span><span class="tag-is-success">String</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## K-th Symbol in Grammar
 
-Tags: Math, Bit Manipulation, Recursion
+<span class="tag-is-success">Math</span><span class="tag-is-success">Bit Manipulation</span><span class="tag-is-success">Recursion</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Rabbits in Forest
 
-Tags: Array, Hash Table, Math, Greedy
+<span class="tag-is-success">Array</span><span class="tag-is-success">Hash Table</span><span class="tag-is-success">Math</span><span class="tag-is-success">Greedy</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Letter Case Permutation
 
-Tags: String, Backtracking, Bit Manipulation
+<span class="tag-is-success">String</span><span class="tag-is-success">Backtracking</span><span class="tag-is-success">Bit Manipulation</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Is Graph Bipartite?
 
-Tags: Depth-First Search, Breadth-First Search, Union Find, Graph
+<span class="tag-is-success">Depth-First Search</span><span class="tag-is-success">Breadth-First Search</span><span class="tag-is-success">Union Find</span><span class="tag-is-success">Graph</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Cheapest Flights Within K Stops
 
-Tags: Dynamic Programming, Depth-First Search, Breadth-First Search, Graph, Heap (Priority Queue), Shortest Path
+<span class="tag-is-success">Dynamic Programming</span><span class="tag-is-success">Depth-First Search</span><span class="tag-is-success">Breadth-First Search</span><span class="tag-is-success">Graph</span><span class="tag-is-success">Heap (Priority Queue)</span><span class="tag-is-success">Shortest Path</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Rotated Digits
 
-Tags: Math, Dynamic Programming
+<span class="tag-is-success">Math</span><span class="tag-is-success">Dynamic Programming</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Escape The Ghosts
 
-Tags: Array, Math
+<span class="tag-is-success">Array</span><span class="tag-is-success">Math</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Domino and Tromino Tiling
 
-Tags: Dynamic Programming
+<span class="tag-is-success">Dynamic Programming</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Custom Sort String
 
-Tags: Hash Table, String, Sorting
+<span class="tag-is-success">Hash Table</span><span class="tag-is-success">String</span><span class="tag-is-success">Sorting</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Number of Matching Subsequences
 
-Tags: Hash Table, String, Trie, Sorting
+<span class="tag-is-success">Hash Table</span><span class="tag-is-success">String</span><span class="tag-is-success">Trie</span><span class="tag-is-success">Sorting</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Valid Tic-Tac-Toe State
 
-Tags: Array, String
+<span class="tag-is-success">Array</span><span class="tag-is-success">String</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Number of Subarrays with Bounded Maximum
 
-Tags: Array, Two Pointers
+<span class="tag-is-success">Array</span><span class="tag-is-success">Two Pointers</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## All Paths From Source to Target
 
-Tags: Backtracking, Depth-First Search, Breadth-First Search, Graph
+<span class="tag-is-success">Backtracking</span><span class="tag-is-success">Depth-First Search</span><span class="tag-is-success">Breadth-First Search</span><span class="tag-is-success">Graph</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Champagne Tower
 
-Tags: Dynamic Programming
+<span class="tag-is-success">Dynamic Programming</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Find Eventual Safe States
 
-Tags: Depth-First Search, Breadth-First Search, Graph, Topological Sort
+<span class="tag-is-success">Depth-First Search</span><span class="tag-is-success">Breadth-First Search</span><span class="tag-is-success">Graph</span><span class="tag-is-success">Topological Sort</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Max Increase to Keep City Skyline
 
-Tags: Array, Greedy, Matrix
+<span class="tag-is-success">Array</span><span class="tag-is-success">Greedy</span><span class="tag-is-success">Matrix</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Soup Servings
 
-Tags: Math, Dynamic Programming, Probability and Statistics
+<span class="tag-is-success">Math</span><span class="tag-is-success">Dynamic Programming</span><span class="tag-is-success">Probability and Statistics</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Expressive Words
 
-Tags: Array, Two Pointers, String
+<span class="tag-is-success">Array</span><span class="tag-is-success">Two Pointers</span><span class="tag-is-success">String</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Subdomain Visit Count
 
-Tags: Array, Hash Table, String, Counting
+<span class="tag-is-success">Array</span><span class="tag-is-success">Hash Table</span><span class="tag-is-success">String</span><span class="tag-is-success">Counting</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Largest Sum of Averages
 
-Tags: Array, Dynamic Programming
+<span class="tag-is-success">Array</span><span class="tag-is-success">Dynamic Programming</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Binary Tree Pruning
 
-Tags: Tree, Depth-First Search, Binary Tree
+<span class="tag-is-success">Tree</span><span class="tag-is-success">Depth-First Search</span><span class="tag-is-success">Binary Tree</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Ambiguous Coordinates
 
-Tags: String, Backtracking
+<span class="tag-is-success">String</span><span class="tag-is-success">Backtracking</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Linked List Components
 
-Tags: Hash Table, Linked List
+<span class="tag-is-success">Hash Table</span><span class="tag-is-success">Linked List</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Short Encoding of Words
 
-Tags: Array, Hash Table, String, Trie
+<span class="tag-is-success">Array</span><span class="tag-is-success">Hash Table</span><span class="tag-is-success">String</span><span class="tag-is-success">Trie</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Card Flipping Game
 
-Tags: Array, Hash Table
+<span class="tag-is-success">Array</span><span class="tag-is-success">Hash Table</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Binary Trees With Factors
 
-Tags: Array, Hash Table, Dynamic Programming
+<span class="tag-is-success">Array</span><span class="tag-is-success">Hash Table</span><span class="tag-is-success">Dynamic Programming</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Friends Of Appropriate Ages
 
-Tags: Array, Two Pointers, Binary Search, Sorting
+<span class="tag-is-success">Array</span><span class="tag-is-success">Two Pointers</span><span class="tag-is-success">Binary Search</span><span class="tag-is-success">Sorting</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Most Profit Assigning Work
 
-Tags: Array, Two Pointers, Binary Search, Greedy, Sorting
+<span class="tag-is-success">Array</span><span class="tag-is-success">Two Pointers</span><span class="tag-is-success">Binary Search</span><span class="tag-is-success">Greedy</span><span class="tag-is-success">Sorting</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Masking Personal Information
 
-Tags: String
+<span class="tag-is-success">String</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Find And Replace in String
 
-Tags: Array, String, Sorting
+<span class="tag-is-success">Array</span><span class="tag-is-success">String</span><span class="tag-is-success">Sorting</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Image Overlap
 
-Tags: Array, Matrix
+<span class="tag-is-success">Array</span><span class="tag-is-success">Matrix</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## New 21 Game
 
-Tags: Math, Dynamic Programming, Sliding Window, Probability and Statistics
+<span class="tag-is-success">Math</span><span class="tag-is-success">Dynamic Programming</span><span class="tag-is-success">Sliding Window</span><span class="tag-is-success">Probability and Statistics</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Push Dominoes
 
-Tags: Two Pointers, String, Dynamic Programming
+<span class="tag-is-success">Two Pointers</span><span class="tag-is-success">String</span><span class="tag-is-success">Dynamic Programming</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Magic Squares In Grid
 
-Tags: Array, Math, Matrix
+<span class="tag-is-success">Array</span><span class="tag-is-success">Math</span><span class="tag-is-success">Matrix</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Keys and Rooms
 
-Tags: Depth-First Search, Breadth-First Search, Graph
+<span class="tag-is-success">Depth-First Search</span><span class="tag-is-success">Breadth-First Search</span><span class="tag-is-success">Graph</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Split Array into Fibonacci Sequence
 
-Tags: String, Backtracking
+<span class="tag-is-success">String</span><span class="tag-is-success">Backtracking</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Longest Mountain in Array
 
-Tags: Array, Two Pointers, Dynamic Programming, Enumeration
+<span class="tag-is-success">Array</span><span class="tag-is-success">Two Pointers</span><span class="tag-is-success">Dynamic Programming</span><span class="tag-is-success">Enumeration</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Hand of Straights
 
-Tags: Array, Hash Table, Greedy, Sorting
+<span class="tag-is-success">Array</span><span class="tag-is-success">Hash Table</span><span class="tag-is-success">Greedy</span><span class="tag-is-success">Sorting</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Shifting Letters
 
-Tags: Array, String
+<span class="tag-is-success">Array</span><span class="tag-is-success">String</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Maximize Distance to Closest Person
 
-Tags: Array
+<span class="tag-is-success">Array</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Loud and Rich
 
-Tags: Array, Depth-First Search, Graph, Topological Sort
+<span class="tag-is-success">Array</span><span class="tag-is-success">Depth-First Search</span><span class="tag-is-success">Graph</span><span class="tag-is-success">Topological Sort</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Car Fleet
 
-Tags: Array, Stack, Sorting, Monotonic Stack
+<span class="tag-is-success">Array</span><span class="tag-is-success">Stack</span><span class="tag-is-success">Sorting</span><span class="tag-is-success">Monotonic Stack</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Exam Room
 
-Tags: Design, Ordered Set
+<span class="tag-is-success">Design</span><span class="tag-is-success">Ordered Set</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Score of Parentheses
 
-Tags: String, Stack
+<span class="tag-is-success">String</span><span class="tag-is-success">Stack</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Mirror Reflection
 
-Tags: Math, Geometry
+<span class="tag-is-success">Math</span><span class="tag-is-success">Geometry</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Score After Flipping Matrix
 
-Tags: Array, Greedy, Bit Manipulation, Matrix
+<span class="tag-is-success">Array</span><span class="tag-is-success">Greedy</span><span class="tag-is-success">Bit Manipulation</span><span class="tag-is-success">Matrix</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## All Nodes Distance K in Binary Tree
 
-Tags: Tree, Depth-First Search, Breadth-First Search, Binary Tree
+<span class="tag-is-success">Tree</span><span class="tag-is-success">Depth-First Search</span><span class="tag-is-success">Breadth-First Search</span><span class="tag-is-success">Binary Tree</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Smallest Subtree with all the Deepest Nodes
 
-Tags: Hash Table, Tree, Depth-First Search, Breadth-First Search, Binary Tree
+<span class="tag-is-success">Hash Table</span><span class="tag-is-success">Tree</span><span class="tag-is-success">Depth-First Search</span><span class="tag-is-success">Breadth-First Search</span><span class="tag-is-success">Binary Tree</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Prime Palindrome
 
-Tags: Math
+<span class="tag-is-success">Math</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Reordered Power of 2
 
-Tags: Math, Sorting, Counting, Enumeration
+<span class="tag-is-success">Math</span><span class="tag-is-success">Sorting</span><span class="tag-is-success">Counting</span><span class="tag-is-success">Enumeration</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Advantage Shuffle
 
-Tags: Array, Greedy, Sorting
+<span class="tag-is-success">Array</span><span class="tag-is-success">Greedy</span><span class="tag-is-success">Sorting</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Length of Longest Fibonacci Subsequence
 
-Tags: Array, Hash Table, Dynamic Programming
+<span class="tag-is-success">Array</span><span class="tag-is-success">Hash Table</span><span class="tag-is-success">Dynamic Programming</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Walking Robot Simulation
 
-Tags: Array, Simulation
+<span class="tag-is-success">Array</span><span class="tag-is-success">Simulation</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Koko Eating Bananas
 
-Tags: Array, Binary Search
+<span class="tag-is-success">Array</span><span class="tag-is-success">Binary Search</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Stone Game
 
-Tags: Array, Math, Dynamic Programming, Game Theory
+<span class="tag-is-success">Array</span><span class="tag-is-success">Math</span><span class="tag-is-success">Dynamic Programming</span><span class="tag-is-success">Game Theory</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Decoded String at Index
 
-Tags: String, Stack
+<span class="tag-is-success">String</span><span class="tag-is-success">Stack</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Boats to Save People
 
-Tags: Array, Two Pointers, Greedy, Sorting
+<span class="tag-is-success">Array</span><span class="tag-is-success">Two Pointers</span><span class="tag-is-success">Greedy</span><span class="tag-is-success">Sorting</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Spiral Matrix III
 
-Tags: Array, Matrix, Simulation
+<span class="tag-is-success">Array</span><span class="tag-is-success">Matrix</span><span class="tag-is-success">Simulation</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Possible Bipartition
 
-Tags: Depth-First Search, Breadth-First Search, Union Find, Graph
+<span class="tag-is-success">Depth-First Search</span><span class="tag-is-success">Breadth-First Search</span><span class="tag-is-success">Union Find</span><span class="tag-is-success">Graph</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Construct Binary Tree from Preorder and Postorder Traversal
 
-Tags: Array, Hash Table, Divide and Conquer, Tree, Binary Tree
+<span class="tag-is-success">Array</span><span class="tag-is-success">Hash Table</span><span class="tag-is-success">Divide and Conquer</span><span class="tag-is-success">Tree</span><span class="tag-is-success">Binary Tree</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Find and Replace Pattern
 
-Tags: Array, Hash Table, String
+<span class="tag-is-success">Array</span><span class="tag-is-success">Hash Table</span><span class="tag-is-success">String</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Groups of Special-Equivalent Strings
 
-Tags: Array, Hash Table, String
+<span class="tag-is-success">Array</span><span class="tag-is-success">Hash Table</span><span class="tag-is-success">String</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## All Possible Full Binary Trees
 
-Tags: Dynamic Programming, Tree, Recursion, Memoization, Binary Tree
+<span class="tag-is-success">Dynamic Programming</span><span class="tag-is-success">Tree</span><span class="tag-is-success">Recursion</span><span class="tag-is-success">Memoization</span><span class="tag-is-success">Binary Tree</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Bitwise ORs of Subarrays
 
-Tags: Array, Dynamic Programming, Bit Manipulation
+<span class="tag-is-success">Array</span><span class="tag-is-success">Dynamic Programming</span><span class="tag-is-success">Bit Manipulation</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## RLE Iterator
 
-Tags: Array, Design, Counting, Iterator
+<span class="tag-is-success">Array</span><span class="tag-is-success">Design</span><span class="tag-is-success">Counting</span><span class="tag-is-success">Iterator</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Online Stock Span
 
-Tags: Stack, Design, Monotonic Stack, Data Stream
+<span class="tag-is-success">Stack</span><span class="tag-is-success">Design</span><span class="tag-is-success">Monotonic Stack</span><span class="tag-is-success">Data Stream</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Fruit Into Baskets
 
-Tags: Array, Hash Table, Sliding Window
+<span class="tag-is-success">Array</span><span class="tag-is-success">Hash Table</span><span class="tag-is-success">Sliding Window</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Sum of Subarray Minimums
 
-Tags: Array, Dynamic Programming, Stack, Monotonic Stack
+<span class="tag-is-success">Array</span><span class="tag-is-success">Dynamic Programming</span><span class="tag-is-success">Stack</span><span class="tag-is-success">Monotonic Stack</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Snakes and Ladders
 
-Tags: Array, Breadth-First Search, Matrix
+<span class="tag-is-success">Array</span><span class="tag-is-success">Breadth-First Search</span><span class="tag-is-success">Matrix</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Smallest Range II
 
-Tags: Array, Math, Greedy, Sorting
+<span class="tag-is-success">Array</span><span class="tag-is-success">Math</span><span class="tag-is-success">Greedy</span><span class="tag-is-success">Sorting</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Online Election
 
-Tags: Array, Hash Table, Binary Search, Design
+<span class="tag-is-success">Array</span><span class="tag-is-success">Hash Table</span><span class="tag-is-success">Binary Search</span><span class="tag-is-success">Design</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Sort an Array
 
-Tags: Array, Divide and Conquer, Sorting, Heap (Priority Queue), Merge Sort, Bucket Sort, Radix Sort, Counting Sort
+<span class="tag-is-success">Array</span><span class="tag-is-success">Divide and Conquer</span><span class="tag-is-success">Sorting</span><span class="tag-is-success">Heap (Priority Queue)</span><span class="tag-is-success">Merge Sort</span><span class="tag-is-success">Bucket Sort</span><span class="tag-is-success">Radix Sort</span><span class="tag-is-success">Counting Sort</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Partition Array into Disjoint Intervals
 
-Tags: Array
+<span class="tag-is-success">Array</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Word Subsets
 
-Tags: Array, Hash Table, String
+<span class="tag-is-success">Array</span><span class="tag-is-success">Hash Table</span><span class="tag-is-success">String</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Maximum Sum Circular Subarray
 
-Tags: Array, Divide and Conquer, Dynamic Programming, Queue, Monotonic Queue
+<span class="tag-is-success">Array</span><span class="tag-is-success">Divide and Conquer</span><span class="tag-is-success">Dynamic Programming</span><span class="tag-is-success">Queue</span><span class="tag-is-success">Monotonic Queue</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Complete Binary Tree Inserter
 
-Tags: Tree, Breadth-First Search, Design, Binary Tree
+<span class="tag-is-success">Tree</span><span class="tag-is-success">Breadth-First Search</span><span class="tag-is-success">Design</span><span class="tag-is-success">Binary Tree</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Minimum Add to Make Parentheses Valid
 
-Tags: String, Stack, Greedy
+<span class="tag-is-success">String</span><span class="tag-is-success">Stack</span><span class="tag-is-success">Greedy</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## 3Sum With Multiplicity
 
-Tags: Array, Hash Table, Two Pointers, Sorting, Counting
+<span class="tag-is-success">Array</span><span class="tag-is-success">Hash Table</span><span class="tag-is-success">Two Pointers</span><span class="tag-is-success">Sorting</span><span class="tag-is-success">Counting</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Flip String to Monotone Increasing
 
-Tags: String, Dynamic Programming
+<span class="tag-is-success">String</span><span class="tag-is-success">Dynamic Programming</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Binary Subarrays With Sum
 
-Tags: Array, Hash Table, Sliding Window, Prefix Sum
+<span class="tag-is-success">Array</span><span class="tag-is-success">Hash Table</span><span class="tag-is-success">Sliding Window</span><span class="tag-is-success">Prefix Sum</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Minimum Falling Path Sum
 
-Tags: Array, Dynamic Programming, Matrix
+<span class="tag-is-success">Array</span><span class="tag-is-success">Dynamic Programming</span><span class="tag-is-success">Matrix</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Beautiful Array
 
-Tags: Array, Math, Divide and Conquer
+<span class="tag-is-success">Array</span><span class="tag-is-success">Math</span><span class="tag-is-success">Divide and Conquer</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Shortest Bridge
 
-Tags: Array, Depth-First Search, Breadth-First Search, Matrix
+<span class="tag-is-success">Array</span><span class="tag-is-success">Depth-First Search</span><span class="tag-is-success">Breadth-First Search</span><span class="tag-is-success">Matrix</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Knight Dialer
 
-Tags: Dynamic Programming
+<span class="tag-is-success">Dynamic Programming</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Minimum Area Rectangle
 
-Tags: Array, Hash Table, Math, Geometry, Sorting
+<span class="tag-is-success">Array</span><span class="tag-is-success">Hash Table</span><span class="tag-is-success">Math</span><span class="tag-is-success">Geometry</span><span class="tag-is-success">Sorting</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Minimum Increment to Make Array Unique
 
-Tags: Array, Greedy, Sorting, Counting
+<span class="tag-is-success">Array</span><span class="tag-is-success">Greedy</span><span class="tag-is-success">Sorting</span><span class="tag-is-success">Counting</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Validate Stack Sequences
 
-Tags: Array, Stack, Simulation
+<span class="tag-is-success">Array</span><span class="tag-is-success">Stack</span><span class="tag-is-success">Simulation</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Most Stones Removed with Same Row or Column
 
-Tags: Depth-First Search, Union Find, Graph
+<span class="tag-is-success">Depth-First Search</span><span class="tag-is-success">Union Find</span><span class="tag-is-success">Graph</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Bag of Tokens
 
-Tags: Array, Two Pointers, Greedy, Sorting
+<span class="tag-is-success">Array</span><span class="tag-is-success">Two Pointers</span><span class="tag-is-success">Greedy</span><span class="tag-is-success">Sorting</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Largest Time for Given Digits
 
-Tags: String, Enumeration
+<span class="tag-is-success">String</span><span class="tag-is-success">Enumeration</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Reveal Cards In Increasing Order
 
-Tags: Array, Queue, Sorting, Simulation
+<span class="tag-is-success">Array</span><span class="tag-is-success">Queue</span><span class="tag-is-success">Sorting</span><span class="tag-is-success">Simulation</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Flip Equivalent Binary Trees
 
-Tags: Tree, Depth-First Search, Binary Tree
+<span class="tag-is-success">Tree</span><span class="tag-is-success">Depth-First Search</span><span class="tag-is-success">Binary Tree</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Array of Doubled Pairs
 
-Tags: Array, Hash Table, Greedy, Sorting
+<span class="tag-is-success">Array</span><span class="tag-is-success">Hash Table</span><span class="tag-is-success">Greedy</span><span class="tag-is-success">Sorting</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Delete Columns to Make Sorted II
 
-Tags: Array, String, Greedy
+<span class="tag-is-success">Array</span><span class="tag-is-success">String</span><span class="tag-is-success">Greedy</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Prison Cells After N Days
 
-Tags: Array, Hash Table, Math, Bit Manipulation
+<span class="tag-is-success">Array</span><span class="tag-is-success">Hash Table</span><span class="tag-is-success">Math</span><span class="tag-is-success">Bit Manipulation</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Check Completeness of a Binary Tree
 
-Tags: Tree, Breadth-First Search, Binary Tree
+<span class="tag-is-success">Tree</span><span class="tag-is-success">Breadth-First Search</span><span class="tag-is-success">Binary Tree</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Regions Cut By Slashes
 
-Tags: Depth-First Search, Breadth-First Search, Union Find, Graph
+<span class="tag-is-success">Depth-First Search</span><span class="tag-is-success">Breadth-First Search</span><span class="tag-is-success">Union Find</span><span class="tag-is-success">Graph</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Maximum Width Ramp
 
-Tags: Array, Stack, Monotonic Stack
+<span class="tag-is-success">Array</span><span class="tag-is-success">Stack</span><span class="tag-is-success">Monotonic Stack</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Minimum Area Rectangle II
 
-Tags: Array, Math, Geometry
+<span class="tag-is-success">Array</span><span class="tag-is-success">Math</span><span class="tag-is-success">Geometry</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Vowel Spellchecker
 
-Tags: Array, Hash Table, String
+<span class="tag-is-success">Array</span><span class="tag-is-success">Hash Table</span><span class="tag-is-success">String</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Numbers With Same Consecutive Differences
 
-Tags: Backtracking, Breadth-First Search
+<span class="tag-is-success">Backtracking</span><span class="tag-is-success">Breadth-First Search</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Pancake Sorting
 
-Tags: Array, Two Pointers, Greedy, Sorting
+<span class="tag-is-success">Array</span><span class="tag-is-success">Two Pointers</span><span class="tag-is-success">Greedy</span><span class="tag-is-success">Sorting</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Powerful Integers
 
-Tags: Hash Table, Math
+<span class="tag-is-success">Hash Table</span><span class="tag-is-success">Math</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Flip Binary Tree To Match Preorder Traversal
 
-Tags: Tree, Depth-First Search, Binary Tree
+<span class="tag-is-success">Tree</span><span class="tag-is-success">Depth-First Search</span><span class="tag-is-success">Binary Tree</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## K Closest Points to Origin
 
-Tags: Array, Math, Divide and Conquer, Geometry, Sorting, Heap (Priority Queue), Quickselect
+<span class="tag-is-success">Array</span><span class="tag-is-success">Math</span><span class="tag-is-success">Divide and Conquer</span><span class="tag-is-success">Geometry</span><span class="tag-is-success">Sorting</span><span class="tag-is-success">Heap (Priority Queue)</span><span class="tag-is-success">Quickselect</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Subarray Sums Divisible by K
 
-Tags: Array, Hash Table, Prefix Sum
+<span class="tag-is-success">Array</span><span class="tag-is-success">Hash Table</span><span class="tag-is-success">Prefix Sum</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Longest Turbulent Subarray
 
-Tags: Array, Dynamic Programming, Sliding Window
+<span class="tag-is-success">Array</span><span class="tag-is-success">Dynamic Programming</span><span class="tag-is-success">Sliding Window</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Distribute Coins in Binary Tree
 
-Tags: Tree, Depth-First Search, Binary Tree
+<span class="tag-is-success">Tree</span><span class="tag-is-success">Depth-First Search</span><span class="tag-is-success">Binary Tree</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Time Based Key-Value Store
 
-Tags: Hash Table, String, Binary Search, Design
+<span class="tag-is-success">Hash Table</span><span class="tag-is-success">String</span><span class="tag-is-success">Binary Search</span><span class="tag-is-success">Design</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Minimum Cost For Tickets
 
-Tags: Array, Dynamic Programming
+<span class="tag-is-success">Array</span><span class="tag-is-success">Dynamic Programming</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## String Without AAA or BBB
 
-Tags: String, Greedy
+<span class="tag-is-success">String</span><span class="tag-is-success">Greedy</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Sum of Even Numbers After Queries
 
-Tags: Array, Simulation
+<span class="tag-is-success">Array</span><span class="tag-is-success">Simulation</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Interval List Intersections
 
-Tags: Array, Two Pointers
+<span class="tag-is-success">Array</span><span class="tag-is-success">Two Pointers</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Smallest String Starting From Leaf
 
-Tags: String, Tree, Depth-First Search, Binary Tree
+<span class="tag-is-success">String</span><span class="tag-is-success">Tree</span><span class="tag-is-success">Depth-First Search</span><span class="tag-is-success">Binary Tree</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Satisfiability of Equality Equations
 
-Tags: Array, String, Union Find, Graph
+<span class="tag-is-success">Array</span><span class="tag-is-success">String</span><span class="tag-is-success">Union Find</span><span class="tag-is-success">Graph</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Broken Calculator
 
-Tags: Math, Greedy
+<span class="tag-is-success">Math</span><span class="tag-is-success">Greedy</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Rotting Oranges
 
-Tags: Array, Breadth-First Search, Matrix
+<span class="tag-is-success">Array</span><span class="tag-is-success">Breadth-First Search</span><span class="tag-is-success">Matrix</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Maximum Binary Tree II
 
-Tags: Tree, Binary Tree
+<span class="tag-is-success">Tree</span><span class="tag-is-success">Binary Tree</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Check If Word Is Valid After Substitutions
 
-Tags: String, Stack
+<span class="tag-is-success">String</span><span class="tag-is-success">Stack</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Max Consecutive Ones III
 
-Tags: Array, Binary Search, Sliding Window, Prefix Sum
+<span class="tag-is-success">Array</span><span class="tag-is-success">Binary Search</span><span class="tag-is-success">Sliding Window</span><span class="tag-is-success">Prefix Sum</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Clumsy Factorial
 
-Tags: Math, Stack, Simulation
+<span class="tag-is-success">Math</span><span class="tag-is-success">Stack</span><span class="tag-is-success">Simulation</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Minimum Domino Rotations For Equal Row
 
-Tags: Array, Greedy
+<span class="tag-is-success">Array</span><span class="tag-is-success">Greedy</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Construct Binary Search Tree from Preorder Traversal
 
-Tags: Array, Stack, Tree, Binary Search Tree, Monotonic Stack, Binary Tree
+<span class="tag-is-success">Array</span><span class="tag-is-success">Stack</span><span class="tag-is-success">Tree</span><span class="tag-is-success">Binary Search Tree</span><span class="tag-is-success">Monotonic Stack</span><span class="tag-is-success">Binary Tree</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Pairs of Songs With Total Durations Divisible by 60
 
-Tags: Array, Hash Table, Counting
+<span class="tag-is-success">Array</span><span class="tag-is-success">Hash Table</span><span class="tag-is-success">Counting</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Capacity To Ship Packages Within D Days
 
-Tags: Array, Binary Search, Greedy
+<span class="tag-is-success">Array</span><span class="tag-is-success">Binary Search</span><span class="tag-is-success">Greedy</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Best Sightseeing Pair
 
-Tags: Array, Dynamic Programming
+<span class="tag-is-success">Array</span><span class="tag-is-success">Dynamic Programming</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Smallest Integer Divisible by K
 
-Tags: Hash Table, Math
+<span class="tag-is-success">Hash Table</span><span class="tag-is-success">Math</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Binary String With Substrings Representing 1 To N
 
-Tags: String
+<span class="tag-is-success">String</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Convert to Base -2
 
-Tags: Math
+<span class="tag-is-success">Math</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Next Greater Node In Linked List
 
-Tags: Array, Linked List, Stack, Monotonic Stack
+<span class="tag-is-success">Array</span><span class="tag-is-success">Linked List</span><span class="tag-is-success">Stack</span><span class="tag-is-success">Monotonic Stack</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Number of Enclaves
 
-Tags: Array, Depth-First Search, Breadth-First Search, Union Find, Matrix
+<span class="tag-is-success">Array</span><span class="tag-is-success">Depth-First Search</span><span class="tag-is-success">Breadth-First Search</span><span class="tag-is-success">Union Find</span><span class="tag-is-success">Matrix</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Camelcase Matching
 
-Tags: Two Pointers, String, Trie, String Matching
+<span class="tag-is-success">Two Pointers</span><span class="tag-is-success">String</span><span class="tag-is-success">Trie</span><span class="tag-is-success">String Matching</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Video Stitching
 
-Tags: Array, Dynamic Programming, Greedy
+<span class="tag-is-success">Array</span><span class="tag-is-success">Dynamic Programming</span><span class="tag-is-success">Greedy</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Maximum Difference Between Node and Ancestor
 
-Tags: Tree, Depth-First Search, Binary Tree
+<span class="tag-is-success">Tree</span><span class="tag-is-success">Depth-First Search</span><span class="tag-is-success">Binary Tree</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Longest Arithmetic Subsequence
 
-Tags: Array, Hash Table, Binary Search, Dynamic Programming
+<span class="tag-is-success">Array</span><span class="tag-is-success">Hash Table</span><span class="tag-is-success">Binary Search</span><span class="tag-is-success">Dynamic Programming</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Two City Scheduling
 
-Tags: Array, Greedy, Sorting
+<span class="tag-is-success">Array</span><span class="tag-is-success">Greedy</span><span class="tag-is-success">Sorting</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Maximum Sum of Two Non-Overlapping Subarrays
 
-Tags: Array, Dynamic Programming, Sliding Window
+<span class="tag-is-success">Array</span><span class="tag-is-success">Dynamic Programming</span><span class="tag-is-success">Sliding Window</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Moving Stones Until Consecutive
 
-Tags: Math, Brainteaser
+<span class="tag-is-success">Math</span><span class="tag-is-success">Brainteaser</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Coloring A Border
 
-Tags: Array, Depth-First Search, Breadth-First Search, Matrix
+<span class="tag-is-success">Array</span><span class="tag-is-success">Depth-First Search</span><span class="tag-is-success">Breadth-First Search</span><span class="tag-is-success">Matrix</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Uncrossed Lines
 
-Tags: Array, Dynamic Programming
+<span class="tag-is-success">Array</span><span class="tag-is-success">Dynamic Programming</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Binary Search Tree to Greater Sum Tree
 
-Tags: Tree, Depth-First Search, Binary Search Tree, Binary Tree
+<span class="tag-is-success">Tree</span><span class="tag-is-success">Depth-First Search</span><span class="tag-is-success">Binary Search Tree</span><span class="tag-is-success">Binary Tree</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Minimum Score Triangulation of Polygon
 
-Tags: Array, Dynamic Programming
+<span class="tag-is-success">Array</span><span class="tag-is-success">Dynamic Programming</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Moving Stones Until Consecutive II
 
-Tags: Array, Math, Two Pointers, Sorting
+<span class="tag-is-success">Array</span><span class="tag-is-success">Math</span><span class="tag-is-success">Two Pointers</span><span class="tag-is-success">Sorting</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Robot Bounded In Circle
 
-Tags: Math, String, Simulation
+<span class="tag-is-success">Math</span><span class="tag-is-success">String</span><span class="tag-is-success">Simulation</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Flower Planting With No Adjacent
 
-Tags: Depth-First Search, Breadth-First Search, Graph
+<span class="tag-is-success">Depth-First Search</span><span class="tag-is-success">Breadth-First Search</span><span class="tag-is-success">Graph</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Partition Array for Maximum Sum
 
-Tags: Array, Dynamic Programming
+<span class="tag-is-success">Array</span><span class="tag-is-success">Dynamic Programming</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Customers Who Bought All Products
 
-Tags: Database
+<span class="tag-is-success">Database</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Longest String Chain
 
-Tags: Array, Hash Table, Two Pointers, String, Dynamic Programming
+<span class="tag-is-success">Array</span><span class="tag-is-success">Hash Table</span><span class="tag-is-success">Two Pointers</span><span class="tag-is-success">String</span><span class="tag-is-success">Dynamic Programming</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Last Stone Weight II
 
-Tags: Array, Dynamic Programming
+<span class="tag-is-success">Array</span><span class="tag-is-success">Dynamic Programming</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Grumpy Bookstore Owner
 
-Tags: Array, Sliding Window
+<span class="tag-is-success">Array</span><span class="tag-is-success">Sliding Window</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Previous Permutation With One Swap
 
-Tags: Array, Greedy
+<span class="tag-is-success">Array</span><span class="tag-is-success">Greedy</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Distant Barcodes
 
-Tags: Array, Hash Table, Greedy, Sorting, Heap (Priority Queue), Counting
+<span class="tag-is-success">Array</span><span class="tag-is-success">Hash Table</span><span class="tag-is-success">Greedy</span><span class="tag-is-success">Sorting</span><span class="tag-is-success">Heap (Priority Queue)</span><span class="tag-is-success">Counting</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Shortest Way to Form String
 
-Tags: String, Dynamic Programming, Greedy
+<span class="tag-is-success">String</span><span class="tag-is-success">Dynamic Programming</span><span class="tag-is-success">Greedy</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Campus Bikes
 
-Tags: Array, Greedy, Sorting
+<span class="tag-is-success">Array</span><span class="tag-is-success">Greedy</span><span class="tag-is-success">Sorting</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Minimize Rounding Error to Meet Target
 
-Tags: Array, Math, String, Greedy
+<span class="tag-is-success">Array</span><span class="tag-is-success">Math</span><span class="tag-is-success">String</span><span class="tag-is-success">Greedy</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## All Paths from Source Lead to Destination
 
-Tags: Depth-First Search, Graph
+<span class="tag-is-success">Depth-First Search</span><span class="tag-is-success">Graph</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Missing Element in Sorted Array
 
-Tags: Array, Binary Search
+<span class="tag-is-success">Array</span><span class="tag-is-success">Binary Search</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Lexicographically Smallest Equivalent String
 
-Tags: String, Union Find
+<span class="tag-is-success">String</span><span class="tag-is-success">Union Find</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Longest Repeating Substring
 
-Tags: String, Binary Search, Dynamic Programming, Rolling Hash, Suffix Array, Hash Function
+<span class="tag-is-success">String</span><span class="tag-is-success">Binary Search</span><span class="tag-is-success">Dynamic Programming</span><span class="tag-is-success">Rolling Hash</span><span class="tag-is-success">Suffix Array</span><span class="tag-is-success">Hash Function</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Campus Bikes II
 
-Tags: Array, Dynamic Programming, Backtracking, Bit Manipulation, Bitmask
+<span class="tag-is-success">Array</span><span class="tag-is-success">Dynamic Programming</span><span class="tag-is-success">Backtracking</span><span class="tag-is-success">Bit Manipulation</span><span class="tag-is-success">Bitmask</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Product Sales Analysis III
 
-Tags: Database
+<span class="tag-is-success">Database</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Flip Columns For Maximum Number of Equal Rows
 
-Tags: Array, Hash Table, Matrix
+<span class="tag-is-success">Array</span><span class="tag-is-success">Hash Table</span><span class="tag-is-success">Matrix</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Adding Two Negabinary Numbers
 
-Tags: Array, Math
+<span class="tag-is-success">Array</span><span class="tag-is-success">Math</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Project Employees III
 
-Tags: Database
+<span class="tag-is-success">Database</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Letter Tile Possibilities
 
-Tags: String, Backtracking
+<span class="tag-is-success">String</span><span class="tag-is-success">Backtracking</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Insufficient Nodes in Root to Leaf Paths
 
-Tags: Tree, Depth-First Search, Binary Tree
+<span class="tag-is-success">Tree</span><span class="tag-is-success">Depth-First Search</span><span class="tag-is-success">Binary Tree</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Smallest Subsequence of Distinct Characters
 
-Tags: String, Stack, Greedy, Monotonic Stack
+<span class="tag-is-success">String</span><span class="tag-is-success">Stack</span><span class="tag-is-success">Greedy</span><span class="tag-is-success">Monotonic Stack</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Brace Expansion
 
-Tags: String, Backtracking, Breadth-First Search
+<span class="tag-is-success">String</span><span class="tag-is-success">Backtracking</span><span class="tag-is-success">Breadth-First Search</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Largest Values From Labels
 
-Tags: Array, Hash Table, Greedy, Sorting, Counting
+<span class="tag-is-success">Array</span><span class="tag-is-success">Hash Table</span><span class="tag-is-success">Greedy</span><span class="tag-is-success">Sorting</span><span class="tag-is-success">Counting</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Shortest Path in Binary Matrix
 
-Tags: Array, Breadth-First Search, Matrix
+<span class="tag-is-success">Array</span><span class="tag-is-success">Breadth-First Search</span><span class="tag-is-success">Matrix</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Statistics from a Large Sample
 
-Tags: Math, Two Pointers, Probability and Statistics
+<span class="tag-is-success">Math</span><span class="tag-is-success">Two Pointers</span><span class="tag-is-success">Probability and Statistics</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Car Pooling
 
-Tags: Array, Sorting, Heap (Priority Queue), Simulation, Prefix Sum
+<span class="tag-is-success">Array</span><span class="tag-is-success">Sorting</span><span class="tag-is-success">Heap (Priority Queue)</span><span class="tag-is-success">Simulation</span><span class="tag-is-success">Prefix Sum</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Unpopular Books
 
-Tags: Database
+<span class="tag-is-success">Database</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Find K-Length Substrings With No Repeated Characters
 
-Tags: Hash Table, String, Sliding Window
+<span class="tag-is-success">Hash Table</span><span class="tag-is-success">String</span><span class="tag-is-success">Sliding Window</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## The Earliest Moment When Everyone Become Friends
 
-Tags: Array, Union Find
+<span class="tag-is-success">Array</span><span class="tag-is-success">Union Find</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Path With Maximum Minimum Value
 
-Tags: Array, Depth-First Search, Breadth-First Search, Union Find, Heap (Priority Queue), Matrix
+<span class="tag-is-success">Array</span><span class="tag-is-success">Depth-First Search</span><span class="tag-is-success">Breadth-First Search</span><span class="tag-is-success">Union Find</span><span class="tag-is-success">Heap (Priority Queue)</span><span class="tag-is-success">Matrix</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Path In Zigzag Labelled Binary Tree
 
-Tags: Math, Tree, Binary Tree
+<span class="tag-is-success">Math</span><span class="tag-is-success">Tree</span><span class="tag-is-success">Binary Tree</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Filling Bookcase Shelves
 
-Tags: Array, Dynamic Programming
+<span class="tag-is-success">Array</span><span class="tag-is-success">Dynamic Programming</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## New Users Daily Count
 
-Tags: Database
+<span class="tag-is-success">Database</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Corporate Flight Bookings
 
-Tags: Array, Prefix Sum
+<span class="tag-is-success">Array</span><span class="tag-is-success">Prefix Sum</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Delete Nodes And Return Forest
 
-Tags: Tree, Depth-First Search, Binary Tree
+<span class="tag-is-success">Tree</span><span class="tag-is-success">Depth-First Search</span><span class="tag-is-success">Binary Tree</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Maximum Nesting Depth of Two Valid Parentheses Strings
 
-Tags: String, Stack
+<span class="tag-is-success">String</span><span class="tag-is-success">Stack</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Highest Grade For Each Student
 
-Tags: Database
+<span class="tag-is-success">Database</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Print FooBar Alternately
 
-Tags: Concurrency
+<span class="tag-is-success">Concurrency</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Print Zero Even Odd
 
-Tags: Concurrency
+<span class="tag-is-success">Concurrency</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Building H2O
 
-Tags: Concurrency
+<span class="tag-is-success">Concurrency</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Maximum Average Subtree
 
-Tags: Tree, Depth-First Search, Binary Tree
+<span class="tag-is-success">Tree</span><span class="tag-is-success">Depth-First Search</span><span class="tag-is-success">Binary Tree</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Lowest Common Ancestor of Deepest Leaves
 
-Tags: Hash Table, Tree, Depth-First Search, Breadth-First Search, Binary Tree
+<span class="tag-is-success">Hash Table</span><span class="tag-is-success">Tree</span><span class="tag-is-success">Depth-First Search</span><span class="tag-is-success">Breadth-First Search</span><span class="tag-is-success">Binary Tree</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Longest Well-Performing Interval
 
-Tags: Array, Hash Table, Stack, Monotonic Stack, Prefix Sum
+<span class="tag-is-success">Array</span><span class="tag-is-success">Hash Table</span><span class="tag-is-success">Stack</span><span class="tag-is-success">Monotonic Stack</span><span class="tag-is-success">Prefix Sum</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Active Businesses
 
-Tags: Database
+<span class="tag-is-success">Database</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Shortest Path with Alternating Colors
 
-Tags: Breadth-First Search, Graph
+<span class="tag-is-success">Breadth-First Search</span><span class="tag-is-success">Graph</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Minimum Cost Tree From Leaf Values
 
-Tags: Dynamic Programming, Stack, Greedy, Monotonic Stack
+<span class="tag-is-success">Dynamic Programming</span><span class="tag-is-success">Stack</span><span class="tag-is-success">Greedy</span><span class="tag-is-success">Monotonic Stack</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Maximum of Absolute Value Expression
 
-Tags: Array, Math
+<span class="tag-is-success">Array</span><span class="tag-is-success">Math</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Reported Posts II
 
-Tags: Database
+<span class="tag-is-success">Database</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Connecting Cities With Minimum Cost
 
-Tags: Union Find, Graph, Heap (Priority Queue), Minimum Spanning Tree
+<span class="tag-is-success">Union Find</span><span class="tag-is-success">Graph</span><span class="tag-is-success">Heap (Priority Queue)</span><span class="tag-is-success">Minimum Spanning Tree</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Parallel Courses
 
-Tags: Graph, Topological Sort
+<span class="tag-is-success">Graph</span><span class="tag-is-success">Topological Sort</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Alphabet Board Path
 
-Tags: Hash Table, String
+<span class="tag-is-success">Hash Table</span><span class="tag-is-success">String</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Largest 1-Bordered Square
 
-Tags: Array, Dynamic Programming, Matrix
+<span class="tag-is-success">Array</span><span class="tag-is-success">Dynamic Programming</span><span class="tag-is-success">Matrix</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Stone Game II
 
-Tags: Array, Math, Dynamic Programming, Game Theory
+<span class="tag-is-success">Array</span><span class="tag-is-success">Math</span><span class="tag-is-success">Dynamic Programming</span><span class="tag-is-success">Game Theory</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Longest Common Subsequence
 
-Tags: String, Dynamic Programming
+<span class="tag-is-success">String</span><span class="tag-is-success">Dynamic Programming</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Decrease Elements To Make Array Zigzag
 
-Tags: Array, Greedy
+<span class="tag-is-success">Array</span><span class="tag-is-success">Greedy</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Binary Tree Coloring Game
 
-Tags: Tree, Depth-First Search, Binary Tree
+<span class="tag-is-success">Tree</span><span class="tag-is-success">Depth-First Search</span><span class="tag-is-success">Binary Tree</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Snapshot Array
 
-Tags: Array, Hash Table, Binary Search, Design
+<span class="tag-is-success">Array</span><span class="tag-is-success">Hash Table</span><span class="tag-is-success">Binary Search</span><span class="tag-is-success">Design</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Article Views II
 
-Tags: Database
+<span class="tag-is-success">Database</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Minimum Swaps to Group All 1's Together
 
-Tags: Array, Sliding Window
+<span class="tag-is-success">Array</span><span class="tag-is-success">Sliding Window</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Analyze User Website Visit Pattern
 
-Tags: Array, Hash Table, Sorting
+<span class="tag-is-success">Array</span><span class="tag-is-success">Hash Table</span><span class="tag-is-success">Sorting</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Number of Dice Rolls With Target Sum
 
-Tags: Dynamic Programming
+<span class="tag-is-success">Dynamic Programming</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Swap For Longest Repeated Character Substring
 
-Tags: String, Sliding Window
+<span class="tag-is-success">String</span><span class="tag-is-success">Sliding Window</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Market Analysis I
 
-Tags: Database
+<span class="tag-is-success">Database</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Maximum Level Sum of a Binary Tree
 
-Tags: Tree, Depth-First Search, Breadth-First Search, Binary Tree
+<span class="tag-is-success">Tree</span><span class="tag-is-success">Depth-First Search</span><span class="tag-is-success">Breadth-First Search</span><span class="tag-is-success">Binary Tree</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## As Far from Land as Possible
 
-Tags: Array, Dynamic Programming, Breadth-First Search, Matrix
+<span class="tag-is-success">Array</span><span class="tag-is-success">Dynamic Programming</span><span class="tag-is-success">Breadth-First Search</span><span class="tag-is-success">Matrix</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Product Price at a Given Date
 
-Tags: Database
+<span class="tag-is-success">Database</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Design File System
 
-Tags: Hash Table, String, Design, Trie
+<span class="tag-is-success">Hash Table</span><span class="tag-is-success">String</span><span class="tag-is-success">Design</span><span class="tag-is-success">Trie</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Minimum Cost to Connect Sticks
 
-Tags: Array, Greedy, Heap (Priority Queue)
+<span class="tag-is-success">Array</span><span class="tag-is-success">Greedy</span><span class="tag-is-success">Heap (Priority Queue)</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Invalid Transactions
 
-Tags: Array, Hash Table, String, Sorting
+<span class="tag-is-success">Array</span><span class="tag-is-success">Hash Table</span><span class="tag-is-success">String</span><span class="tag-is-success">Sorting</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Compare Strings by Frequency of the Smallest Character
 
-Tags: Array, Hash Table, String, Binary Search, Sorting
+<span class="tag-is-success">Array</span><span class="tag-is-success">Hash Table</span><span class="tag-is-success">String</span><span class="tag-is-success">Binary Search</span><span class="tag-is-success">Sorting</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Remove Zero Sum Consecutive Nodes from Linked List
 
-Tags: Hash Table, Linked List
+<span class="tag-is-success">Hash Table</span><span class="tag-is-success">Linked List</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Immediate Food Delivery II
 
-Tags: Database
+<span class="tag-is-success">Database</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Can Make Palindrome from Substring
 
-Tags: Hash Table, String, Bit Manipulation, Prefix Sum
+<span class="tag-is-success">Hash Table</span><span class="tag-is-success">String</span><span class="tag-is-success">Bit Manipulation</span><span class="tag-is-success">Prefix Sum</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Before and After Puzzle
 
-Tags: Array, Hash Table, String, Sorting
+<span class="tag-is-success">Array</span><span class="tag-is-success">Hash Table</span><span class="tag-is-success">String</span><span class="tag-is-success">Sorting</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Shortest Distance to Target Color
 
-Tags: Array, Binary Search, Dynamic Programming
+<span class="tag-is-success">Array</span><span class="tag-is-success">Binary Search</span><span class="tag-is-success">Dynamic Programming</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Maximum Subarray Sum with One Deletion
 
-Tags: Array, Dynamic Programming
+<span class="tag-is-success">Array</span><span class="tag-is-success">Dynamic Programming</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Design Bounded Blocking Queue
 
-Tags: Concurrency
+<span class="tag-is-success">Concurrency</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Reverse Substrings Between Each Pair of Parentheses
 
-Tags: String, Stack
+<span class="tag-is-success">String</span><span class="tag-is-success">Stack</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## K-Concatenation Maximum Sum
 
-Tags: Array, Dynamic Programming
+<span class="tag-is-success">Array</span><span class="tag-is-success">Dynamic Programming</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Monthly Transactions I
 
-Tags: Database
+<span class="tag-is-success">Database</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Fizz Buzz Multithreaded
 
-Tags: Concurrency
+<span class="tag-is-success">Concurrency</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Minimum Knight Moves
 
-Tags: Breadth-First Search
+<span class="tag-is-success">Breadth-First Search</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Find Smallest Common Element in All Rows
 
-Tags: Array, Hash Table, Binary Search, Matrix, Counting
+<span class="tag-is-success">Array</span><span class="tag-is-success">Hash Table</span><span class="tag-is-success">Binary Search</span><span class="tag-is-success">Matrix</span><span class="tag-is-success">Counting</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Ugly Number III
 
-Tags: Math, Binary Search, Number Theory
+<span class="tag-is-success">Math</span><span class="tag-is-success">Binary Search</span><span class="tag-is-success">Number Theory</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Smallest String With Swaps
 
-Tags: Hash Table, String, Depth-First Search, Breadth-First Search, Union Find
+<span class="tag-is-success">Hash Table</span><span class="tag-is-success">String</span><span class="tag-is-success">Depth-First Search</span><span class="tag-is-success">Breadth-First Search</span><span class="tag-is-success">Union Find</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Last Person to Fit in the Bus
 
-Tags: Database
+<span class="tag-is-success">Database</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Monthly Transactions II
 
-Tags: Database
+<span class="tag-is-success">Database</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Get Equal Substrings Within Budget
 
-Tags: String, Binary Search, Sliding Window, Prefix Sum
+<span class="tag-is-success">String</span><span class="tag-is-success">Binary Search</span><span class="tag-is-success">Sliding Window</span><span class="tag-is-success">Prefix Sum</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Remove All Adjacent Duplicates in String II
 
-Tags: String, Stack
+<span class="tag-is-success">String</span><span class="tag-is-success">Stack</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Team Scores in Football Tournament
 
-Tags: Database
+<span class="tag-is-success">Database</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Two Sum BSTs
 
-Tags: Two Pointers, Binary Search, Stack, Tree, Depth-First Search, Binary Search Tree, Binary Tree
+<span class="tag-is-success">Two Pointers</span><span class="tag-is-success">Binary Search</span><span class="tag-is-success">Stack</span><span class="tag-is-success">Tree</span><span class="tag-is-success">Depth-First Search</span><span class="tag-is-success">Binary Search Tree</span><span class="tag-is-success">Binary Tree</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Stepping Numbers
 
-Tags: Backtracking, Breadth-First Search
+<span class="tag-is-success">Backtracking</span><span class="tag-is-success">Breadth-First Search</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Longest Arithmetic Subsequence of Given Difference
 
-Tags: Array, Hash Table, Dynamic Programming
+<span class="tag-is-success">Array</span><span class="tag-is-success">Hash Table</span><span class="tag-is-success">Dynamic Programming</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Path with Maximum Gold
 
-Tags: Array, Backtracking, Matrix
+<span class="tag-is-success">Array</span><span class="tag-is-success">Backtracking</span><span class="tag-is-success">Matrix</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Queens That Can Attack the King
 
-Tags: Array, Matrix, Simulation
+<span class="tag-is-success">Array</span><span class="tag-is-success">Matrix</span><span class="tag-is-success">Simulation</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## The Dining Philosophers
 
-Tags: Concurrency
+<span class="tag-is-success">Concurrency</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Airplane Seat Assignment Probability
 
-Tags: Math, Dynamic Programming, Brainteaser, Probability and Statistics
+<span class="tag-is-success">Math</span><span class="tag-is-success">Dynamic Programming</span><span class="tag-is-success">Brainteaser</span><span class="tag-is-success">Probability and Statistics</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Meeting Scheduler
 
-Tags: Array, Two Pointers, Sorting
+<span class="tag-is-success">Array</span><span class="tag-is-success">Two Pointers</span><span class="tag-is-success">Sorting</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Toss Strange Coins
 
-Tags: Math, Dynamic Programming, Probability and Statistics
+<span class="tag-is-success">Math</span><span class="tag-is-success">Dynamic Programming</span><span class="tag-is-success">Probability and Statistics</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Remove Sub-Folders from the Filesystem
 
-Tags: Array, String, Trie
+<span class="tag-is-success">Array</span><span class="tag-is-success">String</span><span class="tag-is-success">Trie</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Replace the Substring for Balanced String
 
-Tags: String, Sliding Window
+<span class="tag-is-success">String</span><span class="tag-is-success">Sliding Window</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Web Crawler
 
-Tags: String, Depth-First Search, Breadth-First Search, Interactive
+<span class="tag-is-success">String</span><span class="tag-is-success">Depth-First Search</span><span class="tag-is-success">Breadth-First Search</span><span class="tag-is-success">Interactive</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Find Positive Integer Solution for a Given Equation
 
-Tags: Math, Two Pointers, Binary Search, Interactive
+<span class="tag-is-success">Math</span><span class="tag-is-success">Two Pointers</span><span class="tag-is-success">Binary Search</span><span class="tag-is-success">Interactive</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Circular Permutation in Binary Representation
 
-Tags: Math, Backtracking, Bit Manipulation
+<span class="tag-is-success">Math</span><span class="tag-is-success">Backtracking</span><span class="tag-is-success">Bit Manipulation</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Maximum Length of a Concatenated String with Unique Characters
 
-Tags: Array, String, Backtracking, Bit Manipulation
+<span class="tag-is-success">Array</span><span class="tag-is-success">String</span><span class="tag-is-success">Backtracking</span><span class="tag-is-success">Bit Manipulation</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Web Crawler Multithreaded
 
-Tags: Depth-First Search, Breadth-First Search, Concurrency
+<span class="tag-is-success">Depth-First Search</span><span class="tag-is-success">Breadth-First Search</span><span class="tag-is-success">Concurrency</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Design A Leaderboard
 
-Tags: Hash Table, Design, Sorting
+<span class="tag-is-success">Hash Table</span><span class="tag-is-success">Design</span><span class="tag-is-success">Sorting</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Tree Diameter
 
-Tags: Tree, Depth-First Search, Breadth-First Search, Graph, Topological Sort
+<span class="tag-is-success">Tree</span><span class="tag-is-success">Depth-First Search</span><span class="tag-is-success">Breadth-First Search</span><span class="tag-is-success">Graph</span><span class="tag-is-success">Topological Sort</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Minimum Swaps to Make Strings Equal
 
-Tags: Math, String, Greedy
+<span class="tag-is-success">Math</span><span class="tag-is-success">String</span><span class="tag-is-success">Greedy</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Count Number of Nice Subarrays
 
-Tags: Array, Hash Table, Math, Sliding Window
+<span class="tag-is-success">Array</span><span class="tag-is-success">Hash Table</span><span class="tag-is-success">Math</span><span class="tag-is-success">Sliding Window</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Minimum Remove to Make Valid Parentheses
 
-Tags: String, Stack
+<span class="tag-is-success">String</span><span class="tag-is-success">Stack</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Reconstruct a 2-Row Binary Matrix
 
-Tags: Array, Greedy, Matrix
+<span class="tag-is-success">Array</span><span class="tag-is-success">Greedy</span><span class="tag-is-success">Matrix</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Number of Closed Islands
 
-Tags: Array, Depth-First Search, Breadth-First Search, Union Find, Matrix
+<span class="tag-is-success">Array</span><span class="tag-is-success">Depth-First Search</span><span class="tag-is-success">Breadth-First Search</span><span class="tag-is-success">Union Find</span><span class="tag-is-success">Matrix</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Encode Number
 
-Tags: Math, String, Bit Manipulation
+<span class="tag-is-success">Math</span><span class="tag-is-success">String</span><span class="tag-is-success">Bit Manipulation</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Smallest Common Region
 
-Tags: Array, Hash Table, String, Tree, Depth-First Search, Breadth-First Search
+<span class="tag-is-success">Array</span><span class="tag-is-success">Hash Table</span><span class="tag-is-success">String</span><span class="tag-is-success">Tree</span><span class="tag-is-success">Depth-First Search</span><span class="tag-is-success">Breadth-First Search</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Synonymous Sentences
 
-Tags: Array, Hash Table, String, Backtracking, Union Find
+<span class="tag-is-success">Array</span><span class="tag-is-success">Hash Table</span><span class="tag-is-success">String</span><span class="tag-is-success">Backtracking</span><span class="tag-is-success">Union Find</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Find Elements in a Contaminated Binary Tree
 
-Tags: Hash Table, Tree, Depth-First Search, Breadth-First Search, Design, Binary Tree
+<span class="tag-is-success">Hash Table</span><span class="tag-is-success">Tree</span><span class="tag-is-success">Depth-First Search</span><span class="tag-is-success">Breadth-First Search</span><span class="tag-is-success">Design</span><span class="tag-is-success">Binary Tree</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Greatest Sum Divisible by Three
 
-Tags: Array, Dynamic Programming, Greedy
+<span class="tag-is-success">Array</span><span class="tag-is-success">Dynamic Programming</span><span class="tag-is-success">Greedy</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Page Recommendations
 
-Tags: Database
+<span class="tag-is-success">Database</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Print Immutable Linked List in Reverse
 
-Tags: Linked List, Two Pointers, Stack, Recursion
+<span class="tag-is-success">Linked List</span><span class="tag-is-success">Two Pointers</span><span class="tag-is-success">Stack</span><span class="tag-is-success">Recursion</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Count Servers that Communicate
 
-Tags: Array, Depth-First Search, Breadth-First Search, Union Find, Matrix, Counting
+<span class="tag-is-success">Array</span><span class="tag-is-success">Depth-First Search</span><span class="tag-is-success">Breadth-First Search</span><span class="tag-is-success">Union Find</span><span class="tag-is-success">Matrix</span><span class="tag-is-success">Counting</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Search Suggestions System
 
-Tags: Array, String, Trie
+<span class="tag-is-success">Array</span><span class="tag-is-success">String</span><span class="tag-is-success">Trie</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## All People Report to the Given Manager
 
-Tags: Database
+<span class="tag-is-success">Database</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Remove Interval
 
-Tags: Array
+<span class="tag-is-success">Array</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Delete Tree Nodes
 
-Tags: Tree, Depth-First Search, Breadth-First Search
+<span class="tag-is-success">Tree</span><span class="tag-is-success">Depth-First Search</span><span class="tag-is-success">Breadth-First Search</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Number of Burgers with No Waste of Ingredients
 
-Tags: Math
+<span class="tag-is-success">Math</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Count Square Submatrices with All Ones
 
-Tags: Array, Dynamic Programming, Matrix
+<span class="tag-is-success">Array</span><span class="tag-is-success">Dynamic Programming</span><span class="tag-is-success">Matrix</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Group the People Given the Group Size They Belong To
 
-Tags: Array, Hash Table
+<span class="tag-is-success">Array</span><span class="tag-is-success">Hash Table</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Find the Smallest Divisor Given a Threshold
 
-Tags: Array, Binary Search
+<span class="tag-is-success">Array</span><span class="tag-is-success">Binary Search</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Find the Start and End Number of Continuous Ranges
 
-Tags: Database
+<span class="tag-is-success">Database</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Iterator for Combination
 
-Tags: String, Backtracking, Design, Iterator
+<span class="tag-is-success">String</span><span class="tag-is-success">Backtracking</span><span class="tag-is-success">Design</span><span class="tag-is-success">Iterator</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Remove Covered Intervals
 
-Tags: Array, Sorting
+<span class="tag-is-success">Array</span><span class="tag-is-success">Sorting</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Sequential Digits
 
-Tags: Enumeration
+<span class="tag-is-success">Enumeration</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Maximum Side Length of a Square with Sum Less than or Equal to Threshold
 
-Tags: Array, Binary Search, Matrix, Prefix Sum
+<span class="tag-is-success">Array</span><span class="tag-is-success">Binary Search</span><span class="tag-is-success">Matrix</span><span class="tag-is-success">Prefix Sum</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Divide Array in Sets of K Consecutive Numbers
 
-Tags: Array, Hash Table, Greedy, Sorting
+<span class="tag-is-success">Array</span><span class="tag-is-success">Hash Table</span><span class="tag-is-success">Greedy</span><span class="tag-is-success">Sorting</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Maximum Number of Occurrences of a Substring
 
-Tags: Hash Table, String, Sliding Window
+<span class="tag-is-success">Hash Table</span><span class="tag-is-success">String</span><span class="tag-is-success">Sliding Window</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Sum of Mutated Array Closest to Target
 
-Tags: Array, Binary Search, Sorting
+<span class="tag-is-success">Array</span><span class="tag-is-success">Binary Search</span><span class="tag-is-success">Sorting</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Deepest Leaves Sum
 
-Tags: Tree, Depth-First Search, Breadth-First Search, Binary Tree
+<span class="tag-is-success">Tree</span><span class="tag-is-success">Depth-First Search</span><span class="tag-is-success">Breadth-First Search</span><span class="tag-is-success">Binary Tree</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## All Elements in Two Binary Search Trees
 
-Tags: Tree, Depth-First Search, Binary Search Tree, Sorting, Binary Tree
+<span class="tag-is-success">Tree</span><span class="tag-is-success">Depth-First Search</span><span class="tag-is-success">Binary Search Tree</span><span class="tag-is-success">Sorting</span><span class="tag-is-success">Binary Tree</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Jump Game III
 
-Tags: Array, Depth-First Search, Breadth-First Search
+<span class="tag-is-success">Array</span><span class="tag-is-success">Depth-First Search</span><span class="tag-is-success">Breadth-First Search</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Running Total for Different Genders
 
-Tags: Database
+<span class="tag-is-success">Database</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## XOR Queries of a Subarray
 
-Tags: Array, Bit Manipulation, Prefix Sum
+<span class="tag-is-success">Array</span><span class="tag-is-success">Bit Manipulation</span><span class="tag-is-success">Prefix Sum</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Get Watched Videos by Your Friends
 
-Tags: Array, Hash Table, Breadth-First Search, Sorting
+<span class="tag-is-success">Array</span><span class="tag-is-success">Hash Table</span><span class="tag-is-success">Breadth-First Search</span><span class="tag-is-success">Sorting</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Matrix Block Sum
 
-Tags: Array, Matrix, Prefix Sum
+<span class="tag-is-success">Array</span><span class="tag-is-success">Matrix</span><span class="tag-is-success">Prefix Sum</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Sum of Nodes with Even-Valued Grandparent
 
-Tags: Tree, Depth-First Search, Breadth-First Search, Binary Tree
+<span class="tag-is-success">Tree</span><span class="tag-is-success">Depth-First Search</span><span class="tag-is-success">Breadth-First Search</span><span class="tag-is-success">Binary Tree</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Minimum Flips to Make a OR b Equal to c
 
-Tags: Bit Manipulation
+<span class="tag-is-success">Bit Manipulation</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Number of Operations to Make Network Connected
 
-Tags: Depth-First Search, Breadth-First Search, Union Find, Graph
+<span class="tag-is-success">Depth-First Search</span><span class="tag-is-success">Breadth-First Search</span><span class="tag-is-success">Union Find</span><span class="tag-is-success">Graph</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Restaurant Growth
 
-Tags: Database
+<span class="tag-is-success">Database</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Print Words Vertically
 
-Tags: Array, String, Simulation
+<span class="tag-is-success">Array</span><span class="tag-is-success">String</span><span class="tag-is-success">Simulation</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Delete Leaves With a Given Value
 
-Tags: Tree, Depth-First Search, Binary Tree
+<span class="tag-is-success">Tree</span><span class="tag-is-success">Depth-First Search</span><span class="tag-is-success">Binary Tree</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Break a Palindrome
 
-Tags: String, Greedy
+<span class="tag-is-success">String</span><span class="tag-is-success">Greedy</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Sort the Matrix Diagonally
 
-Tags: Array, Sorting, Matrix
+<span class="tag-is-success">Array</span><span class="tag-is-success">Sorting</span><span class="tag-is-success">Matrix</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Filter Restaurants by Vegan-Friendly, Price and Distance
 
-Tags: Array, Sorting
+<span class="tag-is-success">Array</span><span class="tag-is-success">Sorting</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Find the City With the Smallest Number of Neighbors at a Threshold Distance
 
-Tags: Dynamic Programming, Graph, Shortest Path
+<span class="tag-is-success">Dynamic Programming</span><span class="tag-is-success">Graph</span><span class="tag-is-success">Shortest Path</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Reduce Array Size to The Half
 
-Tags: Array, Hash Table, Greedy, Sorting, Heap (Priority Queue)
+<span class="tag-is-success">Array</span><span class="tag-is-success">Hash Table</span><span class="tag-is-success">Greedy</span><span class="tag-is-success">Sorting</span><span class="tag-is-success">Heap (Priority Queue)</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Maximum Product of Splitted Binary Tree
 
-Tags: Tree, Depth-First Search, Binary Tree
+<span class="tag-is-success">Tree</span><span class="tag-is-success">Depth-First Search</span><span class="tag-is-success">Binary Tree</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Movie Rating
 
-Tags: Database
+<span class="tag-is-success">Database</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Number of Sub-arrays of Size K and Average Greater than or Equal to Threshold
 
-Tags: Array, Sliding Window
+<span class="tag-is-success">Array</span><span class="tag-is-success">Sliding Window</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Angle Between Hands of a Clock
 
-Tags: Math
+<span class="tag-is-success">Math</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Minimum Number of Steps to Make Two Strings Anagram
 
-Tags: Hash Table, String, Counting
+<span class="tag-is-success">Hash Table</span><span class="tag-is-success">String</span><span class="tag-is-success">Counting</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Tweet Counts Per Frequency
 
-Tags: Hash Table, Binary Search, Design, Sorting, Ordered Set
+<span class="tag-is-success">Hash Table</span><span class="tag-is-success">Binary Search</span><span class="tag-is-success">Design</span><span class="tag-is-success">Sorting</span><span class="tag-is-success">Ordered Set</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Product of the Last K Numbers
 
-Tags: Array, Math, Design, Queue, Data Stream
+<span class="tag-is-success">Array</span><span class="tag-is-success">Math</span><span class="tag-is-success">Design</span><span class="tag-is-success">Queue</span><span class="tag-is-success">Data Stream</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Maximum Number of Events That Can Be Attended
 
-Tags: Array, Greedy, Heap (Priority Queue)
+<span class="tag-is-success">Array</span><span class="tag-is-success">Greedy</span><span class="tag-is-success">Heap (Priority Queue)</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Activity Participants
 
-Tags: Database
+<span class="tag-is-success">Database</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Apply Discount Every n Orders
 
-Tags: Array, Hash Table, Design
+<span class="tag-is-success">Array</span><span class="tag-is-success">Hash Table</span><span class="tag-is-success">Design</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Number of Substrings Containing All Three Characters
 
-Tags: Hash Table, String, Sliding Window
+<span class="tag-is-success">Hash Table</span><span class="tag-is-success">String</span><span class="tag-is-success">Sliding Window</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Validate Binary Tree Nodes
 
-Tags: Tree, Depth-First Search, Breadth-First Search, Union Find, Graph, Binary Tree
+<span class="tag-is-success">Tree</span><span class="tag-is-success">Depth-First Search</span><span class="tag-is-success">Breadth-First Search</span><span class="tag-is-success">Union Find</span><span class="tag-is-success">Graph</span><span class="tag-is-success">Binary Tree</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Closest Divisors
 
-Tags: Math
+<span class="tag-is-success">Math</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Number of Trusted Contacts of a Customer
 
-Tags: Database
+<span class="tag-is-success">Database</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Rank Teams by Votes
 
-Tags: Array, Hash Table, String, Sorting, Counting
+<span class="tag-is-success">Array</span><span class="tag-is-success">Hash Table</span><span class="tag-is-success">String</span><span class="tag-is-success">Sorting</span><span class="tag-is-success">Counting</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Linked List in Binary Tree
 
-Tags: Linked List, Tree, Depth-First Search, Breadth-First Search, Binary Tree
+<span class="tag-is-success">Linked List</span><span class="tag-is-success">Tree</span><span class="tag-is-success">Depth-First Search</span><span class="tag-is-success">Breadth-First Search</span><span class="tag-is-success">Binary Tree</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Find the Longest Substring Containing Vowels in Even Counts
 
-Tags: Hash Table, String, Bit Manipulation, Prefix Sum
+<span class="tag-is-success">Hash Table</span><span class="tag-is-success">String</span><span class="tag-is-success">Bit Manipulation</span><span class="tag-is-success">Prefix Sum</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Longest ZigZag Path in a Binary Tree
 
-Tags: Dynamic Programming, Tree, Depth-First Search, Binary Tree
+<span class="tag-is-success">Dynamic Programming</span><span class="tag-is-success">Tree</span><span class="tag-is-success">Depth-First Search</span><span class="tag-is-success">Binary Tree</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Number of Times Binary String Is Prefix-Aligned
 
-Tags: Array
+<span class="tag-is-success">Array</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Time Needed to Inform All Employees
 
-Tags: Tree, Depth-First Search, Breadth-First Search
+<span class="tag-is-success">Tree</span><span class="tag-is-success">Depth-First Search</span><span class="tag-is-success">Breadth-First Search</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Design a Stack With Increment Operation
 
-Tags: Array, Stack, Design
+<span class="tag-is-success">Array</span><span class="tag-is-success">Stack</span><span class="tag-is-success">Design</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Balance a Binary Search Tree
 
-Tags: Divide and Conquer, Greedy, Tree, Depth-First Search, Binary Search Tree, Binary Tree
+<span class="tag-is-success">Divide and Conquer</span><span class="tag-is-success">Greedy</span><span class="tag-is-success">Tree</span><span class="tag-is-success">Depth-First Search</span><span class="tag-is-success">Binary Search Tree</span><span class="tag-is-success">Binary Tree</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Cinema Seat Allocation
 
-Tags: Array, Hash Table, Greedy, Bit Manipulation
+<span class="tag-is-success">Array</span><span class="tag-is-success">Hash Table</span><span class="tag-is-success">Greedy</span><span class="tag-is-success">Bit Manipulation</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Sort Integers by The Power Value
 
-Tags: Dynamic Programming, Memoization, Sorting
+<span class="tag-is-success">Dynamic Programming</span><span class="tag-is-success">Memoization</span><span class="tag-is-success">Sorting</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Four Divisors
 
-Tags: Array, Math
+<span class="tag-is-success">Array</span><span class="tag-is-success">Math</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Check if There is a Valid Path in a Grid
 
-Tags: Array, Depth-First Search, Breadth-First Search, Union Find, Matrix
+<span class="tag-is-success">Array</span><span class="tag-is-success">Depth-First Search</span><span class="tag-is-success">Breadth-First Search</span><span class="tag-is-success">Union Find</span><span class="tag-is-success">Matrix</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Capital Gain/Loss
 
-Tags: Database
+<span class="tag-is-success">Database</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Count Number of Teams
 
-Tags: Array, Dynamic Programming, Binary Indexed Tree
+<span class="tag-is-success">Array</span><span class="tag-is-success">Dynamic Programming</span><span class="tag-is-success">Binary Indexed Tree</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Design Underground System
 
-Tags: Hash Table, String, Design
+<span class="tag-is-success">Hash Table</span><span class="tag-is-success">String</span><span class="tag-is-success">Design</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Customers Who Bought Products A and B but Not C
 
-Tags: Database
+<span class="tag-is-success">Database</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Construct K Palindrome Strings
 
-Tags: Hash Table, String, Greedy, Counting
+<span class="tag-is-success">Hash Table</span><span class="tag-is-success">String</span><span class="tag-is-success">Greedy</span><span class="tag-is-success">Counting</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Circle and Rectangle Overlapping
 
-Tags: Math, Geometry
+<span class="tag-is-success">Math</span><span class="tag-is-success">Geometry</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Number of Steps to Reduce a Number in Binary Representation to One
 
-Tags: String, Bit Manipulation
+<span class="tag-is-success">String</span><span class="tag-is-success">Bit Manipulation</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Longest Happy String
 
-Tags: String, Greedy, Heap (Priority Queue)
+<span class="tag-is-success">String</span><span class="tag-is-success">Greedy</span><span class="tag-is-success">Heap (Priority Queue)</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Queries on a Permutation With Key
 
-Tags: Array, Binary Indexed Tree, Simulation
+<span class="tag-is-success">Array</span><span class="tag-is-success">Binary Indexed Tree</span><span class="tag-is-success">Simulation</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## HTML Entity Parser
 
-Tags: Hash Table, String
+<span class="tag-is-success">Hash Table</span><span class="tag-is-success">String</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Find the Minimum Number of Fibonacci Numbers Whose Sum Is K
 
-Tags: Greedy
+<span class="tag-is-success">Greedy</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## The k-th Lexicographical String of All Happy Strings of Length n
 
-Tags: String, Backtracking
+<span class="tag-is-success">String</span><span class="tag-is-success">Backtracking</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Display Table of Food Orders in a Restaurant
 
-Tags: Array, Hash Table, String, Sorting, Ordered Set
+<span class="tag-is-success">Array</span><span class="tag-is-success">Hash Table</span><span class="tag-is-success">String</span><span class="tag-is-success">Sorting</span><span class="tag-is-success">Ordered Set</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Minimum Number of Frogs Croaking
 
-Tags: String, Counting
+<span class="tag-is-success">String</span><span class="tag-is-success">Counting</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Maximum Points You Can Obtain from Cards
 
-Tags: Array, Sliding Window, Prefix Sum
+<span class="tag-is-success">Array</span><span class="tag-is-success">Sliding Window</span><span class="tag-is-success">Prefix Sum</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Diagonal Traverse II
 
-Tags: Array, Sorting, Heap (Priority Queue)
+<span class="tag-is-success">Array</span><span class="tag-is-success">Sorting</span><span class="tag-is-success">Heap (Priority Queue)</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Leftmost Column with at Least a One
 
-Tags: Array, Binary Search, Matrix, Interactive
+<span class="tag-is-success">Array</span><span class="tag-is-success">Binary Search</span><span class="tag-is-success">Matrix</span><span class="tag-is-success">Interactive</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## First Unique Number
 
-Tags: Array, Hash Table, Design, Queue, Data Stream
+<span class="tag-is-success">Array</span><span class="tag-is-success">Hash Table</span><span class="tag-is-success">Design</span><span class="tag-is-success">Queue</span><span class="tag-is-success">Data Stream</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Check If a String Is a Valid Sequence from Root to Leaves Path in a Binary Tree
 
-Tags: Tree, Depth-First Search, Breadth-First Search, Binary Tree
+<span class="tag-is-success">Tree</span><span class="tag-is-success">Depth-First Search</span><span class="tag-is-success">Breadth-First Search</span><span class="tag-is-success">Binary Tree</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Max Difference You Can Get From Changing an Integer
 
-Tags: Math, Greedy
+<span class="tag-is-success">Math</span><span class="tag-is-success">Greedy</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Check If a String Can Break Another String
 
-Tags: String, Greedy, Sorting
+<span class="tag-is-success">String</span><span class="tag-is-success">Greedy</span><span class="tag-is-success">Sorting</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Longest Continuous Subarray With Absolute Diff Less Than or Equal to Limit
 
-Tags: Array, Queue, Sliding Window, Heap (Priority Queue), Ordered Set, Monotonic Queue
+<span class="tag-is-success">Array</span><span class="tag-is-success">Queue</span><span class="tag-is-success">Sliding Window</span><span class="tag-is-success">Heap (Priority Queue)</span><span class="tag-is-success">Ordered Set</span><span class="tag-is-success">Monotonic Queue</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Evaluate Boolean Expression
 
-Tags: Database
+<span class="tag-is-success">Database</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Count Triplets That Can Form Two Arrays of Equal XOR
 
-Tags: Array, Hash Table, Math, Bit Manipulation, Prefix Sum
+<span class="tag-is-success">Array</span><span class="tag-is-success">Hash Table</span><span class="tag-is-success">Math</span><span class="tag-is-success">Bit Manipulation</span><span class="tag-is-success">Prefix Sum</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Minimum Time to Collect All Apples in a Tree
 
-Tags: Hash Table, Tree, Depth-First Search, Breadth-First Search
+<span class="tag-is-success">Hash Table</span><span class="tag-is-success">Tree</span><span class="tag-is-success">Depth-First Search</span><span class="tag-is-success">Breadth-First Search</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Apples & Oranges
 
-Tags: Database
+<span class="tag-is-success">Database</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Simplified Fractions
 
-Tags: Math, String, Number Theory
+<span class="tag-is-success">Math</span><span class="tag-is-success">String</span><span class="tag-is-success">Number Theory</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Count Good Nodes in Binary Tree
 
-Tags: Tree, Depth-First Search, Breadth-First Search, Binary Tree
+<span class="tag-is-success">Tree</span><span class="tag-is-success">Depth-First Search</span><span class="tag-is-success">Breadth-First Search</span><span class="tag-is-success">Binary Tree</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Rearrange Words in a Sentence
 
-Tags: String, Sorting
+<span class="tag-is-success">String</span><span class="tag-is-success">Sorting</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## People Whose List of Favorite Companies Is Not a Subset of Another List
 
-Tags: Array, Hash Table, String
+<span class="tag-is-success">Array</span><span class="tag-is-success">Hash Table</span><span class="tag-is-success">String</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Active Users
 
-Tags: Database
+<span class="tag-is-success">Database</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Maximum Number of Vowels in a Substring of Given Length
 
-Tags: String, Sliding Window
+<span class="tag-is-success">String</span><span class="tag-is-success">Sliding Window</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Pseudo-Palindromic Paths in a Binary Tree
 
-Tags: Bit Manipulation, Tree, Depth-First Search, Breadth-First Search, Binary Tree
+<span class="tag-is-success">Bit Manipulation</span><span class="tag-is-success">Tree</span><span class="tag-is-success">Depth-First Search</span><span class="tag-is-success">Breadth-First Search</span><span class="tag-is-success">Binary Tree</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Rectangles Area
 
-Tags: Database
+<span class="tag-is-success">Database</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Check If a String Contains All Binary Codes of Size K
 
-Tags: Hash Table, String, Bit Manipulation, Rolling Hash, Hash Function
+<span class="tag-is-success">Hash Table</span><span class="tag-is-success">String</span><span class="tag-is-success">Bit Manipulation</span><span class="tag-is-success">Rolling Hash</span><span class="tag-is-success">Hash Function</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Course Schedule IV
 
-Tags: Depth-First Search, Breadth-First Search, Graph, Topological Sort
+<span class="tag-is-success">Depth-First Search</span><span class="tag-is-success">Breadth-First Search</span><span class="tag-is-success">Graph</span><span class="tag-is-success">Topological Sort</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Maximum Area of a Piece of Cake After Horizontal and Vertical Cuts
 
-Tags: Array, Greedy, Sorting
+<span class="tag-is-success">Array</span><span class="tag-is-success">Greedy</span><span class="tag-is-success">Sorting</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Reorder Routes to Make All Paths Lead to the City Zero
 
-Tags: Depth-First Search, Breadth-First Search, Graph
+<span class="tag-is-success">Depth-First Search</span><span class="tag-is-success">Breadth-First Search</span><span class="tag-is-success">Graph</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Calculate Salaries
 
-Tags: Database
+<span class="tag-is-success">Database</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## The k Strongest Values in an Array
 
-Tags: Array, Two Pointers, Sorting
+<span class="tag-is-success">Array</span><span class="tag-is-success">Two Pointers</span><span class="tag-is-success">Sorting</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Design Browser History
 
-Tags: Array, Linked List, Stack, Design, Doubly-Linked List, Data Stream
+<span class="tag-is-success">Array</span><span class="tag-is-success">Linked List</span><span class="tag-is-success">Stack</span><span class="tag-is-success">Design</span><span class="tag-is-success">Doubly-Linked List</span><span class="tag-is-success">Data Stream</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Subrectangle Queries
 
-Tags: Array, Design, Matrix
+<span class="tag-is-success">Array</span><span class="tag-is-success">Design</span><span class="tag-is-success">Matrix</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Find Two Non-overlapping Sub-arrays Each With Target Sum
 
-Tags: Array, Hash Table, Binary Search, Dynamic Programming, Sliding Window
+<span class="tag-is-success">Array</span><span class="tag-is-success">Hash Table</span><span class="tag-is-success">Binary Search</span><span class="tag-is-success">Dynamic Programming</span><span class="tag-is-success">Sliding Window</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Least Number of Unique Integers after K Removals
 
-Tags: Array, Hash Table, Greedy, Sorting, Counting
+<span class="tag-is-success">Array</span><span class="tag-is-success">Hash Table</span><span class="tag-is-success">Greedy</span><span class="tag-is-success">Sorting</span><span class="tag-is-success">Counting</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Minimum Number of Days to Make m Bouquets
 
-Tags: Array, Binary Search
+<span class="tag-is-success">Array</span><span class="tag-is-success">Binary Search</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Clone Binary Tree With Random Pointer
 
-Tags: Hash Table, Tree, Depth-First Search, Breadth-First Search, Binary Tree
+<span class="tag-is-success">Hash Table</span><span class="tag-is-success">Tree</span><span class="tag-is-success">Depth-First Search</span><span class="tag-is-success">Breadth-First Search</span><span class="tag-is-success">Binary Tree</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Making File Names Unique
 
-Tags: Array, Hash Table, String
+<span class="tag-is-success">Array</span><span class="tag-is-success">Hash Table</span><span class="tag-is-success">String</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Avoid Flood in The City
 
-Tags: Array, Hash Table, Binary Search, Greedy, Heap (Priority Queue)
+<span class="tag-is-success">Array</span><span class="tag-is-success">Hash Table</span><span class="tag-is-success">Binary Search</span><span class="tag-is-success">Greedy</span><span class="tag-is-success">Heap (Priority Queue)</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Clone N-ary Tree
 
-Tags: Hash Table, Tree, Depth-First Search, Breadth-First Search
+<span class="tag-is-success">Hash Table</span><span class="tag-is-success">Tree</span><span class="tag-is-success">Depth-First Search</span><span class="tag-is-success">Breadth-First Search</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## The kth Factor of n
 
-Tags: Math
+<span class="tag-is-success">Math</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Longest Subarray of 1's After Deleting One Element
 
-Tags: Math, Dynamic Programming, Sliding Window
+<span class="tag-is-success">Math</span><span class="tag-is-success">Dynamic Programming</span><span class="tag-is-success">Sliding Window</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Check If Array Pairs Are Divisible by k
 
-Tags: Array, Hash Table, Counting
+<span class="tag-is-success">Array</span><span class="tag-is-success">Hash Table</span><span class="tag-is-success">Counting</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Number of Subsequences That Satisfy the Given Sum Condition
 
-Tags: Array, Two Pointers, Binary Search, Sorting
+<span class="tag-is-success">Array</span><span class="tag-is-success">Two Pointers</span><span class="tag-is-success">Binary Search</span><span class="tag-is-success">Sorting</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Design a File Sharing System
 
-Tags: Hash Table, Design, Heap (Priority Queue), Data Stream
+<span class="tag-is-success">Hash Table</span><span class="tag-is-success">Design</span><span class="tag-is-success">Heap (Priority Queue)</span><span class="tag-is-success">Data Stream</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Countries You Can Safely Invest In
 
-Tags: Database
+<span class="tag-is-success">Database</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Last Moment Before All Ants Fall Out of a Plank
 
-Tags: Array, Brainteaser, Simulation
+<span class="tag-is-success">Array</span><span class="tag-is-success">Brainteaser</span><span class="tag-is-success">Simulation</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Count Submatrices With All Ones
 
-Tags: Array, Dynamic Programming, Stack, Matrix, Monotonic Stack
+<span class="tag-is-success">Array</span><span class="tag-is-success">Dynamic Programming</span><span class="tag-is-success">Stack</span><span class="tag-is-success">Matrix</span><span class="tag-is-success">Monotonic Stack</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Find Root of N-Ary Tree
 
-Tags: Hash Table, Bit Manipulation, Tree, Depth-First Search
+<span class="tag-is-success">Hash Table</span><span class="tag-is-success">Bit Manipulation</span><span class="tag-is-success">Tree</span><span class="tag-is-success">Depth-First Search</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Range Sum of Sorted Subarray Sums
 
-Tags: Array, Two Pointers, Binary Search, Sorting
+<span class="tag-is-success">Array</span><span class="tag-is-success">Two Pointers</span><span class="tag-is-success">Binary Search</span><span class="tag-is-success">Sorting</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Minimum Difference Between Largest and Smallest Value in Three Moves
 
-Tags: Array, Greedy, Sorting
+<span class="tag-is-success">Array</span><span class="tag-is-success">Greedy</span><span class="tag-is-success">Sorting</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Number of Substrings With Only 1s
 
-Tags: Math, String
+<span class="tag-is-success">Math</span><span class="tag-is-success">String</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Path with Maximum Probability
 
-Tags: Graph, Heap (Priority Queue), Shortest Path
+<span class="tag-is-success">Graph</span><span class="tag-is-success">Heap (Priority Queue)</span><span class="tag-is-success">Shortest Path</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Number of Nodes in the Sub-Tree With the Same Label
 
-Tags: Hash Table, Tree, Depth-First Search, Breadth-First Search, Counting
+<span class="tag-is-success">Hash Table</span><span class="tag-is-success">Tree</span><span class="tag-is-success">Depth-First Search</span><span class="tag-is-success">Breadth-First Search</span><span class="tag-is-success">Counting</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Diameter of N-Ary Tree
 
-Tags: Tree, Depth-First Search
+<span class="tag-is-success">Tree</span><span class="tag-is-success">Depth-First Search</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Number of Sub-arrays With Odd Sum
 
-Tags: Array, Math, Dynamic Programming, Prefix Sum
+<span class="tag-is-success">Array</span><span class="tag-is-success">Math</span><span class="tag-is-success">Dynamic Programming</span><span class="tag-is-success">Prefix Sum</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Number of Good Ways to Split a String
 
-Tags: String, Dynamic Programming, Bit Manipulation
+<span class="tag-is-success">String</span><span class="tag-is-success">Dynamic Programming</span><span class="tag-is-success">Bit Manipulation</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Minimum Suffix Flips
 
-Tags: String, Greedy
+<span class="tag-is-success">String</span><span class="tag-is-success">Greedy</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Number of Good Leaf Nodes Pairs
 
-Tags: Tree, Depth-First Search, Binary Tree
+<span class="tag-is-success">Tree</span><span class="tag-is-success">Depth-First Search</span><span class="tag-is-success">Binary Tree</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## The Most Recent Three Orders
 
-Tags: Database
+<span class="tag-is-success">Database</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Find the Index of the Large Integer
 
-Tags: Array, Binary Search, Interactive
+<span class="tag-is-success">Array</span><span class="tag-is-success">Binary Search</span><span class="tag-is-success">Interactive</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Find the Winner of an Array Game
 
-Tags: Array, Simulation
+<span class="tag-is-success">Array</span><span class="tag-is-success">Simulation</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Minimum Swaps to Arrange a Binary Grid
 
-Tags: Array, Greedy, Matrix
+<span class="tag-is-success">Array</span><span class="tag-is-success">Greedy</span><span class="tag-is-success">Matrix</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Guess the Majority in a Hidden Array
 
-Tags: Array, Math, Interactive
+<span class="tag-is-success">Array</span><span class="tag-is-success">Math</span><span class="tag-is-success">Interactive</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Can Convert String in K Moves
 
-Tags: Hash Table, String
+<span class="tag-is-success">Hash Table</span><span class="tag-is-success">String</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Minimum Insertions to Balance a Parentheses String
 
-Tags: String, Stack, Greedy
+<span class="tag-is-success">String</span><span class="tag-is-success">Stack</span><span class="tag-is-success">Greedy</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Find Kth Bit in Nth Binary String
 
-Tags: String, Recursion
+<span class="tag-is-success">String</span><span class="tag-is-success">Recursion</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Maximum Number of Non-Overlapping Subarrays With Sum Equals Target
 
-Tags: Array, Hash Table, Greedy, Prefix Sum
+<span class="tag-is-success">Array</span><span class="tag-is-success">Hash Table</span><span class="tag-is-success">Greedy</span><span class="tag-is-success">Prefix Sum</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## The Most Recent Orders for Each Product
 
-Tags: Database
+<span class="tag-is-success">Database</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Minimum Operations to Make Array Equal
 
-Tags: Math
+<span class="tag-is-success">Math</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Magnetic Force Between Two Balls
 
-Tags: Array, Binary Search, Sorting
+<span class="tag-is-success">Array</span><span class="tag-is-success">Binary Search</span><span class="tag-is-success">Sorting</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Strings Differ by One Character
 
-Tags: Hash Table, String, Rolling Hash, Hash Function
+<span class="tag-is-success">Hash Table</span><span class="tag-is-success">String</span><span class="tag-is-success">Rolling Hash</span><span class="tag-is-success">Hash Function</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Bank Account Summary
 
-Tags: Database
+<span class="tag-is-success">Database</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Minimum Number of Vertices to Reach All Nodes
 
-Tags: Graph
+<span class="tag-is-success">Graph</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Minimum Numbers of Function Calls to Make Target Array
 
-Tags: Array, Greedy
+<span class="tag-is-success">Array</span><span class="tag-is-success">Greedy</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Detect Cycles in 2D Grid
 
-Tags: Array, Depth-First Search, Breadth-First Search, Union Find, Matrix
+<span class="tag-is-success">Array</span><span class="tag-is-success">Depth-First Search</span><span class="tag-is-success">Breadth-First Search</span><span class="tag-is-success">Union Find</span><span class="tag-is-success">Matrix</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Maximum Number of Coins You Can Get
 
-Tags: Array, Math, Greedy, Sorting, Game Theory
+<span class="tag-is-success">Array</span><span class="tag-is-success">Math</span><span class="tag-is-success">Greedy</span><span class="tag-is-success">Sorting</span><span class="tag-is-success">Game Theory</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Find Latest Group of Size M
 
-Tags: Array, Binary Search, Simulation
+<span class="tag-is-success">Array</span><span class="tag-is-success">Binary Search</span><span class="tag-is-success">Simulation</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Put Boxes Into the Warehouse I
 
-Tags: Array, Greedy, Sorting
+<span class="tag-is-success">Array</span><span class="tag-is-success">Greedy</span><span class="tag-is-success">Sorting</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Maximum Length of Subarray With Positive Product
 
-Tags: Array, Dynamic Programming, Greedy
+<span class="tag-is-success">Array</span><span class="tag-is-success">Dynamic Programming</span><span class="tag-is-success">Greedy</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Dot Product of Two Sparse Vectors
 
-Tags: Array, Hash Table, Two Pointers, Design
+<span class="tag-is-success">Array</span><span class="tag-is-success">Hash Table</span><span class="tag-is-success">Two Pointers</span><span class="tag-is-success">Design</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Number of Ways to Split a String
 
-Tags: Math, String
+<span class="tag-is-success">Math</span><span class="tag-is-success">String</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Shortest Subarray to be Removed to Make Array Sorted
 
-Tags: Array, Two Pointers, Binary Search, Stack, Monotonic Stack
+<span class="tag-is-success">Array</span><span class="tag-is-success">Two Pointers</span><span class="tag-is-success">Binary Search</span><span class="tag-is-success">Stack</span><span class="tag-is-success">Monotonic Stack</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Number of Ways Where Square of Number Is Equal to Product of Two Numbers
 
-Tags: Array, Hash Table, Math, Two Pointers
+<span class="tag-is-success">Array</span><span class="tag-is-success">Hash Table</span><span class="tag-is-success">Math</span><span class="tag-is-success">Two Pointers</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Minimum Time to Make Rope Colorful
 
-Tags: Array, String, Dynamic Programming, Greedy
+<span class="tag-is-success">Array</span><span class="tag-is-success">String</span><span class="tag-is-success">Dynamic Programming</span><span class="tag-is-success">Greedy</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Put Boxes Into the Warehouse II
 
-Tags: Array, Greedy, Sorting
+<span class="tag-is-success">Array</span><span class="tag-is-success">Greedy</span><span class="tag-is-success">Sorting</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Count Unhappy Friends
 
-Tags: Array, Simulation
+<span class="tag-is-success">Array</span><span class="tag-is-success">Simulation</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Min Cost to Connect All Points
 
-Tags: Array, Union Find, Minimum Spanning Tree
+<span class="tag-is-success">Array</span><span class="tag-is-success">Union Find</span><span class="tag-is-success">Minimum Spanning Tree</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Binary Search Tree Iterator II
 
-Tags: Stack, Tree, Design, Binary Search Tree, Binary Tree, Iterator
+<span class="tag-is-success">Stack</span><span class="tag-is-success">Tree</span><span class="tag-is-success">Design</span><span class="tag-is-success">Binary Search Tree</span><span class="tag-is-success">Binary Tree</span><span class="tag-is-success">Iterator</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Maximum Sum Obtained of Any Permutation
 
-Tags: Array, Greedy, Sorting, Prefix Sum
+<span class="tag-is-success">Array</span><span class="tag-is-success">Greedy</span><span class="tag-is-success">Sorting</span><span class="tag-is-success">Prefix Sum</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Make Sum Divisible by P
 
-Tags: Array, Hash Table, Prefix Sum
+<span class="tag-is-success">Array</span><span class="tag-is-success">Hash Table</span><span class="tag-is-success">Prefix Sum</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Split a String Into the Max Number of Unique Substrings
 
-Tags: Hash Table, String, Backtracking
+<span class="tag-is-success">Hash Table</span><span class="tag-is-success">String</span><span class="tag-is-success">Backtracking</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Maximum Non Negative Product in a Matrix
 
-Tags: Array, Dynamic Programming, Matrix
+<span class="tag-is-success">Array</span><span class="tag-is-success">Dynamic Programming</span><span class="tag-is-success">Matrix</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## The Most Frequently Ordered Products for Each Customer
 
-Tags: Database
+<span class="tag-is-success">Database</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Maximum Profit of Operating a Centennial Wheel
 
-Tags: Array, Simulation
+<span class="tag-is-success">Array</span><span class="tag-is-success">Simulation</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Throne Inheritance
 
-Tags: Hash Table, Tree, Depth-First Search, Design
+<span class="tag-is-success">Hash Table</span><span class="tag-is-success">Tree</span><span class="tag-is-success">Depth-First Search</span><span class="tag-is-success">Design</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Find Nearest Right Node in Binary Tree
 
-Tags: Tree, Breadth-First Search, Binary Tree
+<span class="tag-is-success">Tree</span><span class="tag-is-success">Breadth-First Search</span><span class="tag-is-success">Binary Tree</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Alert Using Same Key-Card Three or More Times in a One Hour Period
 
-Tags: Array, Hash Table, String, Sorting
+<span class="tag-is-success">Array</span><span class="tag-is-success">Hash Table</span><span class="tag-is-success">String</span><span class="tag-is-success">Sorting</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Find Valid Matrix Given Row and Column Sums
 
-Tags: Array, Greedy, Matrix
+<span class="tag-is-success">Array</span><span class="tag-is-success">Greedy</span><span class="tag-is-success">Matrix</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Even Odd Tree
 
-Tags: Tree, Breadth-First Search, Binary Tree
+<span class="tag-is-success">Tree</span><span class="tag-is-success">Breadth-First Search</span><span class="tag-is-success">Binary Tree</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Check If Two Expression Trees are Equivalent
 
-Tags: Tree, Depth-First Search, Binary Tree
+<span class="tag-is-success">Tree</span><span class="tag-is-success">Depth-First Search</span><span class="tag-is-success">Binary Tree</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Find the Missing IDs
 
-Tags: Database
+<span class="tag-is-success">Database</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Maximal Network Rank
 
-Tags: Graph
+<span class="tag-is-success">Graph</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Split Two Strings to Make Palindrome
 
-Tags: Two Pointers, String, Greedy
+<span class="tag-is-success">Two Pointers</span><span class="tag-is-success">String</span><span class="tag-is-success">Greedy</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Maximum Font to Fit a Sentence in a Screen
 
-Tags: Array, String, Binary Search, Interactive
+<span class="tag-is-success">Array</span><span class="tag-is-success">String</span><span class="tag-is-success">Binary Search</span><span class="tag-is-success">Interactive</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Coordinate With Maximum Network Quality
 
-Tags: Array, Enumeration
+<span class="tag-is-success">Array</span><span class="tag-is-success">Enumeration</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Number of Sets of K Non-Overlapping Line Segments
 
-Tags: Math, Dynamic Programming
+<span class="tag-is-success">Math</span><span class="tag-is-success">Dynamic Programming</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Lexicographically Smallest String After Applying Operations
 
-Tags: String, Breadth-First Search
+<span class="tag-is-success">String</span><span class="tag-is-success">Breadth-First Search</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Best Team With No Conflicts
 
-Tags: Array, Dynamic Programming, Sorting
+<span class="tag-is-success">Array</span><span class="tag-is-success">Dynamic Programming</span><span class="tag-is-success">Sorting</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Design an Expression Tree With Evaluate Function
 
-Tags: Math, Stack, Tree, Design, Binary Tree
+<span class="tag-is-success">Math</span><span class="tag-is-success">Stack</span><span class="tag-is-success">Tree</span><span class="tag-is-success">Design</span><span class="tag-is-success">Binary Tree</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Arithmetic Subarrays
 
-Tags: Array, Sorting
+<span class="tag-is-success">Array</span><span class="tag-is-success">Sorting</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Path With Minimum Effort
 
-Tags: Array, Binary Search, Depth-First Search, Breadth-First Search, Union Find, Heap (Priority Queue), Matrix
+<span class="tag-is-success">Array</span><span class="tag-is-success">Binary Search</span><span class="tag-is-success">Depth-First Search</span><span class="tag-is-success">Breadth-First Search</span><span class="tag-is-success">Union Find</span><span class="tag-is-success">Heap (Priority Queue)</span><span class="tag-is-success">Matrix</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Add Two Polynomials Represented as Linked Lists
 
-Tags: Linked List, Math, Two Pointers
+<span class="tag-is-success">Linked List</span><span class="tag-is-success">Math</span><span class="tag-is-success">Two Pointers</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Widest Vertical Area Between Two Points Containing No Points
 
-Tags: Array, Sorting
+<span class="tag-is-success">Array</span><span class="tag-is-success">Sorting</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Count Substrings That Differ by One Character
 
-Tags: Hash Table, String, Dynamic Programming
+<span class="tag-is-success">Hash Table</span><span class="tag-is-success">String</span><span class="tag-is-success">Dynamic Programming</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Count Sorted Vowel Strings
 
-Tags: Dynamic Programming
+<span class="tag-is-success">Dynamic Programming</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Furthest Building You Can Reach
 
-Tags: Array, Greedy, Heap (Priority Queue)
+<span class="tag-is-success">Array</span><span class="tag-is-success">Greedy</span><span class="tag-is-success">Heap (Priority Queue)</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Lowest Common Ancestor of a Binary Tree II
 
-Tags: Tree, Depth-First Search, Binary Tree
+<span class="tag-is-success">Tree</span><span class="tag-is-success">Depth-First Search</span><span class="tag-is-success">Binary Tree</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Minimum Deletions to Make Character Frequencies Unique
 
-Tags: String, Greedy, Sorting
+<span class="tag-is-success">String</span><span class="tag-is-success">Greedy</span><span class="tag-is-success">Sorting</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Sell Diminishing-Valued Colored Balls
 
-Tags: Array, Math, Binary Search, Greedy, Sorting, Heap (Priority Queue)
+<span class="tag-is-success">Array</span><span class="tag-is-success">Math</span><span class="tag-is-success">Binary Search</span><span class="tag-is-success">Greedy</span><span class="tag-is-success">Sorting</span><span class="tag-is-success">Heap (Priority Queue)</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Lowest Common Ancestor of a Binary Tree III
 
-Tags: Hash Table, Tree, Binary Tree
+<span class="tag-is-success">Hash Table</span><span class="tag-is-success">Tree</span><span class="tag-is-success">Binary Tree</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Minimum Deletions to Make String Balanced
 
-Tags: String, Dynamic Programming, Stack
+<span class="tag-is-success">String</span><span class="tag-is-success">Dynamic Programming</span><span class="tag-is-success">Stack</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Minimum Jumps to Reach Home
 
-Tags: Array, Dynamic Programming, Breadth-First Search
+<span class="tag-is-success">Array</span><span class="tag-is-success">Dynamic Programming</span><span class="tag-is-success">Breadth-First Search</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Determine if Two Strings Are Close
 
-Tags: Hash Table, String, Sorting
+<span class="tag-is-success">Hash Table</span><span class="tag-is-success">String</span><span class="tag-is-success">Sorting</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Minimum Operations to Reduce X to Zero
 
-Tags: Array, Hash Table, Binary Search, Sliding Window, Prefix Sum
+<span class="tag-is-success">Array</span><span class="tag-is-success">Hash Table</span><span class="tag-is-success">Binary Search</span><span class="tag-is-success">Sliding Window</span><span class="tag-is-success">Prefix Sum</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Correct a Binary Tree
 
-Tags: Hash Table, Tree, Depth-First Search, Breadth-First Search, Binary Tree
+<span class="tag-is-success">Hash Table</span><span class="tag-is-success">Tree</span><span class="tag-is-success">Depth-First Search</span><span class="tag-is-success">Breadth-First Search</span><span class="tag-is-success">Binary Tree</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Smallest String With A Given Numeric Value
 
-Tags: String, Greedy
+<span class="tag-is-success">String</span><span class="tag-is-success">Greedy</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Ways to Make a Fair Array
 
-Tags: Array, Dynamic Programming
+<span class="tag-is-success">Array</span><span class="tag-is-success">Dynamic Programming</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Change the Root of a Binary Tree
 
-Tags: Tree, Depth-First Search, Binary Tree
+<span class="tag-is-success">Tree</span><span class="tag-is-success">Depth-First Search</span><span class="tag-is-success">Binary Tree</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Merge In Between Linked Lists
 
-Tags: Linked List
+<span class="tag-is-success">Linked List</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Design Front Middle Back Queue
 
-Tags: Array, Linked List, Design, Queue, Data Stream
+<span class="tag-is-success">Array</span><span class="tag-is-success">Linked List</span><span class="tag-is-success">Design</span><span class="tag-is-success">Queue</span><span class="tag-is-success">Data Stream</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Find the Most Competitive Subsequence
 
-Tags: Array, Stack, Greedy, Monotonic Stack
+<span class="tag-is-success">Array</span><span class="tag-is-success">Stack</span><span class="tag-is-success">Greedy</span><span class="tag-is-success">Monotonic Stack</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Minimum Moves to Make Array Complementary
 
-Tags: Array, Hash Table, Prefix Sum
+<span class="tag-is-success">Array</span><span class="tag-is-success">Hash Table</span><span class="tag-is-success">Prefix Sum</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Lowest Common Ancestor of a Binary Tree IV
 
-Tags: Tree, Depth-First Search, Binary Tree
+<span class="tag-is-success">Tree</span><span class="tag-is-success">Depth-First Search</span><span class="tag-is-success">Binary Tree</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Max Number of K-Sum Pairs
 
-Tags: Array, Hash Table, Two Pointers, Sorting
+<span class="tag-is-success">Array</span><span class="tag-is-success">Hash Table</span><span class="tag-is-success">Two Pointers</span><span class="tag-is-success">Sorting</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Concatenation of Consecutive Binary Numbers
 
-Tags: Math, Bit Manipulation, Simulation
+<span class="tag-is-success">Math</span><span class="tag-is-success">Bit Manipulation</span><span class="tag-is-success">Simulation</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Longest Palindromic Subsequence II
 
-Tags: String, Dynamic Programming
+<span class="tag-is-success">String</span><span class="tag-is-success">Dynamic Programming</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Sum of Absolute Differences in a Sorted Array
 
-Tags: Array, Math, Prefix Sum
+<span class="tag-is-success">Array</span><span class="tag-is-success">Math</span><span class="tag-is-success">Prefix Sum</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Stone Game VI
 
-Tags: Array, Math, Greedy, Sorting, Heap (Priority Queue), Game Theory
+<span class="tag-is-success">Array</span><span class="tag-is-success">Math</span><span class="tag-is-success">Greedy</span><span class="tag-is-success">Sorting</span><span class="tag-is-success">Heap (Priority Queue)</span><span class="tag-is-success">Game Theory</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Partitioning Into Minimum Number Of Deci-Binary Numbers
 
-Tags: String, Greedy
+<span class="tag-is-success">String</span><span class="tag-is-success">Greedy</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Stone Game VII
 
-Tags: Array, Math, Dynamic Programming, Game Theory
+<span class="tag-is-success">Array</span><span class="tag-is-success">Math</span><span class="tag-is-success">Dynamic Programming</span><span class="tag-is-success">Game Theory</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Maximum Erasure Value
 
-Tags: Array, Hash Table, Sliding Window
+<span class="tag-is-success">Array</span><span class="tag-is-success">Hash Table</span><span class="tag-is-success">Sliding Window</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Jump Game VI
 
-Tags: Array, Dynamic Programming, Queue, Sliding Window, Heap (Priority Queue), Monotonic Queue
+<span class="tag-is-success">Array</span><span class="tag-is-success">Dynamic Programming</span><span class="tag-is-success">Queue</span><span class="tag-is-success">Sliding Window</span><span class="tag-is-success">Heap (Priority Queue)</span><span class="tag-is-success">Monotonic Queue</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Number of Distinct Substrings in a String
 
-Tags: String, Trie, Rolling Hash, Suffix Array, Hash Function
+<span class="tag-is-success">String</span><span class="tag-is-success">Trie</span><span class="tag-is-success">Rolling Hash</span><span class="tag-is-success">Suffix Array</span><span class="tag-is-success">Hash Function</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Number of Calls Between Two Persons
 
-Tags: Database
+<span class="tag-is-success">Database</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Average Waiting Time
 
-Tags: Array, Simulation
+<span class="tag-is-success">Array</span><span class="tag-is-success">Simulation</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Maximum Binary String After Change
 
-Tags: String, Greedy
+<span class="tag-is-success">String</span><span class="tag-is-success">Greedy</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Maximum Number of Eaten Apples
 
-Tags: Array, Greedy, Heap (Priority Queue)
+<span class="tag-is-success">Array</span><span class="tag-is-success">Greedy</span><span class="tag-is-success">Heap (Priority Queue)</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Where Will the Ball Fall
 
-Tags: Array, Dynamic Programming, Depth-First Search, Matrix, Simulation
+<span class="tag-is-success">Array</span><span class="tag-is-success">Dynamic Programming</span><span class="tag-is-success">Depth-First Search</span><span class="tag-is-success">Matrix</span><span class="tag-is-success">Simulation</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Biggest Window Between Visits
 
-Tags: Database
+<span class="tag-is-success">Database</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Count Good Meals
 
-Tags: Array, Hash Table
+<span class="tag-is-success">Array</span><span class="tag-is-success">Hash Table</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Ways to Split Array Into Three Subarrays
 
-Tags: Array, Two Pointers, Binary Search, Prefix Sum
+<span class="tag-is-success">Array</span><span class="tag-is-success">Two Pointers</span><span class="tag-is-success">Binary Search</span><span class="tag-is-success">Prefix Sum</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Count Apples and Oranges
 
-Tags: Database
+<span class="tag-is-success">Database</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Maximum Score From Removing Substrings
 
-Tags: String, Stack, Greedy
+<span class="tag-is-success">String</span><span class="tag-is-success">Stack</span><span class="tag-is-success">Greedy</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Construct the Lexicographically Largest Valid Sequence
 
-Tags: Array, Backtracking
+<span class="tag-is-success">Array</span><span class="tag-is-success">Backtracking</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Swapping Nodes in a Linked List
 
-Tags: Linked List, Two Pointers
+<span class="tag-is-success">Linked List</span><span class="tag-is-success">Two Pointers</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Minimize Hamming Distance After Swap Operations
 
-Tags: Array, Depth-First Search, Union Find
+<span class="tag-is-success">Array</span><span class="tag-is-success">Depth-First Search</span><span class="tag-is-success">Union Find</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Tuple with Same Product
 
-Tags: Array, Hash Table
+<span class="tag-is-success">Array</span><span class="tag-is-success">Hash Table</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Largest Submatrix With Rearrangements
 
-Tags: Array, Greedy, Sorting, Matrix
+<span class="tag-is-success">Array</span><span class="tag-is-success">Greedy</span><span class="tag-is-success">Sorting</span><span class="tag-is-success">Matrix</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Shortest Path to Get Food
 
-Tags: Array, Breadth-First Search, Matrix
+<span class="tag-is-success">Array</span><span class="tag-is-success">Breadth-First Search</span><span class="tag-is-success">Matrix</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Minimum Number of People to Teach
 
-Tags: Array, Greedy
+<span class="tag-is-success">Array</span><span class="tag-is-success">Greedy</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Decode XORed Permutation
 
-Tags: Array, Bit Manipulation
+<span class="tag-is-success">Array</span><span class="tag-is-success">Bit Manipulation</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Change Minimum Characters to Satisfy One of Three Conditions
 
-Tags: Hash Table, String, Counting, Prefix Sum
+<span class="tag-is-success">Hash Table</span><span class="tag-is-success">String</span><span class="tag-is-success">Counting</span><span class="tag-is-success">Prefix Sum</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Find Kth Largest XOR Coordinate Value
 
-Tags: Array, Divide and Conquer, Bit Manipulation, Heap (Priority Queue), Matrix, Prefix Sum, Quickselect
+<span class="tag-is-success">Array</span><span class="tag-is-success">Divide and Conquer</span><span class="tag-is-success">Bit Manipulation</span><span class="tag-is-success">Heap (Priority Queue)</span><span class="tag-is-success">Matrix</span><span class="tag-is-success">Prefix Sum</span><span class="tag-is-success">Quickselect</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Find Distance in a Binary Tree
 
-Tags: Hash Table, Tree, Depth-First Search, Breadth-First Search, Binary Tree
+<span class="tag-is-success">Hash Table</span><span class="tag-is-success">Tree</span><span class="tag-is-success">Depth-First Search</span><span class="tag-is-success">Breadth-First Search</span><span class="tag-is-success">Binary Tree</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Restore the Array From Adjacent Pairs
 
-Tags: Array, Hash Table
+<span class="tag-is-success">Array</span><span class="tag-is-success">Hash Table</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Can You Eat Your Favorite Candy on Your Favorite Day?
 
-Tags: Array, Prefix Sum
+<span class="tag-is-success">Array</span><span class="tag-is-success">Prefix Sum</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Maximum Subarray Sum After One Operation
 
-Tags: Array, Dynamic Programming
+<span class="tag-is-success">Array</span><span class="tag-is-success">Dynamic Programming</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Leetflex Banned Accounts
 
-Tags: Database
+<span class="tag-is-success">Database</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Maximum Absolute Sum of Any Subarray
 
-Tags: Array, Dynamic Programming
+<span class="tag-is-success">Array</span><span class="tag-is-success">Dynamic Programming</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Minimum Length of String After Deleting Similar Ends
 
-Tags: Two Pointers, String
+<span class="tag-is-success">Two Pointers</span><span class="tag-is-success">String</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Maximum Score From Removing Stones
 
-Tags: Math, Greedy, Heap (Priority Queue)
+<span class="tag-is-success">Math</span><span class="tag-is-success">Greedy</span><span class="tag-is-success">Heap (Priority Queue)</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Largest Merge Of Two Strings
 
-Tags: Two Pointers, String, Greedy
+<span class="tag-is-success">Two Pointers</span><span class="tag-is-success">String</span><span class="tag-is-success">Greedy</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Design Most Recently Used Queue
 
-Tags: Array, Hash Table, Stack, Design, Binary Indexed Tree, Ordered Set
+<span class="tag-is-success">Array</span><span class="tag-is-success">Hash Table</span><span class="tag-is-success">Stack</span><span class="tag-is-success">Design</span><span class="tag-is-success">Binary Indexed Tree</span><span class="tag-is-success">Ordered Set</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Count Number of Homogenous Substrings
 
-Tags: Math, String
+<span class="tag-is-success">Math</span><span class="tag-is-success">String</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Minimum Limit of Balls in a Bag
 
-Tags: Array, Binary Search
+<span class="tag-is-success">Array</span><span class="tag-is-success">Binary Search</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Buildings With an Ocean View
 
-Tags: Array, Stack, Monotonic Stack
+<span class="tag-is-success">Array</span><span class="tag-is-success">Stack</span><span class="tag-is-success">Monotonic Stack</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Form Array by Concatenating Subarrays of Another Array
 
-Tags: Array, Greedy, String Matching
+<span class="tag-is-success">Array</span><span class="tag-is-success">Greedy</span><span class="tag-is-success">String Matching</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Map of Highest Peak
 
-Tags: Array, Breadth-First Search, Matrix
+<span class="tag-is-success">Array</span><span class="tag-is-success">Breadth-First Search</span><span class="tag-is-success">Matrix</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Minimum Number of Operations to Move All Balls to Each Box
 
-Tags: Array, String
+<span class="tag-is-success">Array</span><span class="tag-is-success">String</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Maximum Score from Performing Multiplication Operations
 
-Tags: Array, Dynamic Programming
+<span class="tag-is-success">Array</span><span class="tag-is-success">Dynamic Programming</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Sort Features by Popularity
 
-Tags: Array, Hash Table, String, Sorting
+<span class="tag-is-success">Array</span><span class="tag-is-success">Hash Table</span><span class="tag-is-success">String</span><span class="tag-is-success">Sorting</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Closest Dessert Cost
 
-Tags: Array, Dynamic Programming, Backtracking
+<span class="tag-is-success">Array</span><span class="tag-is-success">Dynamic Programming</span><span class="tag-is-success">Backtracking</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Equal Sum Arrays With Minimum Number of Operations
 
-Tags: Array, Hash Table, Greedy, Counting
+<span class="tag-is-success">Array</span><span class="tag-is-success">Hash Table</span><span class="tag-is-success">Greedy</span><span class="tag-is-success">Counting</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Shortest Path in a Hidden Grid
 
-Tags: Depth-First Search, Breadth-First Search, Graph, Interactive
+<span class="tag-is-success">Depth-First Search</span><span class="tag-is-success">Breadth-First Search</span><span class="tag-is-success">Graph</span><span class="tag-is-success">Interactive</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Check if Number is a Sum of Powers of Three
 
-Tags: Math
+<span class="tag-is-success">Math</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Sum of Beauty of All Substrings
 
-Tags: Hash Table, String, Counting
+<span class="tag-is-success">Hash Table</span><span class="tag-is-success">String</span><span class="tag-is-success">Counting</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Grand Slam Titles
 
-Tags: Database
+<span class="tag-is-success">Database</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Minimum Elements to Add to Form a Given Sum
 
-Tags: Array, Greedy
+<span class="tag-is-success">Array</span><span class="tag-is-success">Greedy</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Number of Restricted Paths From First to Last Node
 
-Tags: Dynamic Programming, Graph, Topological Sort, Heap (Priority Queue), Shortest Path
+<span class="tag-is-success">Dynamic Programming</span><span class="tag-is-success">Graph</span><span class="tag-is-success">Topological Sort</span><span class="tag-is-success">Heap (Priority Queue)</span><span class="tag-is-success">Shortest Path</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Maximum Average Pass Ratio
 
-Tags: Array, Greedy, Heap (Priority Queue)
+<span class="tag-is-success">Array</span><span class="tag-is-success">Greedy</span><span class="tag-is-success">Heap (Priority Queue)</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Count Pairs of Equal Substrings With Minimum Difference
 
-Tags: Hash Table, String, Greedy
+<span class="tag-is-success">Hash Table</span><span class="tag-is-success">String</span><span class="tag-is-success">Greedy</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Design Authentication Manager
 
-Tags: Hash Table, Design
+<span class="tag-is-success">Hash Table</span><span class="tag-is-success">Design</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Maximum Number of Consecutive Values You Can Make
 
-Tags: Array, Greedy
+<span class="tag-is-success">Array</span><span class="tag-is-success">Greedy</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Number of Orders in the Backlog
 
-Tags: Array, Heap (Priority Queue), Simulation
+<span class="tag-is-success">Array</span><span class="tag-is-success">Heap (Priority Queue)</span><span class="tag-is-success">Simulation</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Maximum Value at a Given Index in a Bounded Array
 
-Tags: Binary Search, Greedy
+<span class="tag-is-success">Binary Search</span><span class="tag-is-success">Greedy</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Implement Trie II (Prefix Tree)
 
-Tags: Hash Table, String, Design, Trie
+<span class="tag-is-success">Hash Table</span><span class="tag-is-success">String</span><span class="tag-is-success">Design</span><span class="tag-is-success">Trie</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Minimum Number of Operations to Reinitialize a Permutation
 
-Tags: Array, Math, Simulation
+<span class="tag-is-success">Array</span><span class="tag-is-success">Math</span><span class="tag-is-success">Simulation</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Evaluate the Bracket Pairs of a String
 
-Tags: Array, Hash Table, String
+<span class="tag-is-success">Array</span><span class="tag-is-success">Hash Table</span><span class="tag-is-success">String</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Minimum Path Cost in a Hidden Grid
 
-Tags: Depth-First Search, Breadth-First Search, Graph, Heap (Priority Queue), Interactive
+<span class="tag-is-success">Depth-First Search</span><span class="tag-is-success">Breadth-First Search</span><span class="tag-is-success">Graph</span><span class="tag-is-success">Heap (Priority Queue)</span><span class="tag-is-success">Interactive</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Find Interview Candidates
 
-Tags: Database
+<span class="tag-is-success">Database</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Sentence Similarity III
 
-Tags: Array, Two Pointers, String
+<span class="tag-is-success">Array</span><span class="tag-is-success">Two Pointers</span><span class="tag-is-success">String</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Count Nice Pairs in an Array
 
-Tags: Array, Hash Table, Math, Counting
+<span class="tag-is-success">Array</span><span class="tag-is-success">Hash Table</span><span class="tag-is-success">Math</span><span class="tag-is-success">Counting</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Finding the Users Active Minutes
 
-Tags: Array, Hash Table
+<span class="tag-is-success">Array</span><span class="tag-is-success">Hash Table</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Minimum Absolute Sum Difference
 
-Tags: Array, Binary Search, Sorting, Ordered Set
+<span class="tag-is-success">Array</span><span class="tag-is-success">Binary Search</span><span class="tag-is-success">Sorting</span><span class="tag-is-success">Ordered Set</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Maximum Number of Accepted Invitations
 
-Tags: Array, Backtracking, Matrix
+<span class="tag-is-success">Array</span><span class="tag-is-success">Backtracking</span><span class="tag-is-success">Matrix</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Find the Winner of the Circular Game
 
-Tags: Array, Math, Recursion, Queue, Simulation
+<span class="tag-is-success">Array</span><span class="tag-is-success">Math</span><span class="tag-is-success">Recursion</span><span class="tag-is-success">Queue</span><span class="tag-is-success">Simulation</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Minimum Sideway Jumps
 
-Tags: Array, Dynamic Programming, Greedy
+<span class="tag-is-success">Array</span><span class="tag-is-success">Dynamic Programming</span><span class="tag-is-success">Greedy</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Queries on Number of Points Inside a Circle
 
-Tags: Array, Math, Geometry
+<span class="tag-is-success">Array</span><span class="tag-is-success">Math</span><span class="tag-is-success">Geometry</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Maximum XOR for Each Query
 
-Tags: Array, Bit Manipulation, Prefix Sum
+<span class="tag-is-success">Array</span><span class="tag-is-success">Bit Manipulation</span><span class="tag-is-success">Prefix Sum</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Maximum Transaction Each Day
 
-Tags: Database
+<span class="tag-is-success">Database</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Maximum Ice Cream Bars
 
-Tags: Array, Greedy, Sorting
+<span class="tag-is-success">Array</span><span class="tag-is-success">Greedy</span><span class="tag-is-success">Sorting</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Single-Threaded CPU
 
-Tags: Array, Sorting, Heap (Priority Queue)
+<span class="tag-is-success">Array</span><span class="tag-is-success">Sorting</span><span class="tag-is-success">Heap (Priority Queue)</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Remove Duplicates From an Unsorted Linked List
 
-Tags: Hash Table, Linked List
+<span class="tag-is-success">Hash Table</span><span class="tag-is-success">Linked List</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Frequency of the Most Frequent Element
 
-Tags: Array, Binary Search, Greedy, Sliding Window, Sorting, Prefix Sum
+<span class="tag-is-success">Array</span><span class="tag-is-success">Binary Search</span><span class="tag-is-success">Greedy</span><span class="tag-is-success">Sliding Window</span><span class="tag-is-success">Sorting</span><span class="tag-is-success">Prefix Sum</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Longest Substring Of All Vowels in Order
 
-Tags: String, Sliding Window
+<span class="tag-is-success">String</span><span class="tag-is-success">Sliding Window</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## League Statistics
 
-Tags: Database
+<span class="tag-is-success">Database</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Suspicious Bank Accounts
 
-Tags: Database
+<span class="tag-is-success">Database</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Seat Reservation Manager
 
-Tags: Design, Heap (Priority Queue)
+<span class="tag-is-success">Design</span><span class="tag-is-success">Heap (Priority Queue)</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Maximum Element After Decreasing and Rearranging
 
-Tags: Array, Greedy, Sorting
+<span class="tag-is-success">Array</span><span class="tag-is-success">Greedy</span><span class="tag-is-success">Sorting</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Splitting a String Into Descending Consecutive Values
 
-Tags: String, Backtracking
+<span class="tag-is-success">String</span><span class="tag-is-success">Backtracking</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Minimum Adjacent Swaps to Reach the Kth Smallest Number
 
-Tags: Two Pointers, String, Greedy
+<span class="tag-is-success">Two Pointers</span><span class="tag-is-success">String</span><span class="tag-is-success">Greedy</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Distinct Numbers in Each Subarray
 
-Tags: Array, Hash Table, Sliding Window
+<span class="tag-is-success">Array</span><span class="tag-is-success">Hash Table</span><span class="tag-is-success">Sliding Window</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Maximum Distance Between a Pair of Values
 
-Tags: Array, Two Pointers, Binary Search, Greedy
+<span class="tag-is-success">Array</span><span class="tag-is-success">Two Pointers</span><span class="tag-is-success">Binary Search</span><span class="tag-is-success">Greedy</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Maximum Subarray Min-Product
 
-Tags: Array, Stack, Monotonic Stack, Prefix Sum
+<span class="tag-is-success">Array</span><span class="tag-is-success">Stack</span><span class="tag-is-success">Monotonic Stack</span><span class="tag-is-success">Prefix Sum</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Longest Word With All Prefixes
 
-Tags: Depth-First Search, Trie
+<span class="tag-is-success">Depth-First Search</span><span class="tag-is-success">Trie</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Incremental Memory Leak
 
-Tags: Simulation
+<span class="tag-is-success">Simulation</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Rotating the Box
 
-Tags: Array, Two Pointers, Matrix
+<span class="tag-is-success">Array</span><span class="tag-is-success">Two Pointers</span><span class="tag-is-success">Matrix</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Minimum Number of Swaps to Make the Binary String Alternating
 
-Tags: String, Greedy
+<span class="tag-is-success">String</span><span class="tag-is-success">Greedy</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Finding Pairs With a Certain Sum
 
-Tags: Array, Hash Table, Design
+<span class="tag-is-success">Array</span><span class="tag-is-success">Hash Table</span><span class="tag-is-success">Design</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Orders With Maximum Quantity Above Average
 
-Tags: Database
+<span class="tag-is-success">Database</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Product of Two Run-Length Encoded Arrays
 
-Tags: Array, Two Pointers
+<span class="tag-is-success">Array</span><span class="tag-is-success">Two Pointers</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Minimum Speed to Arrive on Time
 
-Tags: Array, Binary Search
+<span class="tag-is-success">Array</span><span class="tag-is-success">Binary Search</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Jump Game VII
 
-Tags: Two Pointers, String, Prefix Sum
+<span class="tag-is-success">Two Pointers</span><span class="tag-is-success">String</span><span class="tag-is-success">Prefix Sum</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Minimize Product Sum of Two Arrays
 
-Tags: Array, Greedy, Sorting
+<span class="tag-is-success">Array</span><span class="tag-is-success">Greedy</span><span class="tag-is-success">Sorting</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Group Employees of the Same Salary
 
-Tags: Database
+<span class="tag-is-success">Database</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Minimize Maximum Pair Sum in Array
 
-Tags: Array, Two Pointers, Greedy, Sorting
+<span class="tag-is-success">Array</span><span class="tag-is-success">Two Pointers</span><span class="tag-is-success">Greedy</span><span class="tag-is-success">Sorting</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Get Biggest Three Rhombus Sums in a Grid
 
-Tags: Array, Math, Sorting, Heap (Priority Queue), Matrix, Prefix Sum
+<span class="tag-is-success">Array</span><span class="tag-is-success">Math</span><span class="tag-is-success">Sorting</span><span class="tag-is-success">Heap (Priority Queue)</span><span class="tag-is-success">Matrix</span><span class="tag-is-success">Prefix Sum</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Maximum Value after Insertion
 
-Tags: String, Greedy
+<span class="tag-is-success">String</span><span class="tag-is-success">Greedy</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Process Tasks Using Servers
 
-Tags: Array, Heap (Priority Queue)
+<span class="tag-is-success">Array</span><span class="tag-is-success">Heap (Priority Queue)</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Egg Drop With 2 Eggs and N Floors
 
-Tags: Math, Dynamic Programming
+<span class="tag-is-success">Math</span><span class="tag-is-success">Dynamic Programming</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Count Pairs in Two Arrays
 
-Tags: Array, Binary Search, Sorting
+<span class="tag-is-success">Array</span><span class="tag-is-success">Binary Search</span><span class="tag-is-success">Sorting</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Reduction Operations to Make the Array Elements Equal
 
-Tags: Array, Sorting
+<span class="tag-is-success">Array</span><span class="tag-is-success">Sorting</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Minimum Number of Flips to Make the Binary String Alternating
 
-Tags: String, Greedy
+<span class="tag-is-success">String</span><span class="tag-is-success">Greedy</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Cutting Ribbons
 
-Tags: Array, Binary Search
+<span class="tag-is-success">Array</span><span class="tag-is-success">Binary Search</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Find the Student that Will Replace the Chalk
 
-Tags: Array, Binary Search, Simulation, Prefix Sum
+<span class="tag-is-success">Array</span><span class="tag-is-success">Binary Search</span><span class="tag-is-success">Simulation</span><span class="tag-is-success">Prefix Sum</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Largest Magic Square
 
-Tags: Array, Matrix, Prefix Sum
+<span class="tag-is-success">Array</span><span class="tag-is-success">Matrix</span><span class="tag-is-success">Prefix Sum</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Maximum Number of Removable Characters
 
-Tags: Array, String, Binary Search
+<span class="tag-is-success">Array</span><span class="tag-is-success">String</span><span class="tag-is-success">Binary Search</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Merge Triplets to Form Target Triplet
 
-Tags: Array, Greedy
+<span class="tag-is-success">Array</span><span class="tag-is-success">Greedy</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Find a Peak Element II
 
-Tags: Array, Binary Search, Divide and Conquer, Matrix
+<span class="tag-is-success">Array</span><span class="tag-is-success">Binary Search</span><span class="tag-is-success">Divide and Conquer</span><span class="tag-is-success">Matrix</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Depth of BST Given Insertion Order
 
-Tags: Tree, Binary Search Tree, Binary Tree, Ordered Set
+<span class="tag-is-success">Tree</span><span class="tag-is-success">Binary Search Tree</span><span class="tag-is-success">Binary Tree</span><span class="tag-is-success">Ordered Set</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## The Number of Full Rounds You Have Played
 
-Tags: Math, String
+<span class="tag-is-success">Math</span><span class="tag-is-success">String</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Count Sub Islands
 
-Tags: Array, Depth-First Search, Breadth-First Search, Union Find, Matrix
+<span class="tag-is-success">Array</span><span class="tag-is-success">Depth-First Search</span><span class="tag-is-success">Breadth-First Search</span><span class="tag-is-success">Union Find</span><span class="tag-is-success">Matrix</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Minimum Absolute Difference Queries
 
-Tags: Array, Hash Table
+<span class="tag-is-success">Array</span><span class="tag-is-success">Hash Table</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Count Salary Categories
 
-Tags: Database
+<span class="tag-is-success">Database</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Game of Nim
 
-Tags: Array, Math, Dynamic Programming, Bit Manipulation, Brainteaser, Game Theory
+<span class="tag-is-success">Array</span><span class="tag-is-success">Math</span><span class="tag-is-success">Dynamic Programming</span><span class="tag-is-success">Bit Manipulation</span><span class="tag-is-success">Brainteaser</span><span class="tag-is-success">Game Theory</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Remove All Occurrences of a Substring
 
-Tags: String
+<span class="tag-is-success">String</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Maximum Alternating Subsequence Sum
 
-Tags: Array, Dynamic Programming
+<span class="tag-is-success">Array</span><span class="tag-is-success">Dynamic Programming</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Cyclically Rotating a Grid
 
-Tags: Array, Matrix, Simulation
+<span class="tag-is-success">Array</span><span class="tag-is-success">Matrix</span><span class="tag-is-success">Simulation</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Number of Wonderful Substrings
 
-Tags: Hash Table, String, Bit Manipulation, Prefix Sum
+<span class="tag-is-success">Hash Table</span><span class="tag-is-success">String</span><span class="tag-is-success">Bit Manipulation</span><span class="tag-is-success">Prefix Sum</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Kth Smallest Subarray Sum
 
-Tags: Array, Binary Search, Sliding Window
+<span class="tag-is-success">Array</span><span class="tag-is-success">Binary Search</span><span class="tag-is-success">Sliding Window</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Eliminate Maximum Number of Monsters
 
-Tags: Array, Greedy, Sorting
+<span class="tag-is-success">Array</span><span class="tag-is-success">Greedy</span><span class="tag-is-success">Sorting</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Count Good Numbers
 
-Tags: Math, Recursion
+<span class="tag-is-success">Math</span><span class="tag-is-success">Recursion</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Nearest Exit from Entrance in Maze
 
-Tags: Array, Breadth-First Search, Matrix
+<span class="tag-is-success">Array</span><span class="tag-is-success">Breadth-First Search</span><span class="tag-is-success">Matrix</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Sum Game
 
-Tags: Math, Greedy, Game Theory
+<span class="tag-is-success">Math</span><span class="tag-is-success">Greedy</span><span class="tag-is-success">Game Theory</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Unique Length-3 Palindromic Subsequences
 
-Tags: Hash Table, String, Prefix Sum
+<span class="tag-is-success">Hash Table</span><span class="tag-is-success">String</span><span class="tag-is-success">Prefix Sum</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Confirmation Rate
 
-Tags: Database
+<span class="tag-is-success">Database</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Add Minimum Number of Rungs
 
-Tags: Array, Greedy
+<span class="tag-is-success">Array</span><span class="tag-is-success">Greedy</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Maximum Number of Points with Cost
 
-Tags: Array, Dynamic Programming
+<span class="tag-is-success">Array</span><span class="tag-is-success">Dynamic Programming</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Longest Common Subsequence Between Sorted Arrays
 
-Tags: Array, Hash Table, Counting
+<span class="tag-is-success">Array</span><span class="tag-is-success">Hash Table</span><span class="tag-is-success">Counting</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## The Number of the Smallest Unoccupied Chair
 
-Tags: Array, Heap (Priority Queue), Ordered Set
+<span class="tag-is-success">Array</span><span class="tag-is-success">Heap (Priority Queue)</span><span class="tag-is-success">Ordered Set</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Describe the Painting
 
-Tags: Array, Prefix Sum
+<span class="tag-is-success">Array</span><span class="tag-is-success">Prefix Sum</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Largest Number After Mutating Substring
 
-Tags: Array, String, Greedy
+<span class="tag-is-success">Array</span><span class="tag-is-success">String</span><span class="tag-is-success">Greedy</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Maximum Compatibility Score Sum
 
-Tags: Array, Dynamic Programming, Backtracking, Bit Manipulation, Bitmask
+<span class="tag-is-success">Array</span><span class="tag-is-success">Dynamic Programming</span><span class="tag-is-success">Backtracking</span><span class="tag-is-success">Bit Manipulation</span><span class="tag-is-success">Bitmask</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Strong Friendship
 
-Tags: Database
+<span class="tag-is-success">Database</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Maximum of Minimum Values in All Subarrays
 
-Tags: Array, Stack, Monotonic Stack
+<span class="tag-is-success">Array</span><span class="tag-is-success">Stack</span><span class="tag-is-success">Monotonic Stack</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## All the Pairs With the Maximum Number of Common Followers
 
-Tags: Database
+<span class="tag-is-success">Database</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Maximum Number of Weeks for Which You Can Work
 
-Tags: Array, Greedy
+<span class="tag-is-success">Array</span><span class="tag-is-success">Greedy</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Minimum Garden Perimeter to Collect Enough Apples
 
-Tags: Math, Binary Search
+<span class="tag-is-success">Math</span><span class="tag-is-success">Binary Search</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Check if Move is Legal
 
-Tags: Array, Matrix, Enumeration
+<span class="tag-is-success">Array</span><span class="tag-is-success">Matrix</span><span class="tag-is-success">Enumeration</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Minimum Total Space Wasted With K Resizing Operations
 
-Tags: Array, Dynamic Programming
+<span class="tag-is-success">Array</span><span class="tag-is-success">Dynamic Programming</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Remove Stones to Minimize the Total
 
-Tags: Array, Heap (Priority Queue)
+<span class="tag-is-success">Array</span><span class="tag-is-success">Heap (Priority Queue)</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Minimum Number of Swaps to Make the String Balanced
 
-Tags: Two Pointers, String, Stack, Greedy
+<span class="tag-is-success">Two Pointers</span><span class="tag-is-success">String</span><span class="tag-is-success">Stack</span><span class="tag-is-success">Greedy</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Binary Searchable Numbers in an Unsorted Array
 
-Tags: Array, Binary Search
+<span class="tag-is-success">Array</span><span class="tag-is-success">Binary Search</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Array With Elements Not Equal to Average of Neighbors
 
-Tags: Array, Greedy, Sorting
+<span class="tag-is-success">Array</span><span class="tag-is-success">Greedy</span><span class="tag-is-success">Sorting</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Minimum Non-Zero Product of the Array Elements
 
-Tags: Math, Greedy, Recursion
+<span class="tag-is-success">Math</span><span class="tag-is-success">Greedy</span><span class="tag-is-success">Recursion</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Count Nodes Equal to Sum of Descendants
 
-Tags: Tree, Depth-First Search, Binary Search Tree, Binary Tree
+<span class="tag-is-success">Tree</span><span class="tag-is-success">Depth-First Search</span><span class="tag-is-success">Binary Search Tree</span><span class="tag-is-success">Binary Tree</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Maximum Matrix Sum
 
-Tags: Array, Greedy, Matrix
+<span class="tag-is-success">Array</span><span class="tag-is-success">Greedy</span><span class="tag-is-success">Matrix</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Number of Ways to Arrive at Destination
 
-Tags: Dynamic Programming, Graph, Topological Sort, Shortest Path
+<span class="tag-is-success">Dynamic Programming</span><span class="tag-is-success">Graph</span><span class="tag-is-success">Topological Sort</span><span class="tag-is-success">Shortest Path</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Find Unique Binary String
 
-Tags: Array, String, Backtracking
+<span class="tag-is-success">Array</span><span class="tag-is-success">String</span><span class="tag-is-success">Backtracking</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Minimize the Difference Between Target and Chosen Elements
 
-Tags: Array, Dynamic Programming, Matrix
+<span class="tag-is-success">Array</span><span class="tag-is-success">Dynamic Programming</span><span class="tag-is-success">Matrix</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Widest Pair of Indices With Equal Range Sum
 
-Tags: Array, Hash Table, Prefix Sum
+<span class="tag-is-success">Array</span><span class="tag-is-success">Hash Table</span><span class="tag-is-success">Prefix Sum</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Find the Kth Largest Integer in the Array
 
-Tags: Array, String, Divide and Conquer, Sorting, Heap (Priority Queue), Quickselect
+<span class="tag-is-success">Array</span><span class="tag-is-success">String</span><span class="tag-is-success">Divide and Conquer</span><span class="tag-is-success">Sorting</span><span class="tag-is-success">Heap (Priority Queue)</span><span class="tag-is-success">Quickselect</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Minimum Number of Work Sessions to Finish the Tasks
 
-Tags: Array, Dynamic Programming, Backtracking, Bit Manipulation, Bitmask
+<span class="tag-is-success">Array</span><span class="tag-is-success">Dynamic Programming</span><span class="tag-is-success">Backtracking</span><span class="tag-is-success">Bit Manipulation</span><span class="tag-is-success">Bitmask</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Find Cutoff Score for Each School
 
-Tags: Database
+<span class="tag-is-success">Database</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Maximum Number of People That Can Be Caught in Tag
 
-Tags: Array, Greedy
+<span class="tag-is-success">Array</span><span class="tag-is-success">Greedy</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Count the Number of Experiments
 
-Tags: Database
+<span class="tag-is-success">Database</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Find All Groups of Farmland
 
-Tags: Array, Depth-First Search, Breadth-First Search, Matrix
+<span class="tag-is-success">Array</span><span class="tag-is-success">Depth-First Search</span><span class="tag-is-success">Breadth-First Search</span><span class="tag-is-success">Matrix</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Operations on Tree
 
-Tags: Hash Table, Tree, Breadth-First Search, Design
+<span class="tag-is-success">Hash Table</span><span class="tag-is-success">Tree</span><span class="tag-is-success">Breadth-First Search</span><span class="tag-is-success">Design</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## The Number of Weak Characters in the Game
 
-Tags: Array, Stack, Greedy, Sorting, Monotonic Stack
+<span class="tag-is-success">Array</span><span class="tag-is-success">Stack</span><span class="tag-is-success">Greedy</span><span class="tag-is-success">Sorting</span><span class="tag-is-success">Monotonic Stack</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## First Day Where You Have Been in All the Rooms
 
-Tags: Array, Dynamic Programming
+<span class="tag-is-success">Array</span><span class="tag-is-success">Dynamic Programming</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Smallest Greater Multiple Made of Two Digits
 
-Tags: Math, Enumeration
+<span class="tag-is-success">Math</span><span class="tag-is-success">Enumeration</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Number of Pairs of Interchangeable Rectangles
 
-Tags: Array, Hash Table, Math, Counting, Number Theory
+<span class="tag-is-success">Array</span><span class="tag-is-success">Hash Table</span><span class="tag-is-success">Math</span><span class="tag-is-success">Counting</span><span class="tag-is-success">Number Theory</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Maximum Product of the Length of Two Palindromic Subsequences
 
-Tags: String, Dynamic Programming, Backtracking, Bit Manipulation, Bitmask
+<span class="tag-is-success">String</span><span class="tag-is-success">Dynamic Programming</span><span class="tag-is-success">Backtracking</span><span class="tag-is-success">Bit Manipulation</span><span class="tag-is-success">Bitmask</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Find Original Array From Doubled Array
 
-Tags: Array, Hash Table, Greedy, Sorting
+<span class="tag-is-success">Array</span><span class="tag-is-success">Hash Table</span><span class="tag-is-success">Greedy</span><span class="tag-is-success">Sorting</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Maximum Earnings From Taxi
 
-Tags: Array, Binary Search, Dynamic Programming, Sorting
+<span class="tag-is-success">Array</span><span class="tag-is-success">Binary Search</span><span class="tag-is-success">Dynamic Programming</span><span class="tag-is-success">Sorting</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Sum of Beauty in the Array
 
-Tags: Array
+<span class="tag-is-success">Array</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Detect Squares
 
-Tags: Array, Hash Table, Design, Counting
+<span class="tag-is-success">Array</span><span class="tag-is-success">Hash Table</span><span class="tag-is-success">Design</span><span class="tag-is-success">Counting</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Average Height of Buildings in Each Segment
 
-Tags: Array, Greedy, Sorting, Heap (Priority Queue)
+<span class="tag-is-success">Array</span><span class="tag-is-success">Greedy</span><span class="tag-is-success">Sorting</span><span class="tag-is-success">Heap (Priority Queue)</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Grid Game
 
-Tags: Array, Matrix, Prefix Sum
+<span class="tag-is-success">Array</span><span class="tag-is-success">Matrix</span><span class="tag-is-success">Prefix Sum</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Check if Word Can Be Placed In Crossword
 
-Tags: Array, Matrix, Enumeration
+<span class="tag-is-success">Array</span><span class="tag-is-success">Matrix</span><span class="tag-is-success">Enumeration</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Number of Accounts That Did Not Stream
 
-Tags: Database
+<span class="tag-is-success">Database</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Brightest Position on Street
 
-Tags: Array, Prefix Sum, Ordered Set
+<span class="tag-is-success">Array</span><span class="tag-is-success">Prefix Sum</span><span class="tag-is-success">Ordered Set</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Number of Pairs of Strings With Concatenation Equal to Target
 
-Tags: Array, String
+<span class="tag-is-success">Array</span><span class="tag-is-success">String</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Maximize the Confusion of an Exam
 
-Tags: String, Binary Search, Sliding Window, Prefix Sum
+<span class="tag-is-success">String</span><span class="tag-is-success">Binary Search</span><span class="tag-is-success">Sliding Window</span><span class="tag-is-success">Prefix Sum</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Find Missing Observations
 
-Tags: Array, Math, Simulation
+<span class="tag-is-success">Array</span><span class="tag-is-success">Math</span><span class="tag-is-success">Simulation</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Stone Game IX
 
-Tags: Array, Math, Greedy, Counting, Game Theory
+<span class="tag-is-success">Array</span><span class="tag-is-success">Math</span><span class="tag-is-success">Greedy</span><span class="tag-is-success">Counting</span><span class="tag-is-success">Game Theory</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Count Subarrays With More Ones Than Zeros
 
-Tags: Array, Binary Search, Divide and Conquer, Binary Indexed Tree, Segment Tree, Merge Sort, Ordered Set
+<span class="tag-is-success">Array</span><span class="tag-is-success">Binary Search</span><span class="tag-is-success">Divide and Conquer</span><span class="tag-is-success">Binary Indexed Tree</span><span class="tag-is-success">Segment Tree</span><span class="tag-is-success">Merge Sort</span><span class="tag-is-success">Ordered Set</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Minimum Operations to Make a Uni-Value Grid
 
-Tags: Array, Math, Sorting, Matrix
+<span class="tag-is-success">Array</span><span class="tag-is-success">Math</span><span class="tag-is-success">Sorting</span><span class="tag-is-success">Matrix</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Stock Price Fluctuation
 
-Tags: Hash Table, Design, Heap (Priority Queue), Data Stream, Ordered Set
+<span class="tag-is-success">Hash Table</span><span class="tag-is-success">Design</span><span class="tag-is-success">Heap (Priority Queue)</span><span class="tag-is-success">Data Stream</span><span class="tag-is-success">Ordered Set</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Maximum Alternating Subarray Sum
 
-Tags: Array, Dynamic Programming
+<span class="tag-is-success">Array</span><span class="tag-is-success">Dynamic Programming</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Remove Colored Pieces if Both Neighbors are the Same Color
 
-Tags: Math, String, Greedy, Game Theory
+<span class="tag-is-success">Math</span><span class="tag-is-success">String</span><span class="tag-is-success">Greedy</span><span class="tag-is-success">Game Theory</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## The Time When the Network Becomes Idle
 
-Tags: Array, Breadth-First Search, Graph
+<span class="tag-is-success">Array</span><span class="tag-is-success">Breadth-First Search</span><span class="tag-is-success">Graph</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Accepted Candidates From the Interviews
 
-Tags: Database
+<span class="tag-is-success">Database</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Simple Bank System
 
-Tags: Array, Hash Table, Design, Simulation
+<span class="tag-is-success">Array</span><span class="tag-is-success">Hash Table</span><span class="tag-is-success">Design</span><span class="tag-is-success">Simulation</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Count Number of Maximum Bitwise-OR Subsets
 
-Tags: Array, Backtracking, Bit Manipulation
+<span class="tag-is-success">Array</span><span class="tag-is-success">Backtracking</span><span class="tag-is-success">Bit Manipulation</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Sort Linked List Already Sorted Using Absolute Values
 
-Tags: Linked List, Two Pointers, Sorting
+<span class="tag-is-success">Linked List</span><span class="tag-is-success">Two Pointers</span><span class="tag-is-success">Sorting</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Next Greater Numerically Balanced Number
 
-Tags: Math, Backtracking, Enumeration
+<span class="tag-is-success">Math</span><span class="tag-is-success">Backtracking</span><span class="tag-is-success">Enumeration</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Count Nodes With the Highest Score
 
-Tags: Array, Tree, Depth-First Search, Binary Tree
+<span class="tag-is-success">Array</span><span class="tag-is-success">Tree</span><span class="tag-is-success">Depth-First Search</span><span class="tag-is-success">Binary Tree</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## The Category of Each Member in the Store
 
-Tags: Database
+<span class="tag-is-success">Database</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Minimum Cost to Separate Sentence Into Rows
 
-Tags: Array, Dynamic Programming
+<span class="tag-is-success">Array</span><span class="tag-is-success">Dynamic Programming</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Two Best Non-Overlapping Events
 
-Tags: Array, Binary Search, Dynamic Programming, Sorting, Heap (Priority Queue)
+<span class="tag-is-success">Array</span><span class="tag-is-success">Binary Search</span><span class="tag-is-success">Dynamic Programming</span><span class="tag-is-success">Sorting</span><span class="tag-is-success">Heap (Priority Queue)</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Plates Between Candles
 
-Tags: Array, String, Binary Search, Prefix Sum
+<span class="tag-is-success">Array</span><span class="tag-is-success">String</span><span class="tag-is-success">Binary Search</span><span class="tag-is-success">Prefix Sum</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Find the Minimum and Maximum Number of Nodes Between Critical Points
 
-Tags: Linked List
+<span class="tag-is-success">Linked List</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Minimum Operations to Convert Number
 
-Tags: Array, Breadth-First Search
+<span class="tag-is-success">Array</span><span class="tag-is-success">Breadth-First Search</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Number of Spaces Cleaning Robot Cleaned
 
-Tags: Array, Matrix, Simulation
+<span class="tag-is-success">Array</span><span class="tag-is-success">Matrix</span><span class="tag-is-success">Simulation</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Vowels of All Substrings
 
-Tags: Math, String, Dynamic Programming, Combinatorics
+<span class="tag-is-success">Math</span><span class="tag-is-success">String</span><span class="tag-is-success">Dynamic Programming</span><span class="tag-is-success">Combinatorics</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Minimized Maximum of Products Distributed to Any Store
 
-Tags: Array, Binary Search
+<span class="tag-is-success">Array</span><span class="tag-is-success">Binary Search</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Account Balance
 
-Tags: Database
+<span class="tag-is-success">Database</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Number of Equal Count Substrings
 
-Tags: String, Counting, Prefix Sum
+<span class="tag-is-success">String</span><span class="tag-is-success">Counting</span><span class="tag-is-success">Prefix Sum</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Walking Robot Simulation II
 
-Tags: Design, Simulation
+<span class="tag-is-success">Design</span><span class="tag-is-success">Simulation</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Most Beautiful Item for Each Query
 
-Tags: Array, Binary Search, Sorting
+<span class="tag-is-success">Array</span><span class="tag-is-success">Binary Search</span><span class="tag-is-success">Sorting</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Reverse Nodes in Even Length Groups
 
-Tags: Linked List
+<span class="tag-is-success">Linked List</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Decode the Slanted Ciphertext
 
-Tags: String, Simulation
+<span class="tag-is-success">String</span><span class="tag-is-success">Simulation</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Paths in Maze That Lead to Same Room
 
-Tags: Graph
+<span class="tag-is-success">Graph</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Watering Plants
 
-Tags: Array
+<span class="tag-is-success">Array</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Range Frequency Queries
 
-Tags: Array, Hash Table, Binary Search, Design, Segment Tree
+<span class="tag-is-success">Array</span><span class="tag-is-success">Hash Table</span><span class="tag-is-success">Binary Search</span><span class="tag-is-success">Design</span><span class="tag-is-success">Segment Tree</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Substrings That Begin and End With the Same Letter
 
-Tags: Hash Table, Math, String, Counting, Prefix Sum
+<span class="tag-is-success">Hash Table</span><span class="tag-is-success">Math</span><span class="tag-is-success">String</span><span class="tag-is-success">Counting</span><span class="tag-is-success">Prefix Sum</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Drop Type 1 Orders for Customers With Type 0 Orders
 
-Tags: Database
+<span class="tag-is-success">Database</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Minimum Number of Buckets Required to Collect Rainwater from Houses
 
-Tags: String, Dynamic Programming, Greedy
+<span class="tag-is-success">String</span><span class="tag-is-success">Dynamic Programming</span><span class="tag-is-success">Greedy</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Minimum Cost Homecoming of a Robot in a Grid
 
-Tags: Array, Greedy, Matrix
+<span class="tag-is-success">Array</span><span class="tag-is-success">Greedy</span><span class="tag-is-success">Matrix</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## K Radius Subarray Averages
 
-Tags: Array, Sliding Window
+<span class="tag-is-success">Array</span><span class="tag-is-success">Sliding Window</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Removing Minimum and Maximum From Array
 
-Tags: Array, Greedy
+<span class="tag-is-success">Array</span><span class="tag-is-success">Greedy</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Minimum Cost to Reach City With Discounts
 
-Tags: Graph, Shortest Path
+<span class="tag-is-success">Graph</span><span class="tag-is-success">Shortest Path</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Delete the Middle Node of a Linked List
 
-Tags: Linked List, Two Pointers
+<span class="tag-is-success">Linked List</span><span class="tag-is-success">Two Pointers</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Step-By-Step Directions From a Binary Tree Node to Another
 
-Tags: String, Tree, Depth-First Search, Binary Tree
+<span class="tag-is-success">String</span><span class="tag-is-success">Tree</span><span class="tag-is-success">Depth-First Search</span><span class="tag-is-success">Binary Tree</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Subsequence of Size K With the Largest Even Sum
 
-Tags: Array, Greedy, Sorting
+<span class="tag-is-success">Array</span><span class="tag-is-success">Greedy</span><span class="tag-is-success">Sorting</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Find Good Days to Rob the Bank
 
-Tags: Array, Dynamic Programming, Prefix Sum
+<span class="tag-is-success">Array</span><span class="tag-is-success">Dynamic Programming</span><span class="tag-is-success">Prefix Sum</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Detonate the Maximum Bombs
 
-Tags: Array, Math, Depth-First Search, Breadth-First Search, Graph, Geometry
+<span class="tag-is-success">Array</span><span class="tag-is-success">Math</span><span class="tag-is-success">Depth-First Search</span><span class="tag-is-success">Breadth-First Search</span><span class="tag-is-success">Graph</span><span class="tag-is-success">Geometry</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Sum of Subarray Ranges
 
-Tags: Array, Stack, Monotonic Stack
+<span class="tag-is-success">Array</span><span class="tag-is-success">Stack</span><span class="tag-is-success">Monotonic Stack</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Watering Plants II
 
-Tags: Array, Two Pointers, Simulation
+<span class="tag-is-success">Array</span><span class="tag-is-success">Two Pointers</span><span class="tag-is-success">Simulation</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Number of Unique Flavors After Sharing K Candies
 
-Tags: Array, Hash Table, Sliding Window
+<span class="tag-is-success">Array</span><span class="tag-is-success">Hash Table</span><span class="tag-is-success">Sliding Window</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Adding Spaces to a String
 
-Tags: Array, String, Simulation
+<span class="tag-is-success">Array</span><span class="tag-is-success">String</span><span class="tag-is-success">Simulation</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Number of Smooth Descent Periods of a Stock
 
-Tags: Array, Math, Dynamic Programming
+<span class="tag-is-success">Array</span><span class="tag-is-success">Math</span><span class="tag-is-success">Dynamic Programming</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## The Airport With the Most Traffic
 
-Tags: Database
+<span class="tag-is-success">Database</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Elements in Array After Removing and Replacing Elements
 
-Tags: Array
+<span class="tag-is-success">Array</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Find All Possible Recipes from Given Supplies
 
-Tags: Array, Hash Table, String, Graph, Topological Sort
+<span class="tag-is-success">Array</span><span class="tag-is-success">Hash Table</span><span class="tag-is-success">String</span><span class="tag-is-success">Graph</span><span class="tag-is-success">Topological Sort</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Check if a Parentheses String Can Be Valid
 
-Tags: String, Stack, Greedy
+<span class="tag-is-success">String</span><span class="tag-is-success">Stack</span><span class="tag-is-success">Greedy</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Execution of All Suffix Instructions Staying in a Grid
 
-Tags: String, Simulation
+<span class="tag-is-success">String</span><span class="tag-is-success">Simulation</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Intervals Between Identical Elements
 
-Tags: Array, Hash Table, Prefix Sum
+<span class="tag-is-success">Array</span><span class="tag-is-success">Hash Table</span><span class="tag-is-success">Prefix Sum</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Number of Laser Beams in a Bank
 
-Tags: Array, Math, String, Matrix
+<span class="tag-is-success">Array</span><span class="tag-is-success">Math</span><span class="tag-is-success">String</span><span class="tag-is-success">Matrix</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Destroying Asteroids
 
-Tags: Array, Greedy, Sorting
+<span class="tag-is-success">Array</span><span class="tag-is-success">Greedy</span><span class="tag-is-success">Sorting</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Remove All Ones With Row and Column Flips
 
-Tags: Array, Math, Bit Manipulation, Matrix
+<span class="tag-is-success">Array</span><span class="tag-is-success">Math</span><span class="tag-is-success">Bit Manipulation</span><span class="tag-is-success">Matrix</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Maximum Twin Sum of a Linked List
 
-Tags: Linked List, Two Pointers, Stack
+<span class="tag-is-success">Linked List</span><span class="tag-is-success">Two Pointers</span><span class="tag-is-success">Stack</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Longest Palindrome by Concatenating Two Letter Words
 
-Tags: Array, Hash Table, String, Greedy, Counting
+<span class="tag-is-success">Array</span><span class="tag-is-success">Hash Table</span><span class="tag-is-success">String</span><span class="tag-is-success">Greedy</span><span class="tag-is-success">Counting</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Minimum Swaps to Group All 1's Together II
 
-Tags: Array, Sliding Window
+<span class="tag-is-success">Array</span><span class="tag-is-success">Sliding Window</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Count Words Obtained After Adding a Letter
 
-Tags: Array, Hash Table, String, Bit Manipulation, Sorting
+<span class="tag-is-success">Array</span><span class="tag-is-success">Hash Table</span><span class="tag-is-success">String</span><span class="tag-is-success">Bit Manipulation</span><span class="tag-is-success">Sorting</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Pour Water Between Buckets to Make Water Levels Equal
 
-Tags: Array, Binary Search
+<span class="tag-is-success">Array</span><span class="tag-is-success">Binary Search</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Minimum Moves to Reach Target Score
 
-Tags: Math, Greedy
+<span class="tag-is-success">Math</span><span class="tag-is-success">Greedy</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Solving Questions With Brainpower
 
-Tags: Array, Dynamic Programming
+<span class="tag-is-success">Array</span><span class="tag-is-success">Dynamic Programming</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## The Number of Passengers in Each Bus I
 
-Tags: Database
+<span class="tag-is-success">Database</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Count the Hidden Sequences
 
-Tags: Array, Prefix Sum
+<span class="tag-is-success">Array</span><span class="tag-is-success">Prefix Sum</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## K Highest Ranked Items Within a Price Range
 
-Tags: Array, Breadth-First Search, Sorting, Heap (Priority Queue), Matrix
+<span class="tag-is-success">Array</span><span class="tag-is-success">Breadth-First Search</span><span class="tag-is-success">Sorting</span><span class="tag-is-success">Heap (Priority Queue)</span><span class="tag-is-success">Matrix</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Rearrange Array Elements by Sign
 
-Tags: Array, Two Pointers, Simulation
+<span class="tag-is-success">Array</span><span class="tag-is-success">Two Pointers</span><span class="tag-is-success">Simulation</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Find All Lonely Numbers in the Array
 
-Tags: Array, Hash Table, Counting
+<span class="tag-is-success">Array</span><span class="tag-is-success">Hash Table</span><span class="tag-is-success">Counting</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Minimum Number of Lines to Cover Points
 
-Tags: Array, Hash Table, Math, Dynamic Programming, Backtracking, Bit Manipulation, Geometry, Bitmask
+<span class="tag-is-success">Array</span><span class="tag-is-success">Hash Table</span><span class="tag-is-success">Math</span><span class="tag-is-success">Dynamic Programming</span><span class="tag-is-success">Backtracking</span><span class="tag-is-success">Bit Manipulation</span><span class="tag-is-success">Geometry</span><span class="tag-is-success">Bitmask</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## All Divisions With the Highest Score of a Binary Array
 
-Tags: Array
+<span class="tag-is-success">Array</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Order Two Columns Independently
 
-Tags: Database
+<span class="tag-is-success">Database</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Partition Array According to Given Pivot
 
-Tags: Array, Two Pointers, Simulation
+<span class="tag-is-success">Array</span><span class="tag-is-success">Two Pointers</span><span class="tag-is-success">Simulation</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Minimum Cost to Set Cooking Time
 
-Tags: Math, Enumeration
+<span class="tag-is-success">Math</span><span class="tag-is-success">Enumeration</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Smallest Value of the Rearranged Number
 
-Tags: Math, Sorting
+<span class="tag-is-success">Math</span><span class="tag-is-success">Sorting</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Design Bitset
 
-Tags: Array, Hash Table, Design
+<span class="tag-is-success">Array</span><span class="tag-is-success">Hash Table</span><span class="tag-is-success">Design</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Unique Substrings With Equal Digit Frequency
 
-Tags: Hash Table, String, Rolling Hash, Counting, Hash Function
+<span class="tag-is-success">Hash Table</span><span class="tag-is-success">String</span><span class="tag-is-success">Rolling Hash</span><span class="tag-is-success">Counting</span><span class="tag-is-success">Hash Function</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Minimum Operations to Make the Array Alternating
 
-Tags: Array, Hash Table, Greedy, Counting
+<span class="tag-is-success">Array</span><span class="tag-is-success">Hash Table</span><span class="tag-is-success">Greedy</span><span class="tag-is-success">Counting</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Removing Minimum Number of Magic Beans
 
-Tags: Array, Sorting, Prefix Sum
+<span class="tag-is-success">Array</span><span class="tag-is-success">Sorting</span><span class="tag-is-success">Prefix Sum</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Remove All Ones With Row and Column Flips II
 
-Tags: Array, Bit Manipulation, Breadth-First Search, Matrix
+<span class="tag-is-success">Array</span><span class="tag-is-success">Bit Manipulation</span><span class="tag-is-success">Breadth-First Search</span><span class="tag-is-success">Matrix</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## The Change in Global Rankings
 
-Tags: Database
+<span class="tag-is-success">Database</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Find Three Consecutive Integers That Sum to a Given Number
 
-Tags: Math, Simulation
+<span class="tag-is-success">Math</span><span class="tag-is-success">Simulation</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Maximum Split of Positive Even Integers
 
-Tags: Math, Greedy
+<span class="tag-is-success">Math</span><span class="tag-is-success">Greedy</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Merge Nodes in Between Zeros
 
-Tags: Linked List, Simulation
+<span class="tag-is-success">Linked List</span><span class="tag-is-success">Simulation</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Construct String With Repeat Limit
 
-Tags: String, Greedy, Heap (Priority Queue), Counting
+<span class="tag-is-success">String</span><span class="tag-is-success">Greedy</span><span class="tag-is-success">Heap (Priority Queue)</span><span class="tag-is-success">Counting</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Number of Ways to Build Sturdy Brick Wall
 
-Tags: Array, Dynamic Programming, Bit Manipulation, Bitmask
+<span class="tag-is-success">Array</span><span class="tag-is-success">Dynamic Programming</span><span class="tag-is-success">Bit Manipulation</span><span class="tag-is-success">Bitmask</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Minimum Number of Steps to Make Two Strings Anagram II
 
-Tags: Hash Table, String, Counting
+<span class="tag-is-success">Hash Table</span><span class="tag-is-success">String</span><span class="tag-is-success">Counting</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Minimum Time to Complete Trips
 
-Tags: Array, Binary Search
+<span class="tag-is-success">Array</span><span class="tag-is-success">Binary Search</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Number of Ways to Build House of Cards
 
-Tags: Math, Dynamic Programming
+<span class="tag-is-success">Math</span><span class="tag-is-success">Dynamic Programming</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Sort the Jumbled Numbers
 
-Tags: Array, Sorting
+<span class="tag-is-success">Array</span><span class="tag-is-success">Sorting</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## All Ancestors of a Node in a Directed Acyclic Graph
 
-Tags: Depth-First Search, Breadth-First Search, Graph, Topological Sort
+<span class="tag-is-success">Depth-First Search</span><span class="tag-is-success">Breadth-First Search</span><span class="tag-is-success">Graph</span><span class="tag-is-success">Topological Sort</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Append K Integers With Minimal Sum
 
-Tags: Array, Math, Greedy, Sorting
+<span class="tag-is-success">Array</span><span class="tag-is-success">Math</span><span class="tag-is-success">Greedy</span><span class="tag-is-success">Sorting</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Create Binary Tree From Descriptions
 
-Tags: Array, Hash Table, Tree, Depth-First Search, Breadth-First Search, Binary Tree
+<span class="tag-is-success">Array</span><span class="tag-is-success">Hash Table</span><span class="tag-is-success">Tree</span><span class="tag-is-success">Depth-First Search</span><span class="tag-is-success">Breadth-First Search</span><span class="tag-is-success">Binary Tree</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Number of Single Divisor Triplets
 
-Tags: Math
+<span class="tag-is-success">Math</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Count Artifacts That Can Be Extracted
 
-Tags: Array, Hash Table, Simulation
+<span class="tag-is-success">Array</span><span class="tag-is-success">Hash Table</span><span class="tag-is-success">Simulation</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Maximize the Topmost Element After K Moves
 
-Tags: Array, Greedy
+<span class="tag-is-success">Array</span><span class="tag-is-success">Greedy</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Maximize Number of Subsequences in a String
 
-Tags: String, Greedy, Prefix Sum
+<span class="tag-is-success">String</span><span class="tag-is-success">Greedy</span><span class="tag-is-success">Prefix Sum</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Minimum Operations to Halve Array Sum
 
-Tags: Array, Greedy, Heap (Priority Queue)
+<span class="tag-is-success">Array</span><span class="tag-is-success">Greedy</span><span class="tag-is-success">Heap (Priority Queue)</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Count Collisions on a Road
 
-Tags: String, Stack
+<span class="tag-is-success">String</span><span class="tag-is-success">Stack</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Maximum Points in an Archery Competition
 
-Tags: Array, Bit Manipulation, Recursion, Enumeration
+<span class="tag-is-success">Array</span><span class="tag-is-success">Bit Manipulation</span><span class="tag-is-success">Recursion</span><span class="tag-is-success">Enumeration</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Minimum Health to Beat Game
 
-Tags: Array, Greedy, Prefix Sum
+<span class="tag-is-success">Array</span><span class="tag-is-success">Greedy</span><span class="tag-is-success">Prefix Sum</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Minimum Deletions to Make Array Beautiful
 
-Tags: Array, Stack, Greedy
+<span class="tag-is-success">Array</span><span class="tag-is-success">Stack</span><span class="tag-is-success">Greedy</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Find Palindrome With Fixed Length
 
-Tags: Array, Math
+<span class="tag-is-success">Array</span><span class="tag-is-success">Math</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Maximum Sum Score of Array
 
-Tags: Array, Prefix Sum
+<span class="tag-is-success">Array</span><span class="tag-is-success">Prefix Sum</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Find Triangular Sum of an Array
 
-Tags: Array, Math, Simulation, Combinatorics
+<span class="tag-is-success">Array</span><span class="tag-is-success">Math</span><span class="tag-is-success">Simulation</span><span class="tag-is-success">Combinatorics</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Number of Ways to Select Buildings
 
-Tags: String, Dynamic Programming, Prefix Sum
+<span class="tag-is-success">String</span><span class="tag-is-success">Dynamic Programming</span><span class="tag-is-success">Prefix Sum</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Find Players With Zero or One Losses
 
-Tags: Array, Hash Table, Sorting, Counting
+<span class="tag-is-success">Array</span><span class="tag-is-success">Hash Table</span><span class="tag-is-success">Sorting</span><span class="tag-is-success">Counting</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Maximum Candies Allocated to K Children
 
-Tags: Array, Binary Search
+<span class="tag-is-success">Array</span><span class="tag-is-success">Binary Search</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Users With Two Purchases Within Seven Days
 
-Tags: Database
+<span class="tag-is-success">Database</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Minimize Result by Adding Parentheses to Expression
 
-Tags: String, Enumeration
+<span class="tag-is-success">String</span><span class="tag-is-success">Enumeration</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Maximum Product After K Increments
 
-Tags: Array, Greedy, Heap (Priority Queue)
+<span class="tag-is-success">Array</span><span class="tag-is-success">Greedy</span><span class="tag-is-success">Heap (Priority Queue)</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Count Positions on Street With Required Brightness
 
-Tags: Array, Prefix Sum
+<span class="tag-is-success">Array</span><span class="tag-is-success">Prefix Sum</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Number of Times a Driver Was a Passenger
 
-Tags: Database
+<span class="tag-is-success">Database</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Number of Ways to Buy Pens and Pencils
 
-Tags: Math, Enumeration
+<span class="tag-is-success">Math</span><span class="tag-is-success">Enumeration</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Design an ATM Machine
 
-Tags: Array, Greedy, Design
+<span class="tag-is-success">Array</span><span class="tag-is-success">Greedy</span><span class="tag-is-success">Design</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Minimum Rounds to Complete All Tasks
 
-Tags: Array, Hash Table, Greedy, Counting
+<span class="tag-is-success">Array</span><span class="tag-is-success">Hash Table</span><span class="tag-is-success">Greedy</span><span class="tag-is-success">Counting</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Maximum Trailing Zeros in a Cornered Path
 
-Tags: Array, Matrix, Prefix Sum
+<span class="tag-is-success">Array</span><span class="tag-is-success">Matrix</span><span class="tag-is-success">Prefix Sum</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Count Lattice Points Inside a Circle
 
-Tags: Array, Hash Table, Math, Geometry, Enumeration
+<span class="tag-is-success">Array</span><span class="tag-is-success">Hash Table</span><span class="tag-is-success">Math</span><span class="tag-is-success">Geometry</span><span class="tag-is-success">Enumeration</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Count Number of Rectangles Containing Each Point
 
-Tags: Array, Binary Search, Binary Indexed Tree, Sorting
+<span class="tag-is-success">Array</span><span class="tag-is-success">Binary Search</span><span class="tag-is-success">Binary Indexed Tree</span><span class="tag-is-success">Sorting</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Minimum Average Difference
 
-Tags: Array, Prefix Sum
+<span class="tag-is-success">Array</span><span class="tag-is-success">Prefix Sum</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Count Unguarded Cells in the Grid
 
-Tags: Array, Matrix, Simulation
+<span class="tag-is-success">Array</span><span class="tag-is-success">Matrix</span><span class="tag-is-success">Simulation</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Minimum Consecutive Cards to Pick Up
 
-Tags: Array, Hash Table, Sliding Window
+<span class="tag-is-success">Array</span><span class="tag-is-success">Hash Table</span><span class="tag-is-success">Sliding Window</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## K Divisible Elements Subarrays
 
-Tags: Array, Hash Table, Trie, Rolling Hash, Hash Function, Enumeration
+<span class="tag-is-success">Array</span><span class="tag-is-success">Hash Table</span><span class="tag-is-success">Trie</span><span class="tag-is-success">Rolling Hash</span><span class="tag-is-success">Hash Function</span><span class="tag-is-success">Enumeration</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Count Nodes Equal to Average of Subtree
 
-Tags: Tree, Depth-First Search, Binary Tree
+<span class="tag-is-success">Tree</span><span class="tag-is-success">Depth-First Search</span><span class="tag-is-success">Binary Tree</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Count Number of Texts
 
-Tags: Hash Table, Math, String, Dynamic Programming
+<span class="tag-is-success">Hash Table</span><span class="tag-is-success">Math</span><span class="tag-is-success">String</span><span class="tag-is-success">Dynamic Programming</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Minimum Number of Keypresses
 
-Tags: Array, String, Greedy, Sorting, Counting
+<span class="tag-is-success">Array</span><span class="tag-is-success">String</span><span class="tag-is-success">Greedy</span><span class="tag-is-success">Sorting</span><span class="tag-is-success">Counting</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Number of Ways to Split Array
 
-Tags: Array, Prefix Sum
+<span class="tag-is-success">Array</span><span class="tag-is-success">Prefix Sum</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Maximum White Tiles Covered by a Carpet
 
-Tags: Array, Binary Search, Greedy, Sorting, Prefix Sum
+<span class="tag-is-success">Array</span><span class="tag-is-success">Binary Search</span><span class="tag-is-success">Greedy</span><span class="tag-is-success">Sorting</span><span class="tag-is-success">Prefix Sum</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Maximum Consecutive Floors Without Special Floors
 
-Tags: Array, Sorting
+<span class="tag-is-success">Array</span><span class="tag-is-success">Sorting</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Largest Combination With Bitwise AND Greater Than Zero
 
-Tags: Array, Hash Table, Bit Manipulation, Counting
+<span class="tag-is-success">Array</span><span class="tag-is-success">Hash Table</span><span class="tag-is-success">Bit Manipulation</span><span class="tag-is-success">Counting</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Maximum Bags With Full Capacity of Rocks
 
-Tags: Array, Greedy, Sorting
+<span class="tag-is-success">Array</span><span class="tag-is-success">Greedy</span><span class="tag-is-success">Sorting</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Minimum Lines to Represent a Line Chart
 
-Tags: Array, Math, Geometry, Sorting, Number Theory
+<span class="tag-is-success">Array</span><span class="tag-is-success">Math</span><span class="tag-is-success">Geometry</span><span class="tag-is-success">Sorting</span><span class="tag-is-success">Number Theory</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Number of People That Can Be Seen in a Grid
 
-Tags: Array, Stack, Matrix, Monotonic Stack
+<span class="tag-is-success">Array</span><span class="tag-is-success">Stack</span><span class="tag-is-success">Matrix</span><span class="tag-is-success">Monotonic Stack</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Sender With Largest Word Count
 
-Tags: Array, Hash Table, String, Counting
+<span class="tag-is-success">Array</span><span class="tag-is-success">Hash Table</span><span class="tag-is-success">String</span><span class="tag-is-success">Counting</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Maximum Total Importance of Roads
 
-Tags: Greedy, Graph, Sorting, Heap (Priority Queue)
+<span class="tag-is-success">Greedy</span><span class="tag-is-success">Graph</span><span class="tag-is-success">Sorting</span><span class="tag-is-success">Heap (Priority Queue)</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Apply Discount to Prices
 
-Tags: String
+<span class="tag-is-success">String</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Steps to Make Array Non-decreasing
 
-Tags: Array, Linked List, Stack, Monotonic Stack
+<span class="tag-is-success">Array</span><span class="tag-is-success">Linked List</span><span class="tag-is-success">Stack</span><span class="tag-is-success">Monotonic Stack</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Maximum Profit From Trading Stocks
 
-Tags: Array, Dynamic Programming
+<span class="tag-is-success">Array</span><span class="tag-is-success">Dynamic Programming</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Products With Three or More Orders in Two Consecutive Years
 
-Tags: Database
+<span class="tag-is-success">Database</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Partition Array Such That Maximum Difference Is K
 
-Tags: Array, Greedy, Sorting
+<span class="tag-is-success">Array</span><span class="tag-is-success">Greedy</span><span class="tag-is-success">Sorting</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Replace Elements in an Array
 
-Tags: Array, Hash Table, Simulation
+<span class="tag-is-success">Array</span><span class="tag-is-success">Hash Table</span><span class="tag-is-success">Simulation</span>
+
+### Inputs
+
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings
 
 ## Jump Game IX
 
-Tags: 
+### Inputs
 
-## Resources
+### Sub-problems
+
+### Edge Cases
+
+### Further Readings -->

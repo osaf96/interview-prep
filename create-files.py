@@ -10,12 +10,19 @@ for i in data:
     # create a file 
     f = open('test.txt', 'a')
     if(i['difficulty'] == 'Medium'):
-        f.write('''##'''+i['title']+'''''')
+        f.write('''## '''+i['title']+'''''')
         Tags = ""
         for i in i['topicTags']:
-            Tags += i['name']+", "
-        Tags = Tags[:-2]
-        f.write('''\nTags:'''+Tags)
+            Tags += '''<span class="tag-is-success">'''+i['name']+'''</span>'''
+        if(Tags!= ""): f.write('''\n'''+Tags)
+        f.write('\n\n')
+        f.write('### Inputs')
+        f.write('\n\n')
+        f.write('### Sub-problems')
+        f.write('\n\n')
+        f.write('### Edge Cases')
+        f.write('\n\n')
+        f.write('### Further Readings')
         f.write('\n\n')
         
 
