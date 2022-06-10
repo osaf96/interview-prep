@@ -13,6 +13,9 @@ last_modified: 2022-06-10T00:17:44.1744
     -   [Process](#process)
     -   [Edge Cases](#edge-cases)
 -   [Longest Substring Without Repeating Characters](#longest-substring-without-repeating-characters)
+    -   [Inputs](#inputs-1)
+    -   [Process](#process-1)
+    -   [Edge Cases](#edge-cases-1)
 -   [Longest Palindromic Substring](#longest-palindromic-substring)
 -   [Zigzag Conversion](#zigzag-conversion)
 -   [Reverse Integer](#reverse-integer)
@@ -68,6 +71,11 @@ last_modified: 2022-06-10T00:17:44.1744
 -   [Restore IP Addresses](#restore-ip-addresses)
 -   [Unique Binary Search Trees II](#unique-binary-search-trees-ii)
 -   [Unique Binary Search Trees](#unique-binary-search-trees)
+    -   -   [Inputs](#inputs-2)
+    -   [Sub problems](#sub-problems)
+    -   [Edge Cases](#edge-cases-2)
+    -   [Further Readings](#further-readings)
+    -   [Problems based on Catalan Number](#problems-based-on-catalan-number)
 -   [Interleaving String](#interleaving-string)
 -   [Validate Binary Search Tree](#validate-binary-search-tree)
 -   [Recover Binary Search Tree](#recover-binary-search-tree)
@@ -1236,7 +1244,9 @@ last_modified: 2022-06-10T00:17:44.1744
 
 ## Add Two Numbers
 
-Tags: Linked List, Math, Recursion
+<span class="tag-is-success">Linked List</span>
+<span class="tag-is-success">Math</span>
+<span class="tag-is-success">Recursion</span>
 
 ### Inputs
 
@@ -1263,8 +1273,36 @@ class Solution {
 ### Edge Cases
 
 ## Longest Substring Without Repeating Characters
+<span class="tag-is-success">Hash Table</span>
+<span class="tag-is-success">String</span>
+<span class="tag-is-success">Sliding Window</span>
 
-Tags: Hash Table, String, Sliding Window
+### Inputs
+
+```java
+class Solution {
+    public int lengthOfLongestSubstring(String s) {
+        
+    }
+}
+```
+
+    Input: s = "abcabcbb"
+    Output: 3
+    Explanation: The answer is "abc", with the length of 3.
+
+    Input: s = "bbbbb"
+    Output: 1
+    Explanation: The answer is "b", with the length of 1.
+
+    Input: s = "pwwkew"
+    Output: 3
+    Explanation: The answer is "wke", with the length of 3.
+    Notice that the answer must be a substring, "pwke" is a subsequence and not a substring.
+
+### Process
+
+### Edge Cases
 
 ## Longest Palindromic Substring
 
@@ -1485,6 +1523,51 @@ Tags: Dynamic Programming, Backtracking, Tree, Binary Search Tree, Binary Tree
 ## Unique Binary Search Trees
 
 Tags: Math, Dynamic Programming, Tree, Binary Search Tree, Binary Tree
+
+#### Inputs
+
+```java
+class Solution {
+    public int numTrees(int n) {
+        
+    }
+}
+```
+
+    Input: 3
+    Output: 5
+    Explanation:
+    Given n = 3, there are a total of 5 unique BST's:
+
+       1         3     3      2      1
+        \       /     /      / \      \
+         3     2     1      1   3      2
+        /     /       \                 \
+       2     1         2                 3
+
+    Input: n = 1
+    Output: 1
+
+### Sub problems
+
+✅ Whether we can apply the DP here, can this be broken into further sub-problems.<br />
+✅ Can there be possibility that current result is based on the previous results.<br />
+✅ How many different combination can be formed using 1 Node, 2 Node, 3 Node, ..., n Node.<br />
+✅ Can you arrive any equation to solve the problem, based upon the previous points.<br />
+
+### Edge Cases
+
+### Further Readings
+
+✅ What is the Catalan Number?<br /><br />
+![Catalan number](_img/medium/catalan-number.png)
+
+### Problems based on Catalan Number
+
+✅Count the number of expressions containing n pairs of parentheses which are correctly matched. For n = 3, possible expressions are ((())), ()(()), ()()(), (())(), (()()).<br />
+✅Count the number of possible Binary Search Trees with n keys.<br />
+✅Count the number of full binary trees (A rooted binary tree is full if every vertex has either two children or no children) with n+1 leaves.<br />
+✅Given a number n, return the number of ways you can draw n chords in a circle with 2 x n points such that no 2 chords intersect.<br />
 
 ## Interleaving String
 

@@ -147,199 +147,265 @@ img[alt="angularjs"] {
   height: 40px;
   width: 50px;
 }
+
 img[alt="antd"] {
   height: 40px;
   width: 50px;
 }
+
 img[alt="arduino"] {
   height: 40px;
   width: 50px;
 }
+
 img[alt="aws"] {
   height: 40px;
   width: 50px;
 }
+
 img[alt="bootstrap"] {
   height: 40px;
   width: 50px;
 }
+
 img[alt="c++"] {
   height: 40px;
   width: 50px;
 }
+
 img[alt="c-programming-500"] {
   height: 40px;
   width: 50px;
 }
+
 img[alt="css"] {
   height: 40px;
   width: 50px;
 }
+
 img[alt="cssinjs"] {
   height: 40px;
   width: 50px;
 }
+
 img[alt="d3js"] {
   height: 40px;
   width: 50px;
 }
+
 img[alt="dart"] {
   height: 40px;
   width: 50px;
 }
+
 img[alt="django"] {
   height: 40px;
   width: 50px;
 }
+
 img[alt="drupal-500"] {
   height: 40px;
   width: 50px;
 }
+
 img[alt="express"] {
   height: 40px;
   width: 50px;
 }
+
 img[alt="figma"] {
   height: 40px;
   width: 50px;
 }
+
 img[alt="firebase"] {
   height: 40px;
   width: 50px;
 }
+
 img[alt="flutter"] {
   height: 40px;
   width: 50px;
 }
+
 img[alt="github"] {
   height: 40px;
   width: 50px;
 }
+
 img[alt="gitlab"] {
   height: 40px;
   width: 50px;
 }
+
 img[alt="google-cloud"] {
   height: 40px;
   width: 50px;
 }
+
 img[alt="graphql-500"] {
   height: 40px;
   width: 50px;
 }
+
 img[alt="green-sock"] {
   height: 40px;
   width: 50px;
 }
+
 img[alt="grunt"] {
   height: 40px;
   width: 50px;
 }
+
 img[alt="html"] {
   height: 40px;
   width: 50px;
 }
+
 img[alt="instagram"] {
   height: 40px;
   width: 50px;
 }
+
 img[alt="java"] {
   height: 40px;
   width: 50px;
 }
+
 img[alt="javascript"] {
   height: 40px;
   width: 50px;
 }
+
 img[alt="jQuery"] {
   height: 40px;
   width: 50px;
 }
+
 img[alt="linkedin"] {
   height: 40px;
   width: 50px;
 }
+
 img[alt="markdown"] {
   height: 40px;
   width: 50px;
 }
+
 img[alt="materialui"] {
   height: 40px;
   width: 50px;
 }
+
 img[alt="mongodb"] {
   height: 40px;
   width: 50px;
 }
+
 img[alt="mysql"] {
   height: 40px;
   width: 50px;
 }
+
 img[alt="nodejs"] {
   height: 40px;
   width: 50px;
 }
+
 img[alt="npm"] {
   height: 40px;
   width: 50px;
 }
+
 img[alt="open-shift"] {
   height: 40px;
   width: 50px;
 }
+
 img[alt="php"] {
   height: 40px;
   width: 50px;
 }
+
 img[alt="python"] {
   height: 40px;
   width: 50px;
 }
+
 img[alt="raspberry-pi"] {
   height: 40px;
   width: 50px;
 }
+
 img[alt="react"] {
   height: 40px;
   width: 50px;
 }
+
 img[alt="sass"] {
   height: 40px;
   width: 50px;
 }
+
 img[alt="sublime-text"] {
   height: 40px;
   width: 50px;
 }
+
 img[alt="tailwind"] {
   height: 40px;
   width: 50px;
 }
+
 img[alt="terraform"] {
   height: 40px;
   width: 50px;
 }
+
 img[alt="twitter"] {
   height: 40px;
   width: 50px;
 }
+
 img[alt="typescript"] {
   height: 40px;
   width: 50px;
 }
+
 img[alt="visual-studio-code"] {
   height: 40px;
   width: 50px;
 }
+
 img[alt="visual-studio"] {
   height: 40px;
   width: 50px;
 }
+
 img[alt="vue-js"] {
   height: 40px;
   width: 50px;
 }
+
 img[alt="webpack"] {
   height: 40px;
   width: 50px;
+}
+
+.tag-is-success {
+  align-items: center;
+  border-radius: 4px;
+  color: #4a4a4a;
+  display: inline-flex;
+  font-size: .75rem;
+  height: 2em;
+  justify-content: center;
+  line-height: 1.5;
+  padding-left: 0.75em;
+  padding-right: 0.75em;
+  white-space: nowrap;
+  background-color: #3273dc;
+  color: #fff;
+  margin-right: 5px;
 }
