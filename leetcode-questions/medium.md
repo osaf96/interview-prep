@@ -38,6 +38,13 @@ last_modified: 2022-06-10T00:17:44.1744
         -   [Finding Middle node of LinkedList](#finding-middle-node-of-linkedlist)
     -   [Further Readings](#further-readings-2)
     -   [Solution](#solution)
+-   [Path Sum II](#path-sum-ii)
+    -   [Inputs](#inputs-5)
+    -   [Sub-problems](#sub-problems-3)
+    -   [Edge Cases](#edge-cases-5)
+    -   [Further Readings](#further-readings-3)
+    -   [Solution](#solution-1)
+        -   [Solution using Recursion](#solution-using-recursion)
 
 ## Add Two Numbers
 
@@ -1036,8 +1043,8 @@ class Solution {
 }
 ```
 
-
 ## Path Sum II
+
 Given the root of a binary tree and an integer targetSum, return all root-to-leaf paths where the sum of the node values in the path equals targetSum. <br/>Each path should be returned as a list of the node values, not node references.<br/>
 A root-to-leaf path is a path starting from the root and ending at any leaf node. A leaf is a node with no children.<br/>
 <span class="tag-is-success">Backtracking</span>
@@ -1055,33 +1062,36 @@ class Solution {
 }
 ```
 
-```
-Input: root = [5,4,8,11,null,13,4,7,2,null,null,5,1], targetSum = 22
-Output: [[5,4,11,2],[5,8,4,5]]
-Explanation: There are two paths whose sum equals targetSum:
-5 + 4 + 11 + 2 = 22
-5 + 8 + 4 + 5 = 22
+    Input: root = [5,4,8,11,null,13,4,7,2,null,null,5,1], targetSum = 22
+    Output: [[5,4,11,2],[5,8,4,5]]
+    Explanation: There are two paths whose sum equals targetSum:
+    5 + 4 + 11 + 2 = 22
+    5 + 8 + 4 + 5 = 22
 
-Input: root = [1,2,3], targetSum = 5
-Output: []
+    Input: root = [1,2,3], targetSum = 5
+    Output: []
 
-Input: root = [1,2], targetSum = 0
-Output: []
-```
+    Input: root = [1,2], targetSum = 0
+    Output: []
+
 ### Sub-problems
+
 ✅ Think about using Recursion. [_Once you have figured it out using the Recursion, think about the parameters of the helper method that you will be using._]<br />
 ✅ Moving from top - bottom with sub-tree root's value will be target minus the current root value.<br />
 ✅ Once the targetSum or the RemainingSum is zero, you can hault the condtion. But is this all the cases that you need to check?<br />
+
 ### Edge Cases
+
 ✅ Check whether all the node's value are negative or positive.<br />
 ✅ Check whether the root is null.<br />
-✅ If there is constraint like all the node's values are positive, and the input is targetSum<0, then you can return an empty list.<br />
+✅ If there is constraint like all the node's values are positive, and the input is targetSum&lt;0, then you can return an empty list.<br />
 
 ### Further Readings
 
 ### Solution
 
 #### Solution using Recursion
+
 ```java
 class Solution {
     public List<List<Integer>> pathSum(TreeNode root, int targetSum) {
