@@ -6,5 +6,4 @@
 
 <!-- optional markdown-notes-tree directory description ends here -->
 
--   [Medium](medium.md)
--   [Solving Leetcode Questions](solving-leetcode-problems.md)
+-   [Twitter System Design](twitter-system-design.md)

@@ -86,6 +86,8 @@
         -   [Testing patterns](processes-techniques/testing-details/Testing-patterns.md)
 -   [**Soft skills**](soft-skills/README.md)
     -   [Expectation management](soft-skills/Expectation-management.md)
+-   [**System Design**](system-design/README.md)
+    -   [Twitter System Design](system-design/twitter-system-design.md)
 -   [**Web**](web/README.md)
     -   [Cookies and Web Storage](web/Cookies-web-storage.md)
     -   [**CSS**](web/css/README.md)
