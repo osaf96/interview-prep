@@ -22,6 +22,22 @@ last_modified: 2022-06-10T00:17:44.1744
     -   [Edge Cases](#edge-cases-2)
     -   [Further Readings](#further-readings)
     -   [Problems based on Catalan Number](#problems-based-on-catalan-number)
+-   [Binary Tree Level Order Traversal II](#binary-tree-level-order-traversal-ii)
+    -   [Inputs](#inputs-3)
+    -   [Sub-problems](#sub-problems-1)
+    -   [Edge Cases](#edge-cases-3)
+    -   [Further Readings](#further-readings-1)
+    -   [Solutions](#solutions)
+        -   [Solution using Queue (DFS)](#solution-using-queue-dfs)
+        -   [Solution using DFS (Recursion)](#solution-using-dfs-recursion)
+-   [Convert Sorted List to Binary Search Tree](#convert-sorted-list-to-binary-search-tree)
+    -   [Inputs](#inputs-4)
+    -   [Sub-problems](#sub-problems-2)
+    -   [Edge Cases](#edge-cases-4)
+    -   [Snippets](#snippets)
+        -   [Finding Middle node of LinkedList](#finding-middle-node-of-linkedlist)
+    -   [Further Readings](#further-readings-2)
+    -   [Solution](#solution)
 
 ## Add Two Numbers
 
@@ -862,6 +878,7 @@ class Solution {
 ### Edge Cases
 
 ### Further Readings
+ -->
 
 ## Binary Tree Level Order Traversal II
 
@@ -869,17 +886,92 @@ class Solution {
 
 ### Inputs
 
+```java
+class Solution {
+    public List<List<Integer>> levelOrderBottom(TreeNode root) {
+        
+    }
+}
+```
+
+    Input: root = [3,9,20,null,null,15,7]
+    Output: [[15,7],[9,20],[3]]
+
+    Input: root = [1]
+    Output: [[1]]
+
+    Input: root = []
+    Output: []
+
 ### Sub-problems
+
+✅ Will Recursion be a better solution? What is the complexity.<br />
+✅ If using Recursion, what will the helper method look like.
+✅ Can you think of using Queue with some ArrayList to store the current level nodes.<br />
 
 ### Edge Cases
 
+✅ Check for the root being null.<br />
+✅ Check if the root is the only node in the tree.<br />
+
 ### Further Readings
- -->
+
+### Solutions
+
+#### Solution using Queue (DFS)
+
+```java
+class Solution {
+    public List<List<Integer>> levelOrderBottom(TreeNode root) {
+        List<List<Integer>> result = new ArrayList<>();
+        if(root == null) return result;
+        Queue<TreeNode> queue = new LinkedList<>();
+        queue.add(root);
+        while(!queue.isEmpty()){
+            int size = queue.size();
+            List<Integer> level = new ArrayList<>();
+            for(int i = 0; i < size; i++){
+                TreeNode node = queue.poll();
+                level.add(node.val);
+                if(node.left != null) queue.add(node.left);
+                if(node.right != null) queue.add(node.right);
+            }
+            result.add(0, level);
+        }
+        return result;
+    }
+}
+```
+
+#### Solution using DFS (Recursion)
+
+```java
+public class Solution {
+
+  public List<List<Integer>> levelOrderBottom(TreeNode root) {
+    List<List<Integer>> wrapList = new LinkedList<List<Integer>>();
+    levelMaker(wrapList, root, 0);
+    return wrapList;
+  }
+
+  public void levelMaker(List<List<Integer>> list, TreeNode root, int level) {
+    if (root == null) return;
+    if (level >= list.size()) {
+      list.add(0, new LinkedList<Integer>());
+    }
+    levelMaker(list, root.left, level + 1);
+    levelMaker(list, root.right, level + 1);
+    list.get(list.size() - level - 1).add(root.val);
+  }
+}
+```
+
 ## Convert Sorted List to Binary Search Tree
 
 <span class="tag-is-success">Linked List</span><span class="tag-is-success">Divide and Conquer</span><span class="tag-is-success">Tree</span><span class="tag-is-success">Binary Search Tree</span><span class="tag-is-success">Binary Tree</span>
 
 ### Inputs
+
 ```java
 class Solution {
     public TreeNode sortedListToBST(ListNode head) {
@@ -887,17 +979,23 @@ class Solution {
     }
 }
 ```
+
 ### Sub-problems
+
 ✅ Can you apply the divide and conquer here?<br />
 ✅ Can you find out the middle node in the linked list?<br />
 ✅ The middle node will be treated as the Root of the BST.<br />
 ✅ Can you find out the left and right sub-tree?<br />
+
 ### Edge Cases
+
 ✅ What if the List is empty?<br />
 ✅ What if the List has only one node?<br />
 
 ### Snippets
+
 #### Finding Middle node of LinkedList
+
 ```java
 public ListNode middleNode(ListNode head) {
     ListNode slow = head;
@@ -911,6 +1009,33 @@ public ListNode middleNode(ListNode head) {
 ```
 
 ### Further Readings
+
+### Solution
+
+```java
+class Solution {
+    public TreeNode sortedListToBST(ListNode head) {
+        return listToBST(head, null);
+    }
+    private TreeNode listToBST(ListNode head, ListNode tail) {
+        if (head == null || head == tail) return null;
+        ListNode mid = findMid(head, tail);
+        TreeNode root = new TreeNode(mid.val);
+        root.left = listToBST(head, mid);
+        root.right = listToBST(mid.next, tail);
+        return root;
+    }
+    private ListNode findMid(ListNode head, ListNode tail) {
+        ListNode l1 = head, l2 = head;
+        while (l2 != tail && l2.next != tail) {
+            l1 = l1.next;
+            l2 = l2.next.next;
+        }
+        return l1;
+    }
+}
+```
+
 <!--  
 ## Path Sum II
 
