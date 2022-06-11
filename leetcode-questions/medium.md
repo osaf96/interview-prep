@@ -874,19 +874,44 @@ class Solution {
 ### Edge Cases
 
 ### Further Readings
-
+ -->
 ## Convert Sorted List to Binary Search Tree
 
 <span class="tag-is-success">Linked List</span><span class="tag-is-success">Divide and Conquer</span><span class="tag-is-success">Tree</span><span class="tag-is-success">Binary Search Tree</span><span class="tag-is-success">Binary Tree</span>
 
 ### Inputs
-
+```java
+class Solution {
+    public TreeNode sortedListToBST(ListNode head) {
+        
+    }
+}
+```
 ### Sub-problems
-
+✅ Can you apply the divide and conquer here?<br />
+✅ Can you find out the middle node in the linked list?<br />
+✅ The middle node will be treated as the Root of the BST.<br />
+✅ Can you find out the left and right sub-tree?<br />
 ### Edge Cases
+✅ What if the List is empty?<br />
+✅ What if the List has only one node?<br />
+
+### Snippets
+#### Finding Middle node of LinkedList
+```java
+public ListNode middleNode(ListNode head) {
+    ListNode slow = head;
+    ListNode fast = head;
+    while (fast != null && fast.next != null) {
+        slow = slow.next;
+        fast = fast.next.next;
+    }
+    return slow;
+}
+```
 
 ### Further Readings
-
+<!--  
 ## Path Sum II
 
 <span class="tag-is-success">Backtracking</span><span class="tag-is-success">Tree</span><span class="tag-is-success">Depth-First Search</span><span class="tag-is-success">Binary Tree</span>
