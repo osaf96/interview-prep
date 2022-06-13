@@ -60,6 +60,18 @@ last_modified: 2022-06-10T00:17:44.1744
         -   [Using DFS](#using-dfs)
         -   [Using Sort on List](#using-sort-on-list)
         -   [Using Stack](#using-stack)
+-   [Rotate Function](#rotate-function)
+    -   [Inputs](#inputs-8)
+    -   [Sub-problems](#sub-problems-6)
+    -   [Edge Cases](#edge-cases-7)
+    -   [Further Readings](#further-readings-6)
+-   [Valid Square](#valid-square)
+    -   [Inputs](#inputs-9)
+    -   [Sub-problems](#sub-problems-7)
+        -   [Properties of a Square](#properties-of-a-square)
+    -   [Edge Cases](#edge-cases-8)
+    -   [Solution](#solution-4)
+        -   [Checkpoints](#checkpoints)
 
 ## Add Two Numbers
 
@@ -3130,7 +3142,7 @@ public class Solution {
 
 #### Using Sort on List
 
-```java
+```java showLineNumbers
 class Solution {
     public List<Integer> lexicalOrder(int n) {
         String[] strs = new String[n];
@@ -3231,6 +3243,7 @@ class Solution {
 ### Edge Cases
 
 ### Further Readings
+ -->
 
 ## Rotate Function
 
@@ -3244,6 +3257,7 @@ class Solution {
 
 ### Further Readings
 
+<!-- 
 ## Integer Replacement
 
 <span class="tag-is-success">Dynamic Programming</span><span class="tag-is-success">Greedy</span><span class="tag-is-success">Bit Manipulation</span><span class="tag-is-success">Memoization</span>
@@ -4551,6 +4565,7 @@ class Solution {
 ### Edge Cases
 
 ### Further Readings
+ -->
 
 ## Valid Square
 
@@ -4558,12 +4573,54 @@ class Solution {
 
 ### Inputs
 
+```java
+class Solution {
+    public boolean validSquare(int[] p1, int[] p2, int[] p3, int[] p4) {
+        
+    }
+}
+```
+
 ### Sub-problems
+
+✅ Calculating distance between two points.
+✅ Calculating slop from two points.
+
+#### Properties of a Square
+
+✅ All four sides should be of equal length. d=√((x_2-x_1)²+(y_2-y_1)²)
+✅ Four 90-degree angles should be of equal length.
 
 ### Edge Cases
 
-### Further Readings
+✅ If any of the points are the same, or the distance between any two points is zero, return false.
 
+### Solution
+
+```java
+public class Solution {
+    public double dist(int[] p1, int[] p2) {
+        // We are not using the square root as that is going to be same for all the points.
+        return (p2[1] - p1[1]) * (p2[1] - p1[1]) + (p2[0] - p1[0]) * (p2[0] - p1[0]);
+    }
+    public boolean check(int[] p1, int[] p2, int[] p3, int[] p4) {
+        return dist(p1,p2) > 0 && dist(p1, p2) == dist(p2, p3) && dist(p2, p3) == dist(p3, p4) && dist(p3, p4) == dist(p4, p1) && dist(p1, p3) == dist(p2, p4);
+    }
+    public boolean validSquare(int[] p1, int[] p2, int[] p3, int[] p4) {
+        return check(p1, p2, p3, p4) || check(p1, p3, p2, p4) || check(p1, p2, p4, p3);
+    }
+}
+// Time complexity : O(1). A fixed number of comparisons are done.
+// Space complexity : O(1). No extra space required.
+```
+
+#### Checkpoints
+
+✅ Check if any two points' distance is greater than 0.
+✅ Check if any two points' distance is equal to the distance between the other two points.
+✅ If any of the above scenerio fails to meet, return false.
+
+<!-- 
 ## Friend Requests II: Who Has the Most Friends
 
 <span class="tag-is-success">Database</span>

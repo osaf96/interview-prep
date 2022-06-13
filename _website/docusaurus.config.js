@@ -34,11 +34,12 @@ module.exports = {
     },
     footer: {
       style: "dark",
-      copyright: `copyright © ${new Date().getFullYear()} shyamzzp.`,
+      copyright: `Copyright © ${new Date().getFullYear()} Shyam Suthar.`,
     },
     prism: {
-      theme: require("prism-react-renderer/themes/github"),
+      theme: require("prism-react-renderer/themes/oceanicNext"),
       darkTheme: require("prism-react-renderer/themes/oceanicNext"),
+      additionalLanguages: ["java"],
     },
     colorMode: {
       defaultMode: "dark",
@@ -56,9 +57,7 @@ module.exports = {
           routeBasePath: "/",
         },
         theme: {
-          customCss: [
-            require.resolve("./src/css/custom.css"),
-          ],
+          customCss: [require.resolve("./src/css/custom.css")],
         },
       },
     ],

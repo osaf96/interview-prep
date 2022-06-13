@@ -7,6 +7,7 @@
 <!-- optional markdown-notes-tree directory description ends here -->
 
 -   [Algorithms](algorithms.md)
+-   [Arrays](arrays.md)
 -   [Bit Manipulation](bit-manipulation.md)
 -   [Common Problems](common-problems.md)
 -   [Comparators](comparators.md)

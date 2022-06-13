@@ -55,6 +55,7 @@
     -   [Work-life balance](mindset/Work-life-balance.md)
 -   [**Preparation (Java)**](preparation/README.md)
     -   [Algorithms](preparation/algorithms.md)
+    -   [Arrays](preparation/arrays.md)
     -   [Bit Manipulation](preparation/bit-manipulation.md)
     -   [Common Problems](preparation/common-problems.md)
     -   [Comparators](preparation/comparators.md)

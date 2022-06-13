@@ -103,38 +103,33 @@ class Solution {
 
 > **APPLICATIONS**
 >
-> -   **Can be used to calculate the longest path from any node to targetted node.**
+> -   **Can be used to calculate the longest path from any node to targeted node.**
 > -   **Can be used to find the path with all the equal values in them.**
 
 ## Permutation of an array.
 
-    ```java
-    class Solution {
-        void permutate(int[] array, int start) {
-                if (start == array.length) {
-                    //computations.
-                    return;
-                }
-                for (int i = start; i < array.length; ++i) {
-                    this.swap(array, i, start);
-                    this.permutate(array, start + 1);
-                    this.swap(array, i, start);
-                }
+```java
+class Solution {
+    void permutate(int[] array, int start) {
+            if (start == array.length) {
+                //computations.
+                return;
             }
-            void swap(int[] array, int i, int j) {
-                if (i != j) {
-                    int temp = array[i];
-                    array[i] = array[j];
-                    array[j] = temp;
-                }
+            for (int i = start; i < array.length; ++i) {
+                this.swap(array, i, start);
+                this.permutate(array, start + 1);
+                this.swap(array, i, start);
             }
-    }
-    ```
-
-    > **APPLICATIONS**
-    > 
-    > - 
-    > - 
+        }
+        void swap(int[] array, int i, int j) {
+            if (i != j) {
+                int temp = array[i];
+                array[i] = array[j];
+                array[j] = temp;
+            }
+        }
+}
+```
 
 ## To check if Double is an Integer.
 
