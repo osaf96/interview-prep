@@ -10,6 +10,9 @@ last_modified: 2022-06-08T16:35:30.3530
 
 -   [Array Creation/Initialization](#array-creationinitialization)
     -   [Arrays Initialized with a Size](#arrays-initialized-with-a-size)
+    -   [Arrays Initialized with a Size and Values](#arrays-initialized-with-a-size-and-values)
+        -   [Method 1 - Using a Loop](#method-1---using-a-loop)
+        -   [Method 2 - In-built Function](#method-2---in-built-function)
     -   [Dynamic Array](#dynamic-array)
     -   [Convert Collection (List, ArrayList) to Array](#convert-collection-list-arraylist-to-array)
         -   [Method - Iterative Method](#method---iterative-method)
@@ -37,11 +40,12 @@ last_modified: 2022-06-08T16:35:30.3530
         -   [Method 2 - Two Pointers](#method-2---two-pointers)
     -   [Covers](#covers-2)
 -   [Find the Maximum and Minimum Values in an Array](#find-the-maximum-and-minimum-values-in-an-array)
-    -   [Method 1 - Using a Loop](#method-1---using-a-loop)
-    -   [Method 2 - In-built Function](#method-2---in-built-function)
+    -   [Method 1 - Using a Loop](#method-1---using-a-loop-1)
+    -   [Method 2 - In-built Function](#method-2---in-built-function-1)
     -   [Method 3 - In-built Function - Collections.max() and Collections.min()](#method-3---in-built-function---collectionsmax-and-collectionsmin)
     -   [Covers](#covers-3)
 -   [Sorting an Array](#sorting-an-array)
+-   [Searching in a Sorted Array (Binary Search - Variation)](#searching-in-a-sorted-array-binary-search---variation)
 
 ## Array Creation/Initialization
 
@@ -53,6 +57,32 @@ public class Solution {
         int[] arr = new int[5];
         arr[0] = 1;
         arr[1] = 2;
+    }
+}
+```
+
+### Arrays Initialized with a Size and Values
+
+#### Method 1 - Using a Loop
+
+```java
+public class Solution {
+    public static void main(String[] args){
+        int[] arr = new int[5];
+        arr[0] = 1;
+        arr[1] = 2;
+    }
+}
+```
+
+#### Method 2 - In-built Function
+
+```java
+public class Solution {
+    public static void main(String[] args){
+        int defaultValue = 0;
+        int[] arr = new int[5];
+        Arrays.fill(arr, defaultValue);
     }
 }
 ```
@@ -211,7 +241,6 @@ public class Solution {
         Integer[] arr = queue.toArray(new Integer[queue.size()]);
     }
 }
-
 ```
 
 #### Covers
@@ -246,7 +275,7 @@ public class Solution {
 public class Solution {
     public static void main(String[] args){
         String str = "12345";
-        String[] arr = str.toCharArray();
+        Character[] arr = str.toCharArray();
     }
 }
 ```
@@ -386,3 +415,203 @@ public class Solution {
 ## Sorting an Array
 
 [Sorting Algorithms](https://shyamzzp.github.io/interview-prep/preparation/sorting-algorithms)
+
+### Sorting with Comparator - Anonymous Class
+
+```java
+public class Solution {
+    public static void main(String[] args){
+        int[] arr = new int[]{1,2,3,4,5};
+        Arrays.sort(arr, new Comparator<Integer>(){
+            public int compare(Integer a, Integer b){
+                return b - a; // Descending order
+                // return a - b; // Ascending order
+            }
+        });
+    }
+}
+// return value of compare() method is used to determine the order of elements in the array.
+// if return value is negative, then a is less than b.
+// if return value is positive, then a is greater than b.
+// if return value is zero, then a is equal to b.
+
+// Time Complexity: O(n^2)
+// Space Complexity: O(1)
+
+```
+### Sorting with Custom Comparator Class
+
+```java
+public class CustomComparator implements Comparator<Integer> {
+    public int compare(Integer a, Integer b) {
+        return b - a; // Descending order
+        // return a - b; // Ascending order
+    }
+}
+public class Solution {
+    public static void main(String[] args){
+        int[] arr = new int[]{1,2,3,4,5};
+        Arrays.sort(arr, new CustomComparator());
+    }
+}
+// Time Complexity: O(n^2)
+// Space Complexity: O(1)
+
+```
+## Searching in an Array
+### Method 1 - Linear Search (No Order)
+```java
+public class Solution {
+    public static void main(String[] args){
+        int[] arr = new int[]{1,2,3,4,5};
+        int target = 5;
+        for(int i = 0; i < arr.length; i++){
+            if(arr[i] == target){
+                System.out.println("Found at index: " + i);
+                break;
+            }
+        }
+    }
+}
+// Time Complexity: O(n)
+// Space Complexity: O(1)
+```
+### Method 2 - Binary Search (Sorted Ordered)
+[Searching Algorithms](https://shyamzzp.github.io/interview-prep/preparation/search-algorithms)
+
+## Frequently Asked Questions
+### Kth Smallest Element in an Array
+✅ Elements in the array might not be sorted. ✅ All the elements in the array are distinct.
+✅ Elements is not null, empty or of zero length. ✅ There is at least one element in the array.
+#### Method 1 - Using Priority Queue
+
+```java
+public class Solution {
+    public static void main(String[] args){
+        int[] arr = new int[]{10,22,13,42,15};
+        PriorityQueue<Integer> pq = new PriorityQueue<Integer>();
+        for(int i = 0; i < arr.length; i++){
+            pq.add(arr[i]);
+        }
+        for(int i = 0; i < arr.length; i++){
+            if(i == arr.length - k){
+                System.out.println("Kth smallest element: " + pq.poll());
+            }
+        }
+    }
+}
+// Time Complexity: O(nlog(n))
+// Space Complexity: O(n)
+```
+
+#### Method 2 - Using Sorting
+```java
+public class Solution {
+    public static void main(String[] args){
+        int[] arr = new int[]{10,22,13,42,15};
+        Arrays.sort(arr);
+        System.out.println("Kth smallest element: " + arr[arr.length - k]);
+    }
+}
+// Time Complexity: O(nlog(n))
+// Space Complexity: O(1)
+```
+
+### Sort an array of 0s, 1s and 2s
+
+#### Method 1 - Using 3 pointers
+```java
+// Sort an array of 0s, 1s and 2s
+public class Solution {
+    public static void main(String[] args){
+        int[] arr = new int[]{0,1,2,0,1,2,0,1,2};
+        int i = 0;
+        int j = n - 1;
+        int lengthCounter = 0;
+        while(lengthCounter < arr.length){
+            if(arr[i] == 0){
+                i++;
+            }
+            else if(arr[j] == 2){
+                j--;
+            }
+            else{
+                arr[lengthCounter] = arr[i];
+                i++;
+                lengthCounter++;
+            }
+        }
+        System.out.println(Arrays.toString(arr));
+    }
+}
+// Time Complexity: O(n)
+// Space Complexity: O(1)
+```
+#### Method 2 - Using Counters
+```java
+// Sort an array of 0s, 1s and 2s
+public class Solution {
+    public static void main(String[] args){
+        int[] arr = new int[]{0,1,2,0,1,2,0,1,2};
+        int zeroCounter = 0;
+        int oneCounter = 0;
+        int twoCounter = 0;
+        for(int i = 0; i < arr.length; i++){
+            if(arr[i] == 0){
+                zeroCounter++;
+            }
+            else if(arr[i] == 1){
+                oneCounter++;
+            }
+            else{
+                twoCounter++;
+            }
+        }
+        int lengthCounter = 0;
+        for(int i = 0; i < zeroCounter; i++){
+            arr[lengthCounter] = 0;
+            lengthCounter++;
+        }
+        for(int i = 0; i < oneCounter; i++){
+            arr[lengthCounter] = 1;
+            lengthCounter++;
+        }
+        for(int i = 0; i < twoCounter; i++){
+            arr[lengthCounter] = 2;
+            lengthCounter++;
+        }
+        System.out.println(Arrays.toString(arr));
+    }
+}
+// Time Complexity: O(n)
+// Space Complexity: O(1)
+
+```
+
+
+
+
+
+### Sub-array with given sum
+#### Method 1 - Brute Force
+```java
+public class Solution {
+    public static void main(String[] args){
+        int[] arr = new int[]{1,2,3,4,5,6,7,8,9,10};
+        int sum = 15;
+        for(int i = 0; i < arr.length; i++){
+            for(int j = i; j < arr.length; j++){
+                int sumOfSubArray = 0;
+                for(int k = i; k <= j; k++){
+                    sumOfSubArray += arr[k];
+                }
+                if(sumOfSubArray == sum){
+                    System.out.println("Sub-array found at index: " + i + " to " + j);
+                }
+            }
+        }
+    }
+}
+// Time Complexity: O(n^2)
+// Space Complexity: O(1)
+```
