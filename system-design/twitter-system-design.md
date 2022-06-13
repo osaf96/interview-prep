@@ -8,13 +8,61 @@ last_modified: 2022-06-11T16:40:29.4029
 
 ## Contents
 
-### Functional Requirements of the System.
+-   [Functional Requirements of the System.](#functional-requirements-of-the-system)
+-   [Non-Functional Requirements of the System.](#non-functional-requirements-of-the-system)
+-   [Capacity Estimation](#capacity-estimation)
+-   [Characteristics of the System.](#characteristics-of-the-system)
+-   [Statistics of the System.](#statistics-of-the-system)
+-   [Sub-Systems of the System.](#sub-systems-of-the-system)
+    -   [How to generate User Timelines.](#how-to-generate-user-timelines)
+    -   [How to generate Home Timelines.](#how-to-generate-home-timelines)
+    -   [How to generate the Trending Topics.](#how-to-generate-the-trending-topics)
+-   [Database Design.](#database-design)
+    -   [Choosing a Database.](#choosing-a-database)
+        -   [How Redis supports the Twitter System](#how-redis-supports-the-twitter-system)
+    -   [Database Structure.](#database-structure)
+    -   [Scaling Database.](#scaling-database)
+-   [API Design and Implementation.](#api-design-and-implementation)
+    -   [GET Requests.](#get-requests)
+    -   [POST Requests.](#post-requests)
+    -   [DELETE Requests.](#delete-requests)
+    -   [Authentication.](#authentication)
+    -   [Error Handling.](#error-handling)
+    -   [Caching.](#caching)
+    -   [Monitoring.](#monitoring)
+-   [References](#references)
 
-### Non-Functional Requirements of the System.
+## Functional Requirements of the System.
 
-### Characteristics of the System.
+<ul>
+<li>Users should be able to create tweets.</li>
+<li>Users should be able to search for tweets by query.</li>
+<li>Tweet content will be restricted to 280 characters of text.</li>
+</ul>
 
-### Statistics of the System.
+## Non-Functional Requirements of the System.
+
+<ul>
+<li>The system needs to be highly available.</li>
+<li>The system should be highly reliable. Tweets created by users should never be lost.</li>
+<li>The accepatble latency for search results is 200ms.</li>
+</ul>
+
+## Capacity Estimation
+
+We have 500M new tweets each day. Given that the average tweet is 33 characters long, we can estimate a conservative average tweet size of 134 bytes. We calculated that by multiplying the character length by the character encoding's byte size per encoded character. We need to use the character encoding utf8mb4 to support the emoji's used in tweets. utf8mb4 uses up to 4 bytes to encode each character. Lastly we add two bytes to account of the overhead of storing text in mysql.
+
+| Character Length | Character Encoding | Average Tweet Size |
+| ---------------- | ------------------ | ------------------ |
+| 33               | utf8mb4            | 134                |
+
+| Average Tweet Size | Total Tweets | Total Bytes       | Per Year Storage             |
+| ------------------ | ------------ | ----------------- | ---------------------------- |
+| 134                | 500M         | 134_33_4 ~ 67 GBs | 67GB \* 365 days = 24.445 TB |
+
+## Characteristics of the System.
+
+## Statistics of the System.
 
 | Description           | Value                             |
 | --------------------- | --------------------------------- |
@@ -27,25 +75,25 @@ Twitter is a Read Heavy System. So the system that you make should be Read Heavy
 📖Eventual Consistency: _Something_ <br/>
 📖Storage Efficient: _Something_ <br/>
 
-### Sub-Systems of the System.
+## Sub-Systems of the System.
 
-#### How to generate User Timelines.
+### How to generate User Timelines.
 
-#### How to generate Home Timelines.
+### How to generate Home Timelines.
 
-#### How to generate the Trending Topics.
+### How to generate the Trending Topics.
 
-### Database Design.
+## Database Design.
 
-#### Choosing a Database.
+### Choosing a Database.
 
 Best choice for the database is Redis and along with it have to use some DB to store the data.
 
-##### How Redis supports the Twitter System
+#### How Redis supports the Twitter System
 
 📖 _Redis drives Timeline, Twitter's most important service. Timeline is an index of tweets indexed by an id. Chaining tweets together in a list produces the Home Timeline. The User Timeline, which consists of tweets the user has tweeted, is just another list._ <br />
 
-📖 <strong>Hybrid List</strong> : _Added Hybrid List to Redis for more predictable memory performance._ Timeline is a list of Tweet IDs, so it's a list of integers. Each ID is small.<br />
+<!-- 📖 <strong>Hybrid List</strong> : _Added Hybrid List to Redis for more predictable memory performance._ Timeline is a list of Tweet IDs, so it's a list of integers. Each ID is small.<br />
 
 📖 \_Redis supports two list types: ziplist and linklist. Ziplist is space efficient. linklist is flexible, but as a doubly linked list has the overhead of two pointers per key, which given the size of the ID is very high overhead.<br />
 
@@ -59,17 +107,17 @@ Best choice for the database is Redis and along with it have to use some DB to s
 
 ✅   _BTree is the attempt fix the shortcomings of hash map and sorted set. It's better to just have one data structure that does what you want. It's easier to understand and reason about._<br />
 
-✅   _Borrowed the BSD implementation of BTree and added it to Redis to create a BTree. Supports key lookup as well as range query. Has good lookup performance. The code is relatively simple. The downside is BTree is not memory efficient. It has a lot of meta data overhead due to the pointers._<br />
+✅   _Borrowed the BSD implementation of BTree and added it to Redis to create a BTree. Supports key lookup as well as range query. Has good lookup performance. The code is relatively simple. The downside is BTree is not memory efficient. It has a lot of meta data overhead due to the pointers._<br /> -->
 
-#### Database Structure.
+### Database Structure.
 
 ✅ User Table
 
-| Description       | Value                            |
-| ----------------- | -------------------------------- |
-| User ID           | Unique ID of the User.           |
-| Followers         | Number of Followers of the User. |
-| Tweets            | Number of Tweets of the User.    |
+| Description | Value                            |
+| ----------- | -------------------------------- |
+| User ID     | Unique ID of the User.           |
+| Followers   | Number of Followers of the User. |
+| Tweets      | Number of Tweets of the User.    |
 
 ✅ Tweet Table
 
@@ -87,26 +135,71 @@ Best choice for the database is Redis and along with it have to use some DB to s
 | User ID     | User ID of the User.     |
 | Follower ID | User ID of the Follower. |
 
-#### Scaling Database.
+### Scaling Database.
 
-### API Design and Implementation.
+## API Design and Implementation.
 
-#### GET Requests.
+### GET Requests.
 
-#### POST Requests.
+| API                      | Description                        |
+| ------------------------ | ---------------------------------- |
+| /                        | Get the Home Timeline of the User. |
+| /user/:user_id           | Get the User Timeline of the User. |
+| /tweet/:tweet_id         | Get the Tweet.                     |
+| /user/:user_id/followers | Get the Followers of the User.     |
 
-#### PUT Requests.
+### POST Requests.
 
-#### DELETE Requests.
+| API                     | Description        |
+| ----------------------- | ------------------ |
+| /user/:user_id/follow   | Follow the User.   |
+| /user/:user_id/unfollow | Unfollow the User. |
+| /tweet                  | Post a Tweet.      |
 
-#### Authentication.
+### DELETE Requests.
 
-#### Authorization.
+| API                     | Description        |
+| ----------------------- | ------------------ |
+| /user/:user_id/unfollow | Unfollow the User. |
+| /tweet/:tweet_id        | Delete the Tweet.  |
 
-#### Rate Limiting.
+### Authentication.
 
-#### Error Handling.
+| API     | Description      |
+| ------- | ---------------- |
+| /login  | Login the User.  |
+| /logout | Logout the User. |
 
-#### Caching.
+### Error Handling.
 
-#### Monitoring.
+| API    | Description    |
+| ------ | -------------- |
+| /error | Get the Error. |
+
+### Caching.
+
+| API               | Description      |
+| ----------------- | ---------------- |
+| /cache            | Get the Cache.   |
+| /cache/clear      | Clear the Cache. |
+| /cache/clear/:key | Clear the Cache. |
+| /cache/put        | Put the Cache.   |
+| /cache/put/:key   | Put the Cache.   |
+
+### Monitoring.
+
+| API                 | Description        |
+| ------------------- | ------------------ |
+| /metrics            | Get the Metrics.   |
+| /metrics/clear      | Clear the Metrics. |
+| /metrics/clear/:key | Clear the Metrics. |
+| /metrics/put        | Put the Metrics.   |
+| /metrics/put/:key   | Put the Metrics.   |
+
+## References
+
+<ul>
+    <li><a href="https://www.youtube.com/watch?v=wYk0xPP_P_8">Twitter system design | twitter Software architecture | twitter interview questions.</a></li>
+    <li><a href="https://www.youtube.com/watch?v=QH2-TGUlwu4">Redis: A Scalable NoSQL Database</a></li>
+    <li><a href="https://www.omnicoreagency.com/twitter-statistics/">Twitter Statistics - Omnicoreagency</a></li>
+</ul>

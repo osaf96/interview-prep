@@ -45,6 +45,21 @@ last_modified: 2022-06-10T00:17:44.1744
     -   [Further Readings](#further-readings-3)
     -   [Solution](#solution-1)
         -   [Solution using Recursion](#solution-using-recursion)
+-   [Find K Pairs with Smallest Sums](#find-k-pairs-with-smallest-sums)
+    -   [Inputs](#inputs-6)
+    -   [Sub-problems](#sub-problems-4)
+    -   [Edge Cases / Clarifications](#edge-cases--clarifications)
+    -   [Further Readings](#further-readings-4)
+    -   [Solution](#solution-2)
+-   [Lexicographical Numbers](#lexicographical-numbers)
+    -   [Inputs](#inputs-7)
+    -   [Sub-problems](#sub-problems-5)
+    -   [Edge Cases](#edge-cases-6)
+    -   [Further Readings](#further-readings-5)
+    -   [Solution](#solution-3)
+        -   [Using DFS](#using-dfs)
+        -   [Using Sort on List](#using-sort-on-list)
+        -   [Using Stack](#using-stack)
 
 ## Add Two Numbers
 
@@ -2841,6 +2856,7 @@ class Solution {
 ### Edge Cases
 
 ### Further Readings
+  -->
 
 ## Find K Pairs with Smallest Sums
 
@@ -2848,12 +2864,90 @@ class Solution {
 
 ### Inputs
 
+```java
+class Solution {
+    public List<List<Integer>> kSmallestPairs(int[] nums1, int[] nums2, int k) {
+        
+    }
+}
+```
+
+    Input: nums1 = [1,7,11], nums2 = [2,4,6], k = 3
+    Output: [[1,2],[1,4],[1,6]]
+    Explanation: The first 3 pairs are returned from the sequence: [1,2],[1,4],[1,6],[7,2],[7,4],[11,2],[7,6],[11,4],[11,6]
+
+    Input: nums1 = [1,1,2], nums2 = [1,2,3], k = 2
+    Output: [[1,1],[1,1]]
+    Explanation: The first 2 pairs are returned from the sequence: [1,1],[1,1],[1,2],[2,1],[1,2],[2,2],[1,3],[1,3],[2,3]
+
+    Input: nums1 = [1,2], nums2 = [3], k = 3
+    Output: [[1,3],[2,3]]
+    Explanation: All possible pairs are returned from the sequence: [1,3],[2,3]
+
 ### Sub-problems
 
-### Edge Cases
+✅ Using Priority Queue in such a manner that we don't have to produce nm(log(nm)) complexity solution.
+✅ Adding only k items into the pq at any point of time.
+✅ Which data-structure to use for storing the Pairs.
+
+### Edge Cases / Clarifications
+
+✅ Checking if the input arrays are sorted.
+✅ If anyone of the inputs given are null/0. Then return an empty list.
 
 ### Further Readings
 
+✅ Adding items to Priority Queue with Custom Comparator.
+✅ Maintaining Priority Queue in a sorted manner and with Initial Capacity Constructor.
+
+### Solution
+
+```java
+class Solution {
+    public List<List<Integer>> kSmallestPairs(int[] nums1, int[] nums2, int k) {
+        int n = nums1.length;
+        int m = nums2.length;
+        List<List<Integer>> ans = new ArrayList();
+        
+        if (n == 0 || m == 0) {
+            return ans;
+        }
+        
+        PriorityQueue<int[]> pq = new PriorityQueue(new Comparator<int[]>() {
+            @Override
+            public int compare(int[] o1, int[] o2) {
+                return (nums1[o1[0]] + nums2[o1[1]]) - (nums1[o2[0]] + nums2[o2[1]]);
+            }
+        });
+        
+        for (int i = 0; i < Math.min(k, n); i++) {
+            pq.add(new int[]{i, 0});
+        }
+
+        int size = pq.size();
+        
+        for (int i = 0; i < Math.min(k, n*m); i++) {
+            int[] pair = pq.remove();
+            
+            if (pair[1] < m - 1) {
+                pq.add(new int[]{pair[0], pair[1]+1});
+            }
+            
+            List<Integer> subsolution = new ArrayList();
+            subsolution.add(nums1[pair[0]]);
+            subsolution.add(nums2[pair[1]]);
+            ans.add(subsolution);
+        }
+        
+        return ans;
+    }
+}
+
+//Time Complexity: ~O(k*log(k))
+//Space Complexity: ~O(k)
+```
+
+<!--
 ## Guess Number Higher or Lower II
 
 <span class="tag-is-success">Math</span><span class="tag-is-success">Dynamic Programming</span><span class="tag-is-success">Game Theory</span>
@@ -2961,6 +3055,7 @@ class Solution {
 ### Edge Cases
 
 ### Further Readings
+  -->
 
 ## Lexicographical Numbers
 
@@ -2968,12 +3063,115 @@ class Solution {
 
 ### Inputs
 
+```java
+class Solution {
+    public List<Integer> lexicalOrder(int n) {
+        
+    }
+}
+```
+
+    Input: n = 13
+    Output: [1,10,11,12,13,2,3,4,5,6,7,8,9]
+
+    Input: n = 2
+    Output: [1,2]
+
+    Constraints:
+    1 <= n <= 5 * 104
+
 ### Sub-problems
+
+✅ Using Priority Queue using Custom Comparator (on Strings) but the problem is that it will be O(nlog(n)) complexity.
+✅ How to compare the String respective of the Integer number.
+✅ Can we use DFS to iterate from 1->9, add the value and its corresponding 10th multiplier. Like 1, 10, 11, 12, 13, etc., which is i\*10+i.
 
 ### Edge Cases
 
+✅ If n is 0 or negative value. Then return an empty list.
+✅ If n is 1. Then return [1].
+
 ### Further Readings
 
+✅ Using Priority Queue with Custom Comparator.
+✅ Recursion and Sorting on the Collections.
+
+### Solution
+
+#### Using DFS
+
+```java
+public class Solution {
+    public List<Integer> lexicalOrder(int n) {
+        List<Integer> res = new ArrayList<>();
+        for(int i=1;i<10;++i){
+          dfs(i, n, res); 
+        }
+        return res;
+    }
+    
+    public void dfs(int cur, int n, List<Integer> res){
+        if(cur>n)
+            return;
+        else{
+            res.add(cur);
+            for(int i=0;i<10;++i){
+                if(10*cur+i>n)
+                    return;
+                dfs(10*cur+i, n, res);
+            }
+        }
+    }
+}
+
+// Time Complexity: O(n)
+// Space Complexity: O(1)
+```
+
+#### Using Sort on List
+
+```java
+class Solution {
+    public List<Integer> lexicalOrder(int n) {
+        String[] strs = new String[n];
+        for(int i=1;i<=n;i++) strs[i-1] = Integer.toString(i);
+        Arrays.sort(strs);
+        List<Integer> op = new ArrayList<>();
+        for(String s: strs) op.add(Integer.parseInt(s));
+        return op;
+    }
+}
+
+//Time Complexity: O(nlog(n))
+//Space Complexity: O(n)
+```
+
+#### Using Stack
+
+```java
+class Solution {
+    public List<Integer> lexicalOrder(int n) {
+        List<Integer> op = new ArrayList<>();
+        Stack<Integer> stack = new Stack<>();
+        for(int i=9;i>=1;i--) if(i<=n) stack.add(i);
+        while(stack.size()!=0){
+            int cur = stack.pop();
+            op.add(cur);
+            if(cur<n){
+                for(int i=9;i>=0;i--){
+                    int next = cur*10+i;
+                    if(next<=n) stack.add(next);
+                }
+            }
+        }
+        return op;
+    }
+}
+//Time Complexity: O(n)
+//Space Complexity: O(n)
+```
+
+<!--
 ## Longest Absolute File Path
 
 <span class="tag-is-success">String</span><span class="tag-is-success">Stack</span><span class="tag-is-success">Depth-First Search</span>

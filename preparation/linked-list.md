@@ -8,33 +8,81 @@ last_modified: 2022-06-08T15:36:32.3632
 
 ## Contents
 
--   [Sorting a Linked List using Heap Sort.](#sorting-a-linked-list-using-heap-sort)
+-   [Node Class](#node-class)
+-   [Traversing a Linked List](#traversing-a-linked-list)
+-   [Removing First Node of Linked List](#removing-first-node-of-linked-list)
+-   [Removing Last Node of Linked List](#removing-last-node-of-linked-list)
+-   [Getting End of Linked List](#getting-end-of-linked-list)
 -   [Inserting element at the end of the Linked List.](#inserting-element-at-the-end-of-the-linked-list)
 -   [Reverse Linked List.](#reverse-linked-list)
+-   [Sorting a Linked List using Heap Sort.](#sorting-a-linked-list-using-heap-sort)
 -   [Remove Duplicates from Sorted List. Sentinel + Predecessor](#remove-duplicates-from-sorted-list-sentinel--predecessor)
 
-## Sorting a Linked List using Heap Sort.
+## Node Class
 
 ```java
-class Solution {
-    public ListNode sortList(ListNode head) {
-        ListNode curr = head;
-        Queue<ListNode> queue = new PriorityQueue<>((n1, n2) -> n1.val - n2.val); 
-        while (curr != null) {
-            queue.add(curr);
-            curr = curr.next;
-        }
-        
-        ListNode dummy = new ListNode();
-        ListNode prev = dummy;
-        while (!queue.isEmpty()) {
-            curr = queue.poll();
-            curr.next = null;
-            prev.next = curr;
-            prev = curr;
-        }
-        return dummy.next;
+Class Node{
+    int data;
+    Node next;
+    public Node(int d){
+        data = d;
+        next = null;
     }
+}
+```
+
+## Traversing a Linked List
+
+```java
+public void traverseLinkedList(Node head) {
+    Node temp = head;
+    while (temp != null) {
+        System.out.print(temp.data + " ");
+        temp = temp.next;
+    }
+}
+```
+
+## Removing First Node of Linked List
+
+```java
+public void removeFirstNodeLinkedList(Node head) {
+    if (head == null) {
+        return;
+    }
+    head = head.next;
+}
+```
+
+## Removing Last Node of Linked List
+
+```java
+public ListNode removeLastNodeLinkedList(Node head) {
+    if (head == null || head.next == null) {
+        return null;
+    }
+    Node temp = head;
+    while (temp.next.next != null) {
+        temp = temp.next;
+    }
+    temp.next = null;
+    return temp;
+}
+```
+
+## Getting End of Linked List
+
+```java
+public void getLastNodeOfLinkedList(Node head) {
+    //edge-case - if head is null
+    if (head == null) {
+        return;
+    }
+    Node temp = head;
+    while (temp.next != null) {
+        temp = temp.next;
+    }
+    System.out.println(temp.data);
 }
 ```
 
@@ -61,6 +109,13 @@ class Solution {
 
 ## Reverse Linked List.
 
+<ul>
+<li>3 Variables : [prev, curr, temp]</li>
+<li>prev will be used to return from the function and the store the current node</li>
+<li>curr will be used to store the current node and will be updated every time to temp.</li>
+<li>temp will be used to store the next node and will be updated every time to curr.</li>
+</ul>
+
 ```java
 class Solution {
     public ListNode reverseList(ListNode head) {
@@ -75,6 +130,31 @@ class Solution {
             
         }
         return prev;
+    }
+}
+```
+
+## Sorting a Linked List using Heap Sort.
+
+```java
+class Solution {
+    public ListNode sortList(ListNode head) {
+        ListNode curr = head;
+        Queue<ListNode> queue = new PriorityQueue<>((n1, n2) -> n1.val - n2.val); 
+        while (curr != null) {
+            queue.add(curr);
+            curr = curr.next;
+        }
+        
+        ListNode dummy = new ListNode();
+        ListNode prev = dummy;
+        while (!queue.isEmpty()) {
+            curr = queue.poll();
+            curr.next = null;
+            prev.next = curr;
+            prev = curr;
+        }
+        return dummy.next;
     }
 }
 ```
