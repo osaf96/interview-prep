@@ -13,6 +13,8 @@ last_modified: 2022-06-08T15:36:32.3632
 -   [Application of DFS](#application-of-dfs)
     -   [Common Problems (Frequently Asked Questions)](#common-problems-frequently-asked-questions)
         -   [Binary Tree Paths](#binary-tree-paths)
+        -   [Path Sum](#path-sum)
+        -   [Same Tree](#same-tree)
 
 ## Introduction
 
@@ -110,22 +112,20 @@ class Solution {
 
 #### Path Sum
 
-```
-Input: root = [5,4,8,11,null,13,4,7,2,null,null,null,1], targetSum = 22
-Output: true
-Explanation: The root-to-leaf path with the target sum is shown.
+    Input: root = [5,4,8,11,null,13,4,7,2,null,null,null,1], targetSum = 22
+    Output: true
+    Explanation: The root-to-leaf path with the target sum is shown.
 
-Input: root = [1,2,3], targetSum = 5
-Output: false
-Explanation: There two root-to-leaf paths in the tree:
-(1 --> 2): The sum is 3.
-(1 --> 3): The sum is 4.
-There is no root-to-leaf path with sum = 5.
+    Input: root = [1,2,3], targetSum = 5
+    Output: false
+    Explanation: There two root-to-leaf paths in the tree:
+    (1 --> 2): The sum is 3.
+    (1 --> 3): The sum is 4.
+    There is no root-to-leaf path with sum = 5.
 
-Input: root = [], targetSum = 0
-Output: false
-Explanation: Since the tree is empty, there are no root-to-leaf paths.
-```
+    Input: root = [], targetSum = 0
+    Output: false
+    Explanation: Since the tree is empty, there are no root-to-leaf paths.
 
 ```java showLineNumbers
 class Solution {
@@ -146,18 +146,13 @@ class Solution {
 
 #### Same Tree
 
-![DFS Input](_img/dfs/2022-06-14-23-29-21.png)
-```
-Input: p = [1,2,3], q = [1,2,3]
-Output: true
+    Input: p = [1,2,3], q = [1,2,3]
+    Output: true
 
+    Input: p = [1,2], q = [1,null,2]
+    Output: false
 
-Input: p = [1,2], q = [1,null,2]
-Output: false
-```
-
-
-``` java showLineNumbers
+```java showLineNumbers
 class Solution {
     public boolean isSameTree(TreeNode p, TreeNode q) {
         if(p == null && q == null) return true;
