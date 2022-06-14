@@ -410,6 +410,40 @@ img[alt="webpack"] {
   margin-right: 5px;
 }
 
+.tag-is-primary {
+  align-items: center;
+  border-radius: 4px;
+  color: #4a4a4a;
+  display: inline-flex;
+  font-size: .75rem;
+  height: 2em;
+  justify-content: center;
+  line-height: 1.5;
+  padding-left: 0.75em;
+  padding-right: 0.75em;
+  white-space: nowrap;
+  background-color: #186811;
+  color: #fff;
+  margin-right: 5px;
+}
+
+.tag-is-info {
+  align-items: center;
+  border-radius: 4px;
+  color: #4a4a4a;
+  display: inline-flex;
+  font-size: .75rem;
+  height: 2em;
+  justify-content: center;
+  line-height: 1.5;
+  padding-left: 0.75em;
+  padding-right: 0.75em;
+  white-space: nowrap;
+  background-color: #b58b36;
+  color: #fff;
+  margin-right: 5px;
+}
+
 img[alt="Dequeue-dequeue.md"] {
   width: 70%;
 }
