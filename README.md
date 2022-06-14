@@ -60,6 +60,7 @@
     -   [Common Problems](preparation/common-problems.md)
     -   [Comparators](preparation/comparators.md)
     -   [Deque](preparation/dequeue.md)
+    -   [Depth First Search](preparation/dfs.md)
     -   [Graph](preparation/graph.md)
     -   [Linked List](preparation/linked-list.md)
     -   [Map](preparation/map.md)

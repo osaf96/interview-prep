@@ -1,42 +1,42 @@
 ---
 tree_title: Deque
-description: This will cover the most of the topics that will be part of the Dequeu
+description: This will cover the most of the topics that will be part of the Deque.
 last_modified: 2022-06-08T15:36:32.3632
 ---
 
-# Deque
+# Deque (Doubly Ended Queue)
 
 ## Contents
 
 -   [Introduction](#introduction)
 -   [Operations & Complexities](#operations--complexities)
+-   [Implementation of Deque](#implementation-of-deque)
+    -   [Using Circular Array](#using-circular-array)
+    -   [Using Linked List](#using-linked-list)
+-   [ArrayDeque Demo](#arraydeque-demo)
 
 ## Introduction
 
-A double-ended queue (abbreviated to deque) is an abstract data type that generalizes a queue, for which elements can be added to or removed from either the front (head) or back (tail). It has four principal operations:
+A double-ended queue (abbreviated to deque) is an abstract data type that generalizes a queue, for which elements can be added to or removed from either the front (head) or back (tail).
 
-<ul>
-    <li>addFirst: add an element to the head</li>
-    <li>addLast: add an element to the tail</li>
-    <li>removeFirst: remove the first element</li>
-    <li>removeLast: remove the last element</li>
-</ul>
-
-![Dequeue](_img/dequeue/2022-06-14-11-02-19.png)
+![Dequeue-dequeue.md](_img/dequeue/2022-06-14-11-02-19.png)
 
 ## Operations & Complexities
 
-| Operation   | Complexity |
-| ----------- | ---------- |
-| addFirst    | O(1)       |
-| addLast     | O(1)       |
-| removeFirst | O(1)       |
-| removeLast  | O(1)       |
-| peekFirst   | O(1)       |
-| peekLast    | O(1)       |
-| isEmpty    | O(1)       |
+`Deque<Integer> deque = new ArrayDeque<>();`
+
+| Operation   | Complexity | Snippet                   |
+| ----------- | ---------- | ------------------------- |
+| addFirst    | `O(1)`     | `deque.addFirst(element)` |
+| addLast     | `O(1)`     | `deque.addLast(element)`  |
+| removeFirst | `O(1)`     | `deque.removeFirst()`     |
+| removeLast  | `O(1)`     | `deque.removeLast()`      |
+| peekFirst   | `O(1)`     | `deque.peekFirst()`       |
+| peekLast    | `O(1)`     | `deque.peekLast()`        |
+| isEmpty     | `O(1)`     | `deque.isEmpty()`         |
 
 ## Implementation of Deque
+
 ### Using Circular Array
 
 ```java showLineNumbers
@@ -135,7 +135,7 @@ public class CircularArrayDeque {
 
 ### Using Linked List
 
-```java showLineNumbers 
+```java showLineNumbers
 
 public class ListNode {
     public int val;
@@ -233,3 +233,71 @@ public class LinkedListDeque {
     }
 }
 ```
+
+## ArrayDeque Demo
+
+```java showLineNumbers
+public class ArrayDequeDemo {
+  public static void main(String[] args) {
+    Deque<Integer> deque = new ArrayDeque<>();
+
+    for (int i = 0; i < 8; i++) {
+      int element = ThreadLocalRandom.current().nextInt(10, 100);
+      if (ThreadLocalRandom.current().nextBoolean()) {
+        deque.offerFirst(element);
+        System.out.println("deque.offerFirst(" + element + ") --> deque = " + deque);
+      } else {
+        deque.offerLast(element);
+        System.out.println("deque.offerLast(" + element + ")  --> deque = " + deque);
+      }
+    }
+
+    System.out.println();
+    System.out.println("deque.isEmpty()   = " + deque.isEmpty());
+    System.out.println("deque.peekFirst() = " + deque.peekFirst());
+    System.out.println("deque.peekLast()  = " + deque.peekLast());
+    System.out.println();
+
+    while (!deque.isEmpty()) {
+      if (ThreadLocalRandom.current().nextBoolean()) {
+        System.out.println("deque.pollFirst() = " + deque.pollFirst()
+            + " --> deque = " + deque);
+      } else {
+        System.out.println("deque.pollLast()  = " + deque.pollLast()
+            + " --> deque = " + deque);
+      }
+    }
+
+    System.out.println();
+    System.out.println("deque.isEmpty()   = " + deque.isEmpty());
+    System.out.println("deque.peekFirst() = " + deque.peekFirst());
+    System.out.println("deque.peekLast()  = " + deque.peekLast());
+  }
+}
+```
+
+    deque.offerLast(25)  --> deque = [25]
+    deque.offerFirst(15) --> deque = [15, 25]
+    deque.offerFirst(26) --> deque = [26, 15, 25]
+    deque.offerFirst(39) --> deque = [39, 26, 15, 25]
+    deque.offerLast(25)  --> deque = [39, 26, 15, 25, 25]
+    deque.offerLast(50)  --> deque = [39, 26, 15, 25, 25, 50]
+    deque.offerFirst(95) --> deque = [95, 39, 26, 15, 25, 25, 50]
+    deque.offerLast(66)  --> deque = [95, 39, 26, 15, 25, 25, 50, 66]
+
+    deque.isEmpty()   = false
+    deque.peekFirst() = 95
+    deque.peekLast()  = 66
+
+    deque.pollFirst() = 95 --> deque = [39, 26, 15, 25, 25, 50, 66]
+    deque.pollLast()  = 66 --> deque = [39, 26, 15, 25, 25, 50]
+    deque.pollLast()  = 50 --> deque = [39, 26, 15, 25, 25]
+    deque.pollLast()  = 25 --> deque = [39, 26, 15, 25]
+    deque.pollFirst() = 39 --> deque = [26, 15, 25]
+    deque.pollLast()  = 25 --> deque = [26, 15]
+    deque.pollFirst() = 26 --> deque = [15]
+    deque.pollLast()  = 15 --> deque = []
+
+    deque.isEmpty()   = true
+    deque.peekFirst() = null
+    deque.peekLast()  = null

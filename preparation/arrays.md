@@ -28,6 +28,9 @@ last_modified: 2022-06-08T16:35:30.3530
     -   [Convert Queue to Array](#convert-queue-to-array)
         -   [Method - Iterative Method](#method---iterative-method-3)
         -   [Method - In-built Function](#method---in-built-function-3)
+    -   [Convert Deque to Array](#convert-deque-to-array)
+        -   [Method - Iterative Method](#method---iterative-method-4)
+        -   [Method - In-built Function](#method---in-built-function-4)
         -   [Covers](#covers)
     -   [Convert String of Digits to an Array](#convert-string-of-digits-to-an-array)
         -   [Method 1](#method-1)
@@ -63,7 +66,7 @@ last_modified: 2022-06-08T16:35:30.3530
         -   [Method 1 - Dequeue](#method-1---dequeue)
         -   [Method 2 - Using Priority Queue](#method-2---using-priority-queue)
         -   [Method 3 - Using Sorting](#method-3---using-sorting)
-        -   [Method 4 - Using Sorting (Reverse Order)](#method-4---using-sorting-reverse-order)
+        -   [Method 4 - Using Extra Space.](#method-4---using-extra-space)
 
 ## Array Creation/Initialization
 
@@ -261,6 +264,37 @@ public class Solution {
 }
 ```
 
+### Convert Deque to Array
+
+#### Method - Iterative Method
+
+```java showLineNumbers
+public class Solution {
+    public static void main(String[] args){
+        Deque<Integer> deque = new ArrayDeque<Integer>();
+        deque.add(1); deque.add(2); deque.add(3); deque.add(4);
+        int[] arr = new int[deque.size()];
+        int i = 0;
+        while(!deque.isEmpty()){
+            arr[i] = deque.remove();
+            i++;
+        }
+    }
+}
+```
+
+#### Method - In-built Function
+
+```java showLineNumbers
+public class Solution {
+    public static void main(String[] args){
+        Deque<Integer> deque = new ArrayDeque<Integer>();
+        deque.add(1); deque.add(2); deque.add(3); deque.add(4);
+        Integer[] arr = deque.toArray(new Integer[deque.size()]);
+    }
+}
+```
+
 #### Covers
 
 ✅ Iterating over List.
@@ -270,6 +304,7 @@ public class Solution {
 ✅ <code>Set.toArray()</code> method.
 ✅ <code>Stack.pop()</code>, <code>Stack.isEmpty()</code>, <code>Stack.toArray()</code> methods.
 ✅ <code>Queue.remove()</code>, <code>Queue.isEmpty()</code>, <code>Queue.toArray()</code> methods.
+✅ <code>Deque.remove()</code>, <code>Deque.isEmpty()</code>, <code>Deque.toArray()</code> methods.
 
 ### Convert String of Digits to an Array
 
@@ -649,6 +684,10 @@ public class Solution {
 
 #### Method 1 - Dequeue
 
+<code>
+✅ Using Dequeue method, iterate over the elements and keep a count of the number of negative elements. ✅ Once the elements are pushed to Dequeue and then push them to the array. ✅With the count of the negative values, reverse the array from end.
+</code>
+
 ```java showLineNumbers
 public class Solution {
     void segregateElements(int arr[],int n){
@@ -673,9 +712,12 @@ public class Solution {
 // Space Complexity: O(n)
 ```
 
-<code>✅ Using Dequeue method, iterate over the elements and keep a count of the number of negative elements. ✅ Once the elements are pushed to Dequeue and then push them to the array. ✅With the count of the negative values, reverse the array from end.</code>
-
 #### Method 2 - Using Priority Queue
+
+<code>
+    ✅ This method is not recommended as it is `O(nlog(n))`. ✅ But it is a good method to understand how Min-Heap works on array.
+    ✅ Also if the problem is asking not to change the respective positions of the elements of the array, then this method is not the choice.
+</code>
 
 ```java showLineNumbers
 public class Solution {
@@ -693,11 +735,16 @@ public class Solution {
         }
     }
 }
-// Time Complexity: O(n)
+// Time Complexity: O(nlog(n))
 // Space Complexity: O(n)
 ```
 
 #### Method 3 - Using Sorting
+
+<code>
+    ✅ This method is not recommended as it is `O(nlog(n))`. ✅ But it is a good method to understand how to sort an array.
+    ✅ Also if the problem is asking not to change the respective positions of the elements of the array, then this method is not the choice.
+</code>
 
 ```java showLineNumbers
 public class Solution {
@@ -716,15 +763,42 @@ public class Solution {
 // Space Complexity: O(1)
 ```
 
-#### Method 4 - Using Sorting (Reverse Order)
+#### Method 4 - Using Extra Space.
 
 ```java showLineNumbers
 public class Solution {
     void segregateElements(int arr[],int n){
+        // Step 1: Create an array to store the negative values.
+        int[] negativeArray = new int[n];
+        int negativeArrayCounter = 0;
+        // Step 2: Create an array to store the positive values.
+        int[] positiveArray = new int[n];
+        int positiveArrayCounter = 0;
+        // Step 3: Iterate over the array and store the negative values in the negativeArray.
+        for(int i = 0; i < n; i++){
+            if(arr[i] < 0){
+                negativeArray[negativeArrayCounter] = arr[i];
+                negativeArrayCounter++;
+            }
+            else{
+                positiveArray[positiveArrayCounter] = arr[i];
+                positiveArrayCounter++;
+            }
+        }
+        // Step 4: Iterate over the positiveArray and store the values in the array.
+        int i = 0;
+        for(int j = 0; j < positiveArrayCounter; j++){
+            arr[i] = positiveArray[j];
+            i++;
+        }
+        // Step 5: Iterate over the negativeArray and store the values in the array.
         
-        
+        for(int j = 0; j < negativeArrayCounter; j++){
+            arr[i] = negativeArray[j];
+            i++;
+        }
     }
 }
-// Time Complexity: O(nlog(n))
-// Space Complexity: O(1)
+// Time Complexity: O(n)
+// Space Complexity: O(n)
 ```

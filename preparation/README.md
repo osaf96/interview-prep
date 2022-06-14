@@ -12,6 +12,7 @@
 -   [Common Problems](common-problems.md)
 -   [Comparators](comparators.md)
 -   [Deque](dequeue.md)
+-   [Depth First Search](dfs.md)
 -   [Graph](graph.md)
 -   [Linked List](linked-list.md)
 -   [Map](map.md)
