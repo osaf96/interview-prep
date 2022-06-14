@@ -34,7 +34,7 @@ Misconception: "everything is an object in JavaScript"
 
 Example:
 
-```javascript
+```java showLineNumbersscript
 console.log(typeof "test"); // string
 console.log(typeof 1); // number
 console.log(typeof true); // boolean
@@ -60,7 +60,7 @@ console.log(Object.prototype.toString.apply(/aaa/g)); // [object RegExp]
 
 Example with `String` (note how it behaves differently when it's called as constructor):
 
-```javascript
+```java showLineNumbersscript
 const test = "test";
 console.log(typeof test); // string
 console.log(test instanceof String); // false
@@ -77,13 +77,13 @@ console.log(test3 instanceof String); // true
 
 Although it is preferred to represent strings as normal `string` values, all of the interesting methods are defined on `String`. JavaScript solves this by coercing to `String` as needed.
 
-```javascript
+```java showLineNumbersscript
 console.log("test".indexOf("s")); // 2
 ```
 
 When not called as constructor, `String` (and also `Number` and `Boolean`) is useful for performing type conversions:
 
-```javascript
+```java showLineNumbersscript
 const test = String(3);
 console.log(test); // 3
 console.log(typeof test); // string
@@ -107,7 +107,7 @@ Note: in a lot of JavaScript engines, objects have a `__proto__` property that e
 
 Example:
 
-```javascript
+```java showLineNumbersscript
 const objectA = {
     a: "testA"
 };
@@ -133,7 +133,7 @@ _Shadowing_ occurs when a property on an object hides a property with the same n
 
 It's easy to accidentally shadow a property! Example:
 
-```javascript
+```java showLineNumbersscript
 const objectA = {
     counter: 1
 };
@@ -165,7 +165,7 @@ Shadowing is not only an issue with simple properties but also with methods (whi
 
 Property shadowing can also be caused by unexpected input from the outside and it can hide methods that are defined on the `Object` prototype itself. Example:
 
-```javascript
+```java showLineNumbersscript
 const userInput = JSON.parse(`{ "hasOwnProperty": 1 }`);
 
 // TypeError: userInput.hasOwnProperty is not a function
@@ -183,7 +183,7 @@ Prototype pollution is a vulnerability in code that allows input coming from the
 
 Example:
 
-```javascript
+```java showLineNumbersscript
 const userInput = JSON.parse(`{
     "newProp": "test",
     "__proto__": {
@@ -232,7 +232,7 @@ Every JavaScript function has `prototype` property. You could call this the func
 
 In any case, every object that is constructed through the function using `new` syntax will have a `[[Prototype]]` linking to the function's `prototype` property.
 
-```javascript
+```java showLineNumbersscript
 // PascalCase is just a convention
 function Test(value) {
     this.value = value;
@@ -262,7 +262,7 @@ You can also see that lookups in the prototype chain happen in a dynamic way (`[
 
 The example regarding functions and `prototype` already showed something that looked like classes. We can use the same mechanisms to simulate something like class inheritance:
 
-```javascript
+```java showLineNumbersscript
 function ClassA(name) {
     this.name = name;
 }
@@ -303,7 +303,7 @@ The above example tried to apply object-oriented design to JavaScript. There is 
 
 Example which does the same as the object-oriented example above:
 
-```javascript
+```java showLineNumbersscript
 const A = {
     initA: function (name) { // normal function syntax
         this.name = name;
@@ -348,7 +348,7 @@ Basic idea:
 
 Example of how to implement the example from above using ES6 classes:
 
-```javascript
+```java showLineNumbersscript
 class A {
     // designated place to put constructor functionality
     constructor(name) {
@@ -381,7 +381,7 @@ Leads to pretty clean syntax, although it is still important to remember that JS
 
 Example indicating that we're still using runtime delegation based on prototypes:
 
-```javascript
+```java showLineNumbersscript
 class Test {
     getString() {
         return "test";
@@ -403,7 +403,7 @@ console.log(oldInstance.getString()); // newImplementation
 
 Example indicating that accidental shadowing is still possible:
 
-```javascript
+```java showLineNumbersscript
 class Test {
     constructor() {
         this.id = "whoops";
@@ -424,7 +424,7 @@ Modern JavaScript supports the concept of "field declarations", a more explicit 
 
 The code below is an example of using public instance fields:
 
-```javascript
+```java showLineNumbersscript
 class A {
     name = 'you can specify a default if you want';
     
@@ -444,7 +444,7 @@ For some info on private instance fields, see below: [Encapsulation using privat
 
 You can use static fields if you want a field to exist at the level of the class rather than at the level of its instances. This feature was added long after classes were introduced ([check browser support on Can I Use](https://caniuse.com/?search=public%20class%20fields)).
 
-```javascript
+```java showLineNumbersscript
 class Test {
     static SHARED_COUNTER = 0;
 
@@ -475,7 +475,7 @@ If you need to keep a shared property at the level of the class but you can't us
 
 Working example putting properties directly on the class:
 
-```javascript
+```java showLineNumbersscript
 class Test {
     incrementSharedCounter() {
         // use Test.sharedCounter and not this.sharedCounter
@@ -501,7 +501,7 @@ console.log(instance.getSharedCounter(), Test.SHARED_COUNTER); // 2, 2
 
 Accidental shadowing when putting on the `.prototype`:
 
-```javascript
+```java showLineNumbersscript
 class Test {
     incrementSharedCounter() {
         this.SHARED_COUNTER++; // accidental shadowing!
@@ -530,7 +530,7 @@ One important concept in object-oriented design is _encapsulation_: classes expo
 
 Example of a class without any encapsulation:
 
-```javascript
+```java showLineNumbersscript
 class A {
     constructor(name) {
         this.name = name;
@@ -552,7 +552,7 @@ This feature was added long after classes were introduced ([check browser suppor
 
 Example using private fields:
 
-```javascript
+```java showLineNumbersscript
 class A {
     #name;
 
@@ -573,7 +573,7 @@ Note that private fields cannot be added dynamically, they can only be declared 
 
 Private fields can also be **static** (class-level). In this case, it's recommended to always access them through the class itself rather than using `this` in the code for a static method, since the latter can lead to some confusing errors.
 
-```javascript
+```java showLineNumbersscript
 class BaseClassWithPrivateStaticField {
     static #PRIVATE_STATIC_FIELD;
 
@@ -589,7 +589,7 @@ BaseClassWithPrivateStaticField.basePublicStaticMethod(); // ok
 SubClass.basePublicStaticMethod(); // ok
 ```
 
-```javascript
+```java showLineNumbersscript
 class BaseClassWithPrivateStaticField {
     static #PRIVATE_STATIC_FIELD;
 
@@ -607,7 +607,7 @@ SubClass.basePublicStaticMethod(); // TypeError
 
 In addition to private fields, you can also add private (static) **methods**
 
-```javascript
+```java showLineNumbersscript
 class A {
     #name;
 
@@ -634,7 +634,7 @@ For a long time, JavaScript classes did not support the concept of private field
 
 Example simulating private fields using closures (drawback: methods are created again for every instance instead of just putting them on the prototype):
 
-```javascript
+```java showLineNumbersscript
 class A {
     constructor(name) {
         this.getName = function() {
@@ -659,7 +659,7 @@ console.log(instance.getName()); // theNewName
 
 Simplest workaround: convention that properties starting with underscore (`_`) are private. Example:
 
-```javascript
+```java showLineNumbersscript
 class A {
     constructor(name) {
         this._name = name;

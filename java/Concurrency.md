@@ -26,7 +26,7 @@ last_modified: 2020-05-30T15:54:15+02:00
 
 Runnable: describes a task that can be executed but does not return a result
 
-```java
+```java showLineNumbers
 // defined by the JDK
 public interface Runnable {
     void run();
@@ -48,7 +48,7 @@ Running a task:
 
 Cached thread pool: executor service that uses an existing idle thread if possible and creates a new thread otherwise (and cleans up unused idle threads after a while
 
-```java
+```java showLineNumbers
 Runnable runnable = () -> {};      
 ExecutorService executor = Executors.newCachedThreadPool();
 executor.execute(runnable);
@@ -59,7 +59,7 @@ Fixed thread pool: executor service that uses a fixed number of threads
 -   Can use this to limit resource consumption
 -   Runnables are queued until a thread becomes available
 
-```java
+```java showLineNumbers
 Runnable runnable = () -> {};      
 int processors = Runtime.getRuntime().availableProcessors();
 ExecutorService executor = Executors.newFixedThreadPool(processors);
@@ -70,7 +70,7 @@ executor.execute(runnable);
 
 Callable: describes a task that returns a result
 
-```java
+```java showLineNumbers
 // defined by the JDK
 public interface Callable<V> {
     V call() throws Exception;
@@ -81,7 +81,7 @@ Note that the `call()` method can throw any kind of exception!
 
 Submitting a `Callable` yields a `Future` which can be used to get the result:
 
-```java
+```java showLineNumbers
 Callable<String> callable = () -> { return "test"; };
 ExecutorService executor = Executors.newCachedThreadPool();
 Future<String> resultFuture = executor.submit(callable);
@@ -100,20 +100,20 @@ A `Future` also has a method `cancel(mayInterruptIfRunning`) which attempts to c
 
 Invoking several tasks and waiting for all results:
 
-```java
+```java showLineNumbers
 // blocks current thread until all tasks have completed
 List<Future<String>> results = executor.invokeAll(tasks);
 ```
 
 Invoking several tasks, waiting until the first one succeeds and canceling the rest:
 
-```java
+```java showLineNumbers
 String result = executor.invokeAny(tasks);
 ```
 
 Invoking several tasks and getting the completed ones immediately:
 
-```java
+```java showLineNumbers
 ExecutorCompletionService<String> completionService =
     new ExecutorCompletionService<>(executor);
       
@@ -133,7 +133,7 @@ In the section on synchronous concurrency, the current thread would always wait 
 
 ### Completable futures
 
-```java
+```java showLineNumbers
 CompletableFuture<String> f = CompletableFuture.supplyAsync(() -> {
     return "test";
 }, executor);
@@ -141,13 +141,13 @@ CompletableFuture<String> f = CompletableFuture.supplyAsync(() -> {
 
 Specifying a callback for the result:
 
-```java
+```java showLineNumbers
 f.thenAccept(result -> { System.out.println(result); });
 ```
 
 Specifying a callback that can also handle exceptions:
 
-```java
+```java showLineNumbers
 f.whenComplete((result, exception) -> {
     if (exception == null) {
         // process result
@@ -159,7 +159,7 @@ f.whenComplete((result, exception) -> {
 
 It is also possible to complete a `CompletableFuture` manually:
 
-```java
+```java showLineNumbers
 CompletableFuture<String> f = new CompletableFuture<>();
 
 executor.execute(() -> {
@@ -178,7 +178,7 @@ Note: if you call `cancel()` on a `CompletableFuture`, it will only make it comp
 
 Transforming `CompletableFuture` instances:
 
-```java
+```java showLineNumbers
 CompletableFuture f2 = f.thenApply(result -> result.toLowerCase());
 
 // similar to concept of flatMap
@@ -187,7 +187,7 @@ CompletableFuture f3 = f.thenCompose(functionReturningNewCompletableFuture);
 
 Combining `CompletableFuture` instances:
 
-```java
+```java showLineNumbers
 f.thenCombine(f2, (resultFromFirst, resultFromSecond) -> {
     // return something based on both values
 });
@@ -205,7 +205,7 @@ Solution: schedule UI updates to happen on the UI thread
 
 Example for JavaFX:
 
-```java
+```java showLineNumbers
 Platform.runLater(() -> {
     // make some changes on the UI elements
 })
@@ -221,7 +221,7 @@ See [Streams](./Streams.md)
 
 ### Parallel Array operations
 
-```java
+```java showLineNumbers
 Arrays.parallelSetAll(theArray, i -> i % 10);
 Arrays.parallelSort(theArray);
 ```
@@ -232,7 +232,7 @@ If you are using a thread pool with a limited or fixed number of threads, be ver
 
 Example:
 
-```java
+```java showLineNumbers
 public static void main(String[] args) throws InterruptedException {
     ExecutorService es = Executors.newFixedThreadPool(2);
     es.execute(() -> blockingTask());
@@ -263,7 +263,7 @@ Important note: the common fork-join pool (`ForkJoinPool.commonPool()`) is a poo
 
 See below example for completable futures and see [Streams](./Streams.md) for an example with parallel streams
 
-```java
+```java showLineNumbers
 public static void main(String[] args) throws InterruptedException {
     int commonPoolParallelism = ForkJoinPool.commonPool().getParallelism();
 

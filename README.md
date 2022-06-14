@@ -59,6 +59,7 @@
     -   [Bit Manipulation](preparation/bit-manipulation.md)
     -   [Common Problems](preparation/common-problems.md)
     -   [Comparators](preparation/comparators.md)
+    -   [Deque](preparation/dequeue.md)
     -   [Graph](preparation/graph.md)
     -   [Linked List](preparation/linked-list.md)
     -   [Map](preparation/map.md)

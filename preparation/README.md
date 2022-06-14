@@ -11,6 +11,7 @@
 -   [Bit Manipulation](bit-manipulation.md)
 -   [Common Problems](common-problems.md)
 -   [Comparators](comparators.md)
+-   [Deque](dequeue.md)
 -   [Graph](graph.md)
 -   [Linked List](linked-list.md)
 -   [Map](map.md)

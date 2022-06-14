@@ -30,7 +30,7 @@ last_modified: 2022-01-31T10:44:35.256Z
 
 By default, every Java object has an `equals(Object o)` method which is inherited from the `Object` class. The implementation of this `equals` method compares objects using their memory locations, meaning that two objects are only considered equal if they actually point to the exact same memory location and are thus really one and the same object.
 
-```java
+```java showLineNumbers
 @Test
 public void test() {
     Object object1 = new Object();
@@ -54,7 +54,7 @@ If you want to define equality in such a way that two objects can be considered 
 
 ## Example class
 
-```java
+```java showLineNumbers
 public class Point {
     private int x;
     private int y;
@@ -72,13 +72,13 @@ public class Point {
 
 ### Not properly overriding the `equals` method
 
-```java
+```java showLineNumbers
 public boolean equals(Point other) {
     return (this.x == other.x && this.y == other.y);
 }
 ```
 
-```java
+```java showLineNumbers
 @Test
 public void test() {
     Point point1 = new Point(1, 1);
@@ -92,7 +92,7 @@ public void test() {
 
 Problem: `equals(Point) ` does not properly override `equals(Object)` because the signature doesn't match. 
 
-```java
+```java showLineNumbers
 @Test
 public void test() {
     Point point1 = new Point(1, 1);
@@ -110,7 +110,7 @@ See also [Overloading, overriding and method hiding](Overloading-overriding-meth
 
 ### Forgetting about `hashCode`
 
-```java
+```java showLineNumbers
 @Override
 public boolean equals(Object o) {
     if (o == null || o.getClass() != this.getClass()) {
@@ -122,7 +122,7 @@ public boolean equals(Object o) {
 }
 ```
 
-```java
+```java showLineNumbers
 @Test
 public void test() {        
     Point point1 = new Point(1, 1);
@@ -138,7 +138,7 @@ Problem: `HashSet` uses `hashCode`, and default implementation is likely to retu
 
 ### Mutable variables
 
-```java
+```java showLineNumbers
 // getters and setter for x and y here
 
 @Override
@@ -161,7 +161,7 @@ public int hashCode() {
 }
 ```
 
-```java
+```java showLineNumbers
 @Test
 public void test() {    
     Point point1 = new Point(1, 1);
@@ -178,7 +178,7 @@ Problem: changing `x` also changes the hash code, which means that the hash buck
 
 ## Simple decent implementation
 
-```java
+```java showLineNumbers
 public class Point {
     private final int x;
     private final int y;
@@ -223,7 +223,7 @@ The `equals` and `hashCode` methods are pretty much what Eclipse generates by de
 
 Problem with `equals` method using `getClass`: 
 
-```java
+```java showLineNumbers
 @Test
 public void test() {    
     Point point1 = new Point(1, 1);
@@ -237,7 +237,7 @@ Reason: `this.getClass()` returns different class for objects of different class
 
 Solution: replace
 
-```java
+```java showLineNumbers
 o.getClass() != this.getClass()
 ```
 
@@ -253,7 +253,7 @@ What if some subclasses of `Point` have additional info to consider when determi
 
 Example:
 
-```java
+```java showLineNumbers
 public enum Color {
     BLUE, RED, YELLOW, GREEN;
 }
@@ -276,7 +276,7 @@ What if we want to include the color in the `equals` method so that a `ColorPoin
 
 If we want this, we have to accept that a `ColorPoint` will never be equal to any `Point`. The reason for this is transitivity (see above). If we want to say that `ColorPoint(1, 1, Color.RED)` and `ColorPoint(1, 1, Color.BLUE)` are both equal to `Point(1, 1)` , then transitivity would imply that they are also equal to each other. That is exactly what we didn't want here.
 
-```java
+```java showLineNumbers
 @Test
 public void test() {
     Point point1 = new Point(1, 1);
@@ -290,7 +290,7 @@ public void test() {
 
 #### The hard, but potentially more correct way
 
-```java
+```java showLineNumbers
 public class Point {
     // ...
     
@@ -372,7 +372,7 @@ In cases where this is not sufficient (you want subclasses to include additional
 
 Better alternative to hand-written `equals` tests: the [EqualsVerifier](http://jqno.nl/equalsverifier/) library by Jan Ouwens.
 
-```java
+```java showLineNumbers
 @Test
 public void equalsContract() {
     EqualsVerifier.forClass(Point.class).verify();

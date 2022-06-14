@@ -22,7 +22,7 @@ last_modified: 2022-06-08T15:36:32.3632
 
 ## Types of Map and Complexities
 
-```java
+```java showLineNumbers
 // Normal Key-Value mapping.
 Map<String, Integer> map = new HashMap<String, Integer>();
 
@@ -47,7 +47,7 @@ Map<String, Integer> map = new TreeMap<>();
 
 ### Insertion Updation
 
-```java
+```java showLineNumbers
 Map<String, Integer> map = new HashMap<String, Integer>();
 map.put("Student 1", 101);
 map.put("Student 1", 202);
@@ -61,7 +61,7 @@ Map<String, String> map = new HashMap<String, String>(){{
 
 ### Get Remove
 
-```java
+```java showLineNumbers
 Map<String, Integer> map = new HashMap<String, Integer>();
 map.get("Student 1"); // Returns 202 and NULL if not present.
 
@@ -73,7 +73,7 @@ map.remove(new String("Student 1"));
 
 ### Iteration
 
-```java
+```java showLineNumbers
 
 for(Entry<String, Integer> entry: map.entrySet()) {
     System.out.print(entry.getKey() + " >> " + entry.getValue());
@@ -84,7 +84,7 @@ for(Entry<String, Integer> entry: map.entrySet()) {
 
 ### containsKey / containsValue
 
-```java
+```java showLineNumbers
 
 Map<String, Integer> map = new HashMap<String, Integer>();
 map.containsKey("Student 1");
@@ -96,7 +96,7 @@ map.containsValue(202);
 
 ### values / keySet
 
-```java
+```java showLineNumbers
 
 Map<String, Integer> map = new HashMap<String, Integer>();
 Collection<Integer> values= map.values();
@@ -107,7 +107,7 @@ List ListofKeys = new ArrayList(map.keySet());
 
 ### Empty Check / Size
 
-```java
+```java showLineNumbers
 
 map.isEmpty() // Return boolean true if present else false.
 map.size() // Returns the number of elements(key-value) pairs.
@@ -117,7 +117,7 @@ map.size() // Returns the number of elements(key-value) pairs.
 
 ## Creating a Frequency Hashmap.
 
-```java
+```java showLineNumbers
 List<T> list = new ArrayList<>(); // Initial Data.
 HashMap<T,Integer> freq = new HashMap<>();
 for(T each: list){
@@ -129,7 +129,7 @@ for(T each: list){
 
 ## Sorted Map.
 
-```java
+```java showLineNumbers
 // Comparator is supported only for the TreeMap Constructor.
 Map<Integer, String> treeMap = new TreeMap<Integer, String>(
     new Comparator<Integer>() {

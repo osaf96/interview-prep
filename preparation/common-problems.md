@@ -22,7 +22,7 @@ last_modified: 2022-06-08T15:36:32.3632
 
 ## Priniting the combination of an array of particular size.
 
-```java
+```java showLineNumbers
 class Solution {
     public static void findCombinations(int[] A, int i, int k, List<Integer> out)
     {
@@ -42,7 +42,7 @@ class Solution {
 }
 ```
 
-```java
+```java showLineNumbers
 class Solution {
     public List<List<Integer>> subsets(int[] nums) {
         List<List<Integer>> output = new ArrayList();
@@ -62,7 +62,7 @@ class Solution {
 }
 ```
 
-```java
+```java showLineNumbers
 class Solution {
         public static void main(String[] args){
                 int[] A = { 1, 2, 3 };
@@ -79,7 +79,7 @@ class Solution {
 
 ## Printing all the possible paths of a binary tree.
 
-```java
+```java showLineNumbers
 class Solution {
     public void printAllPathsBinaryTree(TreeNode root) {
             ArrayList<Integer> path = new ArrayList<Integer>();
@@ -108,7 +108,7 @@ class Solution {
 
 ## Permutation of an array.
 
-```java
+```java showLineNumbers
 class Solution {
     void permutate(int[] array, int start) {
             if (start == array.length) {
@@ -133,7 +133,7 @@ class Solution {
 
 ## To check if Double is an Integer.
 
-    ```java
+    ```java showLineNumbers
     class Solution {
         public void static main(String[] args){
                     double temp = Math.log(n)/Math.log(2);
@@ -149,7 +149,7 @@ class Solution {
 
 ## Roman to Integer.
 
-    ```java
+    ```java showLineNumbers
     class Solution {
         public int romanToInt(String S) {
             int ans = 0, num = 0;
@@ -193,7 +193,7 @@ class Solution {
 
 ## Rotate a Matrix.
 
-    ```java
+    ```java showLineNumbers
     class Solution {
 
       public void rotate(int[][] matrix) {
@@ -227,7 +227,7 @@ class Solution {
 
 ## Spiral Matrix.
 
-    ```java
+    ```java showLineNumbers
     class Solution {
         public List<Integer> spiralOrder(int[][] matrix) {
             List<Integer> nums = new ArrayList();
@@ -267,7 +267,7 @@ class Solution {
 
 ## House Robber.
 
-    ```java
+    ```java showLineNumbers
     class Solution {
         public int rob(int[] nums) {
             if(nums.length == 1) return nums[0];
@@ -285,7 +285,7 @@ class Solution {
 
 ## Number of Islands.
 
-    ```java
+    ```java showLineNumbers
     class Solution {
         public int numIslands(char[][] grid) {
             int result = 0;
@@ -317,7 +317,7 @@ class Solution {
 
 ## Count Primes
 
-    ```java
+    ```java showLineNumbers
     public class Solution {
         public int countPrimes(int n) {
             boolean[] notPrime = new boolean[n];
@@ -340,7 +340,7 @@ class Solution {
 
 > **dp(i,j)=  (min(dp(i−1,j),dp(i−1,j−1),dp(i,j−1)))   +1.**
 >
-> ```java
+> ```java showLineNumbers
 > public class Solution {
 >     public int maximalSquare(char[][] matrix) {
 >         int rows = matrix.length, cols = rows > 0 ? matrix[0].length : 0;

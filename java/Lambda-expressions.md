@@ -37,7 +37,7 @@ Lambda expression in Java:
 -   If you specify the interface that the lambda expression conforms to, Java can infer the types of the parameters and you don’t need to specify them explicitly anymore
     -   If there is only a single argument with an inferred type, we can even omit the parentheses around that argument.
 
-```java
+```java showLineNumbers
 public static int compareStrings(Comparator<String> comp) {
     return comp.compare("string1", "string2");
 }
@@ -103,7 +103,7 @@ Important feature of lambda expressions: can access variables from the enclosing
 
 Example block scope and accessing free variable:
 
-```java
+```java showLineNumbers
 public class Test {    
     private int instanceVariable = 1;
     
@@ -122,7 +122,7 @@ public class Test {
 
 Example effectively final:
 
-```java
+```java showLineNumbers
 int localVariable = 10;
 
 for (int i = 0; i < 10; i++) {
@@ -136,7 +136,7 @@ for (int i = 0; i < 10; i++) {
 
 Example effectively final enhanced for loop:
 
-```java
+```java showLineNumbers
 List<Integer> integers;
 List<Integer> processedIntegers;
 
@@ -163,7 +163,7 @@ Java now also has a powerful mechanism to pass regular methods around as objects
 -   _Class::instanceMethod_: a reference to an instance method of a class. The first argument specifies the object on which the instance method is invoked.
 -   _object::instanceMethod_: a reference to an instance method of a class which will be invoked an a specific object
 
-```java
+```java showLineNumbers
 public class Test {    
     public static void staticMethod(String input) {
         System.out.println("static:" + input);
@@ -175,7 +175,7 @@ public class Test {
 }
 ```
 
-```java
+```java showLineNumbers
 // method reference
 Test::staticMethod
 // equivalent lambda expression
@@ -195,7 +195,7 @@ input -> testInstance.instanceMethod(input)
 
 Some more realistic examples:
 
-```java
+```java showLineNumbers
 List<String> list = new ArrayList<String>();
         
 // Class::staticMethod
@@ -208,7 +208,7 @@ list.forEach(System.out::println);
 
 As another practical example, consider the `Comparator.comparing` method. This method takes a method reference that extracts the values to compare. This allows for easy construction of custom `Comparator` instances.
 
-```java
+```java showLineNumbers
 personList.sort(Comparator
     .comparing(Person::getLastName)
     .thenComparing(Person::getFirstName))
@@ -216,7 +216,7 @@ personList.sort(Comparator
 
 There is also a similar mechanism, _constructor references_, for passing around constructors. This uses the syntax _Class::new_. If there are multiple constructors, the compiler will infer which constructor to use from the context.
 
-```java
+```java showLineNumbers
 public class Dog {    
     private final String name;
     
@@ -230,7 +230,7 @@ public class Dog {
 }
 ```
 
-```java
+```java showLineNumbers
 // no-argument constructor
 Supplier<Dog> dogSupplier = Dog::new;
 
@@ -246,7 +246,7 @@ Before the introduction of lambda expressions, Java already had a concise way to
 
 A _local class_ is a class defined inside a method. A typical use case is if you want to provide an object conforming to an interface and it doesn’t really matter what the implementing class is.
 
-```java
+```java showLineNumbers
 int localVariable = 10;
         
 class LengthPredicate implements Predicate<String> {
@@ -261,7 +261,7 @@ Predicate<String> predicate = new LengthPredicate();
 
 If you use your local class only once, it makes more sense to remove the name and to define it as an _anonymous class_.
 
-```java
+```java showLineNumbers
 int localVariable = 10;        
 
 Predicate<String> predicate = new Predicate<String>() {
@@ -286,14 +286,14 @@ Some important differences:
 
 Example more than one abstract method:
 
-```java
+```java showLineNumbers
 public interface TwoMethodInterface {
     public void methodA();
     public void methodB();
 }
 ```
 
-```java
+```java showLineNumbers
 TwoMethodInterface twoMethodInterface = new TwoMethodInterface() {
     @Override
     public void methodA() {
@@ -309,7 +309,7 @@ TwoMethodInterface twoMethodInterface = new TwoMethodInterface() {
 
 Example shadowing:
 
-```java
+```java showLineNumbers
 int localVariable = 10;        
 
 Predicate<String> predicate = new Predicate<String>() {
@@ -325,7 +325,7 @@ Predicate<String> predicate = new Predicate<String>() {
 
 Example instance variables, `this`and default methods:
 
-```java
+```java showLineNumbers
 public interface InterfaceA {    
     public abstract void doSomething();
     
@@ -335,7 +335,7 @@ public interface InterfaceA {
 }
 ```
 
-```java
+```java showLineNumbers
 InterfaceA interfaceA = new InterfaceA() {
     private int count = 0;
     
@@ -349,7 +349,7 @@ InterfaceA interfaceA = new InterfaceA() {
 
 Example accessing `this` reference of the enclosing method:
 
-```java
+```java showLineNumbers
 public class Test {    
     private int instanceVariable = 0;
     
@@ -391,7 +391,7 @@ Answer: no!
 
 Example:
 
-```java
+```java showLineNumbers
 Predicate<String> pred1 = (string -> string.length() > 1);
 
 Predicate<String> pred2 = new Predicate<String>() {

@@ -35,7 +35,7 @@ Some key points:
 
 `Duration`: represents the amount of time between two instants
 
-```java
+```java showLineNumbers
 Instant start = Instant.now();
 // perform some computations
 Instant end = Instant.now();
@@ -43,7 +43,7 @@ Duration timeElapsed = Duration.between(start, end);
 long millis = timeElapsed.toMillis();
 ```
 
-```java
+```java showLineNumbers
 Duration oneWeek = Duration.ofDays(7);
 long secondsInWeek = oneWeek.toSeconds();
 ```
@@ -54,7 +54,7 @@ Computations with durations:
 -   Option 2: convert to nanoseconds
     -   Note that a long of nanoseconds doesn't allow you to use the entire range of a `Duration`, but it a long can hold almost 300 years worth of nanoseconds
 
-```java
+```java showLineNumbers
 // Option 1
 if (duration1.multipliedBy(10).minus(duration2).isNegative()) {
     // ...
@@ -79,29 +79,29 @@ Example use cases:
 
 ### Local dates
 
-```java
+```java showLineNumbers
 LocalDate today = LocalDate.now();
 LocalDate test1 = LocalDate.of(2019, 8, 28);
 LocalDate test2 = LocalDate.of(2019, Month.AUGUST, 28);
 System.out.println(test1.equals(test2)); // true
 ```
 
-```java
+```java showLineNumbers
 LocalDate programmersDay = LocalDate.of(2019, 1, 1).plusDays(255);
 ```
 
-```java
+```java showLineNumbers
 // Duration.ofYears(1) wouldn't produce the correct result in a leap year
 LocalDate birthdayNextYear = birthday.plus(Period.ofYears(1));
 ```
 
-```java
+```java showLineNumbers
 today.until(christmas, ChronoUnit.DAYS) // get # days until Christmas
 ```
 
 Note: methods adjusting dates don't throw exceptions if the result would be invalid but adjust it to a valid date instead!
 
-```java
+```java showLineNumbers
 LocalDate test = LocalDate.of(2016, 1, 31).plusMonths(1);
 System.out.println(test); // 2016-02-29
 ```
@@ -110,14 +110,14 @@ System.out.println(test); // 2016-02-29
 
 Example: compute first Tuesday of a month
 
-```java
+```java showLineNumbers
 LocalDate firstTuesday = LocalDate.of(year, month, 1).with(
 TemporalAdjusters.nextOrSame(DayOfWeek.TUESDAY))
 ```
 
 ### Local time
 
-```java
+```java showLineNumbers
 LocalTime currentTime = LocalTime.now();
 LocalTime bedTime = LocalTime.of(00, 30);
 LocalTime alarmTime = bedTime.plusHours(8);
@@ -130,19 +130,19 @@ Zoned time: date and time plus time zone information
 -   Represents particular instant in time
 -   When performing calculations or transforming between time zones, daylight savings time and time zone rules are taken into account
 
-```java
+```java showLineNumbers
 ZonedDateTime apolloLaunch = ZonedDateTime.of(1969, 7, 16, 9, 32, 0, 0,   
     ZoneId.of("America/New_York"));
     
 System.out.println(apolloLaunch); // 1969-07-16T09:32-04:00[America/New_York]
 ```
 
-```java
+```java showLineNumbers
 Instant now = Instant.now();
 ZonedDateTime nowInUtc = now.atZone(ZoneId.of("UTC"));
 ```
 
-```java
+```java showLineNumbers
 // Duration.ofDays(7) wouldn't work with daylight savings time
 ZonedDateTime nextMeeting = currentMeeting.plus(Period.ofDays(7))
 ```
@@ -153,19 +153,19 @@ Note: there is also `OffsetDateTime`, which uses a fixed offset from UTC. This i
 
 The `DateTimeFormatter` class now replaces the old `DateTimeFormat` (you can still call `toFormat()` on a `DateTimeFormatter` to get a legacy `DateTimeFormat`)
 
-```java
+```java showLineNumbers
 // predefined ISO_OFFSET_DATE_TIME format (ISO-8601-compliant)
 String formatted = DateTimeFormatter.ISO_OFFSET_DATE_TIME.format(ZonedDateTime.now());
 System.out.println(formatted); // 2019-08-28T16:02:07.5384469+02:00
 ```
 
-```java
+```java showLineNumbers
 DateTimeFormatter formatter = DateTimeFormatter.ofLocalizedDateTime(FormatStyle.LONG);
 String formatted = formatter.format(ZonedDateTime.now());
 System.out.println(formatted); // August 28, 2019 at 4:05:04 PM CEST
 ```
 
-```java
+```java showLineNumbers
 LocalDate parsed1 = LocalDate.parse("2019-08-28");
 DateTimeFormatter patternFormatter = DateTimeFormatter.ofPattern("yyyy/dd/MM");
 LocalDate parsed2 = LocalDate.parse("2019/28/08", patternFormatter);

@@ -18,7 +18,7 @@ last_modified: 2022-06-08T16:35:30.3530
 
 Repeatedly swapping the adjacent elements if they are in the wrong order.
 
-```java
+```java showLineNumbers
 class Solution {
     void bubbleSort(int arr[])
     {
@@ -46,7 +46,7 @@ _There are many different versions of quickSort that **pick pivot in different w
 3.  _Pick a random element as pivot._
 4.  _Pick median as pivot._
 
-```java
+```java showLineNumbers
 class Solution {
     void quickSort(int[] arr, int low, int high) {
             if (low < high) {
@@ -77,7 +77,7 @@ It divides the input array into two halves, calls itself for the two halves, and
 The merge() function is used for merging two halves. 
 The merge(arr, l, m, r) is a key process that assumes that arr[l..m] and arr[m+1..r] are sorted and merges the two sorted sub-arrays into one._
 
-```java
+```java showLineNumbers
 class Solution {
     void merge(int arr[], int l, int m, int r) {
         int n1 = m - l + 1;
@@ -119,7 +119,7 @@ class Solution {
 }
 ```
 
-```java
+```java showLineNumbers
 void sort(int arr[], int l, int r) {
     if (r > l) {
         // Find the middle point
@@ -143,7 +143,7 @@ It is much less efficient on large lists than more advanced algorithms such as q
 > **SELECT EVERY ELEMENT FROM EACH ITERATION AND PUT IT AT THE CORRECT POSITION. 
 > REPEAT THE SAME PROCESS FOR THE FURTHER ELEMENTS.**
 
-```java
+```java showLineNumbers
 class Solution {
     void sort(int arr[])
     {
@@ -173,7 +173,7 @@ which makes it inefficient on large lists, and generally performs worse than the
 > **SELECT THE MIN FROM EACH ITERATION AND PUT IT AT THE FIRST POSITION. 
 > REPEAT THE SAME PROCESS FOR THE FURTHER INDEXES.**
 
-```java
+```java showLineNumbers
 class Solution {
     void sort(int arr[])
     {

@@ -79,7 +79,7 @@ last_modified: 2022-06-10T00:17:44.1744
 
 ### Inputs
 
-```java
+```java showLineNumbers
 class Solution {
     public ListNode addTwoNumbers(ListNode l1, ListNode l2) {
         
@@ -107,7 +107,7 @@ class Solution {
 
 ### Inputs
 
-```java
+```java showLineNumbers
 class Solution {
     public int lengthOfLongestSubstring(String s) {
         
@@ -786,7 +786,7 @@ class Solution {
 
 #### Inputs
 
-```java
+```java showLineNumbers
 class Solution {
     public int numTrees(int n) {
         
@@ -920,7 +920,7 @@ class Solution {
 
 ### Inputs
 
-```java
+```java showLineNumbers
 class Solution {
     public List<List<Integer>> levelOrderBottom(TreeNode root) {
         
@@ -954,7 +954,7 @@ class Solution {
 
 #### Solution using Queue (DFS)
 
-```java
+```java showLineNumbers
 class Solution {
     public List<List<Integer>> levelOrderBottom(TreeNode root) {
         List<List<Integer>> result = new ArrayList<>();
@@ -979,7 +979,7 @@ class Solution {
 
 #### Solution using DFS (Recursion)
 
-```java
+```java showLineNumbers
 public class Solution {
 
   public List<List<Integer>> levelOrderBottom(TreeNode root) {
@@ -1006,7 +1006,7 @@ public class Solution {
 
 ### Inputs
 
-```java
+```java showLineNumbers
 class Solution {
     public TreeNode sortedListToBST(ListNode head) {
         
@@ -1030,7 +1030,7 @@ class Solution {
 
 #### Finding Middle node of LinkedList
 
-```java
+```java showLineNumbers
 public ListNode middleNode(ListNode head) {
     ListNode slow = head;
     ListNode fast = head;
@@ -1046,7 +1046,7 @@ public ListNode middleNode(ListNode head) {
 
 ### Solution
 
-```java
+```java showLineNumbers
 class Solution {
     public TreeNode sortedListToBST(ListNode head) {
         return listToBST(head, null);
@@ -1081,7 +1081,7 @@ A root-to-leaf path is a path starting from the root and ending at any leaf node
 
 ### Inputs
 
-```java
+```java showLineNumbers
 class Solution {
     public List<List<Integer>> pathSum(TreeNode root, int targetSum) {
         
@@ -1119,7 +1119,7 @@ class Solution {
 
 #### Solution using Recursion
 
-```java
+```java showLineNumbers
 class Solution {
     public List<List<Integer>> pathSum(TreeNode root, int targetSum) {
         List<List<Integer>> result = new ArrayList<>();
@@ -2876,7 +2876,7 @@ class Solution {
 
 ### Inputs
 
-```java
+```java showLineNumbers
 class Solution {
     public List<List<Integer>> kSmallestPairs(int[] nums1, int[] nums2, int k) {
         
@@ -2914,7 +2914,7 @@ class Solution {
 
 ### Solution
 
-```java
+```java showLineNumbers
 class Solution {
     public List<List<Integer>> kSmallestPairs(int[] nums1, int[] nums2, int k) {
         int n = nums1.length;
@@ -3075,7 +3075,7 @@ class Solution {
 
 ### Inputs
 
-```java
+```java showLineNumbers
 class Solution {
     public List<Integer> lexicalOrder(int n) {
         
@@ -3112,7 +3112,7 @@ class Solution {
 
 #### Using DFS
 
-```java
+```java showLineNumbers
 public class Solution {
     public List<Integer> lexicalOrder(int n) {
         List<Integer> res = new ArrayList<>();
@@ -3160,7 +3160,7 @@ class Solution {
 
 #### Using Stack
 
-```java
+```java showLineNumbers
 class Solution {
     public List<Integer> lexicalOrder(int n) {
         List<Integer> op = new ArrayList<>();
@@ -4573,7 +4573,7 @@ class Solution {
 
 ### Inputs
 
-```java
+```java showLineNumbers
 class Solution {
     public boolean validSquare(int[] p1, int[] p2, int[] p3, int[] p4) {
         
@@ -4597,7 +4597,7 @@ class Solution {
 
 ### Solution
 
-```java
+```java showLineNumbers
 public class Solution {
     public double dist(int[] p1, int[] p2) {
         // We are not using the square root as that is going to be same for all the points.

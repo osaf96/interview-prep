@@ -45,7 +45,7 @@ In a lot of languages, things are quite different. In Java, for example, concurr
 
 Because JavaScript concurrency is _non-preemptive_, we don't have this problem. Instead, we have the guarantee that synchronous code (no asynchronous calls) will always be executed atomically, entirely, to completion.
 
-```javascript
+```java showLineNumbersscript
 const currentValue = sharedCounter;
 
 // any amount of synchronous code
@@ -58,7 +58,7 @@ As JavaScript normally only runs in a single thread, the fact that the code abov
 
 The code will only be interrupted if it chooses to be interrupted (by making an asynchronous call). Example:
 
-```javascript
+```java showLineNumbersscript
 const currentValue = sharedCounter;
 
 // execution gets interrupted here
@@ -87,7 +87,7 @@ The exact implementation and behavior of the Event Loop is different for differe
 
 You could imagine the code for the event loop to look a bit like this (adapted from [Event loop explainer](https://github.com/atotic/event-loop)):
 
-```javascript
+```java showLineNumbersscript
 while(true) {
     // get first normal task from some queue
     task = eventLoop.nextTask(); 
@@ -115,7 +115,7 @@ Note: Take a look at [Understanding the Node.js event loop phases and how it exe
 
 Let's take a look at how the engine executes the following script (from [Tasks, microtasks, queues and schedules](https://jakearchibald.com/2015/tasks-microtasks-queues-and-schedules/)):
 
-```javascript
+```java showLineNumbersscript
 console.log('script start');
 
 setTimeout(function() {
@@ -159,7 +159,7 @@ While this prevents a lot of concurrency bugs, it also means that long-running s
 
 The following code is an example of how synchronous code blocks asynchronous callbacks:
 
-```javascript
+```java showLineNumbersscript
 const start = Date.now();
 
 setTimeout(() => console.log("setTimeout"), 0);
@@ -173,7 +173,7 @@ Although setTimeout callback is scheduled to execute after 0 milliseconds, it on
 
 Note that, in extreme cases where the microtask queue stays full, the microtask queue can also block normal tasks from being executed. As an example, see the following piece of code.
 
-```javascript
+```java showLineNumbersscript
 const start = Date.now();
 
 setTimeout(() => console.log("setTimeout"), 0);

@@ -32,7 +32,7 @@ Feature flags = a way to build flexibility into your codebase, allowing some fea
 
 Simple example:
 
-```javascript
+```java showLineNumbersscript
 function calculateTotal() {
     if (newAlgorithmEnabled) {
         return calculateTotalUsingNewSummationAlgorithm();
@@ -46,7 +46,7 @@ Point where we decide which behavior to invoke based on state of flag = _toggle 
 
 Typically, there is a _toggle router_ that determines the state of the flag in a dynamic way. Example:
 
-```javascript
+```java showLineNumbersscript
 function calculateTotal() {
     if (featureIsEnabled("use-new-calculation-algorithms")) {
     // ...  
@@ -111,7 +111,7 @@ In the different phases of its lifetime, it could also make sense for the flag t
 
 Basic implementation with toggle router:
 
-```javascript
+```java showLineNumbersscript
 function calculateTotal() {
     if (featureIsEnabled("use-new-calculation-algorithms")) {
     // ...  
@@ -124,7 +124,7 @@ Limitations:
 
 ### Additional layer of decision logic
 
-```javascript
+```java showLineNumbersscript
 // shared features config
 const features = {
     useNewSummationAlgorithm() {
@@ -146,7 +146,7 @@ Limitations:
 
 ### Injecting decisions
 
-```javascript
+```java showLineNumbersscript
 function calculateTotal(config) {
     if (config.useNewSummationAlgorithm) {
     // ...  
@@ -161,7 +161,7 @@ Even more flexible and maintainable alternative: use the Strategy pattern.
 -   Inject the summation algorithm into the method or the enclosing object. 
 -   The method itself doesn’t need to have any idea that its behavior can be changed dynamically. 
 
-```javascript
+```java showLineNumbersscript
 function calculateTotal(summationAlgorithm) {
     const sumOfItems = summationAlgorithm(items);
     // ...  

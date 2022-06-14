@@ -16,7 +16,7 @@ last_modified: 2022-06-08T15:36:32.3632
 
 A number XOR itself will become 0, any number XOR with 0 will stay unchanged.
 
-```java
+```java showLineNumbers
 class Solution {
     public int missingNumber(int[] nums) {
             int res = nums.length;
@@ -34,7 +34,7 @@ class Solution {
 Given an integer `n`, return `true` if it is a power of two. Otherwise, return `false`.
 An integer `n` is a power of two, if there exists an integer `x` such that `n == 2^x`.
 
-```java
+```java showLineNumbers
 class Solution {
     public boolean isPowerOfTwo(int n) {
         return n>0 && (n&(n-1)) == 0;
@@ -42,7 +42,7 @@ class Solution {
 }
 ```
 
-```java
+```java showLineNumbers
 class Solution {
     public boolean isPowerOfTwo(int n) {
         return n>0 && Integer.bitCount(n) == 1;
@@ -56,7 +56,7 @@ Given an integer array `nums` where every element appears **three times** e
 which appears **exactly once**. Find the single element and return it.
 You must implement a solution with a linear runtime complexity and use only constant extra space.
 
-```java
+```java showLineNumbers
 class Solution {
     public int singleNumber(int[] arr) {
         int ones = 0;

@@ -78,7 +78,7 @@ Note: stay practical about this!
 
 Example dependency-cruiser rule for enforcing custom boundary:
 
-```javascript
+```java showLineNumbersscript
 {
   name: 'component-a',
   severity: 'error',
@@ -95,14 +95,14 @@ Example dependency-cruiser rule for enforcing custom boundary:
 
 Example automated test code for circular dependency checking with JDepend:
 
-```java
+```java showLineNumbers
 Collection packages = jdepend.analyze();
 assertEquals("Cycles found", false, jdepend.containsCycles());
 ```
 
 Example automated test code for checking direction of imports using JDepend:
 
-```java
+```java showLineNumbers
 DependencyConstraint constraint = new DependencyConstraint();
 JavaPackage ejb = constraint.addPackage("com.xyz.ejb");
 JavaPackage web = constraint.addPackage("com.xyz.web");

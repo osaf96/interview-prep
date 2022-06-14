@@ -18,7 +18,7 @@ last_modified: 2020-05-30T15:54:15+02:00
 
 What it is: a class has several methods with the same name but different number or types of parameters and Java chooses which one to call based on the arguments you pass
 
-```java
+```java showLineNumbers
 class OverloadingTest {
     public void testMethod(Object object) {
         System.out.println("object");
@@ -30,7 +30,7 @@ class OverloadingTest {
 }
 ```
 
-```java
+```java showLineNumbers
 OverloadingTest test = new OverloadingTest();
 Object testObject = new Object();
 String testString = "testString";
@@ -41,7 +41,7 @@ test.testMethod(testString); // string
 
 Important: the exact _signature_ of the method to call is based at **compile time** using the compile-time types of the arguments
 
-```java
+```java showLineNumbers
 Object testStringAsObject = testString;
 test.testMethod(testStringAsObject); // object
 ```
@@ -50,7 +50,7 @@ test.testMethod(testStringAsObject); // object
 
 What it is: a subclass overrides an instance method of a direct or indirect superclass by providing its own implementation
 
-```java
+```java showLineNumbers
 class OverridingTestSuper {
     public void testMethod(Object object) {
         System.out.println("super");
@@ -67,7 +67,7 @@ class OverridingTestSub extends OverridingTestSuper {
 
 Note: use`@Override` annotation when overriding, so the Java compiler helps you check that the method is actually correctly overriding a supertype method
 
-```java
+```java showLineNumbers
 OverridingTestSuper testSuper = new OverridingTestSuper();
 OverridingTestSub testSub = new OverridingTestSub();
 Object testObject = new Object();
@@ -78,14 +78,14 @@ testSub.testMethod(testObject); // sub
 
 Important: The _implementation_ to invoke is determined at **run time** based on the actual runtime type of the object and the structure of the inheritance hierarchy
 
-```java
+```java showLineNumbers
 OverridingTestSuper testSubAsSuper = testSub;
 testSubAsSuper.testMethod(testObject); // sub
 ```
 
 ## Combining overloading and overriding
 
-```java
+```java showLineNumbers
 class CombinedTestSuper {
     public void testMethod(Object object) {
         System.out.println("super object");
@@ -104,7 +104,7 @@ class CombinedTestSub extends CombinedTestSuper {
 }
 ```
 
-```java
+```java showLineNumbers
 CombinedTestSuper testSuper = new CombinedTestSuper();
 CombinedTestSub testSub = new CombinedTestSub();
 CombinedTestSuper testSubAsSuper = testSub;
@@ -128,7 +128,7 @@ For static methods, overloading is still used to determine the signature of the 
 
 But what if superclass and subclass both have static method with same signature?
 
-```java
+```java showLineNumbers
 class CombinedTestSuper {
     public static void testStaticMethod(Object object) {
         System.out.println("super");
@@ -144,7 +144,7 @@ class CombinedTestSub extends CombinedTestSuper {
 
 Calling static methods on classes:
 
-```java
+```java showLineNumbers
 Object testObject = new Object();
 
 StaticSuper.testStaticMethod(testObject); // super
@@ -153,7 +153,7 @@ StaticSub.testStaticMethod(testObject); // sub
 
 Calling static methods on instances (note that this will generate compiler warnings):
 
-```java
+```java showLineNumbers
 StaticSuper staticSuper = new StaticSuper();
 StaticSub staticSub = new StaticSub();
 StaticSuper staticSubAsSuper = staticSub;

@@ -24,7 +24,7 @@ Locks can be used to implement _critical sections_, parts of the code that can o
 
 Example of critical section using lock:
 
-```java
+```java showLineNumbers
 Lock countLock = new ReentrantLock(); // explicit lock, shared among threads
 int count = 0; // shared among threads
 
@@ -49,7 +49,7 @@ The above example is simple, but implementing locking yourself can get tricky. Y
 
 The code above used an explicit lock object. This isn't strictly necessary, because every object also has an _intrinsic lock_.  This lock can be used using the `synchronized` keyword.
 
-```java
+```java showLineNumbers
 // this ...
 synchronized(obj) {
     // critical section
@@ -67,7 +67,7 @@ try {
 
 You can also declare a method as `synchronized`
 
-```java
+```java showLineNumbers
 // this ...
 public synchronized void theMethod() {
     // body
@@ -87,7 +87,7 @@ public void theMethod() {
 
 A pattern using intrinsic locks that you might see is that an object with `synchronized` methods is used inside a `synchronized` block locking on that object:
 
-```java
+```java showLineNumbers
 synchronized (theObject) { 
     theObject.synchronizedMethod();
     theObject.otherSynchronizedMethod();
@@ -100,7 +100,7 @@ Note: locks also guarantee visibility. More specifically, changes that happen be
 
 Suppose we have a simple `Queue` class with synchronized methods:
 
-```java
+```java showLineNumbers
 public class Queue {
     public synchronized void add(Object element) {
         // add element at the end
@@ -118,7 +118,7 @@ public class Queue {
 
 Now, we want to replace the `remove()` method by a method `take()` that blocks until an element is available. This means that, if the queue is empty, the `take()` method needs to stop executing, allow other threads to obtain the lock (otherwise, no elements can be added) and then continue when an element is available. This can be implemented using `wait()` and `notifyAll()`.
 
-```java
+```java showLineNumbers
 public synchronized Object take() {
     while(this.isEmpty()) {
         wait(); // thread gives up the lock and will not run again until it is notified

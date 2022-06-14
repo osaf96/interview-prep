@@ -76,7 +76,7 @@ If two interfaces that a class implements specify a method with the same signatu
     -   If one of the default methods already specifies the behavior you want, your implementation can simply delegate to it
 -   If none of the interfaces has a default implementation, the implementing class must provide an implementation anyway
 
-```java
+```java showLineNumbers
 public interface InterfaceA {    
     public abstract void doSomething();
 }

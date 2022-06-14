@@ -23,7 +23,7 @@ The idea of binary search is to use the information that the array is sorted and
 
 ### Contains (True or False)
 
-```java
+```java showLineNumbers
 class Solution {
 
     int contains(int low, int high, int target) {
@@ -64,7 +64,7 @@ class Solution {
 
 ### Index of first occurrence of a key
 
-```java
+```java showLineNumbers
 class Solution {
 
     int first(int low, int high, int target) {
@@ -109,7 +109,7 @@ class Solution {
 
 ### Index of last occurrence of a key
 
-```java
+```java showLineNumbers
 class Solution {
 
     int last(int low, int high, int target) {
@@ -155,7 +155,7 @@ class Solution {
 
 ### Index of greatest element less than key
 
-```java
+```java showLineNumbers
 class Solution {
 
     int leastgreater(int low, int high, int target) {
@@ -199,7 +199,7 @@ class Solution {
 
 ### Index of least element greater than key
 
-```java
+```java showLineNumbers
 class Solution {
 
     int greatestlesser(int low, int high, int target) {
@@ -246,7 +246,7 @@ class Solution {
 
 ### Index of target element in Sorted Rotated Array
 
-```java
+```java showLineNumbers
 class Solution {
     public int search(int[] A, int target) {
     int low = 0;

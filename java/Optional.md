@@ -34,7 +34,7 @@ Basically, two sensible options:
 
 Examples first option:
 
-```java
+```java showLineNumbers
 String result = optionalString.orElse("");
 String result = optionalString.orElseGet(functionReturningString);
 String result = optionalString.orElseThrow(IllegalStateException::new);
@@ -42,7 +42,7 @@ String result = optionalString.orElseThrow(IllegalStateException::new);
 
 Examples second option:
 
-```java
+```java showLineNumbers
 optionalString.ifPresent(processString); // returns nothing
 
 optionalString.ifPresentOrElse(
@@ -61,7 +61,7 @@ When used in the wrong way, using `Optional` is not safer or easier than using n
 
 Examples:
 
-```java
+```java showLineNumbers
 nullableString.length() // length throws NullPointerException
 optionalString.get().length() // get throws NoSuchElementException
 
@@ -76,7 +76,7 @@ if (optionalString.isPresent()) {
 
 ## Creating Optional values
 
-```java
+```java showLineNumbers
 Optional<String> optionalString = Optional.of("test"); // throws if argument null
 Optional<String> optionalString = Optional.ofNullable(nullableString);
 Optional<String> optionalString = Optional.empty();
@@ -88,7 +88,7 @@ Conceptually, you can compare an Optional to a stream with either zero or one el
 
 Example use case:
 
-```java
+```java showLineNumbers
 idsStream
         .map(Users::lookup) // Users.lookUp returns an Optional<User>
         .flatMap(Optional::stream)
@@ -96,7 +96,7 @@ idsStream
 
 Note: if you call a method that returns either a value or null, you can apply the samle principle using `Stream.ofNullable`:
 
-```java
+```java showLineNumbers
 idsStream
         .map(Users::lookup) // Users.lookUp returns a User object or null
         .flatMap(Stream::ofNullable)

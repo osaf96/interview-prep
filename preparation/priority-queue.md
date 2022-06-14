@@ -27,7 +27,7 @@ last_modified: 2022-06-08T15:36:32.3632
 
 ### Min Heap (Default)
 
-```java
+```java showLineNumbers
 class Solution {
     PriorityQueue<Integer> queue = new PriorityQueue<>();
 }
@@ -35,7 +35,7 @@ class Solution {
 
 ### Max Heap
 
-```java
+```java showLineNumbers
 class Solution {
     PriorityQueue<Integer> queue = new PriorityQueue<>(Collections.reverseOrder());
 }
@@ -54,7 +54,7 @@ class Solution {
 
 ### Operations
 
-```java
+```java showLineNumbers
 PriorityQueue<Integer> pq = new PriorityQueue<Integer>();
 // Adding items to the pq using add()
 pq.add(10);
@@ -88,7 +88,7 @@ pq.isEmpty();
 
 ## Different Constructors of Priority Queue.
 
-```java
+```java showLineNumbers
 PriorityQueue<E> pq = new PriorityQueue<E>(); 
 // Creates a PriorityQueue with the default initial capacity (11) 
 // that orders its elements according to their natural ordering.
@@ -124,7 +124,7 @@ PriorityQueue<E> pq = new PriorityQueue<E>(SortedSet<E> c);
 
 ### Use of Comparator Class
 
-```java
+```java showLineNumbers
 class Solution {
     PriorityQueue<Student> pq = new PriorityQueue<Student>(5, new StudentComparator());
     // Here 5 represents the initial capacity, one of many kind of different constructor for PQ.
@@ -142,7 +142,7 @@ class StudentComparator implements Comparator<Student>{
 
 ### Anonymous Comparator Class
 
-```java
+```java showLineNumbers
 class Solution {
     PriorityQueue<Student> pq = new PriorityQueue<>(10, new Comparator<Student>() {
         public int compare(Student n1, Student n2) {

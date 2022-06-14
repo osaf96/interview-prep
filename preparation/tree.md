@@ -26,7 +26,7 @@ last_modified: 2022-06-08T15:36:32.3632
 
 ### Pre-order Traversal
 
-```java
+```java showLineNumbers
 class Solution {
     void preorder(Node node) {
         if (node == null) return;
@@ -42,7 +42,7 @@ class Solution {
 
 ### In-order Traversal
 
-```java
+```java showLineNumbers
 class Solution {
     void inorder(Node node) {
         if (node == null) return;
@@ -58,7 +58,7 @@ class Solution {
 
 ### Post-order Traversal
 
-```java
+```java showLineNumbers
 class Solution {
     void postorder(Node node) {
         if (node == null) return;
@@ -76,7 +76,7 @@ class Solution {
 
 ### Implementation using DFS
 
-```java
+```java showLineNumbers
 class Solution {
 
     public List<List<Integer>> levelOrder(TreeNode root) {
@@ -99,7 +99,7 @@ class Solution {
 
 ### Implementation using BFS
 
-```java
+```java showLineNumbers
 public class Solution {
 
     public List<List<Integer>> levelOrder(TreeNode root) {
@@ -126,7 +126,7 @@ public class Solution {
 
 ## Height (Maximum Depth) of a Tree
 
-```java
+```java showLineNumbers
 class Solution {
     public static int height(Node root) {
     // base case: empty tree has a height of 0
@@ -145,7 +145,7 @@ class Solution {
 
 ## Minimum Depth of a Tree
 
-```java
+```java showLineNumbers
 class Solution {
     public static int minDepth(Node root) {
         if (root == null)    return 0;
@@ -161,7 +161,7 @@ class Solution {
 
 ## Deepest Leaves
 
-```java
+```java showLineNumbers
 class Solution {
     private int maxLevel = 0;
 
@@ -190,7 +190,7 @@ class Solution {
 
 ## Binary Tree Paths
 
-```java
+```java showLineNumbers
 public void printPathsRecur(Node node, int path[], int pathLen) {
     if (node == null) return;
 
@@ -211,7 +211,7 @@ public void printPathsRecur(Node node, int path[], int pathLen) {
 
 ## Binary Search Tree Paths
 
-```java
+```java showLineNumbers
 public List<String> binaryTreePaths(TreeNode root) {
     List<String> answer = new ArrayList<String>();
     if (root != null) searchBT(root, "", answer);

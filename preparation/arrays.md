@@ -45,13 +45,31 @@ last_modified: 2022-06-08T16:35:30.3530
     -   [Method 3 - In-built Function - Collections.max() and Collections.min()](#method-3---in-built-function---collectionsmax-and-collectionsmin)
     -   [Covers](#covers-3)
 -   [Sorting an Array](#sorting-an-array)
--   [Searching in a Sorted Array (Binary Search - Variation)](#searching-in-a-sorted-array-binary-search---variation)
+    -   [Sorting with Comparator - Anonymous Class](#sorting-with-comparator---anonymous-class)
+    -   [Sorting with Custom Comparator Class](#sorting-with-custom-comparator-class)
+-   [Searching in an Array](#searching-in-an-array)
+    -   [Method 1 - Linear Search (No Order)](#method-1---linear-search-no-order)
+    -   [Method 2 - Binary Search (Sorted Ordered)](#method-2---binary-search-sorted-ordered)
+-   [Frequently Asked Questions](#frequently-asked-questions)
+    -   [Kth Smallest Element in an Array](#kth-smallest-element-in-an-array)
+        -   [Method 1 - Using Priority Queue](#method-1---using-priority-queue)
+        -   [Method 2 - Using Sorting](#method-2---using-sorting)
+    -   [Sort an array of 0s, 1s and 2s](#sort-an-array-of-0s-1s-and-2s)
+        -   [Method 1 - Using 3 pointers](#method-1---using-3-pointers)
+        -   [Method 2 - Using Counters](#method-2---using-counters)
+    -   [Sub-array with given sum](#sub-array-with-given-sum)
+        -   [Method 1 - Brute Force](#method-1---brute-force)
+    -   [Move all negative elements to end of array](#move-all-negative-elements-to-end-of-array)
+        -   [Method 1 - Dequeue](#method-1---dequeue)
+        -   [Method 2 - Using Priority Queue](#method-2---using-priority-queue)
+        -   [Method 3 - Using Sorting](#method-3---using-sorting)
+        -   [Method 4 - Using Sorting (Reverse Order)](#method-4---using-sorting-reverse-order)
 
 ## Array Creation/Initialization
 
 ### Arrays Initialized with a Size
 
-```java
+```java showLineNumbers
 public class Solution {
     public static void main(String[] args){
         int[] arr = new int[5];
@@ -65,7 +83,7 @@ public class Solution {
 
 #### Method 1 - Using a Loop
 
-```java
+```java showLineNumbers
 public class Solution {
     public static void main(String[] args){
         int[] arr = new int[5];
@@ -77,7 +95,7 @@ public class Solution {
 
 #### Method 2 - In-built Function
 
-```java
+```java showLineNumbers
 public class Solution {
     public static void main(String[] args){
         int defaultValue = 0;
@@ -89,7 +107,7 @@ public class Solution {
 
 ### Dynamic Array
 
-```java
+```java showLineNumbers
 public class Solution {
     public static void main(String[] args){
         int[] arr = new int[]{1,2,3,4,5};
@@ -101,7 +119,7 @@ public class Solution {
 
 #### Method - Iterative Method
 
-```java
+```java showLineNumbers
 public class Solution {
     public static void main(String[] args){
         List<Integer> list = new ArrayList<Integer>();
@@ -116,7 +134,7 @@ public class Solution {
 
 #### Method - In-built Function
 
-```java
+```java showLineNumbers
 public class Solution {
     public static void main(String[] args){
         List<Integer> list = new ArrayList<Integer>();
@@ -130,7 +148,7 @@ public class Solution {
 
 #### Converting a Map's Keys and Values to an Array
 
-```java
+```java showLineNumbers
 public class Solution {
     public static void main(String[] args){
         Map<Integer, String> map = new HashMap<Integer, String>();
@@ -149,7 +167,7 @@ public class Solution {
 
 #### Method - Iterative Method
 
-```java
+```java showLineNumbers
 public class Solution {
     public static void main(String[] args){
         Set<Integer> set = new HashSet<Integer>();
@@ -167,7 +185,7 @@ public class Solution {
 
 #### Method - In-built Function
 
-```java
+```java showLineNumbers
 public class Solution {
     public static void main(String[] args){
         Set<Integer> set = new HashSet<Integer>();
@@ -182,7 +200,7 @@ public class Solution {
 
 #### Method - Iterative Method
 
-```java
+```java showLineNumbers
 public class Solution {
     public static void main(String[] args){
         Stack<Integer> stack = new Stack<Integer>();
@@ -200,7 +218,7 @@ public class Solution {
 
 #### Method - In-built Function
 
-```java
+```java showLineNumbers
 public class Solution {
     public static void main(String[] args){
         Stack<Integer> stack = new Stack<Integer>();
@@ -215,7 +233,7 @@ public class Solution {
 
 #### Method - Iterative Method
 
-```java
+```java showLineNumbers
 public class Solution {
     public static void main(String[] args){
         Queue<Integer> queue = new LinkedList<Integer>();
@@ -233,7 +251,7 @@ public class Solution {
 
 #### Method - In-built Function
 
-```java
+```java showLineNumbers
 public class Solution {
     public static void main(String[] args){
         Queue<Integer> queue = new LinkedList<Integer>();
@@ -257,7 +275,7 @@ public class Solution {
 
 #### Method 1
 
-```java
+```java showLineNumbers
 public class Solution {
     public static void main(String[] args){
         String str = "12345";
@@ -271,7 +289,7 @@ public class Solution {
 
 #### Method 2
 
-```java
+```java showLineNumbers
 public class Solution {
     public static void main(String[] args){
         String str = "12345";
@@ -290,7 +308,7 @@ public class Solution {
 
 ### Using Another Array
 
-```java
+```java showLineNumbers
 public class Solution {
     public static void main(String[] args){
         int[] arr = new int[]{1,2,3,4,5};
@@ -309,7 +327,7 @@ public class Solution {
 
 #### Method 1 - Cutting to middle and reverse two halves.
 
-```java
+```java showLineNumbers
 public class Solution {
     public static void main(String[] args){
         int[] arr = new int[]{1,2,3,4,5};
@@ -327,7 +345,7 @@ public class Solution {
 
 #### Method 2 - Two Pointers
 
-```java
+```java showLineNumbers
 public class Solution {
     public static void main(String[] args){
         int[] arr = new int[]{1,2,3,4,5};
@@ -356,7 +374,7 @@ public class Solution {
 
 ### Method 1 - Using a Loop
 
-```java
+```java showLineNumbers
 public class Solution {
     public static void main(String[] args){
         int[] arr = new int[]{1,2,3,4,5};
@@ -378,7 +396,7 @@ public class Solution {
 
 ### Method 2 - In-built Function
 
-```java
+```java showLineNumbers
 public class Solution {
     public static void main(String[] args){
         int[] arr = new int[]{1,2,3,4,5};
@@ -393,7 +411,7 @@ public class Solution {
 
 ### Method 3 - In-built Function - Collections.max() and Collections.min()
 
-```java
+```java showLineNumbers
 public class Solution {
     public static void main(String[] args){
         int[] arr = new int[]{1,2,3,4,5};
@@ -418,7 +436,7 @@ public class Solution {
 
 ### Sorting with Comparator - Anonymous Class
 
-```java
+```java showLineNumbers
 public class Solution {
     public static void main(String[] args){
         int[] arr = new int[]{1,2,3,4,5};
@@ -439,9 +457,10 @@ public class Solution {
 // Space Complexity: O(1)
 
 ```
+
 ### Sorting with Custom Comparator Class
 
-```java
+```java showLineNumbers
 public class CustomComparator implements Comparator<Integer> {
     public int compare(Integer a, Integer b) {
         return b - a; // Descending order
@@ -458,9 +477,12 @@ public class Solution {
 // Space Complexity: O(1)
 
 ```
+
 ## Searching in an Array
+
 ### Method 1 - Linear Search (No Order)
-```java
+
+```java showLineNumbers
 public class Solution {
     public static void main(String[] args){
         int[] arr = new int[]{1,2,3,4,5};
@@ -476,16 +498,21 @@ public class Solution {
 // Time Complexity: O(n)
 // Space Complexity: O(1)
 ```
+
 ### Method 2 - Binary Search (Sorted Ordered)
+
 [Searching Algorithms](https://shyamzzp.github.io/interview-prep/preparation/search-algorithms)
 
 ## Frequently Asked Questions
+
 ### Kth Smallest Element in an Array
+
 ✅ Elements in the array might not be sorted. ✅ All the elements in the array are distinct.
 ✅ Elements is not null, empty or of zero length. ✅ There is at least one element in the array.
+
 #### Method 1 - Using Priority Queue
 
-```java
+```java showLineNumbers
 public class Solution {
     public static void main(String[] args){
         int[] arr = new int[]{10,22,13,42,15};
@@ -505,7 +532,8 @@ public class Solution {
 ```
 
 #### Method 2 - Using Sorting
-```java
+
+```java showLineNumbers
 public class Solution {
     public static void main(String[] args){
         int[] arr = new int[]{10,22,13,42,15};
@@ -520,7 +548,8 @@ public class Solution {
 ### Sort an array of 0s, 1s and 2s
 
 #### Method 1 - Using 3 pointers
-```java
+
+```java showLineNumbers
 // Sort an array of 0s, 1s and 2s
 public class Solution {
     public static void main(String[] args){
@@ -547,8 +576,10 @@ public class Solution {
 // Time Complexity: O(n)
 // Space Complexity: O(1)
 ```
+
 #### Method 2 - Using Counters
-```java
+
+```java showLineNumbers
 // Sort an array of 0s, 1s and 2s
 public class Solution {
     public static void main(String[] args){
@@ -588,13 +619,11 @@ public class Solution {
 
 ```
 
-
-
-
-
 ### Sub-array with given sum
+
 #### Method 1 - Brute Force
-```java
+
+```java showLineNumbers
 public class Solution {
     public static void main(String[] args){
         int[] arr = new int[]{1,2,3,4,5,6,7,8,9,10};
@@ -613,5 +642,89 @@ public class Solution {
     }
 }
 // Time Complexity: O(n^2)
+// Space Complexity: O(1)
+```
+
+### Move all negative elements to end of array
+
+#### Method 1 - Dequeue
+
+```java showLineNumbers
+public class Solution {
+    void segregateElements(int arr[],int n){
+        // 
+        Deque<Integer> deque = new LinkedList<Integer>();
+        // If negative move to end of array and remove that element.
+        for(int i = 0; i < n; i++){
+            if(arr[i] < 0){
+                deque.add(arr[i]);
+                arr[i] = 0;
+            }
+        }
+        // Move all negative elements to end of array.
+        int i = 0;
+        while(!deque.isEmpty()){
+            arr[i] = deque.remove();
+            i++;
+        }
+    }
+}
+// Time Complexity: O(n)
+// Space Complexity: O(n)
+```
+
+<code>✅ Using Dequeue method, iterate over the elements and keep a count of the number of negative elements. ✅ Once the elements are pushed to Dequeue and then push them to the array. ✅With the count of the negative values, reverse the array from end.</code>
+
+#### Method 2 - Using Priority Queue
+
+```java showLineNumbers
+public class Solution {
+    void segregateElements(int arr[],int n){
+        PriorityQueue<Integer> pq = new PriorityQueue<Integer>();
+        for(int i = 0; i < n; i++){
+            if(arr[i] < 0){
+                pq.add(arr[i]);
+            }
+        }
+        for(int i = 0; i < n; i++){
+            if(arr[i] >= 0){
+                arr[i] = pq.poll();
+            }
+        }
+    }
+}
+// Time Complexity: O(n)
+// Space Complexity: O(n)
+```
+
+#### Method 3 - Using Sorting
+
+```java showLineNumbers
+public class Solution {
+    void segregateElements(int arr[],int n){
+        Arrays.sort(arr);
+        for(int i = 0; i < n; i++){
+            if(arr[i] < 0){
+                arr[i] = arr[n - 1];
+                arr[n - 1] = -1;
+                n--;
+            }
+        }
+    }
+}
+// Time Complexity: O(nlog(n))
+// Space Complexity: O(1)
+```
+
+#### Method 4 - Using Sorting (Reverse Order)
+
+```java showLineNumbers
+public class Solution {
+    void segregateElements(int arr[],int n){
+        
+        
+    }
+}
+// Time Complexity: O(nlog(n))
 // Space Complexity: O(1)
 ```

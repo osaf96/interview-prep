@@ -12,7 +12,7 @@ last_modified: 2022-06-08T16:35:30.3530
 
 ## Counting Number of digits in a Number
 
-```java
+```java showLineNumbers
 class Solution {
     public static void main(String[] args){
         int number = 200;

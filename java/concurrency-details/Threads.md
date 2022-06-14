@@ -17,7 +17,7 @@ last_modified: 2020-05-30T15:54:15+02:00
 
 Starting a new thread manually:
 
-```java
+```java showLineNumbers
 Runnable task = () -> {
     // ...
 };
@@ -30,7 +30,7 @@ Note: typically, you are better off letting executors manage thread creation for
 
 Making the current thread sleep for a given amount of time:
 
-```java
+```java showLineNumbers
 Thread.sleep(millis);
 ```
 
@@ -46,7 +46,7 @@ In Java, the code running inside a thread is responsible for ensuring that it ca
 
 A `Runnable` can check the _interruption status_ of its thread and then respond accordingly. Typically, this means stopping the computations.
 
-```java
+```java showLineNumbers
 Runnable task = () -> {
     while (moreWorkAvailable()) {
         if (Thread.currentThread().isInterrupted()) {
@@ -68,7 +68,7 @@ When you are calling a method throwing `InterruptedException` at a point where y
 
 You can mark a thread as a daemon thread, which indicates that the thread is just a helper for other threads and should not prevent the program from exiting. When all non-daemon threads finish, the program exits.
 
-```java
+```java showLineNumbers
 Thread thread = new Thread(task);
 thread.setDaemon(true);
 thread.start();

@@ -16,7 +16,7 @@ last_modified: 2022-06-08T15:36:32.3632
 
 ### One level of Comparisons
 
-```java
+```java showLineNumbers
 class Student {
     int rollno;
     String name, address;
@@ -42,7 +42,7 @@ class Solution {
 
 ### Two levels of Comparisons.
 
-```java
+```java showLineNumbers
 class Student {
     String Name;
     int Age;

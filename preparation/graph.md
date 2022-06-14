@@ -12,7 +12,7 @@ last_modified: 2022-06-08T15:36:32.3632
 
 ## Detect Cycle in a Directed Graph.
 
-```java
+```java showLineNumbers
 class Solution {
     boolean isCyclicUtil(int i, boolean[] visited, boolean[] recursionStack) {
             // Mark the current node as visited and

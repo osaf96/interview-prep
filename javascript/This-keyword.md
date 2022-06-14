@@ -34,7 +34,7 @@ This is the most basic case, where the function is directly called without doing
 
 Example:
 
-```javascript
+```java showLineNumbersscript
 function logA() {
     console.log(this.a);
 }
@@ -55,7 +55,7 @@ _Implicit binding_ occurs when the function is called through an object that hol
 
 Example:
 
-```javascript
+```java showLineNumbersscript
 function logA() {
     console.log(this.a);
 }
@@ -76,7 +76,7 @@ secondObject.doSomething(); // second
 
 One tricky thing: it's easy to lose that implicit binding!
 
-```javascript
+```java showLineNumbersscript
 function logA() {
     console.log(this.a);
 }
@@ -94,7 +94,7 @@ As we see above, assigning the function to a variable and then calling it doesn'
 
 One case where we need to be careful with that is when passing functions around as callbacks. Example:
 
-```javascript
+```java showLineNumbersscript
 function logA() {
     console.log(this.a);
 }
@@ -121,7 +121,7 @@ As the name suggests, _explicit binding_ is more explicit about what the functio
 
 Example:
 
-```javascript
+```java showLineNumbersscript
 function logA() {
     console.log(this.a);
 }
@@ -150,7 +150,7 @@ Some things to notice:
 
 Other use case: _monkey patching_ (extending the behavior of a function defined on an existing object):
 
-```javascript
+```java showLineNumbersscript
 const existingObject = {
     a: "test",
     logA: function () {
@@ -171,7 +171,7 @@ existingObject.logA(); // before, test, after
 
 Interesting monkey patching trick: find the source of unwanted console output
 
-```javascript
+```java showLineNumbersscript
 ["log", "warn"].forEach(function (method) {
     const old = console[method];
     
@@ -198,7 +198,7 @@ Important: `new` does not require any specific kind of function to be called on!
 
 Example:
 
-```javascript
+```java showLineNumbersscript
 // the PascalCase name is a convention for function intended to be called with new
 // JavaScript itself doesn't care about this
 function Test(a) {
@@ -227,7 +227,7 @@ One exception to the behavior of `this` inside a function occurs when using _arr
 
 One use case: calling other function on same object from a callback
 
-```javascript
+```java showLineNumbersscript
 const theObject = {
     testA: function () {
         console.log("testA");
@@ -259,7 +259,7 @@ theObject.testA();
 
 Also note that, because of the fact that arrow functions don't have their own `this`, JavaScript does not allow you to call them using the `new` keyword:
 
-```javascript
+```java showLineNumbersscript
 const Test = () => {
     this.a = "test";
 }

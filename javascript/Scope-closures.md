@@ -36,7 +36,7 @@ Contents of an execution context:
 
 Example function hosting:
 
-```javascript
+```java showLineNumbersscript
 foo(); // test
 
 function foo() {
@@ -46,7 +46,7 @@ function foo() {
 
 Example variable hoisting:
 
-```javascript
+```java showLineNumbersscript
 function foo() {
     console.log(a); // undefined
     var a = 1;
@@ -56,7 +56,7 @@ function foo() {
 foo();
 ```
 
-```javascript
+```java showLineNumbersscript
 function foo() {
     console.log(a); // ReferenceError: Cannot access 'a' before initialization
     const a = 1;
@@ -79,7 +79,7 @@ JavaScript uses **lexical scoping**:
 
 Example:
 
-```javascript
+```java showLineNumbersscript
 const a = "a";
 
 function test1() {
@@ -111,7 +111,7 @@ Note that the inner function cannot only read variables defined in the outer fun
 
 Example: "uncallbacking" a synchronous callback
 
-```javascript
+```java showLineNumbersscript
 function test(input, callback) {
     callback(input * 2);
 }
@@ -131,7 +131,7 @@ console.log(uncallbacked(5)) // 10
 
 Other example: storing a Promise's `resolve` and `reject` function to call them from wherever we want
 
-```javascript
+```java showLineNumbersscript
 let storedResolve;
 let storedReject;
 
@@ -157,7 +157,7 @@ For more use cases, also see the section on closures below.
 
 Functions are a good and common way to hide variables and functions from outside code. Consider the following code, which defines a variable `b` but doesn't want any other code to know about it.
 
-```javascript
+```java showLineNumbersscript
 const a = 2;
 
 function foo() {
@@ -175,7 +175,7 @@ Problem with the above: while we avoid making `b` available in the global scope,
 
 An interesting alternative are **IIFEs** (**I**mmediately **I**nvoked **F**unction **E**xpressions). The structure is similar, but we put parentheses around the function in order to turn it into an expression (meaning the function declaration doesn't sit in the global scope) and we add parentheses at the end to immediately invoke it
 
-```javascript
+```java showLineNumbersscript
 const a = 2;
 
 (function(){
@@ -193,7 +193,7 @@ But functions are not the only way to hide variables and functions from outside 
 
 Simple example:
 
-```javascript
+```java showLineNumbersscript
 if (true) {
     var a = "a";
 }
@@ -210,7 +210,7 @@ Block scope can also be used with loops to ensure that variables used for iterat
 
 Loop without block scope (using `var`):
 
-```javascript
+```java showLineNumbersscript
 for (var i = 0; i < 10; i++) {
     console.log(i);
 }
@@ -220,7 +220,7 @@ console.log(i); // 10
 
 Loop with block scope (using `let`):
 
-```javascript
+```java showLineNumbersscript
 for (let i = 0; i < 10; i++) {
     console.log(i);
 }
@@ -238,7 +238,7 @@ What makes closures really interesting in JavaScript is that an inner function c
 
 Use case: function factories
 
-```javascript
+```java showLineNumbersscript
 function makeGreeter(name) {
     return function() {
         console.log("Hello " + name);
@@ -253,7 +253,7 @@ greetJohn(); // Hello John
 
 Use case: simulating private variables (this is called the Revealing Module Pattern)
 
-```javascript
+```java showLineNumbersscript
 function makeCounter() {    
     let currentCount = 0; // not accessible to outside code
   
@@ -283,7 +283,7 @@ console.log(counter.getCurrent()); // 1
 
 When creating functions as part of a loop, you need to be especially careful about closures:
 
-```javascript
+```java showLineNumbersscript
 // logs 10, 10, 10, 10, 10, 10, 10, 10, 10, 10
 for (var i = 0; i < 10; i++) {
     setTimeout(() => console.log(i), 0);
@@ -294,7 +294,7 @@ What happens here is that the function's closure allows it to access `i` , but b
 
 The same can happen with purely synchronous code:
 
-```javascript
+```java showLineNumbersscript
 var functions = [];
 
 for (var i = 0; i < 10; i++) {
@@ -309,7 +309,7 @@ If you use ESLint, it can protect you from these kinds of confusing behavior usi
 
 Modern solution: use `let`, which makes sure that every iteration of the loop gets its own block-scoped counter variable
 
-```javascript
+```java showLineNumbersscript
 // logs 0, 1, 2, 3, 4, 5, 6, 7, 8, 9
 for (let i = 0; i < 10; i++) {
     setTimeout(() => console.log(i), 0);
@@ -318,7 +318,7 @@ for (let i = 0; i < 10; i++) {
 
 Alternative solution: create an intermediate function that gets the counter as an argument rather than accessing it through the scope chain
 
-```javascript
+```java showLineNumbersscript
 // logs 0, 1, 2, 3, 4, 5, 6, 7, 8, 9
 for (var i = 0; i < 10; i++) {
     setTimeout(getLogger(i), 0);

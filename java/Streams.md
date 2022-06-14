@@ -29,7 +29,7 @@ Example: counting all of the words in a list that are longer than 3 characters.
 
 The classic imperative way (_imperative_, focus on _how_ to do it):
 
-```java
+```java showLineNumbers
 long numberLongWords = 0;
 
 for (String word: words) {
@@ -41,7 +41,7 @@ for (String word: words) {
 
 The streams approach (more _declarative_, focus on _what_ to do without specifying exactly how):
 
-```java
+```java showLineNumbers
 numberLongWords = words.stream()
         .filter(word -> word.length() > 3)
         .count();
@@ -70,7 +70,7 @@ Obtaining a stream from an array:
 -   You can use the static `Stream.of()` method and pass the array to it. That method has a varargs parameter, so instead of an actual array you can also pass it a variable number of arguments that will make up the stream.
 -   If you already have an array but want a stream representing only a part of it, you can use the method `Arrays.stream(array, from, to)` to get such a stream
 
-```java
+```java showLineNumbers
 Stream.of("a", "b", "c");
 Stream.ofNullable(nullableString); // 0 elements if nullableString == null, 1 otherwise
 
@@ -85,17 +85,17 @@ Creating infinite streams:
 -   Use the `Stream.iterate()` method when the next value of a stream needs to depend on the previous value
     -   Since Java 9, there is also an overload for this method that takes 3 arguments instead of 2. The added argument (in the middle, not at the end) is a `Predicate` that specifies when the generation of new elements should finish. If the `Predicate` fails for a newly generated element, that element is not added to the stream and the generation of new elements is stopped.
 
-```java
+```java showLineNumbers
 Stream.generate(() -> "constant"); // infinite constant stream
 Stream.generate(Math::random); // infinite stream of random values
 ```
 
-```java
+```java showLineNumbers
 Stream<Integer> powersOfTwo = 
         Stream.iterate(2, n -> n * 2);
 ```
 
-```java
+```java showLineNumbers
 Stream<Integer> powersOfTwoSmallerThanFiveHundred = 
         Stream.iterate(2, n -> n < 500, n -> n * 2);
 ```
@@ -104,13 +104,13 @@ Stream<Integer> powersOfTwoSmallerThanFiveHundred =
 
 Filter:
 
-```java
+```java showLineNumbers
 words.stream().filter(word -> word.length() > 12);
 ```
 
 Map:
 
-```java
+```java showLineNumbers
 words.stream().map(String::toUpperCase);
 ```
 
@@ -119,55 +119,55 @@ Flatmap:
 -   apply operation that turns every element into a stream
 -   flatten resulting streams into a single stream
 
-```java
+```java showLineNumbers
 words.stream().flatMap(word -> Stream.of(word.split("")));
 ```
 
 Limit number of elements:
 
-```java
+```java showLineNumbers
 infiniteStream.limit(100)
 ```
 
 Skip a number of elements:
 
-```java
+```java showLineNumbers
 words.stream().skip(1)
 ```
 
 Take elements from stream while a certain condition is true (and stop then)
 
-```java
+```java showLineNumbers
 Stream.of("a", "a", "b", "a").takeWhile(letter -> letter.equals("a")) // a, a
 ```
 
 Drop elements while a certain condition is true (get stream of all elements starting from the first element for which the condition was true)
 
-```java
+```java showLineNumbers
 Stream.of("a", "a", "b", "a").dropWhile(letter -> letter.equals("a")) // b, a
 ```
 
 Concatenate streams (only makes sense if first one not infinite):
 
-```java
+```java showLineNumbers
 Stream.concat(firstStream, secondStream);
 ```
 
 Suppress duplicates:
 
-```java
+```java showLineNumbers
 words.stream().distinct();
 ```
 
 Sorting:
 
-```java
+```java showLineNumbers
 words.stream().sorted(Comparator.comparing(String::length));
 ```
 
 Invoke a function every time an element is retrieved:
 
-```java
+```java showLineNumbers
 Stream.iterate(2, n -> n * 2)
         .peek(System.out::println) // executed every time an element is generated
         .limit(20)
@@ -176,7 +176,7 @@ Stream.iterate(2, n -> n * 2)
 
 The `peek` function from the above example is also useful for using a debugger on a stream:
 
-```java
+```java showLineNumbers
 Stream.iterate(2, n -> n * 2).peek(x -> {
     System.out.println(x); // set breakpoint on this line
 }).limit(20).toArray();
@@ -190,19 +190,19 @@ Streams are lazy -> without terminal operations, nothing happens at all!
 
 Count number of elements:
 
-```java
+```java showLineNumbers
 words.stream().filter(word -> word.length() > 12).count();
 ```
 
 Get min or max:
 
-```java
+```java showLineNumbers
 words.stream().max(String::compareToIgnoreCase); // returns Optional<String>
 ```
 
 Find first element:
 
-```java
+```java showLineNumbers
 words.stream()
         .filter(word -> word.length() > 12)
         .findFirst(); // returns Optional<String>
@@ -210,7 +210,7 @@ words.stream()
 
 Find any element (useful with parallel streams):
 
-```java
+```java showLineNumbers
 words.stream()
         .filter(word -> word.length() > 12)
         .findAny(); // returns Optional<String>
@@ -218,20 +218,20 @@ words.stream()
 
 Check if something matches
 
-```java
+```java showLineNumbers
 words.stream().anyMatch(word -> word.length() > 12) // returns boolean
 ```
 
 Execute a function for each element:
 
-```java
+```java showLineNumbers
 words.stream().forEach(System.out::println); // not guaranteed to preserve order
 words.stream().forEachOrdered(System.out::println) // guaranteed to preserve order
 ```
 
 Reduce to a sum, count, average, maximum or minimum value:
 
-```java
+```java showLineNumbers
 IntSummaryStatistics summary =     
         words.stream().collect(Collectors.summarizingInt(String::length));
         
@@ -241,7 +241,7 @@ double average = summary.getAverage();
 
 Concatenate stream of strings:
 
-```java
+```java showLineNumbers
 words.stream().collect(Collectors.joining(", "))
 ```
 
@@ -249,32 +249,32 @@ words.stream().collect(Collectors.joining(", "))
 
 Array:
 
-```java
+```java showLineNumbers
 // to get an array of the correct type (not Object), we need to pass a constructor
 String[] result = words.stream().toArray(String[]::new);
 ```
 
 List:
 
-```java
+```java showLineNumbers
 words.stream().collect(Collectors.toList());
 ```
 
 Set:
 
-```java
+```java showLineNumbers
 words.stream().collect(Collectors.toSet());
 ```
 
 Specific kind of collection by passing constructor:
 
-```java
+```java showLineNumbers
 words.stream().collect(Collectors.toCollection(TreeSet::new));
 ```
 
 ### Transforming into maps
 
-```java
+```java showLineNumbers
 words.stream().collect(
         Collectors.toMap(String::length, String::toLowerCase)):    
 
@@ -286,7 +286,7 @@ Note: the above statements will throw if there is more than one element with the
 
 Fix: provide third function that resolves the conflict and determines the value for the key given the existing and new value
 
-```java
+```java showLineNumbers
 words.stream().collect(
         Collectors.toMap(
                 String::length, 
@@ -298,14 +298,14 @@ Specific kind of map -> pass as fourth argument
 
 Transforming into map of lists:
 
-```java
+```java showLineNumbers
 words.stream().collect(
         Collectors.groupingBy(String::length));
 ```
 
 If classifier function you want to pass to groupingBy is a predicate, partitioningBy is more efficient:
 
-```java
+```java showLineNumbers
 // Map<Boolean, List<String>>
 words.stream().collect(
         Collectors.partitioningBy(word -> word.startsWith("t"))); 
@@ -313,7 +313,7 @@ words.stream().collect(
 
 Transforming into map of sets:
 
-```java
+```java showLineNumbers
 words.stream().collect(
         Collectors.groupingBy(String::length, Collectors.toSet()));
 ```
@@ -322,7 +322,7 @@ words.stream().collect(
 
 When working with primitive values, it is more efficient to work directly with those primitive values instead of using their boxed versions. There are specialized types `IntStream`, `DoubleStream`, ... that work directly with primitive types, without using wrappers.
 
-```java
+```java showLineNumbers
 IntStream stream = IntStream.of(1, 1, 2, 3, 5);
 IntStream stream = IntStream.range(0, 100); // upper bound excluded
 IntStream stream = IntStream.rangeClosed(0, 100); // upper bound included
@@ -332,13 +332,13 @@ IntStream stream = words.stream.mapToInt(String::length);
 
 Additional functionality present in `IntStream`, `DoubleStream`, ...: simple min, max, sum, .. methods
 
-```java
+```java showLineNumbers
 System.out.println(IntStream.rangeClosed(1, 100).sum());
 ```
 
 Converting a primitive type stream to an object stream:
 
-```java
+```java showLineNumbers
 Stream<Integer> stream = intStream.boxed();
 ```
 
@@ -346,7 +346,7 @@ Stream<Integer> stream = intStream.boxed();
 
 Getting a parallel stream:
 
-```java
+```java showLineNumbers
 collection.parallelStream()
 existingStream.parallel()
 ```
@@ -357,13 +357,13 @@ Note: there is quite some overhead in parallelization, so don't blindly make all
 
 Getting an idea of the threads involved:
 
-```java
+```java showLineNumbers
 .peek(string -> System.out.println(Thread.currentThread().getName()))
 ```
 
 Important: operations to execute in parallel should be stateless and should be able to be executed in arbitrary order!
 
-```java
+```java showLineNumbers
 // bad code (likely to get different - wrong - results each time)
 int[] shortWordCounts = new int[12]
 
@@ -401,7 +401,7 @@ Parallel streams use the common fork-join pool (`ForkJoinPool.commoPool()`). The
 
 Example illustrating this:
 
-```java
+```java showLineNumbers
 public static void main(String[] args) throws InterruptedException {     
     System.out.println("CommonPool Parallelism: " + ForkJoinPool.commonPool().getParallelism());
     ExecutorService es = Executors.newCachedThreadPool();  
@@ -447,7 +447,7 @@ See also [Concurrency](./Concurrency.md)
 
 Example:
 
-```java
+```java showLineNumbers
 List<Integer> list = Arrays.asList(1, 2, 3);
 
 // simple nested loop

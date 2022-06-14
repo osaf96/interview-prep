@@ -27,7 +27,7 @@ You cannot break an item, either pick the complete item or don’t pick it (0-1 
 
 ### Knapsack Recursive
 
-```java
+```java showLineNumbers
 class KnapsackRecursive {
     static int knapSack(int W, int wt[], int val[], int n) {
     // Base Case
@@ -63,7 +63,7 @@ class KnapsackRecursive {
 
 ### Knapsack Recursive + Memoization
 
-```java
+```java showLineNumbers
 class KnapsackRecursiveMemoization{
     static int knapSackRec(int W, int wt[], int val[], int n, int[][] dp) {
     // Base condition
@@ -111,7 +111,7 @@ class KnapsackRecursiveMemoization{
 Given a knapsack weight W and a set of n items with certain value vali and weight wti, we need to calculate the maximum amount that could make up this quantity exactly. 
 This is different from classical Knapsack problem, here we are allowed to use unlimited number of instances of an item.
 
-```java
+```java showLineNumbers
 
 class KnapsackDP {
     private static int unboundedKnapsack(int W, int n, int[] val, int[] wt) {
@@ -140,7 +140,7 @@ class KnapsackDP {
 // Auxiliary Space: O(W).
 ```
 
-```java
+```java showLineNumbers
 
 // dp[i] = 0
 // dp[i] = max(dp[i], dp[i-wt[j]] + val[j] 
@@ -152,7 +152,7 @@ class KnapsackDP {
 
 ## LRU Cache Implementation.
 
-```java
+```java showLineNumbers
 class Solution {
     int capacity;
     Queue<Integer> q = new ArrayDeque<>();
@@ -195,7 +195,7 @@ class Solution {
 >     -   **get least recently used item** `O(1)`
 >     -   **access item** `O(n)`
 
-```java
+```java showLineNumbers
 class LRUCache {
     Set<Integer> cache;
     int capacity;
@@ -230,7 +230,7 @@ class LRUCache {
 
 ## Longest Common Subsequence.
 
-```java
+```java showLineNumbers
 class Solution {
 
     void lcs(String S1, String S2, int m, int n) {
@@ -278,7 +278,7 @@ class Solution {
 
 ## Merge K Sorted Linked List.
 
-```java
+```java showLineNumbers
 ListNode merge(ListNode[] heads) {
 ListNode resultHead = null;
 ListNode current = null;
@@ -324,7 +324,7 @@ return resultHead;
 
 ## Breadth-First Search (BFS) in 2D Matrix
 
-```java
+```java showLineNumbers
 class Solution {
 
   public void BFS(int[][] grid) {
@@ -362,7 +362,7 @@ class Solution {
 
 ## Kadane’s Algorithm (Largest Sum of Contiguous Subarray)
 
-```java
+```java showLineNumbers
 class KadaneAlgo{
     int maxSubArraySum(int a[]) {
     int max_so_far = a[0], max_ending_here = a[0];
@@ -379,7 +379,7 @@ class KadaneAlgo{
 
 ## Boyer-Moore Voting Algorithm (Majority Element)
 
-```java
+```java showLineNumbers
 class Solution {
     public int majorityElement(int[] nums) {
         int count = 0;
@@ -409,7 +409,7 @@ class Solution {
 
 ## Brian Kernighan’s Algorithm (Count set bits in an integer)
 
-```java
+```java showLineNumbers
 class Solution {
     int countSetBits(int n) {
         int count = 0;

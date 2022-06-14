@@ -63,7 +63,7 @@ Module declaration sits in module-info.java file in base directory. This file is
 
 Example module-info.java file:
 
-```java
+```java showLineNumbers
 module java.sql {
     exports java.sql;
     exports javax.sql;

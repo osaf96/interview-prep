@@ -20,7 +20,7 @@ last_modified: 2022-06-08T15:36:32.3632
 
 ## Node Class
 
-```java
+```java showLineNumbers
 Class Node{
     int data;
     Node next;
@@ -33,7 +33,7 @@ Class Node{
 
 ## Traversing a Linked List
 
-```java
+```java showLineNumbers
 public void traverseLinkedList(Node head) {
     Node temp = head;
     while (temp != null) {
@@ -45,7 +45,7 @@ public void traverseLinkedList(Node head) {
 
 ## Removing First Node of Linked List
 
-```java
+```java showLineNumbers
 public void removeFirstNodeLinkedList(Node head) {
     if (head == null) {
         return;
@@ -56,7 +56,7 @@ public void removeFirstNodeLinkedList(Node head) {
 
 ## Removing Last Node of Linked List
 
-```java
+```java showLineNumbers
 public ListNode removeLastNodeLinkedList(Node head) {
     if (head == null || head.next == null) {
         return null;
@@ -72,7 +72,7 @@ public ListNode removeLastNodeLinkedList(Node head) {
 
 ## Getting End of Linked List
 
-```java
+```java showLineNumbers
 public void getLastNodeOfLinkedList(Node head) {
     //edge-case - if head is null
     if (head == null) {
@@ -88,7 +88,7 @@ public void getLastNodeOfLinkedList(Node head) {
 
 ## Inserting element at the end of the Linked List.
 
-```java
+```java showLineNumbers
 class Solution {
     public ListNode insert(ListNode root, int item)
     {
@@ -116,7 +116,7 @@ class Solution {
 <li>temp will be used to store the next node and will be updated every time to curr.</li>
 </ul>
 
-```java
+```java showLineNumbers
 class Solution {
     public ListNode reverseList(ListNode head) {
         ListNode prev = null;
@@ -136,7 +136,7 @@ class Solution {
 
 ## Sorting a Linked List using Heap Sort.
 
-```java
+```java showLineNumbers
 class Solution {
     public ListNode sortList(ListNode head) {
         ListNode curr = head;
@@ -165,7 +165,7 @@ class Solution {
 
 ## Remove Duplicates from Sorted List. [Sentinel + Predecessor]
 
-```java
+```java showLineNumbers
 class Solution {
 
     public ListNode deleteDuplicates(ListNode head) {

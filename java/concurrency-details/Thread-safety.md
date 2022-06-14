@@ -30,7 +30,7 @@ Basic idea: updates to a variable might not be visible across different threads!
 
 Example:
 
-```java
+```java showLineNumbers
 private static boolean done = false;
 
 public static void main(String[] args) {
@@ -86,7 +86,7 @@ A race condition is a situation where multiple threads are each attempting to pe
 
 Example race condition:
 
-```java
+```java showLineNumbers
 private static volatile int count = 0;
 
 public static void main(String[] args) {
@@ -113,7 +113,7 @@ Result you are likely to get: task 999 printing a number lower than 100000, and 
 
 Problem: `count++` is not an atomic operation! It is actually equivalent to the following:
 
-```java
+```java showLineNumbers
 temp = count + 1;
 // at this point, another thread might take over and compute and/or set the new count
 count = temp; // if something happened in between, this likely sets an incorrect value
@@ -156,7 +156,7 @@ Collections in `java.util.concurrent` are thread-safe and efficient: multiple th
 
 Example: `ConcurrentHashMap`
 
-```java
+```java showLineNumbers
 ConcurrentHashMap<String, Long> map = new ConcurrentHashMap<>();
 
 // thread-safe methods
@@ -199,7 +199,7 @@ Package `java.util.concurrent.atomic` has some useful classes that provide a thr
 
 Example:
 
-```java
+```java showLineNumbers
 AtomicLong nextId = new AtomicLong();
         
 // in some thread
@@ -208,7 +208,7 @@ long id = nextId.incrementAndGet(); // gets value, adds 1, sets it and returns i
 
 The `incrementAndGet()` method is atomic, which means that it executes all of its operations before another thread is able to access the `AtomicLong`. This means that multiple threads can safely access the same `AtomicLong` instance concurrently.
 
-```java
+```java showLineNumbers
 AtomicLong largest = new AtomicLong();
 
 // thread-safe
@@ -228,7 +228,7 @@ Better alternative when lots of threads will be updating at the same time: `Long
 -   Keeps multiple variables, the sum of all those variables makes up the current value
 -   This is efficient in the common situation where we only need the sum after all the work has been done
 
-```java
+```java showLineNumbers
 LongAdder count = new LongAdder();
         
 // in some thread
@@ -241,7 +241,7 @@ Sometimes, you might want multiple threads to have access to an instance of a ce
 
 Example: letting multiple threads "share" a `NumberFormat`
 
-```java
+```java showLineNumbers
 private static final ThreadLocal<NumberFormat> currencyFormat = ThreadLocal
         .withInitial(() -> NumberFormat.getCurrencyInstance());
 

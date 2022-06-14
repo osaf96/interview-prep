@@ -23,17 +23,17 @@ last_modified: 2020-07-11T16:56:51.595Z
 
 Simple class hierarchy for examples:
 
-```java
+```java showLineNumbers
 public class Animal {}
 ```
 
-```java
+```java showLineNumbers
 public class Dog extends Animal {}
 ```
 
 Example generic interface:
 
-```java
+```java showLineNumbers
 List<Dog> dogList = new ArrayList<Dog>();
 dogList.add(new Dog());
 Dog dog = dogList.get(0);
@@ -42,7 +42,7 @@ dogList.add(new Object()); // compiler error
 
 Example generic method:
 
-```java
+```java showLineNumbers
 public <T extends Animal> T getFirstAnimal(List<T> animals) {
     return animals.get(0);
 }
@@ -54,7 +54,7 @@ public <T extends Animal> T getFirstAnimal(List<T> animals) {
 
 What if you need something representing any kind of list of animals?
 
-```java
+```java showLineNumbers
 List<Dog> dogList = new ArrayList<Dog>();
 List<Animal> animalList = dogList; // compiler error
 ```
@@ -63,14 +63,14 @@ Reason why this fails: a proper `List<Animal>` allows adding any `Animal`, while
 
 If we only care about the fact that our List contains some kind of `Animal`s, we can use type wildcards to define this:
 
-```java
+```java showLineNumbers
 List<Dog> dogList = new ArrayList<Dog>();
 List<? extends Animal> extendsAnimalList = dogList; // works
 ```
 
 `? extends Animal` is called a _subtype wildcard_. `? super Dog` is called a _supertype wildcard_
 
-```java
+```java showLineNumbers
 List<Dog> dogList = new ArrayList<Dog>();
 
 List<? extends Animal> extendsAnimalList = dogList;
@@ -88,7 +88,7 @@ superDogList.add(new Dog()); // works
 
 We saw above that it is not possible to assign a `List<Dog>` to a `List<Animal>`, which makes sense. However, this is not the case for arrays. You can easily assign a `Dog[]` array to an `Animal[]` array without the compiler complaining. However, if you then attempt to insert an `Animal` that is not a `Dog` into the array, you will get an error at runtime.
 
-```java
+```java showLineNumbers
 Dog[] dogs = new Dog[10];
 Animal[] animals = dogs; // works
 animals[0] = new Animal() // fails at runtime
@@ -102,7 +102,7 @@ Java only added generics in version 1.5. Before that, instead of the generic `Ar
 
 Example generic type:
 
-```java
+```java showLineNumbers
 public class AnimalWrapper<T extends Animal> {    
     private T wrappedAnimal;
 
@@ -118,7 +118,7 @@ public class AnimalWrapper<T extends Animal> {
 
 The above type is compiled into the following _raw_ type:
 
-```java
+```java showLineNumbers
 public class AnimalWrapper {    
     private Animal wrappedAnimal;
 
@@ -138,7 +138,7 @@ Before erasing the types, the compiler checks for errors involving generic types
 
 Although the compiler checks for generic type mismatches, that this in itself is not always enough. An example is the following code:
 
-```java
+```java showLineNumbers
 List<Dog> dogList = new ArrayList<Dog>();        
 List rawList = dogList;        
 Animal animal = new Animal();
@@ -149,7 +149,7 @@ The above code generates warnings, but if you choose to ignore those, you now ha
 
 Java handles this in the compiler by inserting a cast whenever the code _reads_ from an expression with erased type. This means that, while we can add the `Animal` to our `List<Dog>`, we will get a `ClassCastException` if we try to retrieve that `Animal` as a `Dog`.
 
-```java
+```java showLineNumbers
 List<Dog> dogList = new ArrayList<Dog>();  
 List rawList = dogList;
 Animal animal = new Animal();
@@ -161,7 +161,7 @@ Dog retrievedDog = dogList.get(0); // ClassCastException
 
 Compiled code is equivalent to this:
 
-```java
+```java showLineNumbers
 List dogList = new ArrayList();  
 List rawList = dogList;
 Animal animal = new Animal();
@@ -175,7 +175,7 @@ Dog retrievedDog = (Dog) dogList.get(0); // ClassCastException
 
 when we get the `ClassCastException` on the last line, that does not help us to find the actual source of the problem (which is the code where we inserted an `Animal` inside a `List<Dog>`). When debugging such problem, it can be useful to use a _checked view_ of the `List`. This checks the type of inserted objects as they are inserted.
 
-```java
+```java showLineNumbers
 List<Dog> dogList = 
     Collections.checkedList(new ArrayList<Dog>(), Dog.class);
 
@@ -192,7 +192,7 @@ In some cases, basic type erasure would lead to problems with method overriding.
 
 Example class:
 
-```java
+```java showLineNumbers
 public class GoodBoyList extends ArrayList<Dog>{
     @Override
     public boolean add(Dog dog) {
@@ -204,7 +204,7 @@ public class GoodBoyList extends ArrayList<Dog>{
 
 Now, let's say we use it this way:
 
-```java
+```java showLineNumbers
 GoodBoyList goodBoyList = new GoodBoyList();
 ArrayList<Dog> dogList = goodBoyList;
 dogList.add(new Dog());
@@ -214,7 +214,7 @@ After erasure, we have `add(Dog)` in `GoodBoyList` and `add(Object)` in `ArrayLi
 
 The compiler solves this by inserting a bridge method `add(Object)` into the `GoodBoyList` class. That method looks like this:
 
-```java
+```java showLineNumbers
 // overrides ArrayList.add(Object)
 public boolean add(Object dog) { 
     return this.add((Dog) dog); // calls add(Dog) 
@@ -243,7 +243,7 @@ The compiler takes care of the generation of bridge methods, so in principle you
 
 The Java language has a `Class<T>` class. A `Class<T>` object represent the class `T`. This class object can directly be obtained from the class `T`. It is also possible to to get a `Class` object from an instance of a class, but in that case you are getting the actual run-time type of that instance, which may be a subclass of its compile-time type.
 
-```java
+```java showLineNumbers
 Class<Dog> test = Dog.class; // ok
 Class<Dog> test2 = new Dog().getClass(); // error
 Class<? extends Dog> test3 = new Dog().getClass(); // ok
@@ -251,7 +251,7 @@ Class<? extends Dog> test3 = new Dog().getClass(); // ok
 
 You can use the `Class` class to get more information regarding the value of a type variable at run-time (so after type erasure). Example:
 
-```java
+```java showLineNumbers
 public class Test<T> {    
     Test(T object, Class<T> objectClass) {}
 }
