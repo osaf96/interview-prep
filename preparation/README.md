@@ -11,6 +11,7 @@
 -   [Bit Manipulation](bit-manipulation.md)
 -   [Common Problems](common-problems.md)
 -   [Comparators](comparators.md)
+-   [Complexity](complexity.md)
 -   [Deque](dequeue.md)
 -   [Depth First Search](dfs.md)
 -   [Graph](graph.md)

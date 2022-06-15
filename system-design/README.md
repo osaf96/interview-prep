@@ -6,4 +6,5 @@
 
 <!-- optional markdown-notes-tree directory description ends here -->
 
+-   [Pastebin System Design](pastebin.md)
 -   [Twitter System Design](twitter-system-design.md)
