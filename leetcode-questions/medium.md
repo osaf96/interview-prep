@@ -22,6 +22,7 @@ last_modified: 2022-06-10T00:17:44.1744
     -   [Edge Cases](#edge-cases-2)
     -   [Further Readings](#further-readings)
     -   [Problems based on Catalan Number](#problems-based-on-catalan-number)
+    -   [Solution](#solution)
 -   [Binary Tree Level Order Traversal II](#binary-tree-level-order-traversal-ii)
     -   [Inputs](#inputs-3)
     -   [Sub-problems](#sub-problems-1)
@@ -37,26 +38,26 @@ last_modified: 2022-06-10T00:17:44.1744
     -   [Snippets](#snippets)
         -   [Finding Middle node of LinkedList](#finding-middle-node-of-linkedlist)
     -   [Further Readings](#further-readings-2)
-    -   [Solution](#solution)
+    -   [Solution](#solution-1)
 -   [Path Sum II](#path-sum-ii)
     -   [Inputs](#inputs-5)
     -   [Sub-problems](#sub-problems-3)
     -   [Edge Cases](#edge-cases-5)
     -   [Further Readings](#further-readings-3)
-    -   [Solution](#solution-1)
+    -   [Solution](#solution-2)
         -   [Solution using Recursion](#solution-using-recursion)
 -   [Find K Pairs with Smallest Sums](#find-k-pairs-with-smallest-sums)
     -   [Inputs](#inputs-6)
     -   [Sub-problems](#sub-problems-4)
     -   [Edge Cases / Clarifications](#edge-cases--clarifications)
     -   [Further Readings](#further-readings-4)
-    -   [Solution](#solution-2)
+    -   [Solution](#solution-3)
 -   [Lexicographical Numbers](#lexicographical-numbers)
     -   [Inputs](#inputs-7)
     -   [Sub-problems](#sub-problems-5)
     -   [Edge Cases](#edge-cases-6)
     -   [Further Readings](#further-readings-5)
-    -   [Solution](#solution-3)
+    -   [Solution](#solution-4)
         -   [Using DFS](#using-dfs)
         -   [Using Sort on List](#using-sort-on-list)
         -   [Using Stack](#using-stack)
@@ -70,7 +71,7 @@ last_modified: 2022-06-10T00:17:44.1744
     -   [Sub-problems](#sub-problems-7)
         -   [Properties of a Square](#properties-of-a-square)
     -   [Edge Cases](#edge-cases-8)
-    -   [Solution](#solution-4)
+    -   [Solution](#solution-5)
         -   [Checkpoints](#checkpoints)
 
 ## Add Two Numbers
@@ -819,8 +820,17 @@ class Solution {
 
 ### Further Readings
 
-✅ What is the Catalan Number?<br /><br />
-![Catalan number](_img/medium/catalan-number.png)
+✅ What is the Catalan Number?<br />
+The Catalan numbers are a sequence of natural numbers that occur in various counting problems, 
+often involving recursively defined objects.
+
+    C(n,k) = (n!) / [(n-k)! * k!] = [ n(n-1)(n-2)(n-3)....1 ] / [ (n-k)! * k! ]
+
+    Now (n-k)! factor get cancelled from Numerator and Denominator , and we got
+    C(n, k) = [ n(n-1)...( n-(k+1) ) ] / [ k*(k-1)*(k-2)....1 ].
+            = [ (n-1)/1 ] * [ ( n-2)/2 ] * [ (n-3) / 3 ].....[ (n - (k+1)) / k ]
+
+    The first Catalan numbers for n = 0, 1, 2, 3, ... are 1, 1, 2, 5, 14, 42, 132, 429, 1430, 4862, 16796, 58786, ... 
 
 ### Problems based on Catalan Number
 
@@ -828,6 +838,24 @@ class Solution {
 ✅Count the number of possible Binary Search Trees with n keys.<br />
 ✅Count the number of full binary trees (A rooted binary tree is full if every vertex has either two children or no children) with n+1 leaves.<br />
 ✅Given a number n, return the number of ways you can draw n chords in a circle with 2 x n points such that no 2 chords intersect.<br />
+
+### Solution
+
+```java showLineNumbers
+class Solution {
+    public int numTrees(int n) {
+        long ans = 1;
+        int k = n;
+        n = 2*n;
+        
+        for(int i = 0  ; i < k ;i++){
+            ans *=  (n-i);
+            ans /=  (i+1);
+        }
+        return (int)(ans/(k+1));       
+    }
+}
+```
 
 <!-- ## Interleaving String
 

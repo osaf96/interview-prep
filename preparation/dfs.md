@@ -10,11 +10,10 @@ last_modified: 2022-06-08T15:36:32.3632
 
 -   [Introduction](#introduction)
 -   [Implementation of DFS](#implementation-of-dfs)
--   [Application of DFS](#application-of-dfs)
-    -   [Common Problems (Frequently Asked Questions)](#common-problems-frequently-asked-questions)
-        -   [Binary Tree Paths](#binary-tree-paths)
-        -   [Path Sum](#path-sum)
-        -   [Same Tree](#same-tree)
+-   [Common Problems (Frequently Asked Questions)](#common-problems-frequently-asked-questions)
+    -   [Binary Tree Paths](#binary-tree-paths)
+    -   [Path Sum](#path-sum)
+    -   [Same Tree](#same-tree)
 
 ## Introduction
 
@@ -58,11 +57,9 @@ public class Solution{
 }
 ```
 
-## Application of DFS
+## Common Problems (Frequently Asked Questions)
 
-### Common Problems (Frequently Asked Questions)
-
-#### Binary Tree Paths
+### Binary Tree Paths
 
 ```java showLineNumbers
 class Solution {
@@ -110,7 +107,7 @@ class Solution {
 }
 ```
 
-#### Path Sum
+### Path Sum
 
     Input: root = [5,4,8,11,null,13,4,7,2,null,null,null,1], targetSum = 22
     Output: true
@@ -144,7 +141,7 @@ class Solution {
 }
 ```
 
-#### Same Tree
+### Same Tree
 
     Input: p = [1,2,3], q = [1,2,3]
     Output: true
