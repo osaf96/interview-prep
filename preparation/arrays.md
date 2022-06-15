@@ -67,6 +67,19 @@ last_modified: 2022-06-08T16:35:30.3530
         -   [Method 2 - Using Priority Queue](#method-2---using-priority-queue)
         -   [Method 3 - Using Sorting](#method-3---using-sorting)
         -   [Method 4 - Using Extra Space.](#method-4---using-extra-space)
+    -   [Combination Sum of an Array to a Target (Contains Duplicates)](#combination-sum-of-an-array-to-a-target-contains-duplicates)
+        -   [Method 1 : Brute Force](#method-1--brute-force)
+        -   [Method 2 : Backtracking](#method-2--backtracking)
+    -   [Combination Sum of an Array to a Target II (No-Duplicates)](#combination-sum-of-an-array-to-a-target-ii-no-duplicates)
+        -   [Method 1 : Backtracking](#method-1--backtracking)
+    -   [Subsets of an Array (No-Duplicates)](#subsets-of-an-array-no-duplicates)
+        -   [Method 1 : Backtracking](#method-1--backtracking-1)
+    -   [Subsets of an Array (Contains-Duplicates)](#subsets-of-an-array-contains-duplicates)
+        -   [Method 1 : Backtracking](#method-1--backtracking-2)
+    -   [Permutations of an Array (No-Duplicates)](#permutations-of-an-array-no-duplicates)
+        -   [Method 1 : Backtracking](#method-1--backtracking-3)
+    -   [Permutations of an Array II (Contains-Duplicates)](#permutations-of-an-array-ii-contains-duplicates)
+        -   [Method 1 : Backtracking](#method-1--backtracking-4)
 
 ## Array Creation/Initialization
 
@@ -684,9 +697,7 @@ public class Solution {
 
 #### Method 1 - Dequeue
 
-<code>
 ✅ Using Dequeue method, iterate over the elements and keep a count of the number of negative elements. ✅ Once the elements are pushed to Dequeue and then push them to the array. ✅With the count of the negative values, reverse the array from end.
-</code>
 
 ```java showLineNumbers
 public class Solution {
@@ -714,10 +725,8 @@ public class Solution {
 
 #### Method 2 - Using Priority Queue
 
-<code>
-    ✅ This method is not recommended as it is `O(nlog(n))`. ✅ But it is a good method to understand how Min-Heap works on array.
-    ✅ Also if the problem is asking not to change the respective positions of the elements of the array, then this method is not the choice.
-</code>
+✅ This method is not recommended as it is `O(nlog(n))`. ✅ But it is a good method to understand how Min-Heap works on array.
+✅ Also if the problem is asking not to change the respective positions of the elements of the array, then this method is not the choice.
 
 ```java showLineNumbers
 public class Solution {
@@ -741,10 +750,8 @@ public class Solution {
 
 #### Method 3 - Using Sorting
 
-<code>
     ✅ This method is not recommended as it is `O(nlog(n))`. ✅ But it is a good method to understand how to sort an array.
     ✅ Also if the problem is asking not to change the respective positions of the elements of the array, then this method is not the choice.
-</code>
 
 ```java showLineNumbers
 public class Solution {
@@ -806,10 +813,10 @@ public class Solution {
 ### Combination Sum of an Array to a Target (Contains Duplicates)
 
 Given an array of distinct integers candidates and a target integer target, return a list of all unique combinations of candidates where the chosen numbers sum to target. You may return the combinations in any order.
-
 The same number may be chosen from candidates an unlimited number of times. Two combinations are unique if the frequency of at least one of the chosen numbers is different.
 
 #### Method 1 : Brute Force
+
 ```java showLineNumbers
 public class Solution {
     void combinationOfArray(int arr[],int n){
@@ -827,8 +834,10 @@ public class Solution {
 //Space Complexity: O(1)
 
 ```
+
 #### Method 2 : Backtracking
-``` java showLineNumbers
+
+```java showLineNumbers
 class Solution {
     public List<List<Integer>> combinationSum(int[] nums, int target) {
         List<List<Integer>> result = new ArrayList<>();
@@ -855,9 +864,11 @@ class Solution {
 //Time Complexity: O(2^n)
 //Space Complexity: O(n)
 ```
+
 ### Combination Sum of an Array to a Target II (No-Duplicates)
 
 #### Method 1 : Backtracking
+
 ```java showLineNumbers
 class Solution{
     public List<List<Integer>> combinationSum2(int[] nums, int target) {
@@ -888,6 +899,7 @@ class Solution{
 ### Subsets of an Array (No-Duplicates)
 
 #### Method 1 : Backtracking
+
 ```java showLineNumbers
 public List<List<Integer>> subsets(int[] nums) {
     List<List<Integer>> list = new ArrayList<>();
@@ -911,6 +923,7 @@ private void backtrack(List<List<Integer>> list , List<Integer> tempList, int []
 ### Subsets of an Array (Contains-Duplicates)
 
 #### Method 1 : Backtracking
+
 ```java showLineNumbers
 public List<List<Integer>> subsetsWithDup(int[] nums) {
     List<List<Integer>> list = new ArrayList<>();
@@ -935,6 +948,7 @@ private void backtrack(List<List<Integer>> list, List<Integer> tempList, int [] 
 ### Permutations of an Array (No-Duplicates)
 
 #### Method 1 : Backtracking
+
 ```java showLineNumbers
 public List<List<Integer>> permute(int[] nums) {
    List<List<Integer>> list = new ArrayList<>();
@@ -961,6 +975,7 @@ private void backtrack(List<List<Integer>> list, List<Integer> tempList, int [] 
 ### Permutations of an Array II (Contains-Duplicates)
 
 #### Method 1 : Backtracking
+
 ```java showLineNumbers
 public List<List<Integer>> permuteUnique(int[] nums) {
     List<List<Integer>> list = new ArrayList<>();
