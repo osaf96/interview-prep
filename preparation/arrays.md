@@ -802,3 +802,187 @@ public class Solution {
 // Time Complexity: O(n)
 // Space Complexity: O(n)
 ```
+
+### Combination Sum of an Array to a Target (Contains Duplicates)
+
+Given an array of distinct integers candidates and a target integer target, return a list of all unique combinations of candidates where the chosen numbers sum to target. You may return the combinations in any order.
+
+The same number may be chosen from candidates an unlimited number of times. Two combinations are unique if the frequency of at least one of the chosen numbers is different.
+
+#### Method 1 : Brute Force
+```java showLineNumbers
+public class Solution {
+    void combinationOfArray(int arr[],int n){
+        // 
+        for(int i = 0; i < n; i++){
+            for(int j = i; j < n; j++){
+                for(int k = j; k < n; k++){
+                    System.out.println(arr[i] + " " + arr[j] + " " + arr[k]);
+                }
+            }
+        }
+    }
+}
+//Time Complexity: O(n^3)
+//Space Complexity: O(1)
+
+```
+#### Method 2 : Backtracking
+``` java showLineNumbers
+class Solution {
+    public List<List<Integer>> combinationSum(int[] nums, int target) {
+        List<List<Integer>> result = new ArrayList<>();
+        List<Integer> path = new ArrayList<>();
+        backtrack(result,path,nums,target,0);
+        return result;
+    }
+    public void backtrack(List<List<Integer>> result,List<Integer> path,int[] nums,int target,int index) {
+        if(target == 0) {
+            result.add(new ArrayList<>(path));
+            return;
+        }
+        if(index == nums.length) {
+            return;
+        }
+        if(nums[index] <= target) {
+            path.add(nums[index]);
+            backtrack(result,path,nums,target-nums[index],index+1);
+            path.remove(path.size()-1);
+        }
+        backtrack(result,path,nums,target,index+1);
+    }
+}
+//Time Complexity: O(2^n)
+//Space Complexity: O(n)
+```
+### Combination Sum of an Array to a Target II (No-Duplicates)
+
+#### Method 1 : Backtracking
+```java showLineNumbers
+class Solution{
+    public List<List<Integer>> combinationSum2(int[] nums, int target) {
+    List<List<Integer>> list = new ArrayList<>();
+    Arrays.sort(nums);
+    backtrack(list, new ArrayList<>(), nums, target, 0);
+    return list;
+    
+    }
+
+    private void backtrack(List<List<Integer>> list, List<Integer> tempList, int [] nums, int remain, int start){
+        if(remain < 0) return;
+        else if(remain == 0) list.add(new ArrayList<>(tempList));
+        else{
+            for(int i = start; i < nums.length; i++){
+                if(i > start && nums[i] == nums[i-1]) continue; // skip duplicates
+                tempList.add(nums[i]);
+                backtrack(list, tempList, nums, remain - nums[i], i + 1);
+                tempList.remove(tempList.size() - 1); 
+            }
+        }
+    }
+} 
+//Time Complexity: O(2^n)
+//Space Complexity: O(n)
+```
+
+### Subsets of an Array (No-Duplicates)
+
+#### Method 1 : Backtracking
+```java showLineNumbers
+public List<List<Integer>> subsets(int[] nums) {
+    List<List<Integer>> list = new ArrayList<>();
+    Arrays.sort(nums);
+    backtrack(list, new ArrayList<>(), nums, 0);
+    return list;
+}
+
+private void backtrack(List<List<Integer>> list , List<Integer> tempList, int [] nums, int start){
+    list.add(new ArrayList<>(tempList));
+    for(int i = start; i < nums.length; i++){
+        tempList.add(nums[i]);
+        backtrack(list, tempList, nums, i + 1);
+        tempList.remove(tempList.size() - 1);
+    }
+}
+//Time Complexity: O(2^n)
+//Space Complexity: O(n)
+```
+
+### Subsets of an Array (Contains-Duplicates)
+
+#### Method 1 : Backtracking
+```java showLineNumbers
+public List<List<Integer>> subsetsWithDup(int[] nums) {
+    List<List<Integer>> list = new ArrayList<>();
+    Arrays.sort(nums);
+    backtrack(list, new ArrayList<>(), nums, 0);
+    return list;
+}
+
+private void backtrack(List<List<Integer>> list, List<Integer> tempList, int [] nums, int start){
+    list.add(new ArrayList<>(tempList));
+    for(int i = start; i < nums.length; i++){
+        if(i > start && nums[i] == nums[i-1]) continue; // skip duplicates
+        tempList.add(nums[i]);
+        backtrack(list, tempList, nums, i + 1);
+        tempList.remove(tempList.size() - 1);
+    }
+}
+//Time Complexity: O(2^n)
+//Space Complexity: O(n)
+```
+
+### Permutations of an Array (No-Duplicates)
+
+#### Method 1 : Backtracking
+```java showLineNumbers
+public List<List<Integer>> permute(int[] nums) {
+   List<List<Integer>> list = new ArrayList<>();
+   backtrack(list, new ArrayList<>(), nums);
+   return list;
+}
+
+private void backtrack(List<List<Integer>> list, List<Integer> tempList, int [] nums){
+   if(tempList.size() == nums.length){
+      list.add(new ArrayList<>(tempList));
+   } else{
+      for(int i = 0; i < nums.length; i++){ 
+         if(tempList.contains(nums[i])) continue; // element already exists, skip
+         tempList.add(nums[i]);
+         backtrack(list, tempList, nums);
+         tempList.remove(tempList.size() - 1);
+      }
+   }
+} 
+//Time Complexity: O(n!)
+//Space Complexity: O(n)
+```
+
+### Permutations of an Array II (Contains-Duplicates)
+
+#### Method 1 : Backtracking
+```java showLineNumbers
+public List<List<Integer>> permuteUnique(int[] nums) {
+    List<List<Integer>> list = new ArrayList<>();
+    Arrays.sort(nums);
+    backtrack(list, new ArrayList<>(), nums, new boolean[nums.length]);
+    return list;
+}
+
+private void backtrack(List<List<Integer>> list, List<Integer> tempList, int [] nums, boolean [] used){
+    if(tempList.size() == nums.length){
+        list.add(new ArrayList<>(tempList));
+    } else{
+        for(int i = 0; i < nums.length; i++){
+            if(used[i] || i > 0 && nums[i] == nums[i-1] && !used[i - 1]) continue;
+            used[i] = true; 
+            tempList.add(nums[i]);
+            backtrack(list, tempList, nums, used);
+            used[i] = false; 
+            tempList.remove(tempList.size() - 1);
+        }
+    }
+}
+//Time Complexity: O(n!)
+//Space Complexity: O(n)
+```
