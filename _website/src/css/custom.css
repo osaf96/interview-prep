@@ -448,6 +448,15 @@ img[alt="Dequeue-dequeue.md"] {
   width: 70%;
 }
 
-hr{
+hr {
   background-color: #bec3c92b;
+}
+
+.footer__copyright {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  align-content: center;
+  flex-wrap: wrap;
+  flex-direction: row;
 }
