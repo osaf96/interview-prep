@@ -32,9 +32,10 @@ module.exports = {
         },
       ],
     },
+
     footer: {
       style: "dark",
-      copyright: `Copyright © ${new Date().getFullYear()} Shyam Suthar.`,
+      copyright: `<a class="github-button" href="https://github.com/sponsors/shyamzzp" data-color-scheme="no-preference: light; light: dark; dark: light;" data-size="large" aria-label="Sponsor @shyamzzp on GitHub">Sponsor</a><a class="github-button" href="https://github.com/shyamzzp" data-color-scheme="no-preference: light; light: dark; dark: light;" data-size="large" aria-label="Follow @shyamzzp on GitHub">Follow @shyamzzp</a><a class="github-button" href="https://github.com/shyamzzp/interview-prep" data-color-scheme="no-preference: light; light: dark; dark: light;" data-size="large" aria-label="Star shyamzzp/interview-prep on GitHub">Star</a><a class="github-button" href="https://github.com/shyamzzp/interview-prep/discussions" data-color-scheme="no-preference: light; light: dark; dark: light;" data-size="large" aria-label="Discuss shyamzzp/interview-prep on GitHub">Discuss</a><a class="github-button" href="https://github.com/shyamzzp/interview-prep/archive/HEAD.zip" data-color-scheme="no-preference: light; light: dark; dark: light;" data-size="large" aria-label="Download shyamzzp/interview-prep on GitHub">Download</a>`,
     },
     prism: {
       theme: require("prism-react-renderer/themes/oceanicNext"),
@@ -67,5 +68,12 @@ module.exports = {
     path.resolve(__dirname, "./embedded-font-awesome-icons-plugin"),
     path.resolve(__dirname, "./collapse-sidebar-again-if-js-enabled-plugin"),
     path.resolve(__dirname, "./goatcounter-plugin"),
+  ],
+  scripts: [
+    {
+      src: "https://buttons.github.io/buttons.js",
+      defer: true,
+      "data-domain": "https://shyamzzp.github.io",
+    },
   ],
 };
